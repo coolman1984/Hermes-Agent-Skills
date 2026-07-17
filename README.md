@@ -55,6 +55,7 @@ This repository turns a live local skill tree into a **clear, navigable product*
 
 | Want… | Go here |
 |---|---|
+| Browse & search in a browser | [`docs/index.html`](docs/index.html) |
 | Full human catalog | [`CATALOG.md`](CATALOG.md) |
 | A–Z list | [`docs/alphabetical-index.md`](docs/alphabetical-index.md) |
 | Original Hermes categories | [`docs/original-hermes-categories.md`](docs/original-hermes-categories.md) |
@@ -62,6 +63,20 @@ This repository turns a live local skill tree into a **clear, navigable product*
 | Domain map | [`taxonomy.yaml`](taxonomy.yaml) |
 | How skills work | [`docs/how-skills-work.md`](docs/how-skills-work.md) |
 | Repo architecture | [`docs/architecture.md`](docs/architecture.md) |
+
+### Browsable skill index
+
+[`docs/index.html`](docs/index.html) is a self-contained, dependency-free page for
+browsing the whole library: search across every skill by name, description, or
+tag, filter by domain, and open any skill for its full entry (path, resources,
+metadata). It has no build step and no external requests — the catalog data is
+injected straight into the file by `scripts/build_catalog.py`, so it works
+opened directly from disk or served via GitHub Pages. Open it locally with:
+
+```bash
+python3 -m http.server -d docs   # then visit http://localhost:8000/
+# …or just open docs/index.html in a browser
+```
 
 ---
 
@@ -76,10 +91,13 @@ This repository turns a live local skill tree into a **clear, navigable product*
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── docs/
+│   ├── index.html               # browsable/searchable skill index
 │   ├── architecture.md
 │   ├── how-skills-work.md
 │   ├── alphabetical-index.md
 │   └── original-hermes-categories.md
+├── scripts/
+│   └── build_catalog.py         # regenerates catalog.json + docs/index.html
 └── skills/
     ├── core-reasoning-and-execution/
     ├── agent-orchestration/
@@ -173,10 +191,26 @@ Unless a skill file declares otherwise, content is under MIT. See [`LICENSE`](LI
 
 ## Maintenance
 
-1. Export skill packages from `~/.hermes/skills` (resolve symlinks).
-2. Rebuild domain assignment + indexes.
-3. Update `catalog.json`, `taxonomy.yaml`, `CATALOG.md`, domain READMEs.
-4. Commit: `chore: refresh skills export YYYY-MM-DD`.
+1. Export skill packages from `~/.hermes/skills` (resolve symlinks) into `skills/`.
+2. Add or reorder skills in [`taxonomy.yaml`](taxonomy.yaml) (this drives domain
+   titles, summaries, order, and membership).
+3. Rebuild the machine catalog and browsable index from the on-disk tree:
+
+   ```bash
+   python3 scripts/build_catalog.py          # writes catalog.json + docs/index.html
+   python3 scripts/build_catalog.py --check   # verify only; exit 1 if stale or drifted
+   ```
+
+   The builder reads each skill's `SKILL.md` frontmatter, records which resource
+   folders (`references/`, `templates/`, `scripts/`, `assets/`) exist, and warns
+   about any skill that is on disk but missing from `taxonomy.yaml` (or vice
+   versa). `original_category` is preserved from the existing `catalog.json`.
+4. Update `CATALOG.md` and domain READMEs if needed.
+5. Commit: `chore: refresh skills export YYYY-MM-DD`.
+
+> **Tip:** run `python3 scripts/build_catalog.py --check` in CI or a pre-commit
+> hook to guarantee `catalog.json` and `docs/index.html` never drift from the
+> skills tree.
 
 ---
 
