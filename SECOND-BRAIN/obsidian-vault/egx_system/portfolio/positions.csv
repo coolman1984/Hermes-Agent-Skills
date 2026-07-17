@@ -1,0 +1,23 @@
+symbol,shares,avg_cost,target_weight,max_weight,role,status,notes
+ADIB,74,,18,22,core_financial,hold,نواة مالية مقبولة شرعياً وعالية التأثير
+ETEL,28,,15,20,core_telco,hold,نواة تشغيلية دفاعية بجودة وسيولة جيدتين
+FWRY,100,,12,16,core_digital,hold,ذراع رقمي ونمو لكن لا نضخم الوزن بلا داعٍ
+EFID,23,,12,16,core_consumer,hold,قصة تعافٍ واستهلاكي قوي مناسب للتقوية
+TMGH,10,,10,14,core_real_estate,hold,الاسم العقاري القيادي المفضل في النظام
+ISPH,17,,9,13,core_health,hold,التمثيل الصحي الأساسي والأوضح
+JUFO,33,,8,12,acceleration_consumer,hold,دفاع استهلاكي قابل للنمو والتقوية التدريجية
+ORHD,27,,6,9,tactical_real_estate,review,رهان عقاري/سياحي هجومي بشرط بقاء الزخم والوضوح
+MFPC,8,,5,8,export_hedge,review,تعرض تصديري/تحوطي مفضل على ABUK حاليًا
+SWDY,4,,3,6,industrial_optional,review,تنويع صناعي جيد لكن بوزن منضبط
+MTIE,54,,2,5,tactical_distribution,review,اسم تكتيكي فقط وليس من صلب النواة
+MASR,148,,0,4,duplicate_real_estate,reduce,مكرر عقاري دون أولوية أعلى من TMGH وORHD
+ABUK,6,,0,4,duplicate_export,reduce,بديل أقل تفضيلًا من MFPC في هذه المرحلة
+AZG,27,,0,4,duplicate_real_estate,reduce,تكرار عقاري غير ضروري الآن
+ATQA,46,,0,4,small_cyclical,reduce,مركز دوري صغير يمكن تمويل أفكار أفضل به
+SAUD,17,,0,3,duplicate_financial,exit,مكرر مالي صغير خارج الأولوية الحالية
+VALU,27,,0,3,financing_outside_priority,exit,نشاط تمويلي خارج قلب النظام الحالي
+EMFD,27,,0,3,duplicate_real_estate,exit,مكرر داخل العقار ولا يملك أولوية رأس مال
+FAIT,6,,0,3,secondary_financial,exit,اسم مالي ثانوي لا يستحق التشتيت الحالي
+PHDC,24,,0,3,duplicate_real_estate,exit,مكرر عقاري أضعف من البدائل المفضلة
+CLHO,14,,0,3,small_health,exit,تمثيل صحي أضعف من ISPH
+EGCH,14,,0,3,weak_industrial,exit,مركز صناعي صغير أضعف من البدائل

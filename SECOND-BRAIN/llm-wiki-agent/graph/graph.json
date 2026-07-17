@@ -1,0 +1,1224 @@
+{
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "type": "synthesis",
+      "color": "#9C27B0",
+      "path": "wiki/overview.md",
+      "markdown": "---\ntitle: \"Overview\"\ntype: synthesis\ntags: [overview, synthesis, egypt, egx, knowledge-base]\nsources: [karpathy-llm-wiki, llm-wiki-agent, egyptian-stock-investment-project, investment-decision-constitution-egypt, egypt-egx-daily-weekly-monthly-guide, source-ladder-analysis-egypt, integrated-sector-selection-method, integrated-sector-selection-constitution-egypt, egx-system, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# Overview\n\nThis wiki now has two connected clusters:\n\n1. The original LLM Wiki pattern, which defines the mechanics of a persistent, compounding markdown knowledge base.\n2. A new Egyptian-equity / EGX operating cluster, which turns official market facts into a risk-first investment doctrine.\n\n## Current synthesis\n\nThe new EGX cluster says the same thing in several forms: start from risks, not stock names; assign each sector a clear function; keep official truth above interpretation; and treat cadence as part of the decision system. EGX, CBE, CAPMAS, and FRA are the truth layer. Reuters, TradingView, and Investing are follow/timing tools. Cash is acceptable when the clean basket is incomplete.\n\nThe strongest practical outcome is a portfolio doctrine that can be read in three layers: doctrine, source ladder, and operating cadence. The doctrine tells you what kind of exposure belongs in the portfolio. The ladder tells you which source has priority. The cadence tells you when to look and what to output.\n\n## What changed in this ingest\n\n- Added the first EGX source pack from the vault.\n- Added official entity pages for EGX, CBE, CAPMAS, and FRA.\n- Added concept pages for the doctrine, the sector-selection method, the source ladder, and the portfolio operating system.\n\n## Next useful additions\n\n- Add more sector case studies and recurring company names.\n- Turn daily, weekly, and monthly review outputs into separate syntheses when they become stable.\n- Add pages for the remaining recurring market tools if they become central enough to deserve their own nodes.\n\n\n## الدفعة الثانية: الحالات القطاعية والتقييم العملي\nتمت إضافة مصفوفة تقييم القطاعات وحالة مقارنة خريطة أبريل بالدستور. هذه الدفعة تنقل الويكي من حفظ القواعد العامة إلى اختبارها على حالات قطاعية، وتضيف مفهومين مهمين: [[SectorEvaluationMatrix]] و[[SectorCaseReview]].\n\nالأثر العملي: أي نقاش قطاعي قادم يجب أن يمر عبر سؤالين قبل اختيار الأسهم: هل القطاع جذاب وفق المصفوفة؟ وهل توجد حالة أو محفز يبرر المتابعة الآن؟\n",
+      "preview": "# Overview This wiki now has two connected clusters: 1. The original LLM Wiki pattern, which defines the mechanics of a persistent, compounding markdown knowledge base.",
+      "group": -1,
+      "value": 3
+    },
+    {
+      "id": "entities/AndrejKarpathy",
+      "label": "Andrej Karpathy",
+      "type": "entity",
+      "color": "#2196F3",
+      "path": "wiki/entities/AndrejKarpathy.md",
+      "markdown": "---\ntitle: \"Andrej Karpathy\"\ntype: entity\ntags: [person, researcher, creator]\nsources: [karpathy-llm-wiki]\nlast_updated: \"2026-04-17\"\n---\n\n# Andrej Karpathy\n\nAndrej Karpathy is the originator of the LLM Wiki idea file that motivated this project. His core contribution here is not a productized tool, but a design pattern: use LLMs to maintain a persistent, interlinked markdown knowledge base rather than re-searching raw sources from scratch every time.\n\n## Why he matters here\n\n- He framed the wiki as a compounding artifact.\n- He emphasized raw sources, a maintained wiki, and a schema file.\n- He treated knowledge management as a bookkeeping problem that LLMs can help solve.\n\n## Related pages\n\n- [[LLMWikiPattern]]\n- [[karpathy-llm-wiki]]",
+      "preview": "# Andrej Karpathy Andrej Karpathy is the originator of the LLM Wiki idea file that motivated this project. His core contribution here is not a productized tool, but a design pattern: use LLMs to maintain a persistent, in",
+      "group": -1,
+      "value": 4
+    },
+    {
+      "id": "entities/SamurAIGPT",
+      "label": "SamurAIGPT",
+      "type": "entity",
+      "color": "#2196F3",
+      "path": "wiki/entities/SamurAIGPT.md",
+      "markdown": "---\ntitle: \"SamurAIGPT\"\ntype: entity\ntags: [github, maintainer, implementation]\nsources: [llm-wiki-agent]\nlast_updated: \"2026-04-17\"\n---\n\n# SamurAIGPT\n\nSamurAIGPT is the GitHub maintainer of `llm-wiki-agent`, the working implementation used as the best reference for the LLM Wiki pattern in this review.\n\n## Why this matters\n\n- The repository is directly runnable and operational.\n- It turns the pattern into concrete workflows: ingest, query, lint, and build graph.\n- It makes the wiki a real working system instead of only a prompt or concept note.\n\n## Related pages\n\n- [[llm-wiki-agent]]\n- [[LLMWikiPattern]]",
+      "preview": "# SamurAIGPT SamurAIGPT is the GitHub maintainer of `llm-wiki-agent`, the working implementation used as the best reference for the LLM Wiki pattern in this review. ## Why this matters",
+      "group": -1,
+      "value": 3
+    },
+    {
+      "id": "entities/EGX",
+      "label": "EGX / البورصة المصرية",
+      "type": "entity",
+      "color": "#2196F3",
+      "path": "wiki/entities/EGX.md",
+      "markdown": "---\ntitle: \"EGX / البورصة المصرية\"\ntype: entity\ntags: [egypt, market, official-source]\nsources: [egyptian-stock-investment-project, investment-decision-constitution-egypt, egypt-egx-daily-weekly-monthly-guide, source-ladder-analysis-egypt, egx-system, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# EGX / البورصة المصرية\n\n## Summary\n\nEGX هو المصدر الرسمي لحقائق الشركات المدرجة، والإفصاحات، وتقارير السوق، والمؤشرات، والأخبار الجوهرية. في هذا الويكي يمثل طبقة الحقيقة الأعلى لكل ما يتعلق بالشركة والسوق المصرية.\n\n## Role in the system\n\n- يقدم الحقائق الرسمية حول الشركة والسوق.\n- يكون نقطة البداية اليومية وأثناء الجلسة لأي مراجعة.\n- يُطلق إعادة تقييم القطاع أو المركز عندما يتغير الإفصاح أو هيكل السوق.\n- يتفوق على التعليقات الثانوية والرسوم البيانية عندما يتعارضان.\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — الدستور يبدأ من الحقيقة الرسمية هنا\n- [[SourceLadder]] — يوضع في قمة طبقة الحقيقة الرسمية\n- [[EGXPortfolioMonitoringSystem]] — يمثل نقطة الانطلاق اليومية\n- [[egyptian-stock-investment-project]] — المشروع الكلي يبدأ من هنا\n- [[investment-decision-constitution-egypt]] — قرار الاستثمار يستند إلى الإفصاح الرسمي\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# EGX / البورصة المصرية ## Summary EGX هو المصدر الرسمي لحقائق الشركات المدرجة، والإفصاحات، وتقارير السوق، والمؤشرات، والأخبار الجوهرية. في هذا الويكي يمثل طبقة الحقيقة الأعلى لكل ما يتعلق بالشركة والسوق المصرية.",
+      "group": -1,
+      "value": 12
+    },
+    {
+      "id": "entities/CBE",
+      "label": "البنك المركزي المصري",
+      "type": "entity",
+      "color": "#2196F3",
+      "path": "wiki/entities/CBE.md",
+      "markdown": "---\ntitle: \"البنك المركزي المصري\"\ntype: entity\ntags: [egypt, macro, official-source]\nsources: [egyptian-stock-investment-project, investment-decision-constitution-egypt, egypt-egx-daily-weekly-monthly-guide, source-ladder-analysis-egypt, egx-system, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# البنك المركزي المصري\n\n## Summary\n\nالبنك المركزي المصري هو المرجع الرسمي للفائدة والسيولة والاحتياطي ونبرة السياسة النقدية. في هذا الويكي يحدد بيئة المرحلة ويشرح لماذا تتقدم بعض القطاعات على غيرها.\n\n## Role in the system\n\n- يفسر بيئة الفائدة والسيولة والتضخم الأساسي.\n- يؤثر مباشرة في تفضيل القطاعات الحساسة للتمويل.\n- يشكل مرجع المراجعة الشهرية والقرارات النقدية.\n- يجب الرجوع إليه قبل أي استنتاج اقتصادي واسع.\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — يغير ترتيب القطاعات داخل الدستور\n- [[SourceLadder]] — في طبقة الحقيقة الرسمية\n- [[EGXPortfolioMonitoringSystem]] — جزء من المراجعة اليومية والشهرية\n- [[investment-decision-constitution-egypt]] — يدخل في ست خطوات القرار\n- [[egypt-egx-daily-weekly-monthly-guide]] — يؤثر في روتين المتابعة\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# البنك المركزي المصري ## Summary البنك المركزي المصري هو المرجع الرسمي للفائدة والسيولة والاحتياطي ونبرة السياسة النقدية. في هذا الويكي يحدد بيئة المرحلة ويشرح لماذا تتقدم بعض القطاعات على غيرها.",
+      "group": -1,
+      "value": 10
+    },
+    {
+      "id": "entities/CAPMAS",
+      "label": "الجهاز المركزي للتعبئة العامة والإحصاء",
+      "type": "entity",
+      "color": "#2196F3",
+      "path": "wiki/entities/CAPMAS.md",
+      "markdown": "---\ntitle: \"الجهاز المركزي للتعبئة العامة والإحصاء\"\ntype: entity\ntags: [egypt, macro, official-source]\nsources: [egyptian-stock-investment-project, investment-decision-constitution-egypt, egypt-egx-daily-weekly-monthly-guide, source-ladder-analysis-egypt, egx-system, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# الجهاز المركزي للتعبئة العامة والإحصاء\n\n## Summary\n\nالجهاز المركزي للتعبئة العامة والإحصاء هو المرجع الرسمي للتضخم والبيانات السكانية والأسعار. في الويكي يوضح ضغط المستهلك والهوامش والأثر على القطاعات التي تعتمد على الطلب المحلي.\n\n## Role in the system\n\n- يكشف ضغط الأسعار والطلب المحلي.\n- يوضح أين يتألم المستهلك وأين قد تتأثر الهوامش.\n- يستخدم في المراجعة الشهرية عندما نريد فهم الاتجاه لا الخبر.\n- يفيد قطاعات الغذاء والتجزئة والدواء والاتصالات وكل ما يعتمد على المستهلك.\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — يوضح ضغط الطلب على القطاعات\n- [[SourceLadder]] — في طبقة الحقيقة الرسمية\n- [[EGXPortfolioMonitoringSystem]] — يدخل في الدورة الشهرية\n- [[investment-decision-constitution-egypt]] — أحد مدخلات خطوة المخاطر الكلية\n- [[egypt-egx-daily-weekly-monthly-guide]] — جزء من المراجعة الشهرية\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# الجهاز المركزي للتعبئة العامة والإحصاء ## Summary الجهاز المركزي للتعبئة العامة والإحصاء هو المرجع الرسمي للتضخم والبيانات السكانية والأسعار. في الويكي يوضح ضغط المستهلك والهوامش والأثر على القطاعات التي تعتمد على الطل",
+      "group": -1,
+      "value": 10
+    },
+    {
+      "id": "entities/FRA",
+      "label": "الهيئة العامة للرقابة المالية",
+      "type": "entity",
+      "color": "#2196F3",
+      "path": "wiki/entities/FRA.md",
+      "markdown": "---\ntitle: \"الهيئة العامة للرقابة المالية\"\ntype: entity\ntags: [egypt, regulation, official-source]\nsources: [egyptian-stock-investment-project, investment-decision-constitution-egypt, egypt-egx-daily-weekly-monthly-guide, source-ladder-analysis-egypt, egx-system, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# الهيئة العامة للرقابة المالية\n\n## Summary\n\nالهيئة العامة للرقابة المالية هي المرجع الرسمي للتنظيم والقواعد ومهل الإفصاح وتغير شروط اللعبة. في هذا الويكي تعد مخاطرة مستقلة وليست مجرد ضوضاء، خصوصًا في القطاعات المنظمة.\n\n## Role in the system\n\n- تحكم القواعد والمهل والإفصاح في القطاعات المنظمة.\n- تخبرنا متى تغيرت شروط اللعبة وليس فقط الأسعار.\n- ضرورية عند تقييم البنوك والاتصالات وبعض الأنشطة المنظمة الأخرى.\n- يجب الرجوع إليها كلما ظهرت خطوة قد تغير الامتثال أو التسعير أو الترخيص.\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — جزء من الدستور الاستثماري\n- [[SourceLadder]] — في طبقة الحقيقة الرسمية\n- [[EGXPortfolioMonitoringSystem]] — يفرض مراجعة تنظيمية مستمرة\n- [[investment-decision-constitution-egypt]] — يدخل في خطوة المخاطر والقواعد\n- [[egypt-egx-daily-weekly-monthly-guide]] — جزء من الروتين اليومي\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# الهيئة العامة للرقابة المالية ## Summary الهيئة العامة للرقابة المالية هي المرجع الرسمي للتنظيم والقواعد ومهل الإفصاح وتغير شروط اللعبة. في هذا الويكي تعد مخاطرة مستقلة وليست مجرد ضوضاء، خصوصًا في القطاعات المنظمة.",
+      "group": -1,
+      "value": 10
+    },
+    {
+      "id": "concepts/LLMWikiPattern",
+      "label": "LLM Wiki Pattern",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/LLMWikiPattern.md",
+      "markdown": "---\ntitle: \"LLM Wiki Pattern\"\ntype: concept\ntags: [knowledge-base, markdown, workflow]\nsources: [karpathy-llm-wiki, llm-wiki-agent]\nlast_updated: \"2026-04-17\"\n---\n\n# LLM Wiki Pattern\n\nThe LLM Wiki Pattern is a persistent, compounding knowledge base built from markdown files. Raw sources are read once, compiled into a structured wiki, and then maintained over time rather than re-derived on every question.\n\n## Core layers\n\n- Raw sources: immutable capture of articles, papers, notes, and transcripts.\n- Wiki: agent-maintained markdown pages for sources, entities, concepts, and syntheses.\n- Schema: instructions and conventions that keep the wiki coherent.\n\n## Core behaviors\n\n- Ingest new sources into the wiki.\n- Update the overview and index as knowledge grows.\n- Create or update entity and concept pages when they become important.\n- Flag contradictions instead of silently overwriting them.\n- File valuable answers back into the wiki so they compound.\n- Run linting and graph generation to keep the structure healthy.\n\n## Why it works\n\nThe tedious part of knowledge management is bookkeeping, not thinking. The pattern delegates the bookkeeping to the LLM so the human can focus on choosing sources, asking better questions, and deciding what matters.\n\n## Related pages\n\n- [[AndrejKarpathy]]\n- [[SamurAIGPT]]\n- [[llm-wiki-agent]]",
+      "preview": "# LLM Wiki Pattern The LLM Wiki Pattern is a persistent, compounding knowledge base built from markdown files. Raw sources are read once, compiled into a structured wiki, and then maintained over time rather than re-deri",
+      "group": -1,
+      "value": 6
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine",
+      "label": "دستور الاستثمار في البورصة المصرية",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/EGXInvestmentDoctrine.md",
+      "markdown": "---\ntitle: \"دستور الاستثمار في البورصة المصرية\"\ntype: concept\ntags: [egypt, egx, doctrine, portfolio]\nsources: [egyptian-stock-investment-project, investment-decision-constitution-egypt, egypt-egx-daily-weekly-monthly-guide, source-ladder-analysis-egypt, integrated-sector-selection-method, integrated-sector-selection-constitution-egypt, egx-system, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# دستور الاستثمار في البورصة المصرية\n\n## Summary\n\nهذا هو الدستور الأعلى للاستثمار في البورصة المصرية: ابدأ من المخاطر والوظائف القطاعية لا من الأسماء، ثم اربط كل قطاع بحماية واضحة، ثم افحص الشركة والسيولة والتوقيت. يقبل نشاطًا شرعيًا مقبولًا، يفضّل القطاعات الدفاعية والدولارية تحت الضغط، ويعامل النقد كخيار مشروع إذا لم تكتمل السلة النظيفة.\n\n## Core Claims\n\n- ابدأ من المخاطر لا من الأسهم.\n- القطاع يساوي وظيفة وحماية، لا اسمًا لامعًا فقط.\n- القبول الشرعي هو نشاط مقبول لا تشدد شكلي.\n- السيولة تسبق القصة، ثم تأتي جودة الشركة ثم التوقيت.\n- النقد مشروع إذا غابت البدائل النظيفة.\n- المراجعة اليومية/الأسبوعية/الشهرية جزء من الدستور لا ملحق إداري.\n\n## Connections\n\n- [[egyptian-stock-investment-project]] — أقدم صياغة للمشروع الكلي\n- [[investment-decision-constitution-egypt]] — صياغة القرار العملية\n- [[egypt-egx-daily-weekly-monthly-guide]] — الروتين التشغيلي اليومي\n- [[egx-system]] — الخريطة الميتا للنظام\n- [[egx-portfolio-monitoring-system]] — الدليل التشغيلي للمحفظة\n- [[IntegratedSectorSelection]] — يفسر كيف تتحول المخاطر إلى قطاعات\n- [[SourceLadder]] — يرتب المصادر قبل التفسير والتوقيت\n- [[EGX]] — مصدر الحقيقة الرسمي\n- [[CBE]] — مرجع السياسة النقدية\n- [[CAPMAS]] — مرجع التضخم والبيانات\n- [[FRA]] — مرجع التنظيم والإفصاح\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# دستور الاستثمار في البورصة المصرية ## Summary هذا هو الدستور الأعلى للاستثمار في البورصة المصرية: ابدأ من المخاطر والوظائف القطاعية لا من الأسماء، ثم اربط كل قطاع بحماية واضحة، ثم افحص الشركة والسيولة والتوقيت. يقبل نش",
+      "group": -1,
+      "value": 19
+    },
+    {
+      "id": "concepts/IntegratedSectorSelection",
+      "label": "اختيار القطاعات المتكاملة",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/IntegratedSectorSelection.md",
+      "markdown": "---\ntitle: \"اختيار القطاعات المتكاملة\"\ntype: concept\ntags: [egypt, sector-selection, portfolio, doctrine]\nsources: [investment-decision-constitution-egypt, integrated-sector-selection-method, integrated-sector-selection-constitution-egypt, egyptian-stock-investment-project, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# اختيار القطاعات المتكاملة\n\n## Summary\n\nهذه الصفحة تشرح كيف نحول المخاطر الكلية إلى قائمة قطاعات ثم أسهم قابلة للتنفيذ. القطاعات ليست أسماء بل وظائف: حماية من العملة، دفاع استهلاكي، دفاع عميق، تشغيل يومي، ومالي/نقدي؛ والتفوق الحقيقي في اختلاف محركات الربح والخسارة.\n\n## Core Claims\n\n- التنويع الحقيقي = اختلاف سبب الربح والخسارة.\n- كل قطاع يجب أن يضيف وظيفة جديدة لا أن يكرر نفس الرهان.\n- الوظائف الأساسية الخمس هي: FX، دفاع استهلاكي، دفاع عميق، تشغيل يومي، ومالي/نقدي.\n- لا أكثر من قطاعين على نفس المحرك الرئيسي.\n- سقف السيناريو الواحد 35 إلى 40 في المئة يحمي من التركز المفرط.\n- بطاقة القطاع قالب إلزامي قبل الدخول.\n\n## Connections\n\n- [[investment-decision-constitution-egypt]] — يوضح قواعد القرار القطاعي\n- [[integrated-sector-selection-method]] — الجسر بين الدستور والتنفيذ\n- [[integrated-sector-selection-constitution-egypt]] — الصياغة التنفيذية الأكثر صرامة\n- [[egx-portfolio-monitoring-system]] — يترجم القطاعات إلى محفظة فعلية\n- [[EGXInvestmentDoctrine]] — يستند إلى الدستور الأعلى\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# اختيار القطاعات المتكاملة ## Summary هذه الصفحة تشرح كيف نحول المخاطر الكلية إلى قائمة قطاعات ثم أسهم قابلة للتنفيذ. القطاعات ليست أسماء بل وظائف: حماية من العملة، دفاع استهلاكي، دفاع عميق، تشغيل يومي، ومالي/نقدي؛ والت",
+      "group": -1,
+      "value": 13
+    },
+    {
+      "id": "concepts/SourceLadder",
+      "label": "سلم مصادر التحليل",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/SourceLadder.md",
+      "markdown": "---\ntitle: \"سلم مصادر التحليل\"\ntype: concept\ntags: [egypt, sources, workflow, market-data]\nsources: [source-ladder-analysis-egypt, egypt-egx-daily-weekly-monthly-guide, egx-system, egx-portfolio-monitoring-system]\nlast_updated: \"2026-04-17\"\n---\n\n# سلم مصادر التحليل\n\n## Summary\n\nهذه الصفحة ترتب مصادر التحليل في ثلاث طبقات: الحقيقة الرسمية، ثم الفهم والتفسير، ثم المتابعة والتوقيت. EGX وCBE وCAPMAS وFRA في القمة، ثم IMF وPMI وWorld Bank Commodities وEFG Hermes، ثم Reuters وTradingView وInvesting للمتابعة السريعة.\n\n## Core Claims\n\n- لا نبدأ من رأي السوق، بل من الحقيقة الرسمية ثم الفهم ثم المتابعة ثم التوقيت.\n- المصدر الواحد لا يكفي، وأداة المتابعة لا تبني الفرضية من الصفر.\n- إذا تعارضت المتابعة مع الإفصاح أو القوائم أو المنظم، يقدم الرسمي.\n- Camoufox يستخدم للنص فقط عندما تكون الصفحة صعبة.\n- الطبقة الرسمية تشمل EGX وCBE وCAPMAS وFRA والمنظم القطاعي.\n- الطبقة التفسيرية تشمل IMF وPMI وWorld Bank Commodities وEFG Hermes Research.\n\n## Connections\n\n- [[EGX]] — المصدر الرسمي الأول للشركة والسوق\n- [[CBE]] — المصدر الرسمي للفائدة والسيولة\n- [[CAPMAS]] — المصدر الرسمي للتضخم والأسعار\n- [[FRA]] — المصدر الرسمي للقواعد والتنظيم\n- [[EGXInvestmentDoctrine]] — يعتمد ترتيب المصادر قبل القرار\n- [[EGXPortfolioMonitoringSystem]] — يعتمد الطبقات نفسها في التشغيل اليومي\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# سلم مصادر التحليل ## Summary هذه الصفحة ترتب مصادر التحليل في ثلاث طبقات: الحقيقة الرسمية، ثم الفهم والتفسير، ثم المتابعة والتوقيت. EGX وCBE وCAPMAS وFRA في القمة، ثم IMF وPMI وWorld Bank Commodities وEFG Hermes، ثم Re",
+      "group": -1,
+      "value": 14
+    },
+    {
+      "id": "concepts/EGXPortfolioMonitoringSystem",
+      "label": "نظام متابعة المحفظة المصرية",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/EGXPortfolioMonitoringSystem.md",
+      "markdown": "---\ntitle: \"نظام متابعة المحفظة المصرية\"\ntype: concept\ntags: [egypt, egx, system, portfolio, workflow]\nsources: [egx-system, egx-portfolio-monitoring-system, egyptian-stock-investment-project, investment-decision-constitution-egypt, egypt-egx-daily-weekly-monthly-guide, source-ladder-analysis-egypt, integrated-sector-selection-method, integrated-sector-selection-constitution-egypt]\nlast_updated: \"2026-04-17\"\n---\n\n# نظام متابعة المحفظة المصرية\n\n## Summary\n\nهذه الصفحة تجمع النظام التشغيلي للمحفظة المصرية المركزة لكن المنضبطة: نواة قليلة، تكتيك محدود، نقد عند الحاجة، نشاط شرعي مقبول، ومراجعة يومية وأسبوعية وشهرية تحول الحقائق الرسمية إلى قرارات مختصرة. التنفيذ النهائي يبقى بشريًا، لكن الويكي يفرض الانضباط والوضوح.\n\n## Core Claims\n\n- ركز أكثر وشتت أقل، ولا تحتفظ بمراكز ديكورية.\n- المحفظة تجمع نواة قليلة مع طبقة تكتيكية محدودة ونقد مسموح عند غياب الفرص.\n- لكل مركز دور واضح داخل المحفظة، لا مجرد وجود شكلي.\n- الحقيقة الرسمية أولًا عبر EGX وCBE وCAPMAS وFRA والمنظم القطاعي.\n- اليومي والأسبوعي والشهري يصنعون القرار بدل الضوضاء اللحظية.\n- التنفيذ النهائي ما زال بشريًا وليس آليًا بالكامل.\n\n## Connections\n\n- [[egx-system]] — المذكرة الميتا التي تحدد قراءة النظام\n- [[egx-portfolio-monitoring-system]] — الدليل التشغيلي الأصلي\n- [[EGXInvestmentDoctrine]] — الدستور الاستثماري الأعلى\n- [[SourceLadder]] — ترتيب المصادر الرسمي والتفسيري\n- [[IntegratedSectorSelection]] — توزيع الأدوار القطاعية داخل المحفظة\n- [[EGX]] — المصدر الرسمي للشركة والسوق\n- [[CBE]] — مرجع السياسة النقدية والسيولة\n- [[CAPMAS]] — مرجع التضخم والبيانات الرسمية\n- [[FRA]] — مرجع التنظيم والإفصاح\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# نظام متابعة المحفظة المصرية ## Summary هذه الصفحة تجمع النظام التشغيلي للمحفظة المصرية المركزة لكن المنضبطة: نواة قليلة، تكتيك محدود، نقد عند الحاجة، نشاط شرعي مقبول، ومراجعة يومية وأسبوعية وشهرية تحول الحقائق الرسمية ",
+      "group": -1,
+      "value": 15
+    },
+    {
+      "id": "concepts/SectorEvaluationMatrix",
+      "label": "مصفوفة تقييم القطاعات",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/SectorEvaluationMatrix.md",
+      "markdown": "---\ntitle: \"مصفوفة تقييم القطاعات\"\ntype: concept\ntags: [egx, sectors, decision-quality]\nsources: [sector-evaluation-matrix-egypt]\nlast_updated: 2026-05-15\n---\n\n# مصفوفة تقييم القطاعات\n\n## التعريف\nمصفوفة تشغيلية تقارن القطاعات قبل اختيار الأسهم، حتى لا يتحول القرار إلى إعجاب بسهم منفرد أو قصة قصيرة الأجل.\n\n## لماذا تهم\n- تفرض تقييم المحفزات والمخاطر وجودة المصادر.\n- تربط الاختيار القطاعي بسلم المصادر.\n- تساعد على ترتيب البحث بدل مطاردة الأخبار.\n\n## العلاقات\n- [[IntegratedSectorSelection]] يوفر الدستور العام.\n- [[SourceLadder]] يحدد درجة الثقة في البيانات.\n- [[SectorCaseReview]] يختبر المصفوفة على حالات زمنية.\n",
+      "preview": "# مصفوفة تقييم القطاعات ## التعريف مصفوفة تشغيلية تقارن القطاعات قبل اختيار الأسهم، حتى لا يتحول القرار إلى إعجاب بسهم منفرد أو قصة قصيرة الأجل.",
+      "group": -1,
+      "value": 6
+    },
+    {
+      "id": "concepts/SectorCaseReview",
+      "label": "مراجعة الحالات القطاعية",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/SectorCaseReview.md",
+      "markdown": "---\ntitle: \"مراجعة الحالات القطاعية\"\ntype: concept\ntags: [egx, validation, sectors]\nsources: [april-sector-map-vs-constitution]\nlast_updated: 2026-05-15\n---\n\n# مراجعة الحالات القطاعية\n\n## التعريف\nطريقة لاختبار دستور اختيار القطاعات على حالة فعلية أو فترة محددة، ثم تسجيل أين نجح الإطار وأين احتاج تعديلًا.\n\n## المخرج المطلوب\nكل مراجعة حالة يجب أن تنتهي بأحد أحكام واضحة:\n\n- متابعة.\n- بحث أعمق.\n- استبعاد مؤقت.\n- انتظار محفز.\n\n## العلاقات\n- [[EGXInvestmentDoctrine]] يضع قواعد القرار.\n- [[IntegratedSectorSelection]] يحدد منطق الاختيار.\n- [[SectorEvaluationMatrix]] توفر أداة المقارنة.\n",
+      "preview": "# مراجعة الحالات القطاعية ## التعريف طريقة لاختبار دستور اختيار القطاعات على حالة فعلية أو فترة محددة، ثم تسجيل أين نجح الإطار وأين احتاج تعديلًا.",
+      "group": -1,
+      "value": 6
+    },
+    {
+      "id": "sources/karpathy-llm-wiki",
+      "label": "Karpathy LLM Wiki",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/karpathy-llm-wiki.md",
+      "markdown": "---\ntitle: \"Karpathy LLM Wiki\"\ntype: source\ntags: [karpathy, llm-wiki, knowledge-base]\ndate: 2026-04-02\nsource_file: raw/karpathy-llm-wiki.md\nlast_updated: 2026-04-17\n---\n\n# Karpathy LLM Wiki\n\n## Summary\n\nAndrej Karpathy's idea file describes a persistent wiki that is compiled from raw source documents and maintained by an LLM over time. Instead of using the model only for one-shot retrieval, the wiki keeps accumulating summaries, backlinks, concept pages, entity pages, and a living synthesis.\n\n## Key Claims\n\n- Raw sources should be immutable and separate from the wiki.\n- The LLM should maintain the wiki, not just answer queries from it.\n- Knowledge should be compiled once and kept current.\n- Query outputs can be filed back into the wiki so they compound.\n- Linting and graphing are part of the workflow, not optional extras.\n\n## Key Quotes\n\n> \"the wiki is a persistent, compounding artifact\"\n\n> \"the LLM does all the grunt work\"\n\n## Connections\n\n- [[AndrejKarpathy]] — originator of the pattern\n- [[LLMWikiPattern]] — the concept described by the source\n- [[llm-wiki-agent]] — practical implementation inspired by the idea\n\n## Contradictions\n\n- None found in the current seed set.",
+      "preview": "# Karpathy LLM Wiki ## Summary Andrej Karpathy's idea file describes a persistent wiki that is compiled from raw source documents and maintained by an LLM over time. Instead of using the model only for one-shot retrieval",
+      "group": -1,
+      "value": 4
+    },
+    {
+      "id": "sources/llm-wiki-agent",
+      "label": "LLM Wiki Agent",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/llm-wiki-agent.md",
+      "markdown": "---\ntitle: \"LLM Wiki Agent\"\ntype: source\ntags: [github, implementation, workflow]\ndate: 2026-04-17\nsource_file: raw/llm-wiki-agent.md\nlast_updated: 2026-04-17\n---\n\n# LLM Wiki Agent\n\n## Summary\n\n`llm-wiki-agent` is the strongest working GitHub implementation found for the LLM Wiki pattern. It provides a clear repository layout, explicit workflows, and Python tools for ingesting sources, querying the wiki, linting for health issues, and building a graph visualization.\n\n## Key Claims\n\n- The repo is organized around `raw/`, `wiki/`, `graph/`, and `tools/`.\n- Ingest creates source pages and updates index, overview, entities, concepts, and log entries.\n- Query selects relevant pages from the index, synthesizes an answer, and can save it back as a synthesis page.\n- Lint catches orphans, broken links, missing entities, contradictions, and data gaps.\n- Graph generation turns wikilinks into explicit edges and can infer relationships for visualization.\n\n## Key Quotes\n\n> \"Drop source documents into `raw/` and tell the agent to ingest them\"\n\n> \"Every new source makes the wiki richer\"\n\n## Connections\n\n- [[SamurAIGPT]] — maintainer of the repository\n- [[LLMWikiPattern]] — the pattern implemented here\n- [[AndrejKarpathy]] — inspiration for the repo\n\n## Contradictions\n\n- None found in the current seed set.",
+      "preview": "# LLM Wiki Agent ## Summary `llm-wiki-agent` is the strongest working GitHub implementation found for the LLM Wiki pattern. It provides a clear repository layout, explicit workflows, and Python tools for ingesting source",
+      "group": -1,
+      "value": 5
+    },
+    {
+      "id": "sources/egyptian-stock-investment-project",
+      "label": "مشروع الاستثمار في البورصة المصرية",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/egyptian-stock-investment-project.md",
+      "markdown": "---\ntitle: \"مشروع الاستثمار في البورصة المصرية\"\ntype: source\ntags: [egypt, egx, portfolio, project]\ndate: \"2026-04-17\"\nsource_file: raw/egyptian-stock-investment-project.md\nlast_updated: \"2026-04-17\"\n---\n\n# مشروع الاستثمار في البورصة المصرية\n\n## Summary\n\nهذه الورقة ترسم المشروع الاستثماري العام في البورصة المصرية كمنظومة تبدأ من القطاع والنظام الكلي ثم تنتقل إلى الشركة ثم التوقيت. تؤكد أن النشاط المقبول شرعياً والسيولة وجودة التدفقات والوزن النسبي للقطاعات أهم من القصة أو الاسم اللامع، وتتعامل مع النقد كخيار مشروع عند غياب البدائل النظيفة.\n\n## Key Claims\n\n- ابدأ من القطاع والنظام الاقتصادي ثم الشركة ثم التوقيت.\n- في بيئة فائدة مرتفعة وضغط طاقة، الأولوية للقطاعات الدفاعية والمصدّرة أو ذات الإيراد الدولاري.\n- السيولة يجب أن تكون فلترًا قبل القطاع، لا بعده.\n- القبول الشرعي فوق المثال؛ البنوك التقليدية الربوية والتبغ والأنشطة المشبوهة لا تدخل السلة المفضلة.\n- النقد يبقى خيارًا مشروعًا إذا لم تكتمل القطاعات النظيفة.\n- ما زال مطلوبًا تثبيت الكون الاستثماري والسيولة الدنيا وسقف الأوزان والخروج والمراجعة.\n\n## Key Quotes\n\n> \"نبدأ من القطاع والنظام الاقتصادي، ثم نختار الشركة، ثم نحدد التوقيت.\"\n> \"السيولة يجب أن تكون فلترًا قبل القطاع، لا بعده.\"\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — يمثل الطبقة العليا لهذا المشروع\n- [[IntegratedSectorSelection]] — يحوّل المخاطر إلى وظائف قطاعات\n- [[SourceLadder]] — يرتب الحقيقة الرسمية قبل التفسير والتوقيت\n- [[EGX]] — المصدر الرسمي لحقائق الشركة والسوق\n- [[CBE]] — مرجع الفائدة والسيولة والاتجاه النقدي\n- [[CAPMAS]] — مرجع التضخم والضغط على الطلب\n- [[FRA]] — مرجع التنظيم والقواعد\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# مشروع الاستثمار في البورصة المصرية ## Summary هذه الورقة ترسم المشروع الاستثماري العام في البورصة المصرية كمنظومة تبدأ من القطاع والنظام الكلي ثم تنتقل إلى الشركة ثم التوقيت. تؤكد أن النشاط المقبول شرعياً والسيولة وجود",
+      "group": -1,
+      "value": 8
+    },
+    {
+      "id": "sources/investment-decision-constitution-egypt",
+      "label": "دستور قرار الاستثمار في البورصة المصرية",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/investment-decision-constitution-egypt.md",
+      "markdown": "---\ntitle: \"دستور قرار الاستثمار في البورصة المصرية\"\ntype: source\ntags: [egypt, egx, doctrine, decision]\ndate: \"2026-04-17\"\nsource_file: raw/investment-decision-constitution-egypt.md\nlast_updated: \"2026-04-17\"\n---\n\n# دستور قرار الاستثمار في البورصة المصرية\n\n## Summary\n\nهذا الدستور يربط القرار الاستثماري بالمخاطر ووظائف القطاعات لا بأسماء الأسهم. يفرض فلتر قبول شرعي، ويطلب بطاقة قطاع واضحة، ويحدد ست خطوات لاتخاذ القرار مع سقف 35 إلى 40 في المئة على السيناريو الواحد.\n\n## Key Claims\n\n- ابدأ من المخاطر، لا من الأسهم.\n- القطاع يجب أن يضيف وظيفة جديدة أو حماية جديدة للمحفظة.\n- فلتر القبول الشرعي يستبعد الربا الفاضح والتبغ والأنشطة غير المتوافقة جوهريًا.\n- لا تكرر نفس المحرك أو تبنِ أكثر من قطاعين على نفس المحرك الرئيسي.\n- وجود قطاع دفاعي وقطاع خارجي وقطاع قليل الحساسية للطاقة مهم في مصر.\n- لكل قطاع بطاقة قرار قبل الاعتماد النهائي، وسقف 35 إلى 40 في المئة يحمي من رهينة سيناريو واحد.\n\n## Key Quotes\n\n> \"ابدأ من المخاطر، لا من الأسهم.\"\n> \"التنويع الحقيقي = اختلاف سبب الربح والخسارة.\"\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — هو الصياغة التنفيذية للدستور الأعلى\n- [[IntegratedSectorSelection]] — يشرح كيف تتحول المخاطر إلى قطاعات\n- [[SourceLadder]] — يعتمد ترتيب المصادر الرسمي أولًا\n- [[EGX]] — مصدر الحقائق الخاصة بالشركة والسوق\n- [[CBE]] — يملي بيئة الفائدة والسيولة\n- [[CAPMAS]] — يشرح ضغط التضخم والطلب\n- [[FRA]] — يحكم التنظيم والامتثال\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# دستور قرار الاستثمار في البورصة المصرية ## Summary هذا الدستور يربط القرار الاستثماري بالمخاطر ووظائف القطاعات لا بأسماء الأسهم. يفرض فلتر قبول شرعي، ويطلب بطاقة قطاع واضحة، ويحدد ست خطوات لاتخاذ القرار مع سقف 35 إلى 4",
+      "group": -1,
+      "value": 8
+    },
+    {
+      "id": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "label": "دليل التشغيل اليومي الأسبوعي الشهري للبورصة المصرية",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/egypt-egx-daily-weekly-monthly-guide.md",
+      "markdown": "---\ntitle: \"دليل التشغيل اليومي الأسبوعي الشهري للبورصة المصرية\"\ntype: source\ntags: [egypt, egx, workflow, cadence]\ndate: \"2026-04-17\"\nsource_file: raw/egypt-egx-daily-weekly-monthly-guide.md\nlast_updated: \"2026-04-17\"\n---\n\n# دليل التشغيل اليومي الأسبوعي الشهري للبورصة المصرية\n\n## Summary\n\nهذا الدليل يحول القراءة إلى روتين تشغيل: مراجعة CURRENT-SNAPSHOT ثم الدستور ثم سلم المصادر، ثم جمع الإشارات اليومية والأسبوعية والشهرية من EGX وCBE وCAPMAS وPMI وIMF وWorld Bank وReuters وTradingView وInvesting لتحويل المعلومات إلى قرار.\n\n## Key Claims\n\n- صباحًا: الخارج ثم مصر الرسمية ثم 3 أحداث و3 آثار محتملة.\n- أثناء الجلسة: EGX30 والقائمة الأساسية وقائمة المراقبة والإفصاحات الجديدة فقط.\n- بعد الإغلاق: أربع أسئلة ومذكرة من 5 أسطر وقرار الغد.\n- أسبوعيًا: CBE وCAPMAS وPMI وReuters ثم ترتيب القطاعات.\n- شهريًا: CBE وCAPMAS وPMI وIMF وWorld Bank ونتائج الشركات.\n- الرسمي يغلب غيره، والصورة لا تُستخدم بدل النص إلا للضرورة القصوى.\n\n## Key Quotes\n\n> \"EGX هو الحقيقة الرسمية للشركة.\"\n> \"هذا الدليل يخدم الدستور العملي لاختيار القطاعات المتكاملة.\"\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — يحوّل الدستور إلى روتين يومي/أسبوعي/شهري\n- [[SourceLadder]] — يحدد ترتيب المصادر حسب الطبقة\n- [[EGX]] — الحقيقة الرسمية للشركة والسوق\n- [[CBE]] — مرجع الفائدة والسيولة والتضخم\n- [[CAPMAS]] — مرجع بيانات التضخم والسكان والأسعار\n- [[FRA]] — مرجع القواعد والتنظيم\n- [[IntegratedSectorSelection]] — يستخدم المخرجات لترتيب القطاعات\n- [[EGXPortfolioMonitoringSystem]] — النسخة التشغيلية الأوسع للمحفظة\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# دليل التشغيل اليومي الأسبوعي الشهري للبورصة المصرية ## Summary هذا الدليل يحول القراءة إلى روتين تشغيل: مراجعة CURRENT-SNAPSHOT ثم الدستور ثم سلم المصادر، ثم جمع الإشارات اليومية والأسبوعية والشهرية من EGX وCBE وCAPMAS",
+      "group": -1,
+      "value": 9
+    },
+    {
+      "id": "sources/source-ladder-analysis-egypt",
+      "label": "سلم مصادر التحليل اليومي والساعة",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/source-ladder-analysis-egypt.md",
+      "markdown": "---\ntitle: \"سلم مصادر التحليل اليومي والساعة\"\ntype: source\ntags: [egypt, egx, sources, workflow]\ndate: \"2026-04-17\"\nsource_file: raw/source-ladder-analysis-egypt.md\nlast_updated: \"2026-04-17\"\n---\n\n# سلم مصادر التحليل اليومي والساعة\n\n## Summary\n\nهذا السلم يرتب مصادر التحليل في ثلاث طبقات: الحقيقة الرسمية أولًا، ثم الفهم والتفسير، ثم المتابعة والتوقيت. EGX وCBE وCAPMAS وFRA في القمة، ثم IMF وPMI وWorld Bank Commodities وEFG Hermes، ثم Reuters وTradingView وInvesting للمتابعة السريعة.\n\n## Key Claims\n\n- لا نبدأ من رأي السوق، بل من الحقيقة الرسمية ثم الفهم ثم المتابعة ثم التوقيت.\n- المصدر الواحد لا يكفي، وأداة المتابعة لا تبني الفرضية من الصفر.\n- إذا تعارضت مصادر المتابعة مع الإفصاح أو القوائم أو المنظم، يقدم الرسمي.\n- Camoufox يستخدم للنص فقط داخل هذا المسار، لا كخيار بصري افتراضي.\n- الطبقة الرسمية تشمل EGX وCBE وCAPMAS وFRA والمنظم القطاعي لكل نشاط.\n- الطبقة التفسيرية تشمل IMF وPMI وWorld Bank Commodities وEFG Hermes Research.\n\n## Key Quotes\n\n> \"لا نبدأ من رأي السوق. نبدأ من الحقيقة الرسمية، ثم الفهم والتفسير، ثم المتابعة، ثم التوقيت.\"\n> \"إذا ظهرت صفحة فارغة نصيًا، ننتقل إلى صفحة نصية بديلة أو PDF مباشر قبل أي وسيلة بصرية.\"\n\n## Connections\n\n- [[EGX]] — المصدر الرسمي الأول للشركة والسوق\n- [[CBE]] — المصدر الرسمي للفائدة والسيولة\n- [[CAPMAS]] — المصدر الرسمي للتضخم والأسعار\n- [[FRA]] — المصدر الرسمي للقواعد والتنظيم\n- [[EGXInvestmentDoctrine]] — يعتمد ترتيب المصادر قبل القرار\n- [[EGXPortfolioMonitoringSystem]] — يستعمل المصدر الرسمي ضمن النظام التشغيلي\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# سلم مصادر التحليل اليومي والساعة ## Summary هذا السلم يرتب مصادر التحليل في ثلاث طبقات: الحقيقة الرسمية أولًا، ثم الفهم والتفسير، ثم المتابعة والتوقيت. EGX وCBE وCAPMAS وFRA في القمة، ثم IMF وPMI وWorld Bank Commoditie",
+      "group": -1,
+      "value": 7
+    },
+    {
+      "id": "sources/integrated-sector-selection-method",
+      "label": "منهج اختيار القطاعات المتكاملة",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/integrated-sector-selection-method.md",
+      "markdown": "---\ntitle: \"منهج اختيار القطاعات المتكاملة\"\ntype: source\ntags: [egypt, egx, sector-selection, doctrine]\ndate: \"2026-04-17\"\nsource_file: raw/integrated-sector-selection-method.md\nlast_updated: \"2026-04-17\"\n---\n\n# منهج اختيار القطاعات المتكاملة\n\n## Summary\n\nهذا المنهج هو الجسر بين الدستور العام والتنفيذ العملي. يحول المخاطر الكلية إلى وظائف قطاعات، ويثبت فلاتر الشرع والسيولة والحوكمة وعدم تكرار المحرك، ثم يترجم ذلك إلى أسهم قابلة للاختيار مع بقاء النقد خيارًا مشروعًا إذا لم توجد قطاعات نظيفة كافية.\n\n## Key Claims\n\n- فلتر القبول الشرعي والفلتر السيولي يسبقان القصة.\n- كل خطر كلي يجب أن يُقابل بوظيفة قطاع مضادة أو مكملة.\n- لا يدخل أي قطاع يكرر نفس المحرك تحت اسم آخر.\n- في التنفيذ العملي نختار خمسة قطاعات فقط ذات وظائف مختلفة قدر الإمكان.\n- القطاع يعين أين نبحث، والسهم يقرر هل نشتري أم لا.\n- إذا لم نتمكن من ملء بطاقة القطاع بوضوح، فلا ندخله.\n\n## Key Quotes\n\n> \"هذا هو الجسر بين الدستور العام وبين التنفيذ العملي داخل السوق المصري.\"\n> \"إذا لم نستطع ملء هذا القالب بوضوح، لا ندخله.\"\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — يترجم الدستور إلى منهج قطاعات\n- [[IntegratedSectorSelection]] — الصفحة المفاهيمية العليا لهذا المنهج\n- [[EGXPortfolioMonitoringSystem]] — ينعكس على شكل المحفظة وتشغيلها\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# منهج اختيار القطاعات المتكاملة ## Summary هذا المنهج هو الجسر بين الدستور العام والتنفيذ العملي. يحول المخاطر الكلية إلى وظائف قطاعات، ويثبت فلاتر الشرع والسيولة والحوكمة وعدم تكرار المحرك، ثم يترجم ذلك إلى أسهم قابلة ",
+      "group": -1,
+      "value": 4
+    },
+    {
+      "id": "sources/integrated-sector-selection-constitution-egypt",
+      "label": "دستور عملي لاختيار القطاعات المتكاملة في البورصة المصرية",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/integrated-sector-selection-constitution-egypt.md",
+      "markdown": "---\ntitle: \"دستور عملي لاختيار القطاعات المتكاملة في البورصة المصرية\"\ntype: source\ntags: [egypt, egx, sector-selection, doctrine]\ndate: \"2026-04-17\"\nsource_file: raw/integrated-sector-selection-constitution-egypt.md\nlast_updated: \"2026-04-17\"\n---\n\n# دستور عملي لاختيار القطاعات المتكاملة في البورصة المصرية\n\n## Summary\n\nهذا هو الدستور التنفيذي الصارم للقطاعات المتكاملة. يعرّف خمس وظائف أساسية داخل المحفظة، ويمنع تكرار نفس الرهان بأسماء مختلفة، ويضبط التركز والأوزان ووسائل الخروج والمراجعة بحيث تبقى القطاعات مختلفة فعلًا في أسباب الربح والخسارة.\n\n## Key Claims\n\n- التنويع الحقيقي = اختلاف سبب الربح والخسارة، لا اختلاف الاسم فقط.\n- الوظائف الخمس الأساسية هي: حماية من العملة والخارج، دفاع استهلاكي، دفاع عميق، تشغيل يومي متكرر، ومالي/نقدي.\n- لا تبنِ أكثر من قطاعين على نفس المحرك الرئيسي.\n- لكل قطاع بطاقة واضحة: ما الذي يفيده، ما الذي يضره، متى يتفوق، ومن يعوضه إذا ضعف.\n- لا تزيد الرهينة على 35 إلى 40 في المئة في سيناريو واحد.\n- النقد يظل خيارًا مشروعًا إذا لم تكتمل السلة النظيفة.\n\n## Key Quotes\n\n> \"الهدف ليس جمع قطاعات كثيرة.\"\n> \"التنويع الحقيقي = اختلاف سبب الربح والخسارة.\"\n\n## Connections\n\n- [[EGXInvestmentDoctrine]] — يأتي تحت الدستور الأعلى مباشرة\n- [[IntegratedSectorSelection]] — الصفحة المفاهيمية الجامعة\n- [[EGXPortfolioMonitoringSystem]] — يترجم الوظائف إلى محفظة عملية\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# دستور عملي لاختيار القطاعات المتكاملة في البورصة المصرية ## Summary هذا هو الدستور التنفيذي الصارم للقطاعات المتكاملة. يعرّف خمس وظائف أساسية داخل المحفظة، ويمنع تكرار نفس الرهان بأسماء مختلفة، ويضبط التركز والأوزان وو",
+      "group": -1,
+      "value": 4
+    },
+    {
+      "id": "sources/egx-system",
+      "label": "نظام egx_system",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/egx-system.md",
+      "markdown": "---\ntitle: \"نظام egx_system\"\ntype: source\ntags: [egypt, egx, system, meta, workflow]\ndate: \"2026-04-17\"\nsource_file: raw/egx-system.md\nlast_updated: \"2026-04-17\"\n---\n\n# نظام egx_system\n\n## Summary\n\nهذه المذكرة الميتا تصف نظام القرار والانضباط للمحفظة المصرية بعد إعادة التنظيم. تحدد مسار القراءة الإلزامي، والملفات الأساسية، وقاعدة Camoufox-first، وتؤكد أن التنفيذ النهائي ما زال بشريًا وأن الخطوة التالية هي تحديث positions وwatchlist ثم تشغيل الدورة اليومية والأسبوعية.\n\n## Key Claims\n\n- المسار الرئيسي للنظام هو /root/Documents/Obsidian Vault/egx_system.\n- ترتيب القراءة الإلزامي لأي AI يبدأ من CURRENT-SNAPSHOT ثم القواعد ثم الدستور ثم خريطة القطاعات.\n- الملفات الأساسية تشمل rules وconstitution وsector_map وworkflow وpositions وwatchlist.\n- التنفيذ النهائي ما زال بشريًا وليس آليًا.\n- إذا تغيرت التصنيفات أو الأوزان أو قائمة المتابعة، يجب تحديث الملفات المقابلة معها.\n- Camoufox هو الطريق النصي المفضل عندما تكون الصفحات صعبة.\n\n## Key Quotes\n\n> \"ما زال التنفيذ النهائي بشريًا وليس آليًا\"\n> \"ترتيب القراءة الإلزامي لأي AI\"\n\n## Connections\n\n- [[EGXPortfolioMonitoringSystem]] — يمثل النظام التشغيلي الأعلى\n- [[EGXInvestmentDoctrine]] — يمثل الدستور الاستثماري الأعلى\n- [[SourceLadder]] — يتقاطع مع ترتيب المصادر\n- [[EGX]] — المصدر الرسمي للشركة والسوق\n- [[CBE]] — مرجع السياسة النقدية والسيولة\n- [[CAPMAS]] — مرجع التضخم والضغط السعري\n- [[FRA]] — مرجع التنظيم والإفصاح\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# نظام egx_system ## Summary هذه المذكرة الميتا تصف نظام القرار والانضباط للمحفظة المصرية بعد إعادة التنظيم. تحدد مسار القراءة الإلزامي، والملفات الأساسية، وقاعدة Camoufox-first، وتؤكد أن التنفيذ النهائي ما زال بشريًا وأ",
+      "group": -1,
+      "value": 8
+    },
+    {
+      "id": "sources/egx-portfolio-monitoring-system",
+      "label": "EGX Portfolio Monitoring System",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/egx-portfolio-monitoring-system.md",
+      "markdown": "---\ntitle: \"EGX Portfolio Monitoring System\"\ntype: source\ntags: [egypt, egx, portfolio, workflow, system]\ndate: \"2026-04-17\"\nsource_file: raw/egx-portfolio-monitoring-system.md\nlast_updated: \"2026-04-17\"\n---\n\n# EGX Portfolio Monitoring System\n\n## Summary\n\nهذا هو دليل التشغيل للمحفظة المصرية المركزة لكن المنضبطة. يعرّف فلتر النشاط المقبول شرعياً، وشكل المحفظة المستهدف، وطبقات المصادر المعتمدة، وقاعدة Camoufox للروابط الصعبة، ودورة المتابعة اليومية والأسبوعية والشهرية، والمخرجات القياسية لكل سهم.\n\n## Key Claims\n\n- ركز أكثر وشتت أقل، ولا تحتفظ بمراكز ديكورية.\n- المحفظة المستهدفة تجمع نواة قليلة مع طبقة تكتيكية محدودة ونقد مسموح عند غياب الفرص.\n- الفائدة والسيولة والتشغيل والدفاع والتصدير والعقار الانتقائي تمثل أدوارًا مختلفة داخل المحفظة.\n- الحقيقة الرسمية أولًا: EGX وIR الشركة وCBE وCAPMAS وFRA والمنظم القطاعي.\n- Camoufox-first للروابط الصعبة مثل X وSubstack، مع أولوية للنص لا للصور.\n- اليومي والأسبوعي والشهري يحددان ماذا نحتفظ وماذا نقلل وماذا نخرج.\n\n## Key Quotes\n\n> \"لا نبدأ من السعر، بل من الدور والجودة والمرحلة\"\n> \"الرسمي يغلب غيره دائمًا\"\n\n## Connections\n\n- [[EGXPortfolioMonitoringSystem]] — الصفحة المفاهيمية التي تجمع هذا التشغيل\n- [[EGXInvestmentDoctrine]] — يتغذى من الدستور الاستثماري الأعلى\n- [[SourceLadder]] — يرتب طبقات المصادر الرسمية والتفسيرية\n- [[IntegratedSectorSelection]] — ينعكس على اختيار القطاعات والأوزان\n- [[EGX]] — الحقيقة الرسمية للشركة والسوق\n- [[CBE]] — مرجع السياسة النقدية\n- [[CAPMAS]] — مرجع التضخم والبيانات الرسمية\n- [[FRA]] — مرجع القواعد والتنظيم\n\n## Contradictions\n\n- None yet.\n",
+      "preview": "# EGX Portfolio Monitoring System ## Summary هذا هو دليل التشغيل للمحفظة المصرية المركزة لكن المنضبطة. يعرّف فلتر النشاط المقبول شرعياً، وشكل المحفظة المستهدف، وطبقات المصادر المعتمدة، وقاعدة Camoufox للروابط الصعبة، ودو",
+      "group": -1,
+      "value": 9
+    },
+    {
+      "id": "sources/sector-evaluation-matrix-egypt",
+      "label": "مصفوفة تقييم القطاعات",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/sector-evaluation-matrix-egypt.md",
+      "markdown": "---\ntitle: \"مصفوفة تقييم القطاعات\"\ntype: source\ntags: [egx, sectors, evaluation]\ndate: 2026-05-15\nsource_file: raw/sector-evaluation-matrix-egypt.md\n---\n\n## Summary\nهذه الصفحة تلخص مصدرًا تشغيليًا يحدد طريقة تقييم القطاعات المصرية قبل الانتقال إلى اختيار الأسهم. القيمة الأساسية في تحويل القطاع من انطباع عام إلى مقارنة منظمة بين الجاذبية، المخاطر، المحفزات، جودة البيانات، وقابلية المتابعة.\n\n## Key Claims\n- تقييم القطاع يسبق تقييم السهم، لأن قوة القطاع تقلل ضوضاء القرار الفردي.\n- المصفوفة تمنع الانحياز للقصص الجذابة بدون دلائل تشغيلية ومصادر موثوقة.\n- القطاع الجيد ليس فقط الأسرع نموًا، بل الأكثر وضوحًا في المحفزات والمخاطر وسهولة المتابعة.\n\n## Connections\n- [[EGX]] — السوق محل التطبيق.\n- [[IntegratedSectorSelection]] — الإطار الأعلى لاختيار القطاعات.\n- [[SectorEvaluationMatrix]] — المفهوم المستخرج من المصدر.\n- [[SourceLadder]] — يحدد جودة المصادر التي تغذي المصفوفة.\n\n## Contradictions\n- لا يوجد تعارض مسجل. المصدر يضيف طبقة تقييم عملية فوق دستور اختيار القطاعات.\n",
+      "preview": "## Summary هذه الصفحة تلخص مصدرًا تشغيليًا يحدد طريقة تقييم القطاعات المصرية قبل الانتقال إلى اختيار الأسهم. القيمة الأساسية في تحويل القطاع من انطباع عام إلى مقارنة منظمة بين الجاذبية، المخاطر، المحفزات، جودة البيانات، ",
+      "group": -1,
+      "value": 5
+    },
+    {
+      "id": "sources/april-sector-map-vs-constitution",
+      "label": "تحليل خريطة أبريل مقابل الدستور",
+      "type": "source",
+      "color": "#4CAF50",
+      "path": "wiki/sources/april-sector-map-vs-constitution.md",
+      "markdown": "---\ntitle: \"تحليل خريطة أبريل مقابل الدستور\"\ntype: source\ntags: [egx, sector-case, validation]\ndate: 2026-05-15\nsource_file: raw/april-sector-map-vs-constitution.md\n---\n\n## Summary\nهذه الصفحة تلخص حالة اختبارية تقارن خريطة قطاعات فعلية في أبريل بدستور اختيار القطاعات. فائدتها أنها تحول الدستور من قواعد نظرية إلى مراجعة حالة عملية يمكن استخدامها لتعديل الأوزان والأسئلة.\n\n## Key Claims\n- الحالات الزمنية تكشف ما إذا كان الدستور العملي قابلًا للاستخدام تحت ضغط معلومات حقيقية.\n- مقارنة الخريطة بالدستور تساعد على كشف التسرع، نقص البيانات، أو تجاهل محفزات ومخاطر قطاعية.\n- الحالة القطاعية يجب أن تنتهي بسؤال قرار: متابعة، بحث أعمق، أو استبعاد مؤقت.\n\n## Connections\n- [[EGX]] — السوق محل التطبيق.\n- [[IntegratedSectorSelection]] — الدستور الذي تتم المقارنة به.\n- [[SectorCaseReview]] — المفهوم المستخرج من الحالة.\n- [[EGXInvestmentDoctrine]] — قواعد القرار الأعلى.\n\n## Contradictions\n- لا يوجد تعارض مسجل. المصدر يعمل كاختبار جودة للدستور لا كبديل عنه.\n",
+      "preview": "## Summary هذه الصفحة تلخص حالة اختبارية تقارن خريطة قطاعات فعلية في أبريل بدستور اختيار القطاعات. فائدتها أنها تحول الدستور من قواعد نظرية إلى مراجعة حالة عملية يمكن استخدامها لتعديل الأوزان والأسئلة. ## Key Claims",
+      "group": -1,
+      "value": 5
+    },
+    {
+      "id": "syntheses/weekly-intelligence-cycle-2026-05-15",
+      "label": "قرار دورة الذكاء الأسبوعية - 2026-05-15",
+      "type": "synthesis",
+      "color": "#9C27B0",
+      "path": "wiki/syntheses/weekly-intelligence-cycle-2026-05-15.md",
+      "markdown": "---\ntitle: \"قرار دورة الذكاء الأسبوعية - 2026-05-15\"\ntype: synthesis\ntags: [weekly-intelligence-cycle, opportunities, execution]\nsources: [copywriting-review-service, hermes-agent-personal-agent-operating-system]\nlast_updated: 2026-05-15\n---\n\n# قرار دورة الذكاء الأسبوعية - 2026-05-15\n\n## السؤال\nما الفرصة التي تستحق الحركة الآن من مواد الأسبوع، وما الذي يجب تقويته داخليًا، وما الذي يجب إيقافه مؤقتًا؟\n\n## الإجابة\nالفرصة الأقرب للحركة هي تجربة خدمة مراجعة نص بيع خلال أربع وعشرين ساعة. التحسين الداخلي الأهم هو تقوية نظام الوكلاء الشخصية وطبقة المعرفة حتى لا يعاد اكتشاف السياق كل مرة. الشيء الذي يركن الآن هو صفحات الويب التفاعلية للمراجعة لأنها تضيف واجهة قبل ثبات نظام القرار.\n\n## الروابط\n- [[EGXPortfolioMonitoringSystem]] — مثال على نظام داخلي يحتاج ذاكرة وتشغيلًا ثابتًا.\n- [[LLMWikiPattern]] — نمط حفظ المعرفة المركبة.\n- [[EGXInvestmentDoctrine]] — مثال على قرار منضبط بقواعد.\n\n## القرار العملي\nلا نفتح مشروعًا جديدًا هذا الأسبوع. ننتج ثلاث عينات مراجعة نصوص بيعية، ثم نقرر إن كان المسار يستحق عرضًا مدفوعًا.\n",
+      "preview": "# قرار دورة الذكاء الأسبوعية - 2026-05-15 ## السؤال ما الفرصة التي تستحق الحركة الآن من مواد الأسبوع، وما الذي يجب تقويته داخليًا، وما الذي يجب إيقافه مؤقتًا؟",
+      "group": -1,
+      "value": 4
+    }
+  ],
+  "edges": [
+    {
+      "id": "overview->concepts/SectorEvaluationMatrix:EXTRACTED",
+      "from": "overview",
+      "to": "concepts/SectorEvaluationMatrix",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "overview->concepts/SectorCaseReview:EXTRACTED",
+      "from": "overview",
+      "to": "concepts/SectorCaseReview",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/AndrejKarpathy->concepts/LLMWikiPattern:EXTRACTED",
+      "from": "entities/AndrejKarpathy",
+      "to": "concepts/LLMWikiPattern",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/AndrejKarpathy->sources/karpathy-llm-wiki:EXTRACTED",
+      "from": "entities/AndrejKarpathy",
+      "to": "sources/karpathy-llm-wiki",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/SamurAIGPT->sources/llm-wiki-agent:EXTRACTED",
+      "from": "entities/SamurAIGPT",
+      "to": "sources/llm-wiki-agent",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/SamurAIGPT->concepts/LLMWikiPattern:EXTRACTED",
+      "from": "entities/SamurAIGPT",
+      "to": "concepts/LLMWikiPattern",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/EGX->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "entities/EGX",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/EGX->sources/investment-decision-constitution-egypt:EXTRACTED",
+      "from": "entities/EGX",
+      "to": "sources/investment-decision-constitution-egypt",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/EGX->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "entities/EGX",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/EGX->sources/egyptian-stock-investment-project:EXTRACTED",
+      "from": "entities/EGX",
+      "to": "sources/egyptian-stock-investment-project",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/EGX->concepts/SourceLadder:EXTRACTED",
+      "from": "entities/EGX",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CBE->sources/egypt-egx-daily-weekly-monthly-guide:EXTRACTED",
+      "from": "entities/CBE",
+      "to": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CBE->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "entities/CBE",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CBE->sources/investment-decision-constitution-egypt:EXTRACTED",
+      "from": "entities/CBE",
+      "to": "sources/investment-decision-constitution-egypt",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CBE->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "entities/CBE",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CBE->concepts/SourceLadder:EXTRACTED",
+      "from": "entities/CBE",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CAPMAS->sources/egypt-egx-daily-weekly-monthly-guide:EXTRACTED",
+      "from": "entities/CAPMAS",
+      "to": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CAPMAS->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "entities/CAPMAS",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CAPMAS->sources/investment-decision-constitution-egypt:EXTRACTED",
+      "from": "entities/CAPMAS",
+      "to": "sources/investment-decision-constitution-egypt",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CAPMAS->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "entities/CAPMAS",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/CAPMAS->concepts/SourceLadder:EXTRACTED",
+      "from": "entities/CAPMAS",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/FRA->sources/egypt-egx-daily-weekly-monthly-guide:EXTRACTED",
+      "from": "entities/FRA",
+      "to": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/FRA->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "entities/FRA",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/FRA->sources/investment-decision-constitution-egypt:EXTRACTED",
+      "from": "entities/FRA",
+      "to": "sources/investment-decision-constitution-egypt",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/FRA->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "entities/FRA",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "entities/FRA->concepts/SourceLadder:EXTRACTED",
+      "from": "entities/FRA",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/LLMWikiPattern->sources/llm-wiki-agent:EXTRACTED",
+      "from": "concepts/LLMWikiPattern",
+      "to": "sources/llm-wiki-agent",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine->sources/egypt-egx-daily-weekly-monthly-guide:EXTRACTED",
+      "from": "concepts/EGXInvestmentDoctrine",
+      "to": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine->sources/investment-decision-constitution-egypt:EXTRACTED",
+      "from": "concepts/EGXInvestmentDoctrine",
+      "to": "sources/investment-decision-constitution-egypt",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "concepts/EGXInvestmentDoctrine",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine->sources/egx-system:EXTRACTED",
+      "from": "concepts/EGXInvestmentDoctrine",
+      "to": "sources/egx-system",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine->sources/egyptian-stock-investment-project:EXTRACTED",
+      "from": "concepts/EGXInvestmentDoctrine",
+      "to": "sources/egyptian-stock-investment-project",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine->concepts/SourceLadder:EXTRACTED",
+      "from": "concepts/EGXInvestmentDoctrine",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXInvestmentDoctrine->sources/egx-portfolio-monitoring-system:EXTRACTED",
+      "from": "concepts/EGXInvestmentDoctrine",
+      "to": "sources/egx-portfolio-monitoring-system",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/IntegratedSectorSelection->sources/investment-decision-constitution-egypt:EXTRACTED",
+      "from": "concepts/IntegratedSectorSelection",
+      "to": "sources/investment-decision-constitution-egypt",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/IntegratedSectorSelection->sources/integrated-sector-selection-constitution-egypt:EXTRACTED",
+      "from": "concepts/IntegratedSectorSelection",
+      "to": "sources/integrated-sector-selection-constitution-egypt",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/IntegratedSectorSelection->sources/integrated-sector-selection-method:EXTRACTED",
+      "from": "concepts/IntegratedSectorSelection",
+      "to": "sources/integrated-sector-selection-method",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/IntegratedSectorSelection->sources/egx-portfolio-monitoring-system:EXTRACTED",
+      "from": "concepts/IntegratedSectorSelection",
+      "to": "sources/egx-portfolio-monitoring-system",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/SourceLadder->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "concepts/SourceLadder",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXPortfolioMonitoringSystem->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "concepts/EGXPortfolioMonitoringSystem",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXPortfolioMonitoringSystem->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "concepts/EGXPortfolioMonitoringSystem",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXPortfolioMonitoringSystem->sources/egx-system:EXTRACTED",
+      "from": "concepts/EGXPortfolioMonitoringSystem",
+      "to": "sources/egx-system",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/EGXPortfolioMonitoringSystem->sources/egx-portfolio-monitoring-system:EXTRACTED",
+      "from": "concepts/EGXPortfolioMonitoringSystem",
+      "to": "sources/egx-portfolio-monitoring-system",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/SectorEvaluationMatrix->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "concepts/SectorEvaluationMatrix",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/SectorEvaluationMatrix->concepts/SourceLadder:EXTRACTED",
+      "from": "concepts/SectorEvaluationMatrix",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/SectorEvaluationMatrix->concepts/SectorCaseReview:EXTRACTED",
+      "from": "concepts/SectorEvaluationMatrix",
+      "to": "concepts/SectorCaseReview",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/SectorCaseReview->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "concepts/SectorCaseReview",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "concepts/SectorCaseReview->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "concepts/SectorCaseReview",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/karpathy-llm-wiki->sources/llm-wiki-agent:EXTRACTED",
+      "from": "sources/karpathy-llm-wiki",
+      "to": "sources/llm-wiki-agent",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/karpathy-llm-wiki->concepts/LLMWikiPattern:EXTRACTED",
+      "from": "sources/karpathy-llm-wiki",
+      "to": "concepts/LLMWikiPattern",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/llm-wiki-agent->entities/AndrejKarpathy:EXTRACTED",
+      "from": "sources/llm-wiki-agent",
+      "to": "entities/AndrejKarpathy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egyptian-stock-investment-project->entities/FRA:EXTRACTED",
+      "from": "sources/egyptian-stock-investment-project",
+      "to": "entities/FRA",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egyptian-stock-investment-project->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "sources/egyptian-stock-investment-project",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egyptian-stock-investment-project->entities/CAPMAS:EXTRACTED",
+      "from": "sources/egyptian-stock-investment-project",
+      "to": "entities/CAPMAS",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egyptian-stock-investment-project->concepts/SourceLadder:EXTRACTED",
+      "from": "sources/egyptian-stock-investment-project",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egyptian-stock-investment-project->entities/CBE:EXTRACTED",
+      "from": "sources/egyptian-stock-investment-project",
+      "to": "entities/CBE",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/investment-decision-constitution-egypt->concepts/SourceLadder:EXTRACTED",
+      "from": "sources/investment-decision-constitution-egypt",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egypt-egx-daily-weekly-monthly-guide->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egypt-egx-daily-weekly-monthly-guide->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egypt-egx-daily-weekly-monthly-guide->entities/EGX:EXTRACTED",
+      "from": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "to": "entities/EGX",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egypt-egx-daily-weekly-monthly-guide->concepts/SourceLadder:EXTRACTED",
+      "from": "sources/egypt-egx-daily-weekly-monthly-guide",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/source-ladder-analysis-egypt->entities/FRA:EXTRACTED",
+      "from": "sources/source-ladder-analysis-egypt",
+      "to": "entities/FRA",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/source-ladder-analysis-egypt->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "sources/source-ladder-analysis-egypt",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/source-ladder-analysis-egypt->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "sources/source-ladder-analysis-egypt",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/source-ladder-analysis-egypt->entities/EGX:EXTRACTED",
+      "from": "sources/source-ladder-analysis-egypt",
+      "to": "entities/EGX",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/source-ladder-analysis-egypt->entities/CAPMAS:EXTRACTED",
+      "from": "sources/source-ladder-analysis-egypt",
+      "to": "entities/CAPMAS",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/source-ladder-analysis-egypt->entities/CBE:EXTRACTED",
+      "from": "sources/source-ladder-analysis-egypt",
+      "to": "entities/CBE",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/integrated-sector-selection-method->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "sources/integrated-sector-selection-method",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/integrated-sector-selection-method->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "sources/integrated-sector-selection-method",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/integrated-sector-selection-constitution-egypt->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "sources/integrated-sector-selection-constitution-egypt",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/integrated-sector-selection-constitution-egypt->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "sources/integrated-sector-selection-constitution-egypt",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-system->entities/FRA:EXTRACTED",
+      "from": "sources/egx-system",
+      "to": "entities/FRA",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-system->entities/EGX:EXTRACTED",
+      "from": "sources/egx-system",
+      "to": "entities/EGX",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-system->entities/CAPMAS:EXTRACTED",
+      "from": "sources/egx-system",
+      "to": "entities/CAPMAS",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-system->concepts/SourceLadder:EXTRACTED",
+      "from": "sources/egx-system",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-system->entities/CBE:EXTRACTED",
+      "from": "sources/egx-system",
+      "to": "entities/CBE",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-portfolio-monitoring-system->entities/FRA:EXTRACTED",
+      "from": "sources/egx-portfolio-monitoring-system",
+      "to": "entities/FRA",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-portfolio-monitoring-system->entities/EGX:EXTRACTED",
+      "from": "sources/egx-portfolio-monitoring-system",
+      "to": "entities/EGX",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-portfolio-monitoring-system->entities/CAPMAS:EXTRACTED",
+      "from": "sources/egx-portfolio-monitoring-system",
+      "to": "entities/CAPMAS",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-portfolio-monitoring-system->concepts/SourceLadder:EXTRACTED",
+      "from": "sources/egx-portfolio-monitoring-system",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/egx-portfolio-monitoring-system->entities/CBE:EXTRACTED",
+      "from": "sources/egx-portfolio-monitoring-system",
+      "to": "entities/CBE",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/sector-evaluation-matrix-egypt->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "sources/sector-evaluation-matrix-egypt",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/sector-evaluation-matrix-egypt->entities/EGX:EXTRACTED",
+      "from": "sources/sector-evaluation-matrix-egypt",
+      "to": "entities/EGX",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/sector-evaluation-matrix-egypt->concepts/SourceLadder:EXTRACTED",
+      "from": "sources/sector-evaluation-matrix-egypt",
+      "to": "concepts/SourceLadder",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/sector-evaluation-matrix-egypt->concepts/SectorEvaluationMatrix:EXTRACTED",
+      "from": "sources/sector-evaluation-matrix-egypt",
+      "to": "concepts/SectorEvaluationMatrix",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/april-sector-map-vs-constitution->concepts/IntegratedSectorSelection:EXTRACTED",
+      "from": "sources/april-sector-map-vs-constitution",
+      "to": "concepts/IntegratedSectorSelection",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/april-sector-map-vs-constitution->entities/EGX:EXTRACTED",
+      "from": "sources/april-sector-map-vs-constitution",
+      "to": "entities/EGX",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/april-sector-map-vs-constitution->concepts/SectorCaseReview:EXTRACTED",
+      "from": "sources/april-sector-map-vs-constitution",
+      "to": "concepts/SectorCaseReview",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "sources/april-sector-map-vs-constitution->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "sources/april-sector-map-vs-constitution",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "syntheses/weekly-intelligence-cycle-2026-05-15->concepts/EGXPortfolioMonitoringSystem:EXTRACTED",
+      "from": "syntheses/weekly-intelligence-cycle-2026-05-15",
+      "to": "concepts/EGXPortfolioMonitoringSystem",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "syntheses/weekly-intelligence-cycle-2026-05-15->concepts/LLMWikiPattern:EXTRACTED",
+      "from": "syntheses/weekly-intelligence-cycle-2026-05-15",
+      "to": "concepts/LLMWikiPattern",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    },
+    {
+      "id": "syntheses/weekly-intelligence-cycle-2026-05-15->concepts/EGXInvestmentDoctrine:EXTRACTED",
+      "from": "syntheses/weekly-intelligence-cycle-2026-05-15",
+      "to": "concepts/EGXInvestmentDoctrine",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0,
+      "title": "",
+      "label": ""
+    }
+  ],
+  "built": "2026-05-15"
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-04-13",
+  "positions_count": 22,
+  "watchlist_count": 11,
+  "status_counts": {
+    "hold": 7,
+    "review": 4,
+    "reduce": 4,
+    "exit": 7
+  },
+  "core_positions": [
+    "ADIB",
+    "ETEL",
+    "FWRY",
+    "EFID",
+    "TMGH",
+    "ISPH"
+  ],
+  "acceleration_positions": [
+    "JUFO"
+  ],
+  "review_positions": [
+    "ORHD",
+    "MFPC",
+    "SWDY",
+    "MTIE"
+  ],
+  "reduce_positions": [
+    "MASR",
+    "ABUK",
+    "AZG",
+    "ATQA"
+  ],
+  "exit_positions": [
+    "SAUD",
+    "VALU",
+    "EMFD",
+    "FAIT",
+    "PHDC",
+    "CLHO",
+    "EGCH"
+  ],
+  "rule_violations": [],
+  "confidence": "medium",
+  "missing_data": [
+    "avg_cost missing in all rows",
+    "no external market/news data"
+  ],
+  "analysis_mode": "local-only",
+  "report_path": "/root/Documents/Obsidian Vault/egx_system/reports/daily/daily-local-review-2026-04-13.md"
+}

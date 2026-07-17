@@ -1,0 +1,732 @@
+# Codebase Memory — الفهرس التفصيلي الأول
+
+> فهرس محلي مولّد آليًا للملفات المهمة في نظام محمد. الهدف: إعطاء الوكلاء خريطة قبل قراءة الملفات واحدًا واحدًا.
+
+- تاريخ التوليد: 2026-06-27 04:16:01 +0000
+- إجمالي الملفات المفهرسة: 1288
+- ملف البيانات الكامل: `/root/Documents/Obsidian Vault/Projects/Codebase Memory/codebase-memory-index-2026-06-27.json`
+
+## ملخص الجذور
+| الجذر | المسار | الملفات | الحجم | أكثر الامتدادات |
+|---|---|---:|---:|---|
+| Company-Dashboard | `/root/Company-Dashboard` | 153 | 2507181 | .py:73, .md:41, .json:11, .js:8, .bat:4, [noext]:3 |
+| llm-wiki-agent | `/root/llm-wiki-agent` | 66 | 452060 | .md:52, .py:7, [noext]:3, .toml:1, .txt:1, .json:1 |
+| company-data-command-center | `/root/company-data-command-center` | 16 | 19919 | .py:5, .md:4, [noext]:3, .toml:1, .example:1, .sql:1 |
+| GenericAgent | `/root/GenericAgent` | 128 | 4195108 | .py:39, .png:22, .md:20, .json:12, .txt:11, .jpg:10 |
+| Hermes-skills | `/root/.hermes/skills` | 925 | 12184869 | .md:668, .py:105, .xsd:39, .json:36, .sh:15, .sty:13 |
+
+## أهم الملفات المركزية بالذكر داخل المستودعات
+- `GenericAgent/assets/tmwd_cdp_bridge/content.js` — ذكر بالاسم: 395، حجم: 2051، أسطر: 47
+- `Hermes-skills/creative/baoyu-article-illustrator/prompts/system.md` — ذكر بالاسم: 261، حجم: 1050، أسطر: 33
+- `Hermes-skills/research/research-paper-writing/templates/neurips2025/main.tex` — ذكر بالاسم: 254، حجم: 574، أسطر: 39
+- `Company-Dashboard/Agent.md` — ذكر بالاسم: 228، حجم: 11220، أسطر: 230
+- `Company-Dashboard/brain/search.py` — ذكر بالاسم: 223، حجم: 2739، أسطر: 89
+- `Company-Dashboard/mcp_server/tools.py` — ذكر بالاسم: 205، حجم: 16207، أسطر: 418
+- `GenericAgent/assets/tmwd_cdp_bridge/background.js` — ذكر بالاسم: 200، حجم: 16990، أسطر: 394
+- `GenericAgent/assets/tmwd_cdp_bridge/config.js` — ذكر بالاسم: 189، حجم: 27، أسطر: 1
+- `Hermes-skills/productivity/powerpoint/scripts/clean.py` — ذكر بالاسم: 187، حجم: 9583، أسطر: 287
+- `Hermes-skills/mlops/training/pytorch-fsdp/references/other.md` — ذكر بالاسم: 173، حجم: 337500، أسطر: 4262
+- `Hermes-skills/creative/baoyu-comic/references/tones/action.md` — ذكر بالاسم: 173، حجم: 2269، أسطر: 111
+- `GenericAgent/assets/images/workflow.jpg` — ذكر بالاسم: 167، حجم: 171553، أسطر: 1269
+- `llm-wiki-agent/tools/query.py` — ذكر بالاسم: 164، حجم: 7833، أسطر: 214
+- `Company-Dashboard/extractor/base.py` — ذكر بالاسم: 159، حجم: 2160، أسطر: 62
+- `Hermes-skills/creative/pretext/references/patterns.md` — ذكر بالاسم: 154، حجم: 10450، أسطر: 259
+- `Hermes-skills/research/scripts/lib/models.py` — ذكر بالاسم: 148، حجم: 7073، أسطر: 222
+- `Company-Dashboard/setup.sh` — ذكر بالاسم: 142، حجم: 3604، أسطر: 102
+- `Company-Dashboard/server.js` — ذكر بالاسم: 139، حجم: 69265، أسطر: 1593
+- `Company-Dashboard/knowledge/reports.md` — ذكر بالاسم: 139، حجم: 688، أسطر: 21
+- `Hermes-skills/creative/excalidraw/references/colors.md` — ذكر بالاسم: 137، حجم: 1777، أسطر: 45
+- `Company-Dashboard/index.html` — ذكر بالاسم: 133، حجم: 75804، أسطر: 1258
+- `Hermes-skills/creative/baoyu-comic/references/layouts/standard.md` — ذكر بالاسم: 127، حجم: 440، أسطر: 24
+- `GenericAgent/memory/skill_search/skill_search/__main__.py` — ذكر بالاسم: 122، حجم: 5436، أسطر: 116
+- `Hermes-skills/research/research-paper-writing/references/sources.md` — ذكر بالاسم: 117، حجم: 9460، أسطر: 192
+- `Hermes-skills/research/research-paper-writing/templates/acl/custom.bib` — ذكر بالاسم: 117، حجم: 2071، أسطر: 71
+- `Hermes-skills/creative/baoyu-infographic/references/layouts/dashboard.md` — ذكر بالاسم: 116، حجم: 776، أسطر: 42
+- `Hermes-skills/creative/ascii-video/references/architecture.md` — ذكر بالاسم: 107، حجم: 33004، أسطر: 803
+- `Hermes-skills/creative/ascii-video/references/inputs.md` — ذكر بالاسم: 106، حجم: 24575، أسطر: 686
+- `Hermes-skills/research/scripts/lib/http.py` — ذكر بالاسم: 105، حجم: 6067، أسطر: 175
+- `Hermes-skills/openclaw-imports/web-search-free/references/examples.md` — ذكر بالاسم: 103، حجم: 4403، أسطر: 130
+- `Hermes-skills/creative/baoyu-article-illustrator/references/styles/minimal.md` — ذكر بالاسم: 103، حجم: 1607، أسطر: 59
+- `Company-Dashboard/reports/validation.py` — ذكر بالاسم: 101، حجم: 5906، أسطر: 128
+- `Hermes-skills/creative/baoyu-article-illustrator/references/palettes/warm.md` — ذكر بالاسم: 98، حجم: 1036، أسطر: 33
+- `Company-Dashboard/brain/parse.py` — ذكر بالاسم: 97، حجم: 3094، أسطر: 94
+- `Company-Dashboard/package.json` — ذكر بالاسم: 96، حجم: 476، أسطر: 23
+- `Hermes-skills/creative/architecture-diagram/templates/template.html` — ذكر بالاسم: 94، حجم: 12483، أسطر: 320
+- `Company-Dashboard/reports/generate.py` — ذكر بالاسم: 91، حجم: 7333، أسطر: 190
+- `Company-Dashboard/schema.sql` — ذكر بالاسم: 85، حجم: 9510، أسطر: 250
+- `Hermes-skills/creative/baoyu-article-illustrator/references/usage.md` — ذكر بالاسم: 85، حجم: 1834، أسطر: 51
+- `Hermes-skills/creative/ascii-video/references/effects.md` — ذكر بالاسم: 84، حجم: 72928، أسطر: 1866
+- `Company-Dashboard/reports/render.py` — ذكر بالاسم: 84، حجم: 32123، أسطر: 743
+- `Hermes-skills/creative/p5js/scripts/serve.sh` — ذكر بالاسم: 84، حجم: 833، أسطر: 29
+- `Hermes-skills/research/scripts/lib/cache.py` — ذكر بالاسم: 82، حجم: 4762، أسطر: 166
+- `Company-Dashboard/docs/database.md` — ذكر بالاسم: 79، حجم: 6285، أسطر: 95
+- `Hermes-skills/creative/baoyu-article-illustrator/references/styles/flat.md` — ذكر بالاسم: 76، حجم: 1688، أسطر: 60
+- `GenericAgent/memory/skill_search/skill_search/engine.py` — ذكر بالاسم: 70، حجم: 5920، أسطر: 156
+- `Hermes-skills/creative/baoyu-comic/references/tones/neutral.md` — ذكر بالاسم: 70، حجم: 1356، أسطر: 64
+- `Hermes-skills/creative/manim-video/references/rendering.md` — ذكر بالاسم: 68، حجم: 5375، أسطر: 186
+- `Hermes-skills/creative/popular-web-designs/templates/apple.md` — ذكر بالاسم: 67، حجم: 21122، أسطر: 327
+- `Company-Dashboard/workspaces/synthetic/templates.json` — ذكر بالاسم: 66، حجم: 619، أسطر: 17
+- `Hermes-skills/research/scripts/lib/score.py` — ذكر بالاسم: 65، حجم: 24188، أسطر: 776
+- `Hermes-skills/creative/baoyu-comic/references/layouts/dense.md` — ذكر بالاسم: 65، حجم: 415، أسطر: 24
+- `GenericAgent/memory/autonomous_operation_sop/helper.py` — ذكر بالاسم: 64، حجم: 5216، أسطر: 143
+- `Hermes-skills/creative/popular-web-designs/templates/claude.md` — ذكر بالاسم: 63، حجم: 21078، أسطر: 326
+- `Hermes-skills/openclaw-imports/web-search-free/.clawhub/origin.json` — ذكر بالاسم: 63، حجم: 147، أسطر: 8
+- `Hermes-skills/email/himalaya/references/configuration.md` — ذكر بالاسم: 62، حجم: 5906، أسطر: 228
+- `Hermes-skills/creative/touchdesigner-mcp/references/animation.md` — ذكر بالاسم: 61، حجم: 7258، أسطر: 222
+- `Hermes-skills/creative/p5js/references/typography.md` — ذكر بالاسم: 60، حجم: 6779، أسطر: 303
+- `Company-Dashboard/README.md` — ذكر بالاسم: 57، حجم: 14003، أسطر: 281
+- `Company-Dashboard/extractor/requirements.txt` — ذكر بالاسم: 56، حجم: 1102، أسطر: 23
+- `company-data-command-center/.env.example` — ذكر بالاسم: 55، حجم: 602، أسطر: 21
+- `Company-Dashboard/brain/__init__.py` — ذكر بالاسم: 54، حجم: 131، أسطر: 5
+- `Hermes-skills/creative/baoyu-infographic/references/layouts/bridge.md` — ذكر بالاسم: 53، حجم: 907، أسطر: 42
+- `Hermes-skills/productivity/powerpoint/scripts/office/pack.py` — ذكر بالاسم: 52، حجم: 4991، أسطر: 160
+- `Company-Dashboard/reports/definitions.py` — ذكر بالاسم: 50، حجم: 3338، أسطر: 93
+- `Hermes-skills/creative/touchdesigner-mcp/references/pitfalls.md` — ذكر بالاسم: 48، حجم: 31347، أسطر: 704
+- `Hermes-skills/mlops/research/dspy/references/modules.md` — ذكر بالاسم: 48، حجم: 12363، أسطر: 476
+- `Company-Dashboard/brain/graph.py` — ذكر بالاسم: 48، حجم: 4709، أسطر: 126
+- `Hermes-skills/creative/baoyu-comic/references/tones/dramatic.md` — ذكر بالاسم: 48، حجم: 1913، أسطر: 96
+- `Hermes-skills/creative/baoyu-comic/references/layouts/mixed.md` — ذكر بالاسم: 48، حجم: 429، أسطر: 24
+- `Hermes-skills/creative/ascii-video/references/scenes.md` — ذكر بالاسم: 47، حجم: 37487، أسطر: 1012
+- `Hermes-skills/mlops/evaluation/weights-and-biases/references/artifacts.md` — ذكر بالاسم: 47، حجم: 13425، أسطر: 585
+- `llm-wiki-agent/tools/refresh.py` — ذكر بالاسم: 47، حجم: 5365، أسطر: 173
+- `Hermes-skills/creative/ascii-video/references/composition.md` — ذكر بالاسم: 46، حجم: 34942، أسطر: 893
+- `llm-wiki-agent/wiki/overview.md` — ذكر بالاسم: 46، حجم: 2732، أسطر: 39
+- `GenericAgent/launch.pyw` — ذكر بالاسم: 45، حجم: 6424، أسطر: 129
+- `Hermes-skills/mlops/inference/vllm/references/optimization.md` — ذكر بالاسم: 42، حجم: 5769، أسطر: 227
+- `Company-Dashboard/reports/outlook.py` — ذكر بالاسم: 41، حجم: 4605، أسطر: 115
+- `GenericAgent/memory/skill_search/SKILL.md` — ذكر بالاسم: 41، حجم: 1845، أسطر: 64
+- `Company-Dashboard/knowledge/conventions.md` — ذكر بالاسم: 41، حجم: 484، أسطر: 17
+
+## Company-Dashboard
+- الملفات: 153
+
+- `.gitignore` — [noext]، 1103 بايت، 59 سطر. لا تحليل رمزي خاص
+- `.mcp.json` — .json، 129 بايت، 9 سطر. لا تحليل رمزي خاص
+- `AGENTS.md` — .md، 106408 بايت، 1443 سطر. عناوين: AGENTS.md — Mandatory Shared Protocol for All AI Agents | 🛑 THE RULES (read before you touch anything) | 0. Quick start — exactly what to do (every agent, every task) | Definition of Done (every PR — keep the docs alive) | 1. What this project is (so you understand it like the rest of us)
+- `ARCHITECTURE.md` — .md، 10162 بايت، 168 سطر. عناوين: ARCHITECTURE — the map that keeps this project from becoming spaghetti | 1. The system in five layers | Dependency rule (the anti-spaghetti law) | 2. The data lifecycle (the workflow) | Load-bearing contracts (don't break silently)
+- `Agent.md` — .md، 11220 بايت، 230 سطر. عناوين: Agent.md — Best Practices & Problem-Solving Patterns | Current v4 Direction | 1. Pre-Computation Pattern (The Biggest Lesson) | Problem | Solution: Pre-Compute Everything
+- `CLAUDE.md` — .md، 880 بايت، 18 سطر. عناوين: CLAUDE.md
+- `Create Sample Data.bat` — .bat، 1056 بايت، 41 سطر. لا تحليل رمزي خاص
+- `FEATURES.md` — .md، 20157 بايت، 326 سطر. عناوين: FEATURES — the one doc that explains every capability | 1. The project in 30 seconds | 2. The Feature Module Pattern (read this before adding a feature) | 3. Shared conventions every feature depends on | 4. Feature catalogue
+- `GETTING-STARTED.md` — .md، 3495 بايت، 108 سطر. عناوين: Getting Started — the simple guide | What you're setting up | First time only: two steps | Step 1 — Create the practice numbers | Step 2 — Open the dashboard
+- `Make Portable Copy.bat` — .bat، 1514 بايت، 46 سطر. لا تحليل رمزي خاص
+- `README-PORTABLE.md` — .md، 2360 بايت، 54 سطر. عناوين: Company Dashboard — Portable Edition | How to run (one click) | How to move it to another PC | What's inside (required at runtime) | NOT needed at runtime (safe to leave behind)
+- `README.md` — .md، 14003 بايت، 281 سطر. عناوين: Company Dashboard | Quick start (any platform) | Testing | Reports and board pack | Import-run workspaces (Phase 2)
+- `ROADMAP.md` — .md، 11541 بايت، 201 سطر. عناوين: Project Vision & Roadmap | The vision in one sentence | How the whole machine fits together | The stages | ✅ Stage 0 — The dashboard foundation (DONE)
+- `Start Dashboard.bat` — .bat، 2002 بايت، 68 سطر. لا تحليل رمزي خاص
+- `Stop Dashboard.bat` — .bat، 720 بايت، 13 سطر. لا تحليل رمزي خاص
+- `TASK_BOARD.md` — .md، 4922 بايت، 79 سطر. عناوين: Task Board — who is doing what, right now | 🟢 Ready (جاهز للبدء) | 🟡 In Progress (شغّال عليه) | 🟢 Done (تم وإترفع) | 📋 قواعد اللوحة
+- `app.js` — .js، 127734 بايت، 2572 سطر. دوال: el, escapeHtml, loc, tr, isArabicUi, formatCompact, formatFull, formatPercent, percentChange, isGood
+- `cairo.ttf` — .ttf، 599548 بايت، None سطر. لا تحليل رمزي خاص
+- `chart.umd.min.js` — .js، 205889 بايت، 21 سطر. دوال: e, i, s, n, o, a, r, l, h, d
+- `db_schema.py` — .py، 4069 بايت، 113 سطر. دوال: read_schema, schema_columns, column_names, column_types, split_statements, apply_table, apply_indexes_and_views, apply_schema؛ استيرادات: __future__, os, re
+- `i18n.js` — .js، 59360 بايت، 825 سطر. دوال: getLang, getDigits, t, localizeDigits, translateText, translateNodeTree, apply, observeDynamicText, setLang, setDigits
+- `import_workspace.py` — .py، 6462 بايت، 188 سطر. دوال: make_run_id, client_workspace, run_workspace, ensure_run_dirs, history_path, load_history, append_history, update_run, backup_database, promote_database؛ استيرادات: __future__, datetime, fnmatch, glob, json, os, pathlib, shutil
+- `import_workspace_cli.py` — .py، 3155 بايت، 97 سطر. دوال: cmd_history, cmd_rollback, main؛ استيرادات: __future__, argparse, import_workspace, json, pathlib, shutil, sys
+- `index.html` — .html، 75804 بايت، 1258 سطر. لا تحليل رمزي خاص
+- `ingest_sheet1.py` — .py، 11382 بايت، 291 سطر. دوال: create_database, create_indexes, create_summary_views, _coerce_row, ingest_data, main؛ استيرادات: argparse, db_schema, extractor, os, sqlite3, sys, time, traceback
+- `map_raw_to_db.py` — .py، 30838 بايت، 737 سطر. أصناف: MappingError؛ دوال: load_schema_columns, split_schema_statements, load_mapping, validate_mapping, convert, validate_required, find_raw_files, _file_sha256, _mapping_sha256, _lineage_source؛ استيرادات: __future__, argparse, datetime, db_schema, extractor, fnmatch, glob, hashlib
+- `mapping.example.json` — .json، 897 بايت، 30 سطر. لا تحليل رمزي خاص
+- `mapping_tool.py` — .py، 12777 بايت، 377 سطر. دوال: scan_raw_files, _normalize, _score_match, suggest_mappings, build_mapping, write_html_report, main؛ استيرادات: __future__, argparse, datetime, db_schema, extractor, json, os, sys
+- `package-lock.json` — .json، 16713 بايت، 469 سطر. لا تحليل رمزي خاص
+- `package.json` — .json، 476 بايت، 23 سطر. لا تحليل رمزي خاص
+- `scenario.example.json` — .json، 467 بايت، 13 سطر. لا تحليل رمزي خاص
+- `schema.sql` — .sql، 9510 بايت، 250 سطر. جداول: pl_detail, import_run, source_file, row_lineage
+- `seed_db.py` — .py، 16762 بايت، 344 سطر. دوال: coverage_for_year, growth_factor, seasonality, build_rows, apply_schema, write_synthetic_lineage, main؛ استيرادات: argparse, datetime, os, random, sqlite3, sys
+- `server.js` — .js، 69265 بايت، 1593 سطر. دوال: clientDbPath, activeDbPath, connectDatabase, listClients, switchClient, loadFallbackCache, securityHeaders, normalizeAliases, finiteReplacer, jsonResponse
+- `setup.sh` — .sh، 3604 بايت، 102 سطر. لا تحليل رمزي خاص
+- `smoke_test.js` — .js، 13521 بايت، 283 سطر. دوال: waitForServer, getJson, run
+- `test_db_schema.py` — .py، 5599 بايت، 145 سطر. أصناف: TestColumnListsMatchSchema, TestSchemaApplication, TestIngestMatchesSchema؛ دوال: _table_columns, _objects, _view_columns, setUp, test_seed_columns_match_schema, test_ingest_columns_match_schema, test_mapper_parses_same_columns, test_ingest_int_columns_are_year_and_valuation, setUp, tearDown؛ استيرادات: __future__, db_schema, ingest_sheet1, map_raw_to_db, seed_db, sqlite3, sys, unittest
+- `test_i18n_coverage.js` — .js، 3594 بايت، 89 سطر. دوال: check
+- `test_import_workspace.py` — .py، 8020 بايت، 225 سطر. أصناف: TestRunDirs, TestHistory, TestBackupAndPromote, TestCopyRawInputs, TestLatestGoodRun, TestWriteValidation؛ دوال: cleanup_workspace_root, tearDownModule, setUp, test_make_run_id_format, test_make_run_id_deterministic, test_client_workspace_path, test_run_workspace_path, test_ensure_run_dirs_creates_subdirs, test_invalid_client_id_rejected, test_invalid_run_id_rejected؛ استيرادات: datetime, import_workspace, json, os, pathlib, shutil, sqlite3, sys
+- `test_map_raw_to_db.py` — .py، 10941 بايت، 263 سطر. دوال: _write_capture, _base_mapping, _expect_error, test_dry_run_and_load, test_multiple_batches, test_overwrite_protection_and_force_preserves_on_failure, test_post_load_validation_aborts_on_duplicate_grain, test_arabic_headers_numbers_and_text, test_mapping_validation, main؛ استيرادات: __future__, json, map_raw_to_db, os, sqlite3, tempfile
+- `test_mapping_tool.py` — .py، 8018 بايت، 221 سطر. أصناف: TestScanRawFiles, TestScoreMatch, TestSuggestMappings, TestBuildMapping, TestHtmlReport, TestKnownPatterns؛ دوال: test_basic, test_skips_non_spreadsheet, test_empty_folder, test_exact, test_known_pattern, test_normalized_arabic_variants, test_substring, test_none, test_basic, test_empty_headers؛ استيرادات: __future__, json, mapping_tool, os, sys, tempfile, unittest
+- `test_phase2_integration.py` — .py، 6850 بايت، 186 سطر. أصناف: TestWorkspaceIntegration, Args؛ دوال: cleanup, _write_capture, setUp, tearDown, test_load_with_client_id_creates_workspace, test_second_run_creates_backup, test_no_client_id_keeps_legacy_behaviour, test_rollback_preserves_backup؛ استيرادات: __future__, import_workspace, import_workspace_cli, json, map_raw_to_db, os, pathlib, shutil
+- `test_project_structure.py` — .py، 4228 بايت، 101 سطر. أصناف: TestRootIsClean, TestPackagesDocumented, TestNoLegacyAtRoot؛ دوال: _root_files, test_no_stray_root_python, test_no_stray_root_javascript, test_allowlisted_files_actually_exist, test_packages_have_readme, test_required_root_docs_present, test_legacy_scripts_were_relocated؛ استيرادات: __future__, os, sys, unittest
+- `brain/README.md` — .md، 2603 بايت، 57 سطر. عناوين: Knowledge Base — the "second brain" (Stage 4) | Commands | What it does | Layout
+- `brain/__init__.py` — .py، 131 بايت، 5 سطر. لا تحليل رمزي خاص
+- `brain/cli.py` — .py، 7386 بايت، 187 سطر. دوال: cmd_check, cmd_index, cmd_graph, cmd_search, cmd_note, cmd_related, cmd_graph_json, main؛ استيرادات: .data_notes, .graph, .parse, .search, __future__, argparse, json, os
+- `brain/data_notes.py` — .py، 5828 بايت، 141 سطر. دوال: _slug, generate_region_notes, generate_report_notes, generate_product_notes؛ استيرادات: __future__, os, re, reports.definitions, sqlite3
+- `brain/graph.py` — .py، 4709 بايت، 126 سطر. أصناف: KnowledgeGraph؛ دوال: _norm, parse_object_ref, build_graph, __init__, notes_for_object, backlinks, orphans, tags, broken_links, to_dict؛ استيرادات: .parse, __future__, re
+- `brain/parse.py` — .py، 3094 بايت، 94 سطر. أصناف: Note؛ دوال: _parse_frontmatter, _link_target, parse_note, parse_tree؛ استيرادات: __future__, dataclasses, os, re
+- `brain/search.py` — .py، 2739 بايت، 89 سطر. أصناف: SearchHit؛ دوال: _tokens, _snippet, search, to_dict؛ استيرادات: .parse, __future__, dataclasses, re
+- `brain/test_brain.py` — .py، 4669 بايت، 121 سطر. دوال: _write, test_parse, test_graph, test_data_notes_link_into_wiki, test_typed_object_links, test_search_ranks_title_and_returns_snippet, main؛ استيرادات: ., .graph, .parse, .search, __future__, os, sqlite3, tempfile
+- `docs/README.md` — .md، 1611 بايت، 33 سطر. عناوين: Documentation index | Start here (root) | Reference (this folder) | Archived (`docs/legacy/`)
+- `docs/arabic-stage6-handoff.md` — .md، 4182 بايت، 94 سطر. عناوين: Arabic Stage 6 Current State | Current state on `main` | Non-negotiable rules | Browser visual QA already performed in this pass | Remaining work
+- `docs/client-demo-script.md` — .md، 3555 بايت، 78 سطر. عناوين: سكريبت العرض التجريبي للعميل | 1. ما الذي ترفعه | 2. ما الذي يستخرجه النظام | 3. ما الذي يتم تحديده | 4. لوحة المعلومات
+- `docs/client-readiness-review.md` — .md، 9600 بايت، 222 سطر. عناوين: Client Readiness Review | Current verdict | What a client will like | What a client will complain about | 1. Setup still feels technical
+- `docs/database.md` — .md، 6285 بايت، 95 سطر. عناوين: Database layer — analysis & hardening (تحليل طبقة قواعد البيانات) | 1. Technology & why | Key conventions (don't break these) | 2. The three writers (and the consumer) | 3. Resilience already in place
+- `docs/design-qa.md` — .md، 2577 بايت، 44 سطر. عناوين: Design QA
+- `extractor/README.md` — .md، 7270 بايت، 153 سطر. عناوين: Extraction Engine | The idea in one picture | How to run it | Design decisions (the architecture) | 1. COM-first on Windows, cross-platform fallback everywhere
+- `extractor/__init__.py` — .py، 182 بايت، 6 سطر. لا تحليل رمزي خاص
+- `extractor/arabic.py` — .py، 6841 بايت، 177 سطر. دوال: clean_display, to_ascii_digits, match_key, parse_number, month_to_number؛ استيرادات: __future__, re, unicodedata
+- `extractor/base.py` — .py، 2160 بايت، 62 سطر. أصناف: Extractor؛ دوال: optional_import, handles, is_available, extract_content, extract؛ استيرادات: ., __future__, os, typing
+- `extractor/cli.py` — .py، 4987 بايت، 131 سطر. دوال: iter_files, write_raw, run, print_availability, main؛ استيرادات: ., __future__, argparse, json, os, traceback
+- `extractor/com_utils.py` — .py، 13498 بايت، 345 سطر. دوال: is_cv_error, clean_com_value, normalize_block, fill_merged_cells, combine_header_rows, chunk_bounds, find_sheet, _excel_pid, _terminate_orphan, excel_session؛ استيرادات: __future__, contextlib, ctypes, datetime, gc, math, os, pythoncom
+- `extractor/csv_text.py` — .py، 5604 بايت، 159 سطر. أصناف: CsvTextExtractor؛ دوال: _decode, _looks_binary, _sniff_delimiter, _clean, is_available, extract_content؛ استيرادات: .base, __future__, csv, io, os
+- `extractor/excel_com.py` — .py، 5276 بايت، 139 سطر. أصناف: ExcelComExtractor؛ دوال: _safe_name, is_available, extract_content, _read_sheet؛ استيرادات: ., .base, __future__, os, sys
+- `extractor/excel_openpyxl.py` — .py، 6151 بايت، 153 سطر. أصناف: ExcelOpenpyxlExtractor؛ دوال: _clean, is_available, extract_content؛ استيرادات: ., .base, __future__, datetime, openpyxl, os
+- `extractor/excel_xls.py` — .py، 3615 بايت، 103 سطر. أصناف: ExcelXlsExtractor؛ دوال: _clean, is_available, extract_content؛ استيرادات: .base, __future__, os, xlrd
+- `extractor/excel_xlsb.py` — .py، 4286 بايت، 106 سطر. أصناف: ExcelXlsbExtractor؛ دوال: _clean, is_available, extract_content؛ استيرادات: .base, __future__, datetime, os, pyxlsb
+- `extractor/manifest.py` — .py، 1559 بايت، 48 سطر. دوال: manifest_path, load_seen_hashes, append؛ استيرادات: __future__, datetime, json, os
+- `extractor/outlook_msg.py` — .py، 6175 بايت، 169 سطر. أصناف: OutlookMsgExtractor؛ دوال: is_available, extract_content, _extract_eml, _extract_msg؛ استيرادات: .base, __future__, email, extract_msg, os
+- `extractor/pdf_text.py` — .py، 6684 بايت، 167 سطر. أصناف: PdfTextExtractor؛ دوال: ocr_available, _ocr_page, is_available, extract_content؛ استيرادات: .base, PIL, __future__, os, pdfplumber, pytesseract
+- `extractor/raw.py` — .py، 2076 بايت، 62 سطر. دوال: sha256_of, _utc_now_iso, build_envelope, raw_output_name؛ استيرادات: __future__, datetime, hashlib, os, re
+- `extractor/registry.py` — .py، 2365 بايت، 68 سطر. دوال: select_extractor, describe_availability؛ استيرادات: .csv_text, .excel_com, .excel_openpyxl, .excel_xls, .excel_xlsb, .outlook_msg, .pdf_text, .word_docx
+- `extractor/requirements.txt` — .txt، 1102 بايت، 23 سطر. لا تحليل رمزي خاص
+- `extractor/test_arabic.py` — .py، 3877 بايت، 91 سطر. دوال: _eq, test_clean_display_keeps_letters, test_match_key_folds_variants, test_to_ascii_digits, test_parse_number_arabic_formats, test_parse_number_rejects_garbage, test_month_to_number, main؛ استيرادات: __future__, extractor
+- `extractor/test_excel_com.py` — .py، 11998 بايت، 301 سطر. أصناف: _Count, _UsedRange, _RangeValue, FakeSheet, FakeSheets, FakeWorkbook, TestPureHelpers, _FakeWorkbooks؛ دوال: __init__, __init__, __init__, __init__, UsedRange, Cells, Range, __init__, __call__, __init__؛ استيرادات: __future__, datetime, extractor, extractor.excel_com, os, sys, tempfile, unittest
+- `extractor/test_extractor.py` — .py، 8524 بايت، 221 سطر. دوال: _make_samples, test_csv_arabic_encoding, test_csv_edge_cases, test_excel_formula_errors, test_excel_corrupt_file, test_excel_empty_file, test_new_extractors_registered, main؛ استيرادات: ., .cli, .csv_text, .excel_openpyxl, __future__, docx, json, openpyxl
+- `extractor/word_docx.py` — .py، 2818 بايت، 82 سطر. أصناف: WordDocxExtractor؛ دوال: is_available, extract_content؛ استيرادات: .base, __future__, docx, os
+- `fonts/NotoNaskhArabic.ttf` — .ttf، 307592 بايت، 6744 سطر. لا تحليل رمزي خاص
+- `intake/.gitkeep` — [noext]، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `knowledge/conventions.md` — .md، 484 بايت، 17 سطر. عناوين: Data Conventions
+- `knowledge/glossary.md` — .md، 682 بايت، 22 سطر. عناوين: Glossary
+- `knowledge/index.md` — .md، 487 بايت، 24 سطر. عناوين: Knowledge Base Index | Notes | Tags
+- `knowledge/reports.md` — .md، 688 بايت، 21 سطر. عناوين: Reports
+- `mcp_server/README.md` — .md، 2647 بايت، 69 سطر. عناوين: mcp_server — agent tool access (harness layer) | Tools | Connect it to Claude Code | Manual smoke check | Tests
+- `mcp_server/__init__.py` — .py، 78 بايت، 2 سطر. لا تحليل رمزي خاص
+- `mcp_server/server.py` — .py، 4375 بايت، 125 سطر. دوال: _result, _error, _public_tools, _call_tool, handle_message, serve؛ استيرادات: ., __future__, json, sys, tools
+- `mcp_server/test_mcp.py` — .py، 7882 بايت، 199 سطر. أصناف: _TempDB, TestDataTools, TestExtractionTool, TestWikiTools, TestJsonRpcDispatch؛ دوال: __enter__, __exit__, test_db_overview, test_run_select_ok, test_run_select_enforces_limit, test_run_select_rejects_writes_and_pragma, test_run_select_missing_db, test_pl_summary, test_generate_report_returns_envelope, test_generate_report_rejects_unknown؛ استيرادات: __future__, db_schema, mcp_server, os, sqlite3, sys, tempfile, unittest
+- `mcp_server/tools.py` — .py، 16207 بايت، 418 سطر. أصناف: ToolError؛ دوال: _connect_ro, db_overview, _enforce_select, run_select, pl_summary, generate_report, project_status, run_test, brain_check, task_board_read؛ استيرادات: __future__, brain.search, db_schema, extractor, os, re, reports.definitions, reports.generate
+- `output/guardian_state.json` — .json، 51 بايت، 1 سطر. لا تحليل رمزي خاص
+- `raw/.gitkeep` — [noext]، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `reports/README.md` — .md، 7293 بايت، 154 سطر. عناوين: Reports Engine (Stage 2) | How to run it | Board pack: bundle ALL reports into ONE file you hand to management. | Live API access (from the dashboard) | Export safety
+- `reports/__init__.py` — .py، 441 بايت، 17 سطر. دوال: safe_str؛ استيرادات: re
+- `reports/anomaly.py` — .py، 11806 بايت، 260 سطر. دوال: _pct, _dim_year, _period_series, _anomaly, detect_anomalies, build_report, main؛ استيرادات: .outlook, __future__, argparse, json, os, sqlite3, sys
+- `reports/cli.py` — .py، 4496 بايت، 106 سطر. دوال: main؛ استيرادات: ., .client_templates, .definitions, .generate, __future__, argparse, json, os
+- `reports/client_templates.py` — .py، 5878 بايت، 183 سطر. أصناف: ClientTemplate؛ دوال: _load_raw, load_template, list_client_report_names, get_client_label, get_client_labels, get_client_sql, invalidate_cache, default_template؛ استيرادات: .definitions, __future__, copy, dataclasses, json, os, pathlib, typing
+- `reports/decomposition.py` — .py، 8693 بايت، 220 سطر. دوال: decompose, auto_years, main؛ استيرادات: .outlook, __future__, argparse, json, os, sqlite3, sys, typing
+- `reports/definitions.py` — .py، 3338 بايت، 93 سطر. أصناف: Report؛ استيرادات: .decomposition, .outlook, .validation, __future__, dataclasses, typing
+- `reports/generate.py` — .py، 7333 بايت، 190 سطر. دوال: _utc_now_iso, run_report, build_envelope, write_json, write_csv, _check_formats, _run_sql, _run_builder, compute_envelopes, generate؛ استيرادات: ., .client_templates, .definitions, __future__, csv, datetime, json, os
+- `reports/nlquery.py` — .py، 11359 بايت، 286 سطر. دوال: build_vocab, _find_metric, _find_dimension, _find_entities, _find_year, _find_quarter, _find_limit, parse, _interpretation, run؛ استيرادات: .outlook, __future__, argparse, json, os, re, sqlite3, sys
+- `reports/outlook.py` — .py، 4605 بايت، 115 سطر. دوال: detect_years, _has_forecast, _outlook_where, _sum_lines, build_outlook_pl, build_outlook_monthly؛ استيرادات: __future__
+- `reports/pricing.py` — .py، 6418 بايت، 153 سطر. دوال: _dim_totals, _suggestion, detect_pricing, build_report, main؛ استيرادات: .outlook, __future__, argparse, json, os, sqlite3, sys
+- `reports/render.py` — .py، 32123 بايت، 743 سطر. دوال: _translate_report, _is_number, _has_arabic, envelope_has_arabic, excel_number_format, pdf_format, _safe_sheet_title, _now, excel_available, _excel_write_sheet؛ استيرادات: ., __future__, arabic_reshaper, bidi.algorithm, datetime, html, openpyxl, openpyxl.styles
+- `reports/requirements.txt` — .txt، 497 بايت، 10 سطر. لا تحليل رمزي خاص
+- `reports/scenario.py` — .py، 11873 بايت، 297 سطر. أصناف: ScenarioError؛ دوال: load_scenario, validate_scenario, _matches, _factor, run_scenario, _slug, generate_scenario, evaluate_config, compare, evaluate_compare؛ استيرادات: ., __future__, argparse, json, os, re, sqlite3, sys
+- `reports/sensitivity.py` — .py، 4408 بايت، 116 سطر. دوال: _net_income, run_sensitivity, build_report, main, cfg؛ استيرادات: ., __future__, argparse, json, os, sqlite3, sys
+- `reports/test_anomaly.py` — .py، 6545 بايت، 166 سطر. دوال: _versions, _make_db, _detect, _normal, test_clean_data_no_anomalies, test_first_negative_margin, test_margin_erosion, test_customer_churn, test_expense_spike, test_period_spike؛ استيرادات: ., __future__, os, sqlite3, tempfile
+- `reports/test_client_templates.py` — .py، 6781 بايت، 196 سطر. دوال: test_load_nonexistent, test_load_valid_template, test_duplicate_report_name_rejected, test_get_client_label, test_default_template, test_list_client_report_names, test_invalid_json_returns_none, test_get_client_labels؛ استيرادات: __future__, json, pathlib, reports.client_templates, sys, tempfile
+- `reports/test_decomposition.py` — .py، 3780 بايت، 112 سطر. دوال: test_decompose_group_level, test_decompose_by_region, test_decompose_by_product, test_auto_years, test_decompose_zero_volume_handled؛ استيرادات: __future__, pathlib, reports.decomposition, sqlite3, sys, tempfile
+- `reports/test_nlquery.py` — .py، 4070 بايت، 117 سطر. دوال: test_metric_detection, test_group_by_and_year, test_comparison_sets_group_and_filters, test_single_entity_is_filter_not_group, test_quarter, test_top_n, _make_db, test_run_end_to_end, main؛ استيرادات: ., __future__, os, sqlite3, tempfile
+- `reports/test_pricing.py` — .py، 3756 بايت، 113 سطر. دوال: _versions, _make_db, _healthy, _detect, test_clean_uniform_no_suggestions, test_lose_money, test_over_discounted, test_raise_price, main؛ استيرادات: ., __future__, os, sqlite3, tempfile
+- `reports/test_render.py` — .py، 6601 بايت، 176 سطر. دوال: test_number_formatting, test_excel, test_excel_arabic_is_rtl, test_pdf, test_pdf_arabic, test_excel_pack, test_pdf_pack, test_arabic_font_css_is_self_contained, main؛ استيرادات: ., __future__, openpyxl, os, tempfile
+- `reports/test_reports.py` — .py، 5614 بايت، 139 سطر. دوال: _make_db, _make_outlook_db, test_csv_has_bom_and_preserves_arabic, test_outlook_reports, main؛ استيرادات: .definitions, .generate, __future__, json, os, sqlite3, tempfile
+- `reports/test_scenario.py` — .py، 6064 بايت، 161 سطر. دوال: _make_db, _lines, test_zero_adjustment_reproduces_baseline, test_regional_revenue_cut, test_validation, test_evaluate_config_json_ready, test_compare_side_by_side, main, coverage؛ استيرادات: ., __future__, os, sqlite3, tempfile
+- `reports/test_sensitivity.py` — .py، 2670 بايت، 84 سطر. دوال: _make_db, _run, test_three_drivers_present_and_ranked, test_driver_directions, test_zero_delta_is_flat, main؛ استيرادات: ., __future__, os, sqlite3, tempfile
+- `reports/validation.py` — .py، 5906 بايت، 128 سطر. دوال: build_import_validation؛ استيرادات: __future__, sqlite3
+- `sample_data/README.md` — .md، 729 بايت، 24 سطر. عناوين: Sample Data — complete lineage demo
+- `sample_data/complete_pl.raw.json` — .json، 1227 بايت، 28 سطر. لا تحليل رمزي خاص
+- `sample_data/mapping.complete.json` — .json، 648 بايت، 27 سطر. لا تحليل رمزي خاص
+- `sample_data/sample_mapping_english.json` — .json، 930 بايت، 35 سطر. لا تحليل رمزي خاص
+- `sample_data/sample_pl_arabic.csv` — .csv، 2597 بايت، 14 سطر. لا تحليل رمزي خاص
+- `sample_data/sample_pl_english.csv` — .csv، 1943 بايت، 14 سطر. لا تحليل رمزي خاص
+- `.github/workflows/ci.yml` — .yml، 2839 بايت، 102 سطر. لا تحليل رمزي خاص
+- `.hermes/plans/2026-06-15-mapping-review-tool.md` — .md، 24864 بايت، 793 سطر. عناوين: Mapping Review Tool — Implementation Plan | Task 1: Create `mapping_tool.py` skeleton with CLI args | Task 2: Implement `scan_raw_files()` — extract sheets and headers | Create a fake raw file | Task 3: Implement `suggest_mappings()` — match headers to DB columns
+- `.hermes/plans/2026-06-15_150000-phase-2-import-workspace.md` — .md، 11460 بايت، 398 سطر. عناوين: Phase 2 — Import-Run Workspace & Rollback | Locked scope decisions | Out of scope (deferred) | Task 1: Read existing patterns | Task 2: Add `workspaces/` and `intake_<client>/` patterns to `.gitignore`
+- `docs/legacy/skill-precompute-pipeline.md` — .md، 33321 بايت، 747 سطر. عناوين: Company Dashboard — PL Financial Analysis Platform | Current Completion Snapshot | Current Architecture (v5) | Table of Contents | System Overview (Legacy v2 Snapshot)
+- `knowledge/data/report-country_pl.md` — .md، 382 بايت، 16 سطر. عناوين: Report: Country P&L
+- `knowledge/data/report-customer_pl.md` — .md، 387 بايت، 16 سطر. عناوين: Report: Customer P&L
+- `knowledge/data/report-decomposition.md` — .md، 446 بايت، 16 سطر. عناوين: Report: Volume/Price Decomposition
+- `knowledge/data/report-import_validation.md` — .md، 449 بايت، 16 سطر. عناوين: Report: Import Validation Report
+- `knowledge/data/report-outlook_monthly.md` — .md، 444 بايت، 16 سطر. عناوين: Report: Monthly Outlook Progression
+- `knowledge/data/report-outlook_pl.md` — .md، 483 بايت، 16 سطر. عناوين: Report: Full-Year Outlook vs Prior Year
+- `knowledge/data/report-product_group_pl.md` — .md، 412 بايت، 16 سطر. عناوين: Report: Product Group P&L
+- `knowledge/data/report-regional_pl.md` — .md، 385 بايت، 16 سطر. عناوين: Report: Regional P&L
+- `knowledge/data/report-yearly_pl.md` — .md، 400 بايت، 16 سطر. عناوين: Report: Yearly P&L Summary
+- `knowledge/data/report-yoy_variance.md` — .md، 413 بايت، 16 سطر. عناوين: Report: Year-over-Year Variance
+- `knowledge/decisions/0001-synthetic-seed.md` — .md، 596 بايت، 19 سطر. عناوين: ADR 0001 — Synthetic Seed Database
+- `knowledge/processes/data-pipeline.md` — .md، 502 بايت، 18 سطر. عناوين: Data Pipeline
+- `output/reports/board-pack.pdf` — .pdf، 146929 بايت، 1586 سطر. لا تحليل رمزي خاص
+- `output/reports/board-pack.xlsx` — .xlsx، 32434 بايت، 239 سطر. لا تحليل رمزي خاص
+- `output/reports/import_validation.json` — .json، 3577 بايت، 181 سطر. لا تحليل رمزي خاص
+- `output/reports/yearly_pl.pdf` — .pdf، 3479 بايت، 75 سطر. لا تحليل رمزي خاص
+- `scripts/legacy/README.md` — .md، 1602 بايت، 24 سطر. عناوين: scripts/legacy — archived one-off scripts
+- `scripts/legacy/analysis_cfo.py` — .py، 19922 بايت، 479 سطر. دوال: get_conn, q, save, analysis_margin, analysis_hhi, analysis_forecast, analysis_leverage, analysis_decompose, main؛ استيرادات: argparse, datetime, duckdb, json, numpy, numpy.polynomial, os, pandas
+- `scripts/legacy/check_db.py` — .py، 302 بايت، 10 سطر. استيرادات: os, sqlite3
+- `scripts/legacy/create_dynamic_indexes.js` — .js، 3090 بايت، 54 سطر. لا تحليل رمزي خاص
+- `scripts/legacy/create_indexes_views.py` — .py، 6087 بايت، 192 سطر. استيرادات: os, sqlite3, time
+- `scripts/legacy/explore_sheet1.py` — .py، 2449 بايت، 71 سطر. دوال: explore_sheet1؛ استيرادات: os, pythoncom, traceback, win32com.client
+- `scripts/legacy/extract_pl_data.py` — .py، 4851 بايت، 138 سطر. دوال: extract_pl_data؛ استيرادات: json, os, pythoncom, traceback, win32com.client
+- `scripts/legacy/precompute_data.py` — .py، 5683 بايت، 121 سطر. دوال: query, save, main؛ استيرادات: json, os, sqlite3, time
+- `scripts/legacy/test_db.js` — .js، 2119 بايت، 38 سطر. لا تحليل رمزي خاص
+- `scripts/legacy/verify_db.py` — .py، 1488 بايت، 51 سطر. استيرادات: os, sqlite3
+- `workspaces/synthetic/templates.json` — .json، 619 بايت، 17 سطر. لا تحليل رمزي خاص
+
+## llm-wiki-agent
+- الملفات: 66
+
+- `AGENTS.md` — .md، 5556 بايت، 221 سطر. عناوين: LLM Wiki Agent — Schema & Workflow Instructions | How to Use | Directory Layout | Page Format | Ingest Workflow
+- `CLAUDE.md` — .md، 6079 بايت، 232 سطر. عناوين: LLM Wiki Agent — Schema & Workflow Instructions | Slash Commands (Claude Code) | Directory Layout | Page Format | Ingest Workflow
+- `GEMINI.md` — .md، 3806 بايت، 177 سطر. عناوين: LLM Wiki Agent — Schema & Workflow Instructions | How to Use | Directory Layout | Page Format | Ingest Workflow
+- `LICENSE` — [noext]، 1067 بايت، 22 سطر. لا تحليل رمزي خاص
+- `README.md` — .md، 9960 بايت، 247 سطر. عناوين: LLM Wiki Agent | Install | Usage | What You Get | Use Cases
+- `pyproject.toml` — .toml، 405 بايت، 21 سطر. لا تحليل رمزي خاص
+- `requirements.txt` — .txt، 29 بايت، 3 سطر. لا تحليل رمزي خاص
+- `docs/automated-sync.md` — .md، 3750 بايت، 102 سطر. عناوين: Automated Wiki Synchronization Guide | The Two-Step Architecture | Step 1: The Master Orchestrator Script | Define variables | 1. Run your personal Vault-to-Raw symlink script here
+- `graph/.gitkeep` — [noext]، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `graph/graph.html` — .html، 110537 بايت، 1761 سطر. لا تحليل رمزي خاص
+- `graph/graph.json` — .json، 93624 بايت، 1224 سطر. لا تحليل رمزي خاص
+- `raw/.gitkeep` — [noext]، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `raw/april-sector-map-vs-constitution.md` — .md، 4097 بايت، 52 سطر. عناوين: تحليل خريطة 9-11 أبريل 2026 مقابل الدستور | الحكم السريع | ما يطابق الدستور | ما يخالف الدستور أو يضعفه | ما يجب أن يعلو فوق المثال
+- `raw/egx-portfolio-monitoring-system.md` — .md، 5282 بايت، 140 سطر. عناوين: نظام متابعة المحفظة المصرية 📈 | الهدف | جوهر النظام | فلتر القبول الشرعي ☪️ | مستبعد تلقائيًا
+- `raw/egx-system.md` — .md، 3180 بايت، 59 سطر. عناوين: egx_system | الهدف | الحالة الحالية بعد إعادة التنظيم | الملفات الأساسية المعتمدة الآن | ترتيب القراءة الإلزامي لأي AI
+- `raw/egypt-egx-daily-weekly-monthly-guide.md` — .md، 12987 بايت، 197 سطر. عناوين: دليل التشغيل اليومي / الأسبوعي / الشهري للبورصة المصرية | 0) قبل البدء | 1) الهدف من الروتين | 2) الروتين اليومي قبل السوق | 3) الروتين اليومي أثناء السوق
+- `raw/egyptian-stock-investment-project.md` — .md، 5836 بايت، 66 سطر. عناوين: مشروع الاستثمار في البورصة المصرية | الفكرة الأساسية | الخلاصة البحثية | ما كان ناقصًا بعد المراجعة العميقة | ترتيب القطاعات
+- `raw/integrated-sector-selection-constitution-egypt.md` — .md، 15364 بايت، 249 سطر. عناوين: دستور عملي لاختيار القطاعات المتكاملة في البورصة المصرية | 1) الهدف الحقيقي | 2) القاعدة الذهبية | 3) أول خطوة قبل اختيار أي قطاع | 4) الوظائف الخمس الأساسية داخل المحفظة
+- `raw/integrated-sector-selection-method.md` — .md، 3840 بايت، 46 سطر. عناوين: منهج اختيار القطاعات المتكاملة | الغرض | قبل الاختيار | ما كان ناقصًا ويجب تثبيته | طبقة التنفيذ
+- `raw/investment-decision-constitution-egypt.md` — .md، 5116 بايت، 79 سطر. عناوين: دستور قرار الاستثمار في البورصة المصرية | الهدف | القاعدة الأولى | فلتر الدخول الإلزامي | فلتر القبول الشرعي
+- `raw/karpathy-llm-wiki.md` — .md، 943 بايت، 18 سطر. عناوين: Source Capture: Karpathy LLM Wiki | Capture Notes | Core Shape | Why it matters
+- `raw/llm-wiki-agent.md` — .md، 867 بايت، 16 سطر. عناوين: Source Capture: llm-wiki-agent README | Capture Notes | Why this matters
+- `raw/sector-evaluation-matrix-egypt.md` — .md، 2954 بايت، 58 سطر. عناوين: مصفوفة تقييم القطاعات – البورصة المصرية | الهدف | طريقة التقييم | الأوزان المقترحة | تفسير النتائج
+- `raw/source-ladder-analysis-egypt.md` — .md، 6158 بايت، 96 سطر. عناوين: سلم مصادر التحليل اليومي والساعة | المبدأ | 1) طبقة الحقيقة الرسمية | 2) طبقة الفهم والتفسير | 3) طبقة المتابعة والتنفيذ
+- `tools/build_graph.py` — .py، 45218 بايت، 1244 سطر. دوال: read_file, call_llm, sha256, all_wiki_pages, extract_wikilinks, extract_frontmatter_type, page_id, edge_id, load_cache, save_cache؛ استيرادات: argparse, datetime, hashlib, json, litellm, networkx, networkx.algorithms, os
+- `tools/file_to_markdown.py` — .py، 2593 بايت، 79 سطر. دوال: convert_directory_to_md, main؛ استيرادات: argparse, markitdown, pathlib, tqdm
+- `tools/heal.py` — .py، 3129 بايت، 101 سطر. دوال: call_llm, search_sources, heal_missing_entities؛ استيرادات: litellm, os, pathlib, sys, tools.lint
+- `tools/ingest.py` — .py، 13221 بايت، 370 سطر. دوال: sha256, read_file, call_llm, write_file, build_wiki_context, parse_json_from_response, update_index, append_log, extract_wikilinks, all_wiki_pages؛ استيرادات: collections, datetime, glob, hashlib, json, litellm, os, pathlib
+- `tools/lint.py` — .py، 14977 بايت، 415 سطر. دوال: read_file, call_llm, all_wiki_pages, extract_wikilinks, page_name_to_path, find_orphans, find_broken_links, find_missing_entities, load_graph_data, _build_degree_map؛ استيرادات: __future__, argparse, collections, datetime, json, litellm, os, pathlib
+- `tools/query.py` — .py، 7833 بايت، 214 سطر. دوال: read_file, write_file, call_llm, find_relevant_pages, append_log, query؛ استيرادات: argparse, datetime, json, litellm, os, pathlib, re, sys
+- `tools/refresh.py` — .py، 5365 بايت، 173 سطر. دوال: sha256, read_file, load_refresh_cache, save_refresh_cache, extract_source_file, find_stale_sources, refresh_page, main؛ استيرادات: argparse, datetime, hashlib, ingest, json, os, pathlib, re
+- `wiki/index.md` — .md، 4199 بايت، 41 سطر. عناوين: Wiki Index | Overview | Sources | Entities | Concepts
+- `wiki/log.md` — .md، 1720 بايت، 39 سطر. عناوين: [2026-05-15] query | قرار دورة الذكاء الأسبوعية | [2026-05-15] ingest | الدفعة الثانية للحالات القطاعية | Wiki Log | [2026-04-17] create | Wiki initialized | [2026-04-17] ingest | EGX doctrine pack
+- `wiki/overview.md` — .md، 2732 بايت، 39 سطر. عناوين: Overview | Current synthesis | What changed in this ingest | Next useful additions | الدفعة الثانية: الحالات القطاعية والتقييم العملي
+- `.claude/commands/wiki-graph.md` — .md، 964 بايت، 19 سطر. لا تحليل رمزي خاص
+- `.claude/commands/wiki-ingest.md` — .md، 910 بايت، 19 سطر. لا تحليل رمزي خاص
+- `.claude/commands/wiki-lint.md` — .md، 844 بايت، 20 سطر. لا تحليل رمزي خاص
+- `.claude/commands/wiki-query.md` — .md، 613 بايت، 15 سطر. لا تحليل رمزي خاص
+- `examples/cjk-showcase/README.md` — .md، 911 بايت، 15 سطر. عناوين: CJK Showcase (Chinese Language Example) | Files included in this showcase:
+- `wiki/concepts/EGXInvestmentDoctrine.md` — .md، 2456 بايت، 41 سطر. عناوين: دستور الاستثمار في البورصة المصرية | Summary | Core Claims | Connections | Contradictions
+- `wiki/concepts/EGXPortfolioMonitoringSystem.md` — .md، 2383 بايت، 39 سطر. عناوين: نظام متابعة المحفظة المصرية | Summary | Core Claims | Connections | Contradictions
+- `wiki/concepts/IntegratedSectorSelection.md` — .md، 1975 بايت، 35 سطر. عناوين: اختيار القطاعات المتكاملة | Summary | Core Claims | Connections | Contradictions
+- `wiki/concepts/LLMWikiPattern.md` — .md، 1337 بايت، 36 سطر. عناوين: LLM Wiki Pattern | Core layers | Core behaviors | Why it works | Related pages
+- `wiki/concepts/SectorCaseReview.md` — .md، 861 بايت، 26 سطر. عناوين: مراجعة الحالات القطاعية | التعريف | المخرج المطلوب | العلاقات
+- `wiki/concepts/SectorEvaluationMatrix.md` — .md، 933 بايت، 23 سطر. عناوين: مصفوفة تقييم القطاعات | التعريف | لماذا تهم | العلاقات
+- `wiki/concepts/SourceLadder.md` — .md، 1884 بايت، 36 سطر. عناوين: سلم مصادر التحليل | Summary | Core Claims | Connections | Contradictions
+- `wiki/entities/AndrejKarpathy.md` — .md، 744 بايت، 22 سطر. عناوين: Andrej Karpathy | Why he matters here | Related pages
+- `wiki/entities/CAPMAS.md` — .md، 1680 بايت، 33 سطر. عناوين: الجهاز المركزي للتعبئة العامة والإحصاء | Summary | Role in the system | Connections | Contradictions
+- `wiki/entities/CBE.md` — .md، 1541 بايت، 33 سطر. عناوين: البنك المركزي المصري | Summary | Role in the system | Connections | Contradictions
+- `wiki/entities/EGX.md` — .md، 1682 بايت، 33 سطر. عناوين: EGX / البورصة المصرية | Summary | Role in the system | Connections | Contradictions
+- `wiki/entities/FRA.md` — .md، 1678 بايت، 33 سطر. عناوين: الهيئة العامة للرقابة المالية | Summary | Role in the system | Connections | Contradictions
+- `wiki/entities/SamurAIGPT.md` — .md، 611 بايت، 22 سطر. عناوين: SamurAIGPT | Why this matters | Related pages
+- `wiki/sources/april-sector-map-vs-constitution.md` — .md، 1487 بايت، 25 سطر. عناوين: Summary | Key Claims | Connections | Contradictions
+- `wiki/sources/egx-portfolio-monitoring-system.md` — .md، 2344 بايت، 44 سطر. عناوين: EGX Portfolio Monitoring System | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/egx-system.md` — .md، 2096 بايت، 43 سطر. عناوين: نظام egx_system | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/egypt-egx-daily-weekly-monthly-guide.md` — .md، 2285 بايت، 44 سطر. عناوين: دليل التشغيل اليومي الأسبوعي الشهري للبورصة المصرية | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/egyptian-stock-investment-project.md` — .md، 2538 بايت، 43 سطر. عناوين: مشروع الاستثمار في البورصة المصرية | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/integrated-sector-selection-constitution-egypt.md` — .md، 2075 بايت، 39 سطر. عناوين: دستور عملي لاختيار القطاعات المتكاملة في البورصة المصرية | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/integrated-sector-selection-method.md` — .md، 1925 بايت، 39 سطر. عناوين: منهج اختيار القطاعات المتكاملة | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/investment-decision-constitution-egypt.md` — .md، 2177 بايت، 43 سطر. عناوين: دستور قرار الاستثمار في البورصة المصرية | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/karpathy-llm-wiki.md` — .md، 1197 بايت، 38 سطر. عناوين: Karpathy LLM Wiki | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/llm-wiki-agent.md` — .md، 1316 بايت، 38 سطر. عناوين: LLM Wiki Agent | Summary | Key Claims | Key Quotes | Connections
+- `wiki/sources/sector-evaluation-matrix-egypt.md` — .md، 1543 بايت، 25 سطر. عناوين: Summary | Key Claims | Connections | Contradictions
+- `wiki/sources/source-ladder-analysis-egypt.md` — .md، 2285 بايت، 42 سطر. عناوين: سلم مصادر التحليل اليومي والساعة | Summary | Key Claims | Key Quotes | Connections
+- `wiki/syntheses/weekly-intelligence-cycle-2026-05-15.md` — .md، 1580 بايت، 24 سطر. عناوين: قرار دورة الذكاء الأسبوعية - 2026-05-15 | السؤال | الإجابة | الروابط | القرار العملي
+- `examples/cjk-showcase/raw/2026-04-13-reflection.md` — .md، 781 بايت، 8 سطر. عناوين: 2026-04-13 关于AI转型的复盘总结
+
+## company-data-command-center
+- الملفات: 16
+
+- `.env.example` — .example، 602 بايت، 21 سطر. لا تحليل رمزي خاص
+- `.gitignore` — [noext]، 379 بايت، 35 سطر. لا تحليل رمزي خاص
+- `README.md` — .md، 1715 بايت، 45 سطر. عناوين: company-data-command-center | Layout | Principles | Status | Setup (later, when dependencies are needed)
+- `pyproject.toml` — .toml، 874 بايت، 37 سطر. لا تحليل رمزي خاص
+- `schema.sql` — .sql، 3708 بايت، 94 سطر. جداول: raw_file, import_run, raw_record, entity_sale, provenance, validation_issue
+- `docs/data-model.md` — .md، 5890 بايت، 118 سطر. عناوين: Data model | Raw layer | `raw_file` | `import_run` | `raw_record`
+- `docs/ingestion-contract.md` — .md، 3494 بايت، 82 سطر. عناوين: Ingestion contract | Pipeline shape | Stages | 1. Register | 2. Read
+- `docs/week-one-plan.md` — .md، 2424 بايت، 61 سطر. عناوين: خطة الأسبوع الأول | الهدف | حدود صارمة | ترتيب التنفيذ | اليوم الأول
+- `data/app/.gitkeep` — [noext]، 77 بايت، 2 سطر. لا تحليل رمزي خاص
+- `data/raw/.gitkeep` — [noext]، 59 بايت، 2 سطر. لا تحليل رمزي خاص
+- `src/files_to_reports/__init__.py` — .py، 404 بايت، 12 سطر. لا تحليل رمزي خاص
+- `src/files_to_reports/py.typed` — .typed، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `src/files_to_reports/ingest/__init__.py` — .py، 83 بايت، 2 سطر. لا تحليل رمزي خاص
+- `src/files_to_reports/normalize/__init__.py` — .py، 70 بايت، 2 سطر. لا تحليل رمزي خاص
+- `src/files_to_reports/reports/__init__.py` — .py، 70 بايت، 2 سطر. لا تحليل رمزي خاص
+- `src/files_to_reports/store/__init__.py` — .py، 70 بايت، 2 سطر. لا تحليل رمزي خاص
+
+## GenericAgent
+- الملفات: 128
+
+- `.gitignore` — [noext]، 1584 بايت، 105 سطر. لا تحليل رمزي خاص
+- `CONTRIBUTING.md` — .md، 2311 بايت، 45 سطر. عناوين: Contributing to GenericAgent | Why This File Is Short | Before You Contribute | Code Standards | Skill Contributions
+- `GETTING_STARTED.md` — .md، 8627 بايت، 269 سطر. عناوين: 🚀 新手上手指南 | 1. 安装 Python | Mac | Windows | 验证
+- `LICENSE` — [noext]، 1065 بايت، 22 سطر. لا تحليل رمزي خاص
+- `README.md` — .md، 21489 بايت، 493 سطر. عناوين: 🌟 Overview | 📋 Core Features | 🧬 Self-Evolution Mechanism | 🎯 Demo Showcase | 📅 Latest News
+- `TMWebDriver.py` — .py، 14704 بايت، 285 سطر. أصناف: Session, TMWebDriver, JSExecutor, _T, _H؛ دوال: __init__, url, is_active, reconnect, mark_disconnected, __init__, start_http_server, clean_sessions, start_ws_server, _register_client؛ مسارات/ديكورات: long_poll, result, link؛ استيرادات: bottle, bs4, json, queue, random, requests, simple_websocket_server, socket
+- `agent_loop.py` — .py، 6376 بايت، 119 سطر. أصناف: StepOutcome, BaseHandler؛ دوال: try_call_generator, json_default, exhaust, get_pretty_json, agent_runner_loop, _clean_content, _compact_tool_args, tool_before_callback, tool_after_callback, turn_end_callback؛ استيرادات: dataclasses, json, os, re, typing
+- `agentmain.py` — .py، 15544 بايت، 262 سطر. أصناف: GeneraticAgent؛ دوال: load_tool_schema, get_system_prompt, __init__, next_llm, list_llms, get_llm_name, abort, put_task, _handle_slash_cmd, run؛ استيرادات: agent_loop, argparse, datetime, ga, glob, importlib.util, json, llmcore
+- `ga.py` — .py، 33199 بايت، 558 سطر. أصناف: GenericAgentHandler؛ دوال: code_run, ask_user, first_init_driver, web_scan, format_error, log_memory_access, web_execute_js, expand_file_refs, file_patch, _scan_files؛ استيرادات: TMWebDriver, agent_loop, collections, datetime, difflib, importlib, itertools, json
+- `hub.pyw` — .pyw، 9920 بايت، 276 سطر. لا تحليل رمزي خاص
+- `launch.pyw` — .pyw، 6424 بايت، 129 سطر. لا تحليل رمزي خاص
+- `llmcore.py` — .py، 54062 بايت، 948 سطر. أصناف: BaseSession, ClaudeSession, LLMSession, NativeClaudeSession, NativeOAISession, MockFunction, MockToolCall, MockResponse؛ دوال: _load_mykeys, __getattr__, compress_history_tags, _sanitize_leading_user_msg, trim_messages_history, auto_make_url, _parse_claude_sse, _parse_openai_sse, _record_usage, _parse_openai_json؛ استيرادات: base64, copy, datetime, json, mimetypes, mykey, os, plugins
+- `mykey.py` — .py، 1238 بايت، 27 سطر. لا تحليل رمزي خاص
+- `mykey_template.py` — .py، 31719 بايت، 413 سطر. لا تحليل رمزي خاص
+- `simphtml.py` — .py، 42140 بايت، 871 سطر. دوال: optimize_html_for_tokens, start_temp_monitor, get_temp_texts, get_main_block, find_changed_elements, get_html, smart_truncate, execute_js_rich, direct_text, get_sig؛ استيرادات: bs4, os, re, time
+- `assets/SETUP_FEISHU.md` — .md، 7636 بايت، 302 سطر. عناوين: 飞书 Agent 配置指南 | 📋 目录 | 前置条件 | 必需环境 | 安装依赖
+- `assets/code_run_header.py` — .py، 959 بايت، 23 سطر. دوال: _d, _run؛ استيرادات: json, os, re, subprocess, sys, time
+- `assets/global_mem_insight_template.txt` — .txt، 1539 بايت، 23 سطر. لا تحليل رمزي خاص
+- `assets/global_mem_insight_template_en.txt` — .txt، 1804 بايت، 23 سطر. لا تحليل رمزي خاص
+- `assets/insight_fixed_structure.txt` — .txt، 649 بايت، 10 سطر. لا تحليل رمزي خاص
+- `assets/insight_fixed_structure_en.txt` — .txt، 803 بايت، 9 سطر. لا تحليل رمزي خاص
+- `assets/install_python_windows.bat` — .bat، 3357 بايت، 112 سطر. لا تحليل رمزي خاص
+- `assets/sys_prompt.txt` — .txt، 657 بايت، 7 سطر. لا تحليل رمزي خاص
+- `assets/sys_prompt_en.txt` — .txt، 830 بايت، 7 سطر. لا تحليل رمزي خاص
+- `assets/tool_usable_history.json` — .json، 1274 بايت، 1 سطر. لا تحليل رمزي خاص
+- `assets/tools_schema.json` — .json، 5940 بايت، 73 سطر. لا تحليل رمزي خاص
+- `assets/tools_schema_cn.json` — .json، 6850 بايت، 73 سطر. لا تحليل رمزي خاص
+- `frontends/DESKTOP_PET_README.md` — .md، 3758 بايت، 176 سطر. عناوين: Desktop Pet Skin System | 快速开始 | 功能特性 | 1. 多皮肤支持 | 2. 多动画状态
+- `frontends/chat_bubble.png` — .png، 504717 بايت، None سطر. لا تحليل رمزي خاص
+- `frontends/chatapp_common.py` — .py، 12154 بايت، 311 سطر. أصناف: AgentChatMixin؛ دوال: clean_reply, extract_files, strip_files, split_text, _restore_log_files, _restore_text_pairs, _native_prompt_obj, _native_prompt_text, _native_history_lines, _native_first_user_line؛ استيرادات: agentmain, ast, asyncio, continue_cmd, glob, json, os, queue
+- `frontends/continue_cmd.py` — .py، 9738 بايت، 246 سطر. دوال: _rel_time, _pairs, _first_user, _last_summary, _preview_text, _parse_native_history, list_sessions, _escape_md, _agent_clients, _replace_backend_history؛ استيرادات: ast, chatapp_common, glob, json, os, re, time
+- `frontends/desktop_pet.pyw` — .pyw، 3907 بايت، 94 سطر. لا تحليل رمزي خاص
+- `frontends/desktop_pet_v2.pyw` — .pyw، 31611 بايت، 825 سطر. لا تحليل رمزي خاص
+- `frontends/dingtalkapp.py` — .py، 6628 بايت، 141 سطر. أصناف: DingTalkApp, _DingTalkHandler؛ دوال: __init__, __init__, _fetch, _post؛ استيرادات: agentmain, asyncio, chatapp_common, dingtalk_stream, dingtalk_stream.chatbot, json, llmcore, os
+- `frontends/fsapp.py` — .py، 22235 بايت، 548 سطر. دوال: _clean, _extract_files, _strip_files, _display_text, _to_allowed_set, _parse_json, _extract_share_card_content, _extract_interactive_content, _extract_element_content, _extract_post_content؛ استيرادات: agentmain, frontends.chatapp_common, frontends.continue_cmd, glob, json, lark_oapi, lark_oapi.api.im.v1, llmcore
+- `frontends/pet.gif` — .gif، 2511 بايت، 16 سطر. لا تحليل رمزي خاص
+- `frontends/qqapp.py` — .py، 4872 بايت، 122 سطر. أصناف: QQApp, QQBot؛ دوال: _next_msg_seq, _build_intents, _make_bot_class, __init__, __init__؛ استيرادات: agentmain, asyncio, botpy, botpy.message, chatapp_common, collections, llmcore, os
+- `frontends/qtapp.py` — .py، 74389 بايت، 1747 سطر. أصناف: FloatingButton, _Separator, _Badge, _StreamingBadge, _MsgRow, _TabButton, ChatPanel؛ دوال: _md_to_html, _svg_icon, _make_session_id, _load_history, _save_history, _build_prompt_with_uploads, _action_btn, main, __init__, _tick؛ استيرادات: PySide6.QtCore, PySide6.QtGui, PySide6.QtSvg, PySide6.QtWidgets, __future__, agentmain, base64, datetime
+- `frontends/stapp.py` — .py، 10916 بايت، 221 سطر. دوال: init, render_sidebar, fold_turns, render_segments, agent_backend_stream, _reset_and_rerun, _pet_req, _pet_hook, _do؛ استيرادات: agentmain, chatapp_common, continue_cmd, json, os, queue, re, streamlit
+- `frontends/stapp2.py` — .py، 38073 بايت، 1050 سطر. دوال: init, build_dynamic_font_css, build_dynamic_font_update_script, build_header_agent_badge_script, init_session_state, render_sidebar, start_agent_task, poll_agent_output, _get_response_segments, render_message؛ استيرادات: agentmain, datetime, html, json, os, queue, re, streamlit
+- `frontends/tgapp.py` — .py، 6774 بايت، 159 سطر. دوال: _clean, _inline_md, _to_html؛ استيرادات: agentmain, asyncio, html, llmcore, os, queue, re, socket
+- `frontends/wechatapp.py` — .py، 16620 بايت، 338 سطر. أصناف: WxBotClient؛ دوال: _uin, _dl_media, _strip_md, _clean, _split, on_message, __init__, _load, _save, _post؛ استيرادات: Crypto.Cipher, agentmain, base64, hashlib, json, math, os, pathlib
+- `frontends/wecomapp.py` — .py، 4569 بايت، 109 سطر. أصناف: WeComApp؛ دوال: __init__؛ استيرادات: agentmain, asyncio, chatapp_common, collections, llmcore, os, sys, threading
+- `memory/adb_ui.py` — .py، 3661 بايت، 84 سطر. دوال: _dump_u2, _dump_native, _parse_xml, ui, tap؛ استيرادات: os, re, shutil, subprocess, uiautomator2, xml.etree.ElementTree
+- `memory/autonomous_operation_sop.md` — .md، 2482 بايت، 44 سطر. عناوين: 自主行动 SOP | 启动（第一步） | 任务选择 | 执行 | 权限边界
+- `memory/github_contribution_sop.md` — .md، 4017 بايت، 118 سطر. عناوين: GitHub Contribution SOP | 前置准备（每个新项目首次执行） | 工作流程（每个 PR） | Step 1: 确认目标 | Step 2: 创建分支
+- `memory/global_mem.txt` — .txt، 23 بايت، 2 سطر. لا تحليل رمزي خاص
+- `memory/global_mem_insight.txt` — .txt، 1804 بايت، 23 سطر. لا تحليل رمزي خاص
+- `memory/keychain.py` — .py، 1898 بايت، 47 سطر. أصناف: SecretStr, _Keys؛ دوال: _xor, __getattr__, __init__, use, __repr__, __init__, __getattr__, set, ls؛ استيرادات: hashlib, json, os, pathlib
+- `memory/ljqCtrl.py` — .py، 5998 بايت، 115 سطر. دوال: MouseDown, MouseUp, MouseClick, MouseDClick, SetCursorPos, Click, Press, GrabWindow, imshow, GetWRect؛ استيرادات: PIL, ctypes, cv2, math, numpy, os, random, sys
+- `memory/ljqCtrl_sop.md` — .md، 3163 بايت، 46 سطر. عناوين: ljqCtrl 使用与坐标转换 SOP | 0. API 快速参考 (Signatures) | 1. 环境载入 | 2. 核心：High-DPI 物理坐标换算 | 3. 窗口操作与点击流程
+- `memory/memory_cleanup_sop.md` — .md، 2642 بايت، 38 سطر. عناوين: 记忆整理 SOP | 核心原则：存在性编码 | 快速判断 | 压缩四原则 | 整理流程
+- `memory/memory_management_sop.md` — .md، 5940 بايت، 90 سطر. عناوين: 0. 核心公理 (Core Axioms - 最高优先级) | 记忆层级架构 | 各层职责与原则 | L1：全局内存索引 (global_mem_insight.txt) | L2：全局事实库 (global_mem.txt)
+- `memory/ocr_utils.py` — .py، 3800 بايت، 101 سطر. دوال: _get_rapid, _preprocess, _strip_cjk_spaces, _ocr_rapid, ocr_image, ocr_screen, ocr_window؛ استيرادات: PIL, ctypes, numpy, rapidocr_onnxruntime, re, win32gui, win32ui
+- `memory/plan_sop.md` — .md، 12034 بايت، 263 سطر. عناوين: Plan Mode SOP | 一、探索态（规划前置，必须执行） | 步骤1：创建目录（必做） + SOP匹配 + 设置plan标志（主agent直接做） | 步骤2：启动探索subagent（监察模式） | 步骤3：监察等待 + 读取结论
+- `memory/procmem_scanner.py` — .py، 4950 بايت، 120 سطر. أصناف: MEMORY_BASIC_INFORMATION؛ دوال: is_hex_pattern, build_rules, format_llm_context, scan_memory؛ استيرادات: argparse, ctypes, ctypes.wintypes, json, os, sys, yara
+- `memory/procmem_scanner_sop.md` — .md، 4260 بايت، 82 سطر. عناوين: Memory Scanner SOP | 1. 快速开始 | 示例：搜索特定 Hex 特征码，开启 llm_mode 以获取上下文 | 基础搜索 | LLM 增强模式（输出包含上下文的 JSON，推荐）
+- `memory/scheduled_task_sop.md` — .md، 1490 بايت، 27 سطر. عناوين: 定时任务 SOP | 任务JSON格式（*.json） | 触发流程 | 日志与监控 | 注意
+- `memory/subagent.md` — .md، 3848 بايت، 62 سطر. عناوين: Subagent 调用 SOP | 文件IO协议 | 场景1：测试模式 - 行为验证 | 场景2：Map模式 - 并行处理 | subagent内部plan_mode使用
+- `memory/tmwebdriver_sop.md` — .md، 8122 بايت، 122 سطر. عناوين: TMWebDriver SOP | 通用特性 | 限制(isTrusted) | 导航 | Google图搜
+- `memory/ui_detect.py` — .py، 4219 بايت، 136 سطر. دوال: detect_ui_elements, ocr_text, visualize, main؛ استيرادات: PIL, json, numpy, pathlib, rapidocr_onnxruntime, sys, ultralytics
+- `memory/verify_sop.md` — .md، 2420 بايت، 65 سطر. عناوين: 你的两个失败模式 | 铁律（违反 → VERDICT 无效） | 识别你的合理化借口 | 验证动作（按产物类型，严格度∝风险） | 对抗性探测（至少运行一个，否则你只确认了happy path）
+- `memory/vision_api.template.py` — .py، 4886 بايت، 114 سطر. لا تحليل رمزي خاص
+- `memory/vision_sop.md` — .md، 1448 بايت، 24 سطر. عناوين: Vision API SOP | ⚠️ 前置规则（必须遵守） | 快速用法 | image: 文件路径(str/Path) 或 PIL Image | backend: 'claude'(默认) | 'openai' | 'modelscope'
+- `memory/web_setup_sop.md` — .md، 1292 بايت، 25 سطر. عناوين: Web 工具链初始化执行 SOP | 目标 | 前置：检测浏览器 | 安装 tmwd_cdp_bridge 扩展 | 自动打开扩展管理页
+- `plugins/langfuse_tracing.py` — .py، 5673 بايت، 123 سطر. دوال: _patched_log, _extract_usage, _wrap_parser, _patched_before, _patched_after, _patched_loop, wrapped, tee؛ استيرادات: agent_loop, json, langfuse, llmcore, sys, threading
+- `reflect/autonomous.py` — .py، 195 بايت، 6 سطر. دوال: check
+- `reflect/scheduler.py` — .py، 5114 بايت، 132 سطر. دوال: _parse_cooldown, _last_run, check؛ استيرادات: compress_session, datetime, json, logging, os, socket, sys, time
+- `tests/__init__.py` — .py، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `tests/conftest.py` — .py، 695 بايت، 18 سطر. استيرادات: atexit, json, os, sys
+- `tests/test_minimax.py` — .py، 11580 بايت، 291 سطر. أصناف: TestMiniMaxTemperatureClamping, TestMiniMaxThinkTagHandling, TestMiniMaxCompressHistoryTags, TestMiniMaxAutoMakeUrl, TestMiniMaxNativeOAISessionThinkTag, TestMiniMaxLLMSessionConfig, TestMiniMaxNativeToolClientThinkTag؛ دوال: _make_stream_call, test_minimax_temp_zero_clamped, test_minimax_temp_negative_clamped, test_minimax_temp_normal_preserved, test_minimax_temp_one_preserved, test_minimax_temp_above_one_clamped, test_minimax_case_insensitive, test_non_minimax_temp_zero_unchanged, test_kimi_temp_still_forced, test_think_tag_stripped_from_response؛ استيرادات: json, llmcore, os, re, sys, unittest, unittest.mock
+- `tests/test_minimax_integration.py` — .py، 8313 بايت، 230 سطر. أصناف: TestMiniMaxEndToEnd, TestMiniMaxLive؛ دوال: _make_sse_response, test_full_pipeline_with_think_tag, test_full_pipeline_with_tool_call, test_temperature_enforced_in_request, test_live_chat_completion, test_live_tool_client_pipeline, test_live_streaming_chunks, capture_post؛ استيرادات: io, json, llmcore, os, sys, unittest, unittest.mock
+- `assets/demo/alipay_expense.png` — .png، 319013 بايت، 2215 سطر. لا تحليل رمزي خاص
+- `assets/demo/autonomous_explore.png` — .png، 351204 بايت، 2602 سطر. لا تحليل رمزي خاص
+- `assets/demo/wechat_batch.png` — .png، 136355 بايت، 842 سطر. لا تحليل رمزي خاص
+- `assets/images/bar.jpg` — .jpg، 134812 بايت، 849 سطر. لا تحليل رمزي خاص
+- `assets/images/feishu_group.jpg` — .jpg، 142061 بايت، 930 سطر. لا تحليل رمزي خاص
+- `assets/images/logo.jpg` — .jpg، 282423 بايت، 1901 سطر. لا تحليل رمزي خاص
+- `assets/images/wechat_group.jpg` — .jpg، 160767 بايت، 1644 سطر. لا تحليل رمزي خاص
+- `assets/images/wechat_group2.JPG` — .jpg، 257881 بايت، 1790 سطر. لا تحليل رمزي خاص
+- `assets/images/wechat_group4.jpg` — .jpg، 160767 بايت، 1644 سطر. لا تحليل رمزي خاص
+- `assets/images/wechat_group5.jpg` — .jpg، 159246 بايت، 2154 سطر. لا تحليل رمزي خاص
+- `assets/images/wechat_group6.jpg` — .jpg، 155454 بايت، 1296 سطر. لا تحليل رمزي خاص
+- `assets/images/wechat_group7.jpg` — .jpg، 160130 بايت، 1220 سطر. لا تحليل رمزي خاص
+- `assets/images/workflow.jpg` — .jpg، 171553 بايت، 1269 سطر. لا تحليل رمزي خاص
+- `assets/tmwd_cdp_bridge/background.js` — .js، 16990 بايت، 394 سطر. دوال: handleExtMessage, handleCookies, handleBatch, resolve$N, handleCDP, buildExecScript, smartProcessResult, _air, buildPageScript, buildCdpScript
+- `assets/tmwd_cdp_bridge/config.js` — .js، 27 بايت، 1 سطر. لا تحليل رمزي خاص
+- `assets/tmwd_cdp_bridge/content.js` — .js، 2051 بايت، 47 سطر. دوال: handle
+- `assets/tmwd_cdp_bridge/disable_dialogs.js` — .js، 1105 بايت، 24 سطر. دوال: toast
+- `assets/tmwd_cdp_bridge/manifest.json` — .json، 812 بايت، 39 سطر. لا تحليل رمزي خاص
+- `assets/tmwd_cdp_bridge/popup.html` — .html، 687 بايت، 19 سطر. لا تحليل رمزي خاص
+- `assets/tmwd_cdp_bridge/popup.js` — .js، 1129 بايت، 24 سطر. دوال: fetchCookies
+- `memory/L4_raw_sessions/compress_session.py` — .py، 10843 بايت، 247 سطر. دوال: _ts_fmt, _detect_format, _parse_sections, compress_session, _compress_raw, _parse_history_block, _merge_history_blocks, extract_history, format_history_block, _existing_sessions؛ استيرادات: argparse, ast, collections, datetime, glob, json, os, re
+- `memory/autonomous_operation_sop/helper.py` — .py، 5216 بايت، 143 سطر. دوال: _next_report_number, get_todo, get_history, set_todo, complete_task؛ استيرادات: datetime, os, pathlib, re, shutil
+- `memory/autonomous_operation_sop/task_planning.md` — .md، 3354 بايت، 39 سطر. عناوين: 任务规划模式
+- `memory/skill_search/SKILL.md` — .md، 1845 بايت، 64 سطر. عناوين: Skill Search — 105K 技能卡检索 | 最简调用 | API 签名 | env: 自动检测，一般不传 | category: 可选过滤，如 "devops"
+- `temp/model_responses/model_responses_26274.txt` — .txt، 375 بايت، 15 سطر. لا تحليل رمزي خاص
+- `temp/model_responses/model_responses_26503.txt` — .txt، 303 بايت، 15 سطر. لا تحليل رمزي خاص
+- `frontends/skins/boy/pet.png` — .png، 9074 بايت، 75 سطر. لا تحليل رمزي خاص
+- `frontends/skins/boy/skin.json` — .json، 1229 بايت، 64 سطر. لا تحليل رمزي خاص
+- `frontends/skins/boy/skin.png` — .png، 165076 بايت، 1209 سطر. لا تحليل رمزي خاص
+- `frontends/skins/dinosaur/pet.png` — .png، 871 بايت، 10 سطر. لا تحليل رمزي خاص
+- `frontends/skins/dinosaur/skin.json` — .json، 1221 بايت، 61 سطر. لا تحليل رمزي خاص
+- `frontends/skins/dinosaur/skin.png` — .png، 2902 بايت، 25 سطر. لا تحليل رمزي خاص
+- `frontends/skins/doux/pet.png` — .png، 568 بايت، 10 سطر. لا تحليل رمزي خاص
+- `frontends/skins/doux/skin.json` — .json، 1234 بايت، 62 سطر. لا تحليل رمزي خاص
+- `frontends/skins/doux/skin.png` — .png، 1899 بايت، 11 سطر. لا تحليل رمزي خاص
+- `frontends/skins/glube/idle.png` — .png، 2666 بايت، 23 سطر. لا تحليل رمزي خاص
+- `frontends/skins/glube/pet.png` — .png، 1339 بايت، 17 سطر. لا تحليل رمزي خاص
+- `frontends/skins/glube/run.png` — .png، 5573 بايت، 48 سطر. لا تحليل رمزي خاص
+- `frontends/skins/glube/skin.json` — .json، 1234 بايت، 61 سطر. لا تحليل رمزي خاص
+- `frontends/skins/glube/walk.png` — .png، 5573 بايت، 48 سطر. لا تحليل رمزي خاص
+- `frontends/skins/line/License.txt` — .txt، 221 بايت، 6 سطر. لا تحليل رمزي خاص
+- `frontends/skins/line/pet.png` — .png، 15050 بايت، 90 سطر. لا تحليل رمزي خاص
+- `frontends/skins/line/skin.json` — .json، 1199 بايت، 61 سطر. لا تحليل رمزي خاص
+- `frontends/skins/line/skin.png` — .png، 166786 بايت، 1058 سطر. لا تحليل رمزي خاص
+- `frontends/skins/mort/pet.png` — .png، 567 بايت، 6 سطر. لا تحليل رمزي خاص
+- `frontends/skins/mort/skin.json` — .json، 1234 بايت، 62 سطر. لا تحليل رمزي خاص
+- `frontends/skins/mort/skin.png` — .png، 1906 بايت، 10 سطر. لا تحليل رمزي خاص
+- `frontends/skins/tard/pet.png` — .png، 580 بايت، 8 سطر. لا تحليل رمزي خاص
+- `frontends/skins/tard/skin.json` — .json، 1234 بايت، 62 سطر. لا تحليل رمزي خاص
+- `frontends/skins/tard/skin.png` — .png، 1920 بايت، 8 سطر. لا تحليل رمزي خاص
+- `frontends/skins/vita/pet.png` — .png، 581 بايت، 6 سطر. لا تحليل رمزي خاص
+- `frontends/skins/vita/skin.json` — .json، 1234 بايت، 62 سطر. لا تحليل رمزي خاص
+- `frontends/skins/vita/skin.png` — .png، 1957 بايت، 10 سطر. لا تحليل رمزي خاص
+- `memory/skill_search/skill_search/__init__.py` — .py، 282 بايت، 8 سطر. استيرادات: .engine
+- `memory/skill_search/skill_search/__main__.py` — .py، 5436 بايت، 116 سطر. دوال: format_results, format_results_json, main؛ استيرادات: .engine, __future__, argparse, json, os, sys
+- `memory/skill_search/skill_search/engine.py` — .py، 5920 بايت، 156 سطر. أصناف: SkillIndex, SearchResult, SkillSearchError؛ دوال: _run, _detect_os, _detect_shell, _detect_runtimes, _detect_tools, detect_environment, _get_api_url, _get_api_key, _api_request, search؛ استيرادات: __future__, dataclasses, json, os, platform, shutil, subprocess, urllib.error
+
+## Hermes-skills
+- الملفات: 925
+
+- `.bundled_manifest` — [noext]، 3325 بايت، 72 سطر. لا تحليل رمزي خاص
+- `.curator_state` — [noext]، 568 بايت، 9 سطر. لا تحليل رمزي خاص
+- `.usage.json` — .json، 41246 بايت، 1443 سطر. لا تحليل رمزي خاص
+- `.usage.json.lock` — .lock، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `.hub/.ignore` — [noext]، 44 بايت، 3 سطر. لا تحليل رمزي خاص
+- `.hub/audit.log` — .log، 0 بايت، None سطر. لا تحليل رمزي خاص
+- `.hub/lock.json` — .json، 6756 بايت، 196 سطر. لا تحليل رمزي خاص
+- `.hub/taps.json` — .json، 13 بايت، 2 سطر. لا تحليل رمزي خاص
+- `apple/DESCRIPTION.md` — .md، 152 بايت، 4 سطر. لا تحليل رمزي خاص
+- `autonomous-ai-agents/DESCRIPTION.md` — .md، 211 بايت، 4 سطر. لا تحليل رمزي خاص
+- `computer-use/SKILL.md` — .md، 11179 بايت، 264 سطر. عناوين: Computer Use (universal, any-model, cross-platform) | The canonical workflow | Capture modes | Actions | Key shortcuts vary per platform
+- `creative/DESCRIPTION.md` — .md، 116 بايت، 4 سطر. لا تحليل رمزي خاص
+- `data-science/DESCRIPTION.md` — .md، 137 بايت، 4 سطر. لا تحليل رمزي خاص
+- `diagramming/DESCRIPTION.md` — .md، 159 بايت، 4 سطر. لا تحليل رمزي خاص
+- `dogfood/SKILL.md` — .md، 6270 بايت، 163 سطر. عناوين: Dogfood: Systematic Web Application QA Testing | Overview | Prerequisites | Inputs | Workflow
+- `domain/DESCRIPTION.md` — .md، 1142 بايت، 25 سطر. عناوين: Capabilities | Data Sources
+- `email/DESCRIPTION.md` — .md، 101 بايت، 4 سطر. لا تحليل رمزي خاص
+- `feeds/DESCRIPTION.md` — .md، 115 بايت، 4 سطر. لا تحليل رمزي خاص
+- `gaming/DESCRIPTION.md` — .md، 129 بايت، 4 سطر. لا تحليل رمزي خاص
+- `gifs/DESCRIPTION.md` — .md، 109 بايت، 4 سطر. لا تحليل رمزي خاص
+- `github/DESCRIPTION.md` — .md، 167 بايت، 4 سطر. لا تحليل رمزي خاص
+- `inference-sh/DESCRIPTION.md` — .md، 706 بايت، 20 سطر. عناوين: inference.sh | Available Skills | What's Included
+- `mcp/DESCRIPTION.md` — .md، 271 بايت، 4 سطر. لا تحليل رمزي خاص
+- `media/DESCRIPTION.md` — .md، 139 بايت، 4 سطر. لا تحليل رمزي خاص
+- `mlops/DESCRIPTION.md` — .md، 162 بايت، 4 سطر. لا تحليل رمزي خاص
+- `note-taking/DESCRIPTION.md` — .md، 146 بايت، 4 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/DESCRIPTION.md` — .md، 44 بايت، 2 سطر. لا تحليل رمزي خاص
+- `productivity/DESCRIPTION.md` — .md، 114 بايت، 4 سطر. لا تحليل رمزي خاص
+- `research/DESCRIPTION.md` — .md، 179 بايت، 4 سطر. لا تحليل رمزي خاص
+- `research/README.md` — .md، 72750 بايت، 1256 سطر. عناوين: /last30days v2.9.5 | Claude Code (recommended) | Installation | Claude Code Plugin (recommended) | Gemini CLI
+- `research/SPEC.md` — .md، 3398 بايت، 78 سطر. عناوين: last30days Skill Specification | Overview | Architecture | Embedding in Other Skills | Inline Context Injection
+- `smart-home/DESCRIPTION.md` — .md، 123 بايت، 4 سطر. لا تحليل رمزي خاص
+- `social-media/DESCRIPTION.md` — .md، 151 بايت، 4 سطر. لا تحليل رمزي خاص
+- `yuanbao/SKILL.md` — .md، 3795 بايت، 109 سطر. عناوين: Yuanbao Group Interaction | CRITICAL: How Messaging Works | Available Tools | @Mention Workflow | Send DM (Private Message) Workflow
+- `.archive/claude-code/SKILL.md` — .md، 35628 بايت، 749 سطر. عناوين: Claude Code — Hermes Orchestration Guide | Prerequisites | Two Orchestration Modes | Mode 1: Print Mode (`-p`) — Non-Interactive (PREFERRED for most tasks) | Mode 2: Interactive PTY via tmux — Multi-Turn Sessions
+- `.archive/codex/SKILL.md` — .md، 7490 بايت، 176 سطر. عناوين: Codex CLI | When to use | Prerequisites | Termux / Android arm64 install repair | Mohamed quota policy
+- `.archive/github-auth/SKILL.md` — .md، 8621 بايت، 265 سطر. عناوين: GitHub Authentication Setup | Detection Flow | Check what's available | Check if already authenticated | Method 1: Git-Only Authentication (No gh, No sudo)
+- `.archive/github-code-review/SKILL.md` — .md، 13615 بايت، 482 سطر. عناوين: GitHub Code Review | Prerequisites | Setup (for PR interactions) | 1. Reviewing Local Changes (Pre-Push) | Get the Diff
+- `.archive/github-issues/SKILL.md` — .md، 9315 بايت، 371 سطر. عناوين: GitHub Issues Management | Prerequisites | Setup | 1. Viewing Issues | List open issues
+- `.archive/github-pr-workflow/SKILL.md` — .md، 11121 بايت، 388 سطر. عناوين: GitHub Pull Request Workflow | Prerequisites | Quick Auth Detection | Determine which method to use throughout this workflow | Extracting Owner/Repo from the Git Remote
+- `.archive/github-repo-management/SKILL.md` — .md، 15219 بايت، 546 سطر. عناوين: GitHub Repository Management | Prerequisites | Setup | Get your GitHub username (needed for several operations) | 1. Cloning Repositories
+- `.archive/kanban-orchestrator/SKILL.md` — .md، 15831 بايت، 215 سطر. عناوين: Kanban Orchestrator — Decomposition Playbook | Profiles are user-configured — not a fixed roster | When to use the board (vs. just doing the work) | The anti-temptation rules | Decomposition playbook
+- `.archive/kanban-worker/SKILL.md` — .md، 10979 بايت، 194 سطر. عناوين: Kanban Worker — Pitfalls and Examples | Workspace handling | Tenant isolation | Good summary + metadata shapes | Claiming cards you actually created
+- `.archive/node-inspect-debugger/SKILL.md` — .md، 10929 بايت، 320 سطر. عناوين: Node.js Inspect Debugger | Overview | When to Use | Quick Reference: `node inspect` REPL | or with tsx
+- `.archive/opencode/SKILL.md` — .md، 7614 بايت، 221 سطر. عناوين: OpenCode CLI | When to Use | Prerequisites | Binary Resolution (Important) | One-Shot Tasks
+- `.archive/python-debugpy/SKILL.md` — .md، 13172 بايت، 376 سطر. عناوين: Python Debugger (pdb + debugpy) | Overview | When to Use | pdb Quick Reference | Recipe 1: Local breakpoint
+- `.curator_backups/2026-05-25T14-48-57Z/cron-jobs.json` — .json، 1483 بايت، 42 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-05-25T14-48-57Z/manifest.json` — .json، 262 بايت، 12 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-01T15-17-40Z/cron-jobs.json` — .json، 1483 بايت، 42 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-01T15-17-40Z/manifest.json` — .json، 262 بايت، 12 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-08T15-40-50Z/cron-jobs.json` — .json، 1483 بايت، 42 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-08T15-40-50Z/manifest.json` — .json، 262 بايت، 12 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-15T15-50-44Z/cron-jobs.json` — .json، 1483 بايت، 42 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-15T15-50-44Z/manifest.json` — .json، 262 بايت، 12 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-22T16-33-52Z/cron-jobs.json` — .json، 2862 بايت، 81 سطر. لا تحليل رمزي خاص
+- `.curator_backups/2026-06-22T16-33-52Z/manifest.json` — .json، 262 بايت، 12 سطر. لا تحليل رمزي خاص
+- `.hub/index-cache/hermes-index.json` — .json، 977818 بايت، None سطر. لا تحليل رمزي خاص
+- `.hub/index-cache/skills_sh_detail_cc4476a6cf5f6ad544c00773acf51b48.json` — .json، 672 بايت، 1 سطر. لا تحليل رمزي خاص
+- `autonomous-ai-agents/ai-coding-cli-delegation/SKILL.md` — .md، 3644 بايت، 72 سطر. عناوين: AI Coding CLI Delegation | Overview | When to Use | Delegation Contract | CLI Lanes
+- `autonomous-ai-agents/gemini-cli/SKILL.md` — .md، 6620 بايت، 206 سطر. عناوين: Gemini CLI | Verified local state | Install and update | Authentication | Common commands
+- `autonomous-ai-agents/generic-agent-setup/SKILL.md` — .md، 6533 بايت، 195 سطر. عناوين: GenericAgent Setup Skill | Quick Start | 1. Clone the repository | 2. Install core dependencies | 3. Optional: browser support
+- `autonomous-ai-agents/hermes-agent/SKILL.md` — .md، 39936 بايت، 877 سطر. عناوين: Hermes Agent | Mohamed Update Awareness Rule | Current Release Notes Snapshot: Hermes Agent v0.17.0 / v2026.6.19 | Mohamed Deep Hermes Operating Map | Mohamed Self-Understanding Reference
+- `autonomous-ai-agents/hermes-honcho-manager-dispatch-fix/SKILL.md` — .md، 2684 بايت، 65 سطر. عناوين: Hermes honcho_manager Dispatch Fix | Root cause | Fast diagnosis | Durable fix (preferred) | Optional caller hardening
+- `autonomous-ai-agents/hermes-openclaw-wrapper-fixes/SKILL.md` — .md، 8924 بايت، 141 سطر. عناوين: Hermes + OpenClaw Wrapper Fixes | Goal | Workflow | Version and update checks (when CLI is missing) | Common pitfalls
+- `autonomous-ai-agents/kanban-codex-lane/SKILL.md` — .md، 12774 بايت، 278 سطر. عناوين: Kanban Codex Lane | Overview | When to Use | Ownership Rules | Required Worktree and Branch Pattern
+- `autonomous-ai-agents/mohamed-claude-codex-control-bridge/SKILL.md` — .md، 13450 بايت، 358 سطر. عناوين: Mohamed Claude/Codex/OpenCode Control Bridge | Purpose | Verified local state | Important paths | Safety boundary
+- `autonomous-ai-agents/mohamed-coding-team/SKILL.md` — .md، 12817 بايت، 367 سطر. عناوين: Mohamed Coding Team | Core rule | Role 1 — Claude Code: consulting architect | Claude must do | Claude must not do by default
+- `autonomous-ai-agents/mohamed-opencode-go-worker-profiles/SKILL.md` — .md، 10222 بايت، 218 سطر. عناوين: Mohamed OpenCode Go Worker Profiles | Purpose | Current verified state | Worker routing table | Model observations from live research
+- `creative/architecture-diagram/SKILL.md` — .md، 5830 بايت، 149 سطر. عناوين: Architecture Diagram Skill | Scope | Workflow | Output Location | Preview
+- `creative/ascii-art/SKILL.md` — .md، 10556 بايت، 323 سطر. عناوين: ASCII Art Skill | Tool 1: Text Banners (pyfiglet — local) | Setup | Usage | Recommended fonts
+- `creative/ascii-video/README.md` — .md، 16440 بايت، 291 سطر. عناوين: ☤ ASCII Video | What this is | Modes | Pipeline | Grid system
+- `creative/ascii-video/SKILL.md` — .md، 14864 بايت، 242 سطر. عناوين: ASCII Video Production Pipeline | When to use | What's inside | Creative Standard | Modes
+- `creative/baoyu-article-illustrator/PORT_NOTES.md` — .md، 3414 بايت، 49 سطر. عناوين: Port Notes — baoyu-article-illustrator | Changes from upstream | Adaptations | What was preserved | Syncing with upstream
+- `creative/baoyu-article-illustrator/SKILL.md` — .md، 10131 بايت، 208 سطر. عناوين: Article Illustrator | When to Use | Three Dimensions | Types | Styles
+- `creative/baoyu-comic/PORT_NOTES.md` — .md، 5721 بايت، 78 سطر. عناوين: Port Notes — baoyu-comic | Changes from upstream | SKILL.md adaptations | Structural removals | Image generation strategy changes
+- `creative/baoyu-comic/SKILL.md` — .md، 14621 بايت، 248 سطر. عناوين: Knowledge Comic Creator | When to Use | Reference Images | Options | Visual Dimensions
+- `creative/baoyu-infographic/PORT_NOTES.md` — .md، 1699 بايت، 44 سطر. عناوين: Port Notes — baoyu-infographic | Changes from upstream | SKILL.md adaptations | What was preserved | Syncing with upstream
+- `creative/baoyu-infographic/SKILL.md` — .md، 10434 بايت، 238 سطر. عناوين: Infographic Generator | When to Use | Options | Layout Gallery | Style Gallery
+- `creative/claude-design/SKILL.md` — .md، 19859 بايت، 592 سطر. عناوين: Claude Design for CLI/API Agents | When To Use This Skill vs `popular-web-designs` vs `design-md` | Runtime Mode | Core Identity | When To Use
+- `creative/comfyui/SKILL.md` — .md، 24287 بايت، 613 سطر. عناوين: ComfyUI | What's in this skill | When to Use | Architecture: Two Layers | Quick Start
+- `creative/creative-ideation/SKILL.md` — .md، 6318 بايت، 153 سطر. عناوين: Creative Ideation | When to use | How It Works | The Rule | Constraint Library
+- `creative/design-md/SKILL.md` — .md، 7023 بايت، 200 سطر. عناوين: DESIGN.md Skill | When to use this skill | File anatomy | Overview | Colors
+- `creative/excalidraw/SKILL.md` — .md، 7300 بايت، 200 سطر. عناوين: Excalidraw Diagram Skill | When to use | Workflow | Saving a Diagram | Uploading for a Shareable Link
+- `creative/humanizer/LICENSE` — [noext]، 1066 بايت، 22 سطر. لا تحليل رمزي خاص
+- `creative/humanizer/SKILL.md` — .md، 30025 بايت، 579 سطر. عناوين: Humanizer: Remove AI Writing Patterns | When to use this skill | How to use it in Hermes | Your task | Voice Calibration (optional)
+- `creative/hyperframes-arm-proot-render-triage/SKILL.md` — .md، 3724 بايت، 116 سطر. عناوين: HyperFrames ARM/PRoot Render Triage | Trigger symptoms | Known cause in Mohamed's environment | Fast diagnosis | What still works locally
+- `creative/manim-video/README.md` — .md، 886 بايت، 24 سطر. عناوين: Manim Video Skill | What it does | Use cases | Prerequisites
+- `creative/manim-video/SKILL.md` — .md، 12023 بايت، 270 سطر. عناوين: Manim Video Production Pipeline | When to use | Creative Standard | Prerequisites | Modes
+- `creative/p5js/README.md` — .md، 3316 بايت، 65 سطر. عناوين: p5.js Skill | What it does | Modes | Export Formats | Prerequisites
+- `creative/p5js/SKILL.md` — .md، 27494 بايت، 557 سطر. عناوين: p5.js Production Pipeline | When to use | What's inside | Creative Standard | Modes
+- `creative/pixel-art/ATTRIBUTION.md` — .md، 2210 بايت، 55 سطر. عناوين: Attribution | pixel-art-studio (Synero) | What was ported | What was NOT ported | License compatibility
+- `creative/pixel-art/SKILL.md` — .md، 7581 بايت، 219 سطر. عناوين: Pixel Art | When to Use | Workflow | Step 1 — Offer a style | Step 2 — Offer animation (optional)
+- `creative/popular-web-designs/SKILL.md` — .md، 9722 بايت، 214 سطر. عناوين: Popular Web Designs | Related design skills | How to Use | HTML Generation Pattern | Font Substitution Reference
+- `creative/pretext/SKILL.md` — .md، 14168 بايت، 221 سطر. عناوين: Pretext Creative Demos | Overview | When to Use | Creative Standard | Stack
+- `creative/sketch/SKILL.md` — .md، 9304 بايت، 219 سطر. عناوين: Sketch | When NOT to use this | If the user has the full GSD system installed | Core method | 1. Intake (skip if the user already gave you enough)
+- `creative/songwriting-and-ai-music/SKILL.md` — .md، 10544 بايت، 292 سطر. عناوين: Songwriting & AI Music Generation | 1. Song Structure (Pick One or Invent Your Own) | 2. Rhyme, Meter, and Sound | 3. Emotional Arc and Dynamics | 4. Writing Lyrics That Work
+- `creative/touchdesigner-mcp/SKILL.md` — .md، 15429 بايت، 357 سطر. عناوين: TouchDesigner Integration (twozero MCP) | CRITICAL RULES | Architecture | Setup (Automated) | Manual steps (one-time, cannot be automated)
+- `data-engineering/robust-file-extraction/SKILL.md` — .md، 6111 بايت، 184 سطر. عناوين: Robust File Extraction | The Five Guards (apply to every extractor) | 1. File Integrity Guards | Size limit (tune per format) | Empty file
+- `data-science/jupyter-live-kernel/SKILL.md` — .md، 5285 بايت، 168 سطر. عناوين: Jupyter Live Kernel (hamelnb) | When to Use This vs Other Tools | Prerequisites | Setup | Starting JupyterLab
+- `devops/hermes-kanban-workflows/SKILL.md` — .md، 2913 بايت، 61 سطر. عناوين: Hermes Kanban Workflows | Overview | When to Use | Orchestrator Lane | Worker Lane
+- `devops/journey-kit-install/SKILL.md` — .md، 2447 بايت، 77 سطر. عناوين: Journey Kit Install | What worked | Practical workflow | Important pitfalls | Example checks
+- `devops/mohamed-system-environment-audit/SKILL.md` — .md، 6478 بايت، 174 سطر. عناوين: Mohamed System Environment Audit | When to use | Output rule | Required workflow | Suggested live command set
+- `devops/space-cleanup-inventory/SKILL.md` — .md، 2597 بايت، 70 سطر. عناوين: Space Cleanup Inventory | Goal | Workflow | Practical inspection pattern | Common low-risk targets
+- `devops/webhook-subscriptions/SKILL.md` — .md، 6836 بايت، 205 سطر. عناوين: Webhook Subscriptions | Setup (Required First) | Option 1: Setup wizard | Option 2: Manual config | Option 3: Environment variables
+- `dogfood/references/issue-taxonomy.md` — .md، 3682 بايت، 110 سطر. عناوين: Issue Taxonomy | Severity Levels | Critical | High | Medium
+- `dogfood/templates/dogfood-report-template.md` — .md، 1528 بايت، 87 سطر. عناوين: Dogfood QA Report | Executive Summary | Issues | Issue #{issue_number}: {issue_title} | Issues Summary Table
+- `email/himalaya/SKILL.md` — .md، 7272 بايت، 305 سطر. عناوين: Himalaya Email CLI | References | Prerequisites | Installation | Pre-built binary (Linux/macOS — recommended)
+- `gaming/minecraft-modpack-server/SKILL.md` — .md، 6559 بايت، 188 سطر. عناوين: Minecraft Modpack Server Setup | When to use | Gather User Preferences First | Steps | 1. Download & Inspect the Pack
+- `gaming/pokemon-player/SKILL.md` — .md، 8709 بايت، 217 سطر. عناوين: Pokemon Player | When to Use | Startup Procedure | 1. First-time setup (clone, venv, install) | 2. Start the game server
+- `github/github-workflows/SKILL.md` — .md، 4311 بايت، 87 سطر. عناوين: GitHub Workflows | Overview | When to Use | Operating Sequence | Lanes
+- `leisure/find-nearby/SKILL.md` — .md، 3088 بايت، 70 سطر. عناوين: Find Nearby — Local Place Discovery | Quick Reference | By coordinates (from Telegram location pin or user-provided) | By address, city, or landmark (auto-geocoded) | Multiple place types
+- `mcp/mcporter/SKILL.md` — .md، 3152 بايت، 123 سطر. عناوين: mcporter | Prerequisites | No install needed (runs via npx) | Or install globally | Quick Start
+- `mcp/native-mcp/SKILL.md` — .md، 12365 بايت، 358 سطر. عناوين: Native MCP Client | When to Use | Prerequisites | or, if using uv: | Quick Start
+- `media/gif-search/SKILL.md` — .md، 2720 بايت، 92 سطر. عناوين: GIF Search (Tenor API) | When to use | Setup | Prerequisites | Search for GIFs
+- `media/songsee/SKILL.md` — .md، 2336 بايت، 84 سطر. عناوين: songsee | Prerequisites | Quick Start | Basic spectrogram | Save to specific file
+- `media/spotify/SKILL.md` — .md، 6319 بايت، 136 سطر. عناوين: Spotify | When to use this skill | The 7 tools | Canonical patterns (minimize tool calls) | "Play <artist/track/album>"
+- `media/youtube-download/SKILL.md` — .md، 2523 بايت، 78 سطر. عناوين: YouTube Download Skill | Workflow | Commands | Show Video Info & Formats | Download
+- `mlops/cloud/DESCRIPTION.md` — .md، 92 بايت، 4 سطر. لا تحليل رمزي خاص
+- `mlops/evaluation/DESCRIPTION.md` — .md، 126 بايت، 4 سطر. لا تحليل رمزي خاص
+- `mlops/huggingface-hub/SKILL.md` — .md، 3674 بايت، 82 سطر. عناوين: Hugging Face CLI (`hf`) Reference Guide | Quick Start | Core Commands | General Operations | Authentication (`hf auth`)
+- `mlops/inference/DESCRIPTION.md` — .md، 161 بايت، 4 سطر. لا تحليل رمزي خاص
+- `mlops/models/DESCRIPTION.md` — .md، 191 بايت، 4 سطر. لا تحليل رمزي خاص
+- `mlops/research/DESCRIPTION.md` — .md، 113 بايت، 4 سطر. لا تحليل رمزي خاص
+- `mlops/training/DESCRIPTION.md` — .md، 150 بايت، 4 سطر. لا تحليل رمزي خاص
+- `mlops/vector-databases/DESCRIPTION.md` — .md، 125 بايت، 4 سطر. لا تحليل رمزي خاص
+- `note-taking/agent-memory-vault/SKILL.md` — .md، 6001 بايت، 202 سطر. عناوين: Agent Memory Vault | When to use | Core approach | Agentic adoption order | Recommended workflow
+- `note-taking/al-majlis/SKILL.md` — .md، 18357 بايت، 335 سطر. عناوين: المجلس | الفكرة العامة | متى تستخدم | نبرة المجلس | قواعد اللغة والأسلوب
+- `note-taking/egx-local-cron-bootstrap/SKILL.md` — .md، 6564 بايت، 176 سطر. عناوين: egx-local-cron-bootstrap | When to use | What this skill is for | Required files | Core workflow
+- `note-taking/interactive-book-explainer/SKILL.md` — .md، 8993 بايت، 230 سطر. عناوين: Interactive Book Explainer | ملفات داعمة | متى تستخدم هذه المهارة | الفلسفة | خطوات العمل
+- `note-taking/long-topic-splitter/SKILL.md` — .md، 7584 بايت، 254 سطر. عناوين: Long Topic Splitter | When to Use | Core Principle | User Preferences | Voice Mode (Mohamed)
+- `note-taking/mohamed-arabic-content-style/SKILL.md` — .md، 10336 بايت، 208 سطر. عناوين: Mohamed Arabic Content Style | Overview | ⚠️ ABSOLUTE RULE — Never Mix English in Arabic Lines | The Rule | ❌ Wrong Patterns (I keep doing these — STOP)
+- `note-taking/mohamed-book-writing-style-factory/SKILL.md` — .md، 17203 بايت، 409 سطر. عناوين: مهارة مصنع الكتب الإلكتروني لمحمد | الهدف | متى تستخدم هذه المهارة | المهارات المرتبطة | الفلسفة الأساسية
+- `note-taking/mohamed-content-growth-systems/SKILL.md` — .md، 12400 بايت، 258 سطر. عناوين: Mohamed Content Growth Systems | Overview | قاعدة النطاق المهمة | When to Use | Core System
+- `note-taking/mohamed-intelligence-vault/SKILL.md` — .md، 18637 بايت، 423 سطر. عناوين: Mohamed Intelligence Vault | Overview | When to Use | Core Mission | Required Vault Structure
+- `note-taking/mohamed-personality-operating-model/SKILL.md` — .md، 11561 بايت، 330 سطر. عناوين: Mohamed Personality Operating Model | Overview | When to Use | Current High-Confidence Model | Core Motivation
+- `note-taking/mohamed-unified-media-drop/SKILL.md` — .md، 30781 بايت، 456 سطر. عناوين: Mohamed Unified Media Drop | Overview | Default Output Policy (Non-Negotiable) | Cost-Control Output Policy (Non-Negotiable) | Operational Workflow (Non-Negotiable)
+- `note-taking/nate-b-jones-style-card/SKILL.md` — .md، 3219 بايت، 89 سطر. عناوين: Nate B Jones Style Card (Arabic Adaptation) | الهدف | خطوط الأسلوب الأساسية | قالب كتابة مقترح | قاموس أسلوبي (بالعربي)
+- `note-taking/obsidian-llm-wiki-ingest/SKILL.md` — .md، 4662 بايت، 86 سطر. عناوين: Obsidian → LLM Wiki Ingest | Trigger conditions | Core workflow | Batch Maintenance Workflow | Practical notes
+- `note-taking/obsidian/SKILL.md` — .md، 2050 بايت، 80 سطر. عناوين: Obsidian Vault | Read a note | List notes | All notes | In a specific folder
+- `note-taking/taaseel/SKILL.md` — .md، 7618 بايت، 271 سطر. عناوين: Taaseel Method | Overview | When to Use | Method Catalog Rule | Borrowed Research Discipline
+- `openclaw-imports/architect/SKILL.md` — .md، 1002 بايت، 37 سطر. عناوين: Architect | Use this skill | Operating model | Review focus | Output format
+- `openclaw-imports/builder/SKILL.md` — .md، 1658 بايت، 53 سطر. عناوين: Builder | Role | Rules | Operating style | Return format
+- `openclaw-imports/camoufox-article-browsing/SKILL.md` — .md، 6097 بايت، 98 سطر. عناوين: Camoufox Article Browsing | Goal | Workflow | Suggested extraction pattern | Common pitfalls
+- `openclaw-imports/camoufox-proot-setup/SKILL.md` — .md، 8624 بايت، 214 سطر. عناوين: Camoufox on Linux aarch64 / PRoot | Why this workflow exists | Observed constraints | Recommended steps | 1) Create an isolated venv
+- `openclaw-imports/capability-first/SKILL.md` — .md، 3041 بايت، 71 سطر. عناوين: Capability First | Overview | Core rule | Default routing order | Capability check loop
+- `openclaw-imports/context-mode/SKILL.md` — .md، 1893 بايت، 47 سطر. عناوين: Context Mode Routing | Core rule | Use Context Mode for | Tool selection | Default workflow
+- `openclaw-imports/developer/SKILL.md` — .md، 1035 بايت، 35 سطر. عناوين: Developer | Use this skill | Operating model | Code rules | Output format
+- `openclaw-imports/free-search/SKILL.md` — .md، 2231 بايت، 73 سطر. عناوين: Free Search Skill — Web Search Without API Keys | Quick Reference | Web search | News search | Image search
+- `openclaw-imports/free-search/free_search.py` — .py، 7235 بايت، 215 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/hermes-gateway-telegram-stuck/SKILL.md` — .md، 21218 بايت، 327 سطر. عناوين: Hermes Gateway Telegram Fast Fix | Trigger | First principle | Fast triage order | Common failure modes
+- `openclaw-imports/hermes-profile-bootstrap/SKILL.md` — .md، 3778 بايت، 103 سطر. عناوين: Hermes Profile Bootstrap | Use this skill | What changed in practice | Operating sequence | Step 1: inspect before editing
+- `openclaw-imports/journey-kits-install/SKILL.md` — .md، 3766 بايت، 110 سطر. عناوين: Journey Kits Install | What I learned | Discovery | Search by text | Match by task
+- `openclaw-imports/mobilerun/SKILL.md` — .md، 2134 بايت، 70 سطر. عناوين: Mobilerun | Core rule | What this skill covers | What this skill does not do | Setup checklist
+- `openclaw-imports/obsidian-vault/SKILL.md` — .md، 3742 بايت، 121 سطر. عناوين: YouTube → Obsidian Research Pipeline Skill | Architecture | The 3-Command Research Loop | Step 1 — Search and Pick | Step 2 — Fetch Transcripts
+- `openclaw-imports/obsidian-vault/research_pipeline.py` — .py، 2655 بايت، 81 سطر. دوال: run, main؛ استيرادات: pathlib, subprocess, sys
+- `openclaw-imports/obsidian-vault/write_obsidian.py` — .py، 6887 بايت، 223 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/obsidian-vault/yt_search.py` — .py، 3808 بايت، 117 سطر. دوال: search_youtube, print_results, pick_videos, save_selected, main؛ استيرادات: argparse, pathlib, scrapetube, sys
+- `openclaw-imports/obsidian-vault/yt_transcript.py` — .py، 6543 بايت، 203 سطر. دوال: extract_video_id, fetch_transcript, format_transcript, format_citation, fetch_video_metadata, sanitize_filename, fetch_all, main؛ استيرادات: argparse, json, pathlib, re, sys, youtube_transcript_api, yt_dlp
+- `openclaw-imports/operations-cleanup/SKILL.md` — .md، 1897 بايت، 44 سطر. عناوين: Operations / Cleanup | Use this skill | Operating model | Cleanup rules | Output format
+- `openclaw-imports/orchestration-ceo/SKILL.md` — .md، 6091 بايت، 183 سطر. عناوين: Orchestration CEO | Use this skill | Operating model | Routing rules | Specialist map
+- `openclaw-imports/permissions/SKILL.md` — .md، 3571 بايت، 146 سطر. عناوين: OpenClaw Permission System Skill | Quick Reference | Permission Modes | Permission Levels | Mode Priority
+- `openclaw-imports/permissions/permissions.py` — .py، 7699 بايت، 214 سطر. أصناف: Decision, PermissionRule, PermissionSettings؛ دوال: _risk_classifier, explain_decision, matches, from_file, to_file, check؛ استيرادات: dataclasses, enum, fnmatch, json, pathlib, re, typing
+- `openclaw-imports/phone-control/SKILL.md` — .md، 4274 بايت، 92 سطر. عناوين: Phone Control via ADB | Core rule | When to use this skill | ADB self-connect pattern | Observed Android/PRoot pairing pitfalls
+- `openclaw-imports/researcher/SKILL.md` — .md، 1574 بايت، 53 سطر. عناوين: Researcher | Role | Rules | Operating style | Return format
+- `openclaw-imports/reviewer-qa/SKILL.md` — .md، 1228 بايت، 35 سطر. عناوين: Reviewer / QA | Use this skill | Operating model | Review rules | Output format
+- `openclaw-imports/skill-vetter/SKILL.md` — .md، 4734 بايت، 143 سطر. عناوين: Skill Vetter 🔒 | When to Use | Two-Level Vetting | Level 1: Quick Scan (always run) | Level 2: Full Audit (for risky skills)
+- `openclaw-imports/skill-vetter/_meta.json` — .json، 131 بايت، 6 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/skill-vetter/skill-vetter-advanced.py` — .py، 3661 بايت، 114 سطر. دوال: classify_skill, vet_skill؛ استيرادات: json, pathlib, re, subprocess, sys
+- `openclaw-imports/task-tracker/SKILL.md` — .md، 1229 بايت، 54 سطر. عناوين: Task Tracker Skill | Simple Usage (Recommended) | Record a task outcome: | Get analytics: | Get recommendation:
+- `openclaw-imports/task-watch/SKILL.md` — .md، 2759 بايت، 93 سطر. عناوين: Task Watch | Overview | When to use it | Operating loop | Status states
+- `openclaw-imports/tavily/SKILL.md` — .md، 9986 بايت، 415 سطر. عناوين: Tavily AI Search | Overview | Architecture | Quick Start | Basic Search
+- `openclaw-imports/tavily/_meta.json` — .json، 125 بايت، 6 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/termux-api/SKILL.md` — .md، 1699 بايت، 43 سطر. عناوين: Termux:API | Core rule | What this skill covers | When to use | Installation guidance
+- `openclaw-imports/termux-node-native-addon-triage/SKILL.md` — .md، 2927 بايت، 58 سطر. عناوين: Termux/PRoot Node Native-Addon Triage | Trigger symptoms | What to do | Decision rule | Common pitfalls
+- `openclaw-imports/universal-scrape/SKILL.md` — .md، 2517 بايت، 94 سطر. عناوين: Universal Scrape Skill | How It Works | Quick Start | Any URL → clean Markdown (JS sites included!) | Static site → parsed HTML
+- `openclaw-imports/universal-scrape/api_scrape.js` — .js، 13862 بايت، 364 سطر. دوال: hnTop, hnSearch, githubRepo, githubSearch, youtubeSearch, youtubeVideo, cryptoPrice, wikipedia, wikipediaSearch, stackoverflow
+- `openclaw-imports/universal-scrape/deep_research.js` — .js، 29580 بايت، 763 سطر. دوال: hnTop, hnSearch, reddit, devto, youtubeSearch, youtubeVideo, githubRepo, githubSearch, npmSearch, arxiv
+- `openclaw-imports/universal-scrape/package-lock.json` — .json، 11291 بايت، 314 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/universal-scrape/package.json` — .json، 310 بايت، 17 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/universal-scrape/universal_scrape.js` — .js، 6406 بايت، 176 سطر. دوال: jinaRead, scrape, youtubeSearch, youtubeVideo
+- `openclaw-imports/web-browsing/SKILL.md` — .md، 2389 بايت، 78 سطر. عناوين: Web Browsing Skill | When to Use | How It Works | 1. Direct URL Access | 2. Web Search
+- `openclaw-imports/web-browsing/_meta.json` — .json، 131 بايت، 6 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/web-search-free/SKILL.md` — .md، 6301 بايت، 158 سطر. عناوين: Web Search (Free) | Setup | Core Tools | web_search_exa | get_code_context_exa
+- `openclaw-imports/web-search-free/_meta.json` — .json، 134 بايت، 6 سطر. لا تحليل رمزي خاص
+- `openclaw-imports/website-scrape/SKILL.md` — .md، 2842 بايت، 99 سطر. عناوين: Website Scraping Skill | Quick Reference | Basic scrape | Text only | Links only
+- `openclaw-imports/website-scrape/scrape_web.py` — .py، 6645 بايت، 205 سطر. دوال: scrape_static, scrape_with_fallback, extract_structured, main؛ استيرادات: argparse, asyncio, bs4, datetime, json, pathlib, playwright.async_api, re
+- `openclaw-imports/x-twitter-tools/SKILL.md` — .md، 7589 بايت، 114 سطر. عناوين: X/Twitter Tools Skill — Free Methods Only | Available Methods | 0. FX/VX Twitter API mirrors (fastest for single tweet links) | 1. Browser cookies + requests (best authenticated free method) | 2. Nitter (free, no login)
+- `openclaw-imports/youtube-tools/SKILL.md` — .md، 2354 بايت، 84 سطر. عناوين: YouTube Tools Skill | Installation (already done) | Quick Reference | Transcript (cleanest approach) | Get transcript
+- `productivity/airtable/SKILL.md` — .md، 11334 بايت، 230 سطر. عناوين: Airtable — Bases, Tables & Records | Prerequisites | API Basics | Field Types (request body shapes) | Common Queries
+- `productivity/google-workspace/SKILL.md` — .md، 11617 بايت، 291 سطر. عناوين: Google Workspace | References | Scripts | First-Time Setup | Step 0: Check if already set up
+- `productivity/linear/SKILL.md` — .md، 14782 بايت، 381 سطر. عناوين: Linear — Issue & Project Management | Setup | API Basics | Python helper script (ergonomic alternative) | Workflow States
+- `productivity/maps/SKILL.md` — .md، 6726 بايت، 196 سطر. عناوين: Maps Skill | When to Use | Prerequisites | Commands | search — Geocode a place name
+- `productivity/nano-pdf/SKILL.md` — .md، 1414 بايت، 53 سطر. عناوين: nano-pdf | Prerequisites | Install with uv (recommended — already available in Hermes) | Or with pip | Usage
+- `productivity/notion/SKILL.md` — .md، 14629 بايت، 449 سطر. عناوين: Notion | Setup | 1. Get an integration token (required for both paths) | 2. Install `ntn` (preferred path on macOS / Linux) | Recommended
+- `productivity/ocr-and-documents/DESCRIPTION.md` — .md، 147 بايت، 4 سطر. لا تحليل رمزي خاص
+- `productivity/ocr-and-documents/SKILL.md` — .md، 5280 بايت، 173 سطر. عناوين: PDF & Document Extraction | Step 1: Remote URL Available? | Step 2: Choose Local Extractor | pymupdf (lightweight) | marker-pdf (high-quality OCR)
+- `productivity/pdf-downloads-page-by-page-briefing/SKILL.md` — .md، 2790 بايت، 68 سطر. عناوين: PDF Downloads Page-by-Page Briefing | Use this skill when | Workflow | Practical extraction pattern | Pitfalls
+- `productivity/powerpoint/LICENSE.txt` — .txt، 1467 بايت، 31 سطر. لا تحليل رمزي خاص
+- `productivity/powerpoint/SKILL.md` — .md، 9298 بايت، 238 سطر. عناوين: Powerpoint Skill | When to use | Quick Reference | Reading Content | Text extraction
+- `productivity/powerpoint/editing.md` — .md، 6885 بايت، 206 سطر. عناوين: Editing Presentations | Template-Based Workflow | Scripts | unpack.py | add_slide.py
+- `productivity/powerpoint/pptxgenjs.md` — .md، 12819 بايت، 421 سطر. عناوين: PptxGenJS Tutorial | Setup & Basic Structure | Layout Dimensions | Text & Formatting | Lists & Bullets
+- `productivity/professional-pdf-book-factory/SKILL.md` — .md، 14709 بايت، 517 سطر. عناوين: Professional PDF Book Factory | Overview | Installed Toolchain on Mohamed's Environment | When to Use | Core Philosophy
+- `productivity/teams-meeting-pipeline/SKILL.md` — .md، 6883 بايت، 117 سطر. عناوين: Teams Meeting Pipeline | When to use this skill | Prerequisites | Command reference | Status and inspection (start here)
+- `productivity/trading-report-template/SKILL.md` — .md، 17913 بايت، 333 سطر. عناوين: Trading Report Template | Output modes | Portfolio monitoring mode | Preferred portfolio report format for Mohamed | Signal report format (preferred when the user asks for the short version)
+- `red-teaming/godmode/SKILL.md` — .md، 20059 بايت، 405 سطر. عناوين: G0DM0D3 Jailbreaking Skill | When to Use This Skill | Overview of Attack Modes | 1. GODMODE CLASSIC — System Prompt Templates | 2. PARSELTONGUE — Input Obfuscation (33 Techniques)
+- `research/ai-agent-adoption-review/SKILL.md` — .md، 4160 بايت، 128 سطر. عناوين: AI Agent Adoption Review | When to use | Goal | Workflow | 1) Inspect the live site first
+- `research/arxiv/SKILL.md` — .md، 10085 بايت، 283 سطر. عناوين: arXiv Research | Quick Reference | Searching Papers | Basic search | Clean output (parse XML to readable format)
+- `research/blogwatcher/SKILL.md` — .md، 5111 بايت، 138 سطر. عناوين: Blogwatcher | Installation | Docker with persistent storage | Named volume (simplest) | Host bind mount
+- `research/deepseek-alt/SKILL.md` — .md، 1445 بايت، 66 سطر. عناوين: DeepSeek Alternative Skill | Usage | Ask a Question | Interactive Mode | Just run without arguments and type questions
+- `research/egyptian-equity-workflow/SKILL.md` — .md، 6723 بايت، 141 سطر. عناوين: Egyptian Equity Workflow | Canonical vault files | Non-negotiable order | Hard rules | Source hierarchy
+- `research/egyptian-sector-portfolio-audit/SKILL.md` — .md، 3639 بايت، 91 سطر. عناوين: Egyptian Sector Portfolio Audit | Purpose | Mandatory hierarchy | Core audit questions | What to flag as missing
+- `research/freeplex-internal-answer-engine/SKILL.md` — .md، 6032 بايت، 139 سطر. عناوين: Freeplex Internal Answer Engine | Objective | Default architecture | Recommended implementation phases | v0.1: lightweight script
+- `research/github-repo-credibility-research/SKILL.md` — .md، 6454 بايت، 184 سطر. عناوين: GitHub Repo Credibility Research | Goal | When to Use | Recommended Workflow | 1) Identify the exact repo
+- `research/last30days/SKILL.md` — .md، 2865 بايت، 118 سطر. عناوين: last30days Skill | Usage | Basic Research | Options | Examples
+- `research/llm-wiki/SKILL.md` — .md، 20129 بايت، 508 سطر. عناوين: Karpathy's LLM Wiki | When This Skill Activates | Wiki Location | Architecture: Three Layers | Resuming an Existing Wiki (CRITICAL — do this every session)
+- `research/mubasher-announcements-scrape-fallback/SKILL.md` — .md، 3024 بايت، 64 سطر. عناوين: Mubasher Announcements Scrape Fallback | When to use | Reliable method | Practical page targets | Output rules
+- `research/package-research-fallback/SKILL.md` — .md، 3046 بايت، 62 سطر. عناوين: Package / Repo Research Fallback | When to use | Core approach | Reliable evidence hierarchy | Useful patterns
+- `research/perplexity-terminal/SKILL.md` — .md، 2590 بايت، 99 سطر. عناوين: Perplexity Terminal Skill | Setup (One Time) | Step 1: Get Browser Cookies | Step 2: Save Session | Usage
+- `research/polymarket/SKILL.md` — .md، 2985 بايت، 78 سطر. عناوين: Polymarket — Prediction Market Data | When to Use | Key Concepts | Three Public APIs | Typical Workflow
+- `research/research-paper-writing/SKILL.md` — .md، 103375 بايت، 2378 سطر. عناوين: Research Paper Writing Pipeline | When To Use This Skill | Core Philosophy | Proactivity and Collaboration | Phase 0: Project Setup
+- `research/scripts/last30days.py` — .py، 82815 بايت، 2138 سطر. دوال: parse_search_flag, register_child_pid, unregister_child_pid, _cleanup_children, _install_global_timeout, load_fixture, _search_reddit, _search_x, _search_youtube, _search_tiktok؛ استيرادات: argparse, atexit, concurrent.futures, datetime, json, lib, os, pathlib
+- `smart-home/openhue/SKILL.md` — .md، 2713 بايت، 110 سطر. عناوين: OpenHue CLI | Prerequisites | Linux (pre-built binary) | macOS | When to Use
+- `social-media/xitter/SKILL.md` — .md، 6140 بايت، 203 سطر. عناوين: Xitter — X/Twitter via x-cli | Important Cost / Access Note | Install | Credentials | Why does X need 5 secrets?
+- `social-media/xurl/SKILL.md` — .md، 15518 بايت، 433 سطر. عناوين: xurl — X (Twitter) API via the Official CLI | Secret Safety (MANDATORY) | Installation | Shell script (installs to ~/.local/bin, no sudo, works on Linux + macOS) | Homebrew (macOS)
+- `software-development/agentic-workflows-do-framework/SKILL.md` — .md، 6387 بايت، 226 سطر. عناوين: Agentic Workflows: DO Framework | Core Principle | Why This Works | Implementation Steps | 1. Create Workspace Structure
+- `software-development/ai-handoff-control-layer/SKILL.md` — .md، 7315 بايت، 192 سطر. عناوين: AI Handoff Control Layer | When to use | Core principle | Recommended file set | 1) AI-START-HERE.md
+- `software-development/arabic-pdf-weasyprint-pipeline/SKILL.md` — .md، 3148 بايت، 95 سطر. عناوين: Arabic PDF Pipeline with HTML/CSS and WeasyPrint | When to use this skill | The core idea | Minimal template | Translation strategy
+- `software-development/arabic-software-localization/SKILL.md` — .md، 9867 بايت، 242 سطر. عناوين: Arabic Software Localization | Overview | When to Use | Architecture: Dual-Layer i18n | Layer 1: Static Dictionary (`DICT`)
+- `software-development/code-review/SKILL.md` — .md، 2211 بايت، 82 سطر. عناوين: Code Review Skill | Review Checklist | 1. Security First | 2. Error Handling | 3. Code Quality
+- `software-development/company-dashboard-arabic-lessons/SKILL.md` — .md، 8553 بايت، 174 سطر. عناوين: Arabic UI / PDF Lessons from Company-Dashboard | 1. Browser-level Arabic translation | 2. ReportLab is not enough for Arabic PDFs | 3. HTML/CSS → WeasyPrint for Arabic PDFs | 4. Validation / source-confidence reports
+- `software-development/debugging-hermes-tui-commands/SKILL.md` — .md، 7910 بايت، 153 سطر. عناوين: Debugging Hermes TUI Slash Commands | Overview | When to Use | Architecture Overview | Investigation Steps
+- `software-development/hermes-agent-skill-authoring/SKILL.md` — .md، 7800 بايت، 167 سطر. عناوين: Authoring Hermes-Agent Skills (in-repo) | Overview | When to Use | Required Frontmatter | Size Limits
+- `software-development/hermes-s6-container-supervision/SKILL.md` — .md، 11474 بايت، 177 سطر. عناوين: Hermes s6-overlay Container Supervision | When to use this skill | Architecture at a glance | Key files | Why Architecture B (CMD as main program, not s6-supervised)
+- `software-development/plan/SKILL.md` — .md، 10590 بايت، 381 سطر. عناوين: Plan Mode | Core behavior | Output requirements | Save location | Pitfalls
+- `software-development/prototype-client-readiness-polish/SKILL.md` — .md، 3369 بايت، 93 سطر. عناوين: Prototype Client Readiness Polish | When to use this skill | The five deliverables | Demo script structure | سكريبت العرض التجريبي
+- `software-development/refactor-compatibility-recovery/SKILL.md` — .md، 1636 بايت، 42 سطر. عناوين: Refactor Compatibility Recovery | Steps | Pitfalls | Good outcome
+- `software-development/requesting-code-review/SKILL.md` — .md، 8465 بايت، 281 سطر. عناوين: Pre-Commit Code Verification | When to Use | Step 1 — Get the diff | Step 2 — Static security scan | Hardcoded secrets
+- `software-development/senior-software-engineer/SKILL.md` — .md، 23356 بايت، 392 سطر. عناوين: Senior Software Engineer Operating Mode | Overview | Standing Instruction | When to Use | Non-Negotiable Behaviors
+- `software-development/simplify-code/SKILL.md` — .md، 10926 بايت، 213 سطر. عناوين: Simplify Code — Parallel Review & Cleanup | When to Use | The Process | Phase 1 — Identify the changes | 1. Default: uncommitted working-tree changes (tracked files)
+- `software-development/spike/SKILL.md` — .md، 8730 بايت، 198 سطر. عناوين: Spike | When NOT to use this | If the user has the full GSD system installed | Core method | 1. Decompose
+- `software-development/subagent-driven-development/SKILL.md` — .md، 11947 بايت، 366 سطر. عناوين: Subagent-Driven Development | Overview | When to Use | The Process | 1. Read and Parse Plan
+- `software-development/systematic-debugging/SKILL.md` — .md، 12674 بايت، 407 سطر. عناوين: Systematic Debugging | Overview | The Iron Law | When to Use | The Four Phases
+- `software-development/termux-open-source-tool-triage/SKILL.md` — .md، 4118 بايت، 102 سطر. عناوين: Termux Open-Source Tool Triage | Goal | Workflow | Practical commands | clone set
+- `software-development/test-driven-development/SKILL.md` — .md، 10306 بايت، 363 سطر. عناوين: Test-Driven Development (TDD) | Overview | When to Use | The Iron Law | Red-Green-Refactor Cycle
+- `software-development/uv-install-triage/SKILL.md` — .md، 4670 بايت، 109 سطر. عناوين: uv Install Triage | Symptom patterns | Core rule | Workflow | 1) Reproduce with verbosity
+- `software-development/writing-plans/SKILL.md` — .md، 7229 بايت، 298 سطر. عناوين: Writing Implementation Plans | Overview | When to Use | Bite-Sized Task Granularity | Task 1: Build authentication system
+- `.archive/claude-code/references/android-proot-mobile-tmux-keyboard.md` — .md، 2813 بايت، 98 سطر. عناوين: Claude Code on Mohamed's Android PRoot + Termux | Durable pattern | Known-good layers | Mobile keyboard fix | tmux config
+- `.archive/codex/references/termux-arm64-install-repair.md` — .md، 2382 بايت، 86 سطر. عناوين: Codex CLI on Termux / Android arm64: install repair pattern | Symptom | Root pattern | Repair sequence | Verification
+- `.archive/github-auth/references/safe-token-and-gh-cli-workflows.md` — .md، 2026 بايت، 78 سطر. عناوين: Safe GitHub Token and gh CLI Workflows | Goal | Preferred sequence | If the token is already stored by gh | Safety notes
+- `.archive/github-auth/scripts/gh-env.sh` — .sh، 2606 بايت، 67 سطر. لا تحليل رمزي خاص
+- ... تم اختصار عرض 675 ملف إضافي هنا، موجودين كاملين في ملف البيانات.

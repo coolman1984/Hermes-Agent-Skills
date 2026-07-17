@@ -1,10 +1,20 @@
 # Hermes Agent Skills Library
 
-> A professionally organized library of **214** Hermes Agent skills, grouped by **what they do**, not only by folder history.
+> **Primary knowledge entry:** open **[`SECOND-BRAIN/`](SECOND-BRAIN/)** first — full second brain (ideas, Obsidian vault, wikis, media notes, operator memory).
+>
+> Start file: [`SECOND-BRAIN/START-HERE.md`](SECOND-BRAIN/START-HERE.md)
 
-**Generated:** `2026-07-17T10:56:14Z`  
-**Layout:** Functional domains → skill packages → `SKILL.md` + support files  
-**Machine indexes:** [`catalog.json`](catalog.json) · [`taxonomy.yaml`](taxonomy.yaml) · [`CATALOG.md`](CATALOG.md)
+---
+
+## Repository layout at a glance
+
+| Top-level | What it is |
+|---|---|
+| **[`SECOND-BRAIN/`](SECOND-BRAIN/)** | All ideas, markdown knowledge, vault, wikis, learned notes, agent memory |
+| **[`skills/`](skills/)** | 214 Hermes skills organized by function |
+| [`CATALOG.md`](CATALOG.md) | Skills catalog |
+| [`catalog.json`](catalog.json) / [`taxonomy.yaml`](taxonomy.yaml) | Machine skill indexes |
+| [`docs/`](docs/) | Skills library documentation |
 
 ---
 

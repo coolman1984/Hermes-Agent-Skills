@@ -1,0 +1,1963 @@
+{
+  "generated_at": "2026-07-17T11:39:05Z",
+  "root": "SECOND-BRAIN",
+  "purpose": "Top-level second brain: ideas, vault, wiki, media notes, operator memory",
+  "file_count": 389,
+  "markdown_count": 362,
+  "top_level": [
+    "compound-ai-vault",
+    "downloads-briefs",
+    "llm-wiki",
+    "llm-wiki-agent",
+    "media-source-notes",
+    "obsidian-vault",
+    "operator-memory"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1149,
+      "ext": ".md"
+    },
+    {
+      "path": "START-HERE.md",
+      "bytes": 2737,
+      "ext": ".md"
+    },
+    {
+      "path": "WHAT-WE-KNOW.md",
+      "bytes": 13160,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/README.md",
+      "bytes": 72,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/glossary/cost-center.md",
+      "bytes": 533,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/index.md",
+      "bytes": 1338,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/notes/business-rule-freight-allocation.md",
+      "bytes": 646,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/notes/dataset-cc-actuals.md",
+      "bytes": 698,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/notes/kpi-cost-variance.md",
+      "bytes": 554,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/notes/mapping-cc-actuals.md",
+      "bytes": 440,
+      "ext": ".md"
+    },
+    {
+      "path": "compound-ai-vault/templates/README.md",
+      "bytes": 910,
+      "ext": ".md"
+    },
+    {
+      "path": "downloads-briefs/ai-team-leader-tv-mobile-factory-role-brief.md",
+      "bytes": 8876,
+      "ext": ".md"
+    },
+    {
+      "path": "downloads-briefs/ai-transformation-leader-samsung-2030-structure.md",
+      "bytes": 13145,
+      "ext": ".md"
+    },
+    {
+      "path": "downloads-briefs/compound-presentation-draft.md",
+      "bytes": 6813,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/.gitignore",
+      "bytes": 918,
+      "ext": ""
+    },
+    {
+      "path": "llm-wiki/AGENTS.md",
+      "bytes": 8132,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/CLAUDE.md",
+      "bytes": 8344,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/FAQ.md",
+      "bytes": 6429,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/GEMINI.md",
+      "bytes": 3962,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/LICENSE",
+      "bytes": 1056,
+      "ext": ""
+    },
+    {
+      "path": "llm-wiki/README.md",
+      "bytes": 17368,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/config.example.yaml",
+      "bytes": 3750,
+      "ext": ".yaml"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/README.md",
+      "bytes": 2916,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/INDEX.md",
+      "bytes": 3562,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/LOG.md",
+      "bytes": 2266,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/concepts/gom-jabbar.md",
+      "bytes": 1846,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/concepts/kwisatz-haderach.md",
+      "bytes": 2248,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/concepts/melange.md",
+      "bytes": 2718,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/concepts/missionaria-protectiva.md",
+      "bytes": 2134,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/concepts/stillsuit.md",
+      "bytes": 1492,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/concepts/the-voice.md",
+      "bytes": 1584,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/arrakeen.md",
+      "bytes": 898,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/arrakis.md",
+      "bytes": 2556,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/bene-gesserit.md",
+      "bytes": 2636,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/caladan.md",
+      "bytes": 1144,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/duke-leto-atreides.md",
+      "bytes": 2334,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/gurney-halleck.md",
+      "bytes": 1127,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/house-atreides.md",
+      "bytes": 1930,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/house-harkonnen.md",
+      "bytes": 1666,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/lady-jessica.md",
+      "bytes": 3321,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/liet-kynes.md",
+      "bytes": 1945,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/paul-atreides.md",
+      "bytes": 3431,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/reverend-mother-mohiam.md",
+      "bytes": 1895,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/spacing-guild.md",
+      "bytes": 1351,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/stilgar.md",
+      "bytes": 1406,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/the-fremen.md",
+      "bytes": 2701,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/entities/thufir-hawat.md",
+      "bytes": 1612,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/sources/ch01-opening-test.md",
+      "bytes": 2104,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/sources/ch02-departure-briefing.md",
+      "bytes": 1805,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/demo/book-companion/wiki/sources/ch03-arrival-arrakis.md",
+      "bytes": 2033,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/docs/show-hn-draft.md",
+      "bytes": 5125,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/docs/variant-use-cases-top5.md",
+      "bytes": 17478,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/scripts/run-wiki.sh",
+      "bytes": 587,
+      "ext": ".sh"
+    },
+    {
+      "path": "llm-wiki/scripts/setup-scheduler.ps1",
+      "bytes": 1392,
+      "ext": ".ps1"
+    },
+    {
+      "path": "llm-wiki/skills/llm-wiki/SKILL.md",
+      "bytes": 21411,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/README.md",
+      "bytes": 3407,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/book-companion/CLAUDE.md",
+      "bytes": 4322,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/book-companion/README.md",
+      "bytes": 5918,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/book-companion/sample-data/ch01-opening-test.md",
+      "bytes": 3575,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/book-companion/sample-data/ch02-departure-briefing.md",
+      "bytes": 3864,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/book-companion/sample-data/ch03-arrival-arrakis.md",
+      "bytes": 4542,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/competitive-intel/CLAUDE.md",
+      "bytes": 3953,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/competitive-intel/README.md",
+      "bytes": 5225,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/competitive-intel/sample-data/competitor-linear-overview.md",
+      "bytes": 3756,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/competitive-intel/sample-data/competitor-notion-overview.md",
+      "bytes": 3892,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/competitive-intel/sample-data/market-pm-tools-landscape.md",
+      "bytes": 3607,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/job-search/CLAUDE.md",
+      "bytes": 4709,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/job-search/README.md",
+      "bytes": 5301,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/job-search/sample-data/jd-anthropic-product-manager.md",
+      "bytes": 2758,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/job-search/sample-data/jd-stripe-senior-swe.md",
+      "bytes": 2878,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/variants/job-search/sample-data/stripe-company-research.md",
+      "bytes": 5188,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/wiki/INDEX.template.md",
+      "bytes": 472,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/wiki/LOG.template.md",
+      "bytes": 184,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki/wiki-viewer.html",
+      "bytes": 22173,
+      "ext": ".html"
+    },
+    {
+      "path": "llm-wiki-agent/.claude/commands/wiki-graph.md",
+      "bytes": 964,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/.claude/commands/wiki-ingest.md",
+      "bytes": 910,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/.claude/commands/wiki-lint.md",
+      "bytes": 844,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/.claude/commands/wiki-query.md",
+      "bytes": 613,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/AGENTS.md",
+      "bytes": 5556,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/CLAUDE.md",
+      "bytes": 6079,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/GEMINI.md",
+      "bytes": 3806,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/LICENSE",
+      "bytes": 1067,
+      "ext": ""
+    },
+    {
+      "path": "llm-wiki-agent/README.md",
+      "bytes": 9960,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/docs/automated-sync.md",
+      "bytes": 3741,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/examples/cjk-showcase/README.md",
+      "bytes": 911,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/examples/cjk-showcase/raw/2026-04-13-reflection.md",
+      "bytes": 781,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/graph/.gitkeep",
+      "bytes": 0,
+      "ext": ""
+    },
+    {
+      "path": "llm-wiki-agent/graph/graph.html",
+      "bytes": 110537,
+      "ext": ".html"
+    },
+    {
+      "path": "llm-wiki-agent/graph/graph.json",
+      "bytes": 93624,
+      "ext": ".json"
+    },
+    {
+      "path": "llm-wiki-agent/pyproject.toml",
+      "bytes": 405,
+      "ext": ".toml"
+    },
+    {
+      "path": "llm-wiki-agent/raw/.gitkeep",
+      "bytes": 0,
+      "ext": ""
+    },
+    {
+      "path": "llm-wiki-agent/raw/april-sector-map-vs-constitution.md",
+      "bytes": 4097,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/egx-portfolio-monitoring-system.md",
+      "bytes": 5282,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/egx-system.md",
+      "bytes": 3180,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/egypt-egx-daily-weekly-monthly-guide.md",
+      "bytes": 12987,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/egyptian-stock-investment-project.md",
+      "bytes": 5836,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/integrated-sector-selection-constitution-egypt.md",
+      "bytes": 15364,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/integrated-sector-selection-method.md",
+      "bytes": 3840,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/investment-decision-constitution-egypt.md",
+      "bytes": 5116,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/karpathy-llm-wiki.md",
+      "bytes": 943,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/llm-wiki-agent.md",
+      "bytes": 867,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/sector-evaluation-matrix-egypt.md",
+      "bytes": 2954,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/raw/source-ladder-analysis-egypt.md",
+      "bytes": 6158,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/requirements.txt",
+      "bytes": 29,
+      "ext": ".txt"
+    },
+    {
+      "path": "llm-wiki-agent/tools/build_graph.py",
+      "bytes": 45218,
+      "ext": ".py"
+    },
+    {
+      "path": "llm-wiki-agent/tools/file_to_markdown.py",
+      "bytes": 2593,
+      "ext": ".py"
+    },
+    {
+      "path": "llm-wiki-agent/tools/heal.py",
+      "bytes": 3129,
+      "ext": ".py"
+    },
+    {
+      "path": "llm-wiki-agent/tools/ingest.py",
+      "bytes": 13221,
+      "ext": ".py"
+    },
+    {
+      "path": "llm-wiki-agent/tools/lint.py",
+      "bytes": 14977,
+      "ext": ".py"
+    },
+    {
+      "path": "llm-wiki-agent/tools/query.py",
+      "bytes": 7833,
+      "ext": ".py"
+    },
+    {
+      "path": "llm-wiki-agent/tools/refresh.py",
+      "bytes": 5365,
+      "ext": ".py"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/concepts/EGXInvestmentDoctrine.md",
+      "bytes": 2456,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/concepts/EGXPortfolioMonitoringSystem.md",
+      "bytes": 2383,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/concepts/IntegratedSectorSelection.md",
+      "bytes": 1975,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/concepts/LLMWikiPattern.md",
+      "bytes": 1337,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/concepts/SectorCaseReview.md",
+      "bytes": 861,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/concepts/SectorEvaluationMatrix.md",
+      "bytes": 933,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/concepts/SourceLadder.md",
+      "bytes": 1884,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/entities/AndrejKarpathy.md",
+      "bytes": 744,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/entities/CAPMAS.md",
+      "bytes": 1680,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/entities/CBE.md",
+      "bytes": 1541,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/entities/EGX.md",
+      "bytes": 1682,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/entities/FRA.md",
+      "bytes": 1678,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/entities/SamurAIGPT.md",
+      "bytes": 611,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/index.md",
+      "bytes": 4199,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/log.md",
+      "bytes": 1720,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/overview.md",
+      "bytes": 2732,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/april-sector-map-vs-constitution.md",
+      "bytes": 1487,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/egx-portfolio-monitoring-system.md",
+      "bytes": 2344,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/egx-system.md",
+      "bytes": 2096,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/egypt-egx-daily-weekly-monthly-guide.md",
+      "bytes": 2285,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/egyptian-stock-investment-project.md",
+      "bytes": 2538,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/integrated-sector-selection-constitution-egypt.md",
+      "bytes": 2075,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/integrated-sector-selection-method.md",
+      "bytes": 1925,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/investment-decision-constitution-egypt.md",
+      "bytes": 2177,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/karpathy-llm-wiki.md",
+      "bytes": 1197,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/llm-wiki-agent.md",
+      "bytes": 1316,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/sector-evaluation-matrix-egypt.md",
+      "bytes": 1543,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/sources/source-ladder-analysis-egypt.md",
+      "bytes": 2285,
+      "ext": ".md"
+    },
+    {
+      "path": "llm-wiki-agent/wiki/syntheses/weekly-intelligence-cycle-2026-05-15.md",
+      "bytes": 1580,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/github-repo-notes/ComposioHQ/awesome-codex-skills/awesome-codex-skills - 2026-04-27.md",
+      "bytes": 19118,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/github-repo-notes/charlie947/social-media-skills/social-media-skills - 2026-04-27.md",
+      "bytes": 24499,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/github-repo-notes/charlie947/social-media-skills/useful-parts-for-mohamed - 2026-04-27.md",
+      "bytes": 8006,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/00-master-summary.md",
+      "bytes": 3097,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/01-idea-map.md",
+      "bytes": 1682,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/02-practical-use-cases.md",
+      "bytes": 1652,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/03-post-ideas.md",
+      "bytes": 1661,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/04-carousel-outline.md",
+      "bytes": 1276,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/05-action-list.md",
+      "bytes": 834,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/06-links-and-sources.md",
+      "bytes": 1341,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/07-memory-and-skill-opportunities.md",
+      "bytes": 910,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/long-topic-splits/google-share/symphony-open-source-spec-nate-style-2026-04-28/08-long-article-nate-style-2026-04-28.md",
+      "bytes": 8183,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/0.المقدمة.md",
+      "bytes": 4614,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١.الفصل الأول.md",
+      "bytes": 23024,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٠. الفصل العاشر.md",
+      "bytes": 26895,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١١.الفصل الحادى عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٢.الفصل الثانى عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٣.الفصل الثالث عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٤.الفصل الرابع عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٥.الفصل الخامس عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٦.الفصل السادس عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٧.الفصل السابع عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٨.الفصل الثامن عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/١٩.الفصل التاسع عشر.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٢.الفصل الثانى.md",
+      "bytes": 24332,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٢٠.الفصل العشرون.md",
+      "bytes": 0,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٣.الفصل الثالث.md",
+      "bytes": 21960,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٤.الفصل الرابع.md",
+      "bytes": 23907,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٥.الفصل الخامس.md",
+      "bytes": 23237,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٦.الفصل السادس.md",
+      "bytes": 27235,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٧.الفصل السابع.md",
+      "bytes": 26608,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٨.الفصل الثامن.md",
+      "bytes": 25046,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/Ebook Costing/٩. الفصل التاسع.md",
+      "bytes": 22211,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/PDF BOOKS/Cost accounting/تكوين أفكار الكتاب ١.md",
+      "bytes": 38312,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/PDF BOOKS/Cost accounting/رحلة المحاسب داخل المصنع.md",
+      "bytes": 70736,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/web/openai/harness-engineering-agent-first-world-2026-06-13.md",
+      "bytes": 33761,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/DeRonin_/Autobrowse-Browserbase-2052697237856088114 - 2026-05-08.md",
+      "bytes": 21563,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/Machina/استخراج ذكاء النموذج قبل رحيله - 2026-07-07.md",
+      "bytes": 21697,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/Thariq/a-field-guide-to-fable-finding-your-unknowns - 2026-07-03.md",
+      "bytes": 16175,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/TheAhmadOsman/inference-engines-local-ai-hardware-2026 - 2026-06-22.md",
+      "bytes": 19866,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/Voxyz_ai/codebase-memory-repo-graph-agent-context - 2026-06-27.md",
+      "bytes": 18624,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/coreyganim/ai-second-brain-karpathy-method-2026-05-05.md",
+      "bytes": 19468,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/noisyb0y1/Obsidian + Kimi K2.6 - 7000 Note to 15000 Monthly Research System - 2026-06-17.md",
+      "bytes": 23735,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/noisyb0y1/Obsidian-Kimi-K2.6-7000-notes-15000-research-system - 2026-06-16.md",
+      "bytes": 30384,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/rileywestreel/how-to-build-claude-workflow-11-stages-2026-06-13.md",
+      "bytes": 25572,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/shannholmberg/company-brain-three-layer-blueprint-2026-05-05.md",
+      "bytes": 20053,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/tonysimons_/ملف-الروح-الذي-حوّل-هيرمس-إلى-مشغل-حقيقي-2026-05-15.md",
+      "bytes": 26617,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x/trq212/html-artifacts-claude-code-2026-05-13.md",
+      "bytes": 27409,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x-twitter/0xCodez/dynamic-workflows-claude-code - 2026-06-06.md",
+      "bytes": 33040,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x-twitter/0xchromium/how-to-build-claude-workflows-that-run-without-you - 2026-06-07.md",
+      "bytes": 27779,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x-twitter/akshay_pachaar/hermes-agent-masterclass - 2026-05-15.md",
+      "bytes": 27283,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x-twitter/eng_khairallah1/claude-cowork-automate-day - 2026-06-03.md",
+      "bytes": 22446,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x-twitter/neil_xbt/نظام-إدارة-مشاريع-في-أوبسيديان-يفهمه-كلود - 2026-05-30.md",
+      "bytes": 23772,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/x-twitter/rlancemartin/تصميم-حلقات-التصحيح-والذاكرة-للوكلاء - 2026-06-11.md",
+      "bytes": 26340,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/AI News & Strategy Daily _ Nate B Jones/Stripe-Visa-Mastercard-Microsoft-Meta-2026-05-03.md",
+      "bytes": 35517,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Andrei-Jikh/the-iran-deal-just-broke-the-global-economy-r4xoOQ32KNM - 2026-06-25.md",
+      "bytes": 35249,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Dan Koe/how-to-grow-an-audience-if-you-have-0-followers - 2026-05-14.md",
+      "bytes": 30917,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Greg-Isenberg/claude-fable-5-wrong-vjdHAWvVCP4 - 2026-06-12.md",
+      "bytes": 32607,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/How-I-AI/how-to-write-ai-agent-loops-claude-code-codex-JoXbk2fm7jM - 2026-06-19.md",
+      "bytes": 41019,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Johnny-Harris/oligarchy-is-worse-than-you-think-4S25FfbFw4M - 2026-06-19.md",
+      "bytes": 56358,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Justin-Sung/how-to-become-dangerously-self-educated-with-ai-Xc_ExgwLs8 - 2026-06-23.md",
+      "bytes": 31407,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/JustinSung/give-me-28-minutes-learn-anything-faster - 2026-06-06.md",
+      "bytes": 32136,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Kallaway/how-to-become-a-master-storyteller - 2026-05-14.md",
+      "bytes": 19759,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Nate-Herk-AI-Automation/stanfords-method-turns-claude-into-a-phd-level-research-team-Tj3018n5MVg - 2026-06-29.md",
+      "bytes": 22118,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Nick-Automates/أربع طبقات لتحسين جودة الواجهات - 2026-07-13.md",
+      "bytes": 13576,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Paul-J-Lipsky/how-to-create-stunning-motion-graphics-with-claude-design-lxmrK4RCWQQ - 2026-06-30.md",
+      "bytes": 22155,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Philipp Humm/give-me-9min-storytelling-skills - 2026-05-14.md",
+      "bytes": 20282,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/Profit Your Knowledge/20-copywriting-tips-first-sales - 2026-05-14.md",
+      "bytes": 25093,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/The-Rohit-Gautam-Show/this-20-minute-ai-tool-will-redefine-your-career-path-6QYfRzO_pRM - 2026-06-12.md",
+      "bytes": 34174,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/WorldofAI/gemini-35-flash-pro-tested-oekV5AQGRCY - 2026-05-16.md",
+      "bytes": 24970,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/ai-news-strategy-daily-nate-b-jones/agent-judge-layer-production-control-2026-05-13.md",
+      "bytes": 27952,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/ai-news-strategy-daily-nate-b-jones/pinecone-knowledge-layer-architecture-2026-05-13.md",
+      "bytes": 31455,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/dan-koe/if-you-have-multiple-interests-start-a-one-person-business-FBHhmqBs894-2026-06-13.md",
+      "bytes": 29360,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/media-notes/youtube/nate-herk/Printing-Press-YHk45NEpspE - 2026-05-09.md",
+      "bytes": 26589,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/x-article-notes/0xJeff/1 Month with Hermes - 2026-04-27/1 Month with Hermes - 2026-04-27.md",
+      "bytes": 17711,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/x-article-notes/Av1dlive/ztk-context-cut-90pct-2026-04-30/ztk-context-cut-90pct-2026-04-30.md",
+      "bytes": 39535,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/x-article-notes/dani_avila7/Keep your Claude Code context clean with Subagents - 2026-04-27/Keep your Claude Code context clean with Subagents - 2026-04-27.md",
+      "bytes": 25931,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/x-article-notes/google-share/An open-source spec for Codex orchestration Symphony - 2026-04-28/An open-source spec for Codex orchestration Symphony - 2026-04-28.md",
+      "bytes": 21257,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/x-article-notes/intuitiveml/The Self-Healing Agent Harness - 2026-04-28/The Self-Healing Agent Harness - 2026-04-28.md",
+      "bytes": 26663,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/x-article-notes/intuitiveml/The Self-Healing Agent Harness - 2026-04-28/The Self-Healing Agent Harness - Nate Style - 2026-04-28.md",
+      "bytes": 24878,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/AI News & Strategy Daily - Nate B Jones/Apple Just Positioned Itself for the Next Trillion Dollars - 2026-04-26.md",
+      "bytes": 33898,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/AI News & Strategy Daily - Nate B Jones/I Gave ChatGPT 5.5 the Work That Breaks Models. It Finished - 2026-04-28.md",
+      "bytes": 32281,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/AI News & Strategy Daily - Nate B Jones/Stop Asking Which Agent Is Best Ask These 5 Questions Instead - 2026-04-29 - Arabic note.md",
+      "bytes": 8012,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/AI News & Strategy Daily - Nate B Jones/Your Apps Don't Need an API Anymore. Codex Just Proved It - 2026-04-23.md",
+      "bytes": 24959,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Elzero Tube/مواقع منوعة هتفيدك - الجزء 3 - 2026-04-26.md",
+      "bytes": 16298,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Grant Owen/The Crazy Genius Who Solved The Youtube Algorithm (Literally) - 2026-04-09 - Arabic note.md",
+      "bytes": 15019,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Greg Isenberg/Making $$ with AI Agents - 2026-04-29.md",
+      "bytes": 18541,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Hossamudin Hassan ePreneurs/أخيراً! GPT-5.5 رقم 1 عالمياً + Kimi 2.6 يقلب المفتوح المصدر + DeepSeek V4 بتكلفة مبهرة! 🔥 - 2026-04-25.md",
+      "bytes": 64280,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Jack Roberts/I replaced Hermes... Claude Agent 2.0 - 2026-05-02.md",
+      "bytes": 39176,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Jay Clouse/Meet The AI Creator Who Doesn't Write With AI - 2026-04-27.md",
+      "bytes": 19862,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Jay Clouse/المبدع بالذكاء الاصطناعي الذي لا يكتب بالذكاء الاصطناعي - 2026-04-27.md",
+      "bytes": 19056,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Sequoia Capital/Andrej Karpathy - From Vibe Coding to Agentic Engineering - 2026-04-29.md",
+      "bytes": 14160,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Theo - t3․gg/Claude Code's favorite tech stack - 2026-04-29 - Arabic note.md",
+      "bytes": 11065,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Theo - t3․gg/Claude Code's favorite tech stack - 2026-04-29.md",
+      "bytes": 53865,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Tina Huang/Zero To A Full OpenClaw Setup In 26 Minutes - 2026-04-28.md",
+      "bytes": 12458,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Wes Roth/Hermes Agent is INSANE - 2026-04-27.md",
+      "bytes": 111486,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Yasser Seleem/إزاي تعمل 5000 دولار شهرياً.. ببيزنس شخص واحد (AI في 2026) - 2026-03-31.md",
+      "bytes": 27703,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/Yasser Seleem/من الصفر لـ +٣٠٠٠ دولار شهرياً بالذكاء الاصطناعي (بدون راس مال و لا موظفين!) - 2026-04-04.md",
+      "bytes": 17041,
+      "ext": ".md"
+    },
+    {
+      "path": "media-source-notes/youtube-transcripts/gwsaC3WiCqs_note.md",
+      "bytes": 13655,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/ARCHIVE/README.md",
+      "bytes": 95,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/CONFLICTS/OPEN-CONFLICTS.md",
+      "bytes": 91,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/CONFLICTS/README.md",
+      "bytes": 101,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/CURRENT-SNAPSHOT.md",
+      "bytes": 6495,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/DAILY/2026-04-09.md",
+      "bytes": 473,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/DAILY/README.md",
+      "bytes": 73,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/DECISIONS/CORE-DECISIONS.md",
+      "bytes": 249,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/DECISIONS/README.md",
+      "bytes": 93,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/DECISIONS/قرار-ترتيب-البناء.md",
+      "bytes": 798,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Diagnostics/Hermes Performance Audit - 2026-05-12.md",
+      "bytes": 3188,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/ERRORS/CORE-ERRORS.md",
+      "bytes": 238,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/ERRORS/README.md",
+      "bytes": 74,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/FACTS/CORE-FACTS.md",
+      "bytes": 339,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/FACTS/README.md",
+      "bytes": 165,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/INBOX/README.md",
+      "bytes": 162,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/00 - Index.md",
+      "bytes": 10451,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/01 - Inbox.md",
+      "bytes": 185,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/02 - Categories.md",
+      "bytes": 16112,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/03 - Connections.md",
+      "bytes": 6336,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/04 - Stronger Combinations.md",
+      "bytes": 4568,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/05 - Review Queue.md",
+      "bytes": 7779,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/06 - Media Source Map.md",
+      "bytes": 21077,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/2026-07-13-طبقة-مراجعة-الواجهات-القابلة-للإثبات.md",
+      "bytes": 4239,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Agent Dynamic Workflow Templates - Codez 2026-06-06.md",
+      "bytes": 3441,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Agent Judge Layer for Production Control - 2026-05-13.md",
+      "bytes": 2328,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Agent Loop Engineering for Mohamed OS - 2026-06-19.md",
+      "bytes": 3720,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Agent Soul Operating Contract - Tony Simons 2026-05-15.md",
+      "bytes": 1593,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Audience Growth from Proven Ideas and Relationships - Dan Koe 2026-05-14.md",
+      "bytes": 1725,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Book Factory - First Product - من الرقم إلى أرض المصنع.md",
+      "bytes": 5301,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Book Factory - Writer Voice - من الرقم إلى أرض المصنع.md",
+      "bytes": 6533,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Codebase Memory as Agent Context Layer - 2026-06-27.md",
+      "bytes": 2220,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Copywriting Review Service from YouTube 1FkickJwZq4.md",
+      "bytes": 1784,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Gemini Fast Model Prototype Radar - 2026-05-16.md",
+      "bytes": 3349,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/HTML Artifacts for Agent Review - 2026-05-13.md",
+      "bytes": 2081,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Higher Order Learning as AI-Proof Knowledge Workflow - Justin Sung 2026-06-23.md",
+      "bytes": 4043,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-05-11-إطار-صيد-الفرص-من-مصادر-فوضوية.md",
+      "bytes": 7361,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-05-11-استخراج-فرص-من-ملخصات-الوسائط.md",
+      "bytes": 16201,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-05-11-جسر-ملخصات-الوسائط-إلى-خزنة-الذكاء.md",
+      "bytes": 5137,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-05-11-منجم-الأفكار-من-إكس-وجيت-هاب.md",
+      "bytes": 6143,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-05-11-نظام-خزنة-الذكاء-للأفكار.md",
+      "bytes": 5883,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-05-16-رادار-منتجات-التسويق-بالعمولة-للفيديو-القصير.md",
+      "bytes": 7703,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-03-إعداد-مسارات-عمل-شخصية-آمنة.md",
+      "bytes": 5969,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-07-خدمة-مسار-عمل-آمن-يعمل-بدونك.md",
+      "bytes": 6565,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-11-خدمة-تصميم-حلقة-وكيل-قابلة-للتحقق.md",
+      "bytes": 5523,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-12-بطولة-تحكيم-النصوص-قبل-الإطلاق.md",
+      "bytes": 3619,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-12-نظام-وضوح-مهني-للمدربين-بالذكاء-الاصطناعي.md",
+      "bytes": 2575,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-13-جلسة-خريطة-مشروع-فردي-لأصحاب-الاهتمامات-المتعددة.md",
+      "bytes": 4077,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-13-خدمة-جاهزية-المستودعات-للوكلاء.md",
+      "bytes": 4275,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-13-سلم-ترقية-المحادثة-إلى-مساعد-يعمل-وحده.md",
+      "bytes": 3946,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-14-مركز-تقارير-وتشغيل-ذكي-للشركات.md",
+      "bytes": 4585,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-24-طبقة-قادة-تحول-الذكاء-الاصطناعي-داخل-المصنع.md",
+      "bytes": 8730,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Ideas/2026-06-25-تشريح-وقت-العمل-داخل-المصنع.md",
+      "bytes": 9598,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Inference Engine Decision Lens for Local AI - 2026-06-22.md",
+      "bytes": 3347,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Knowledge Layer Architecture for Production Agents - 2026-05-13.md",
+      "bytes": 2560,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Learning Hard Things Knowledge Workflow - Justin Sung 2026-06-06.md",
+      "bytes": 3921,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Master Storyteller System for Book Factory from YouTube t5Z-Q1bg1tU.md",
+      "bytes": 1034,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Motion Graphics as Fast Product Explanation Layer - 2026-06-30.md",
+      "bytes": 5392,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Obsidian + Agent Swarm — Compounding Knowledge Research System - 2026-06-17.md",
+      "bytes": 7343,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Obsidian Agent Project Vault - 2026-05-30.md",
+      "bytes": 3565,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Oligarchy as Political Risk Lens - 2026-06-19.md",
+      "bytes": 3477,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/README.md",
+      "bytes": 228,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Storm Multi-Lens Research as Verified Agent Workflow - 2026-06-29.md",
+      "bytes": 2773,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Storytelling Method for Book Factory from YouTube hNuAv-42jzY.md",
+      "bytes": 1365,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/Templates/Idea Template.md",
+      "bytes": 816,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/War to Infrastructure Political Economy Lens - 2026-06-25.md",
+      "bytes": 3999,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/hermes-agent-personal-agent-operating-system.md",
+      "bytes": 2840,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/استخراج الحكم قبل فقدان النموذج - 2026-07-07.md",
+      "bytes": 2658,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Ideas/Intelligence Vault/اكتشاف المجهولات كطبقة ضبط للوكلاء - 2026-07-03.md",
+      "bytes": 2387,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Investing/EGX Portfolio Monitoring System.md",
+      "bytes": 5282,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Knowledge Base/Agent Skills and Tools for Interactive Book Platform.md",
+      "bytes": 8382,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Knowledge Base/Interactive Book Platform - Source Vetting Report.md",
+      "bytes": 17703,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Knowledge Base/PDF-Book-Production-Reference-Links.md",
+      "bytes": 2162,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/PROCEDURES/README.md",
+      "bytes": 175,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/PROJECTS/ACTIVE.md",
+      "bytes": 234,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/PROJECTS/README.md",
+      "bytes": 116,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/PROJECTS/خطة-تبني-الوكلاء-المرحلية.md",
+      "bytes": 3384,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Codebase Memory/Codebase Memory MCP Architecture Snapshots 2026-06-27.md",
+      "bytes": 44382,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Codebase Memory/Codebase Memory — Detailed Index 2026-06-27.md",
+      "bytes": 124446,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Codebase Memory/DeepSeek Fast — Codebase Memory Review 2026-06-27.md",
+      "bytes": 11796,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Codebase Memory/codebase-memory-index-2026-06-27.json",
+      "bytes": 2494947,
+      "ext": ".json"
+    },
+    {
+      "path": "obsidian-vault/Projects/Company Data Command Center/Company Data Command Center.md",
+      "bytes": 5254,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Compound — Asset Inventory.md",
+      "bytes": 20164,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Compound — Execution Plan.md",
+      "bytes": 18785,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Compound — Phase 1 Draft Pack — First 5 Knowledge Cards.md",
+      "bytes": 19332,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Compound — Phase 1 First 20 Knowledge Cards.md",
+      "bytes": 9387,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Compound — Research References.md",
+      "bytes": 6782,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Compound — Saved State — 2026-06-29.md",
+      "bytes": 5252,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Factory OS.md",
+      "bytes": 2091,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/Interactive Book Platform.md",
+      "bytes": 1640,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/LLM Knowledge Base — GitHub Source Review.md",
+      "bytes": 3438,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/LLM Knowledge Base.md",
+      "bytes": 4222,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/egx_system.md",
+      "bytes": 3180,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/الشرح والبحث والتفكير/README.md",
+      "bytes": 2122,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/الشرح والبحث والتفكير/تأصيل - الطريقة الموحدة.md",
+      "bytes": 20470,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/الشرح والبحث والتفكير/كتالوج طرق الشرح.md",
+      "bytes": 3939,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/الشرح والبحث والتفكير/مميزات بحثية مستعارة من مهارة الميديا.md",
+      "bytes": 5052,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/تحليل خريطة 9-11 أبريل 2026 مقابل الدستور.md",
+      "bytes": 4097,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/خارطة تعلم الذكاء الاصطناعي والتكنولوجيا.md",
+      "bytes": 7445,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/دستور عملي لاختيار القطاعات المتكاملة في البورصة المصرية.md",
+      "bytes": 15364,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/دستور قرار الاستثمار في البورصة المصرية.md",
+      "bytes": 5116,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/دليل التشغيل اليومي الأسبوعي الشهري للبورصة المصرية.md",
+      "bytes": 12987,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/دورة الذكاء الأسبوعية.md",
+      "bytes": 2850,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/سلم مصادر التحليل اليومي والساعة.md",
+      "bytes": 6158,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/عينات مراجعة النصوص البيعية/00 - فهرس العينات.md",
+      "bytes": 1527,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/عينات مراجعة النصوص البيعية/عرض خدمة مراجعة نص بيع خلال أربع وعشرين ساعة.md",
+      "bytes": 2017,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/عينات مراجعة النصوص البيعية/عينة مراجعة نص بيعي - زينلر.md",
+      "bytes": 3555,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/عينات مراجعة النصوص البيعية/عينة مراجعة نص بيعي - كيت.md",
+      "bytes": 3219,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/عينات مراجعة النصوص البيعية/عينة مراجعة نص بيعي - مختبر القائمة إلى الإطلاق.md",
+      "bytes": 3337,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/قرار دورة الذكاء الأسبوعية - 2026-05-15.md",
+      "bytes": 3745,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/مشروع الاستثمار في البورصة المصرية.md",
+      "bytes": 5836,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/مصفوفة تقييم القطاعات.md",
+      "bytes": 2954,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/Projects/منهج اختيار القطاعات المتكاملة.md",
+      "bytes": 3840,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/SHARED/README.md",
+      "bytes": 114,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/SHARED/SHARED-BRAIN.md",
+      "bytes": 184,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/START-HERE.md",
+      "bytes": 1142,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/CONFLICT-TEMPLATE.md",
+      "bytes": 199,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/DAILY-TEMPLATE.md",
+      "bytes": 230,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/DECISION-TEMPLATE.md",
+      "bytes": 245,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/ERROR-TEMPLATE.md",
+      "bytes": 158,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/FACT-TEMPLATE.md",
+      "bytes": 211,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/PROCEDURE-TEMPLATE.md",
+      "bytes": 154,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/PROJECT-TEMPLATE.md",
+      "bytes": 192,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/README.md",
+      "bytes": 117,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/SHARED-TEMPLATE.md",
+      "bytes": 192,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/TEMPLATES/SNAPSHOT-TEMPLATE.md",
+      "bytes": 249,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/VAULT-INDEX.md",
+      "bytes": 1255,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/AI-HANDOFF-PROMPT.md",
+      "bytes": 2447,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/AI-START-HERE.md",
+      "bytes": 10025,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/EGX-SESSION-RUNBOOK.md",
+      "bytes": 6991,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/ai_manifest.json",
+      "bytes": 5648,
+      "ext": ".json"
+    },
+    {
+      "path": "obsidian-vault/egx_system/playbook/investment_constitution.md",
+      "bytes": 7333,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/playbook/sector_map.md",
+      "bytes": 6470,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/playbook/workflow.md",
+      "bytes": 6010,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/portfolio/positions.csv",
+      "bytes": 2346,
+      "ext": ".csv"
+    },
+    {
+      "path": "obsidian-vault/egx_system/portfolio/rules.md",
+      "bytes": 5531,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/portfolio/watchlist.txt",
+      "bytes": 54,
+      "ext": ".txt"
+    },
+    {
+      "path": "obsidian-vault/egx_system/reports/daily/daily-local-review-2026-04-12.json",
+      "bytes": 1214,
+      "ext": ".json"
+    },
+    {
+      "path": "obsidian-vault/egx_system/reports/daily/daily-local-review-2026-04-12.md",
+      "bytes": 1424,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/reports/daily/daily-local-review-2026-04-13.json",
+      "bytes": 859,
+      "ext": ".json"
+    },
+    {
+      "path": "obsidian-vault/egx_system/reports/daily/daily-local-review-2026-04-13.md",
+      "bytes": 1366,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/reports/daily/decision-local-review-2026-04-12.md",
+      "bytes": 1935,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/reports/daily/decision-local-review-2026-04-13.md",
+      "bytes": 2338,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/reports/weekly/weekly-local-review-2026-04-13.md",
+      "bytes": 7286,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/skills_local/README.md",
+      "bytes": 1863,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/egx_system/tools/validate_system.py",
+      "bytes": 8526,
+      "ext": ".py"
+    },
+    {
+      "path": "obsidian-vault/tasks/lessons.md",
+      "bytes": 479,
+      "ext": ".md"
+    },
+    {
+      "path": "obsidian-vault/tasks/todo.md",
+      "bytes": 962,
+      "ext": ".md"
+    },
+    {
+      "path": "operator-memory/MEMORY.md",
+      "bytes": 2060,
+      "ext": ".md"
+    },
+    {
+      "path": "operator-memory/SOUL.md",
+      "bytes": 13986,
+      "ext": ".md"
+    },
+    {
+      "path": "operator-memory/USER.md",
+      "bytes": 1421,
+      "ext": ".md"
+    }
+  ]
+}

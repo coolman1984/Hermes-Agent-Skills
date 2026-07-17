@@ -1,0 +1,69 @@
+{
+  "date": "2026-04-12",
+  "positions_count": 22,
+  "watchlist_count": 22,
+  "status_counts": {
+    "hold": 6,
+    "review": 6,
+    "reduce": 3,
+    "exit": 7
+  },
+  "core_positions": [
+    "ADIB",
+    "ETEL",
+    "FWRY",
+    "EFID",
+    "TMGH",
+    "ISPH"
+  ],
+  "review_positions": [
+    "JUFO",
+    "ORHD",
+    "SWDY",
+    "MFPC",
+    "MASR",
+    "MTIE"
+  ],
+  "reduce_positions": [
+    "ABUK",
+    "AZG",
+    "ATQA"
+  ],
+  "exit_positions": [
+    "SAUD",
+    "VALU",
+    "EMFD",
+    "FAIT",
+    "PHDC",
+    "CLHO",
+    "EGCH"
+  ],
+  "rule_violations": [],
+  "confidence": "medium",
+  "missing_data": [
+    "ADIB:avg_cost",
+    "ETEL:avg_cost",
+    "FWRY:avg_cost",
+    "EFID:avg_cost",
+    "TMGH:avg_cost",
+    "ISPH:avg_cost",
+    "JUFO:avg_cost",
+    "ORHD:avg_cost",
+    "SWDY:avg_cost",
+    "MFPC:avg_cost",
+    "MASR:avg_cost",
+    "MTIE:avg_cost",
+    "ABUK:avg_cost",
+    "AZG:avg_cost",
+    "ATQA:avg_cost",
+    "SAUD:avg_cost",
+    "VALU:avg_cost",
+    "EMFD:avg_cost",
+    "FAIT:avg_cost",
+    "PHDC:avg_cost",
+    "CLHO:avg_cost",
+    "EGCH:avg_cost"
+  ],
+  "analysis_mode": "local-only",
+  "report_path": "/root/Documents/Obsidian Vault/egx_system/reports/daily/daily-local-review-2026-04-12.md"
+}

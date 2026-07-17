@@ -1,0 +1,164 @@
+{
+  "system_name": "EGX Portfolio OS",
+  "owner": "Mohamed Fawzy",
+  "objective": "Fast capital growth through high-but-calculated risk in Egyptian equities using a disciplined portfolio-manager operating system.",
+  "language": "Arabic-first",
+  "entrypoint": "/root/Documents/Obsidian Vault/egx_system/AI-START-HERE.md",
+  "mandatory_read_order": [
+    "/root/Documents/Obsidian Vault/CURRENT-SNAPSHOT.md",
+    "/root/Documents/Obsidian Vault/egx_system/AI-START-HERE.md",
+    "/root/Documents/Obsidian Vault/egx_system/portfolio/rules.md",
+    "/root/Documents/Obsidian Vault/egx_system/playbook/investment_constitution.md",
+    "/root/Documents/Obsidian Vault/egx_system/playbook/sector_map.md",
+    "/root/Documents/Obsidian Vault/egx_system/playbook/workflow.md",
+    "/root/Documents/Obsidian Vault/egx_system/EGX-SESSION-RUNBOOK.md",
+    "/root/Documents/Obsidian Vault/Investing/EGX Portfolio Monitoring System.md",
+    "/root/Documents/Obsidian Vault/egx_system/portfolio/positions.csv",
+    "/root/Documents/Obsidian Vault/egx_system/portfolio/watchlist.txt"
+  ],
+  "authoritative_files_priority": [
+    "/root/Documents/Obsidian Vault/egx_system/portfolio/rules.md",
+    "/root/Documents/Obsidian Vault/egx_system/playbook/investment_constitution.md",
+    "/root/Documents/Obsidian Vault/egx_system/playbook/sector_map.md",
+    "/root/Documents/Obsidian Vault/egx_system/playbook/workflow.md",
+    "/root/Documents/Obsidian Vault/egx_system/EGX-SESSION-RUNBOOK.md",
+    "/root/Documents/Obsidian Vault/Investing/EGX Portfolio Monitoring System.md",
+    "/root/Documents/Obsidian Vault/Projects/egx_system.md"
+  ],
+  "acceptability_filter": {
+    "mode": "acceptable_sharia_activity",
+    "exclude": [
+      "conventional_riba_banks",
+      "blatant_riba_lenders",
+      "tobacco",
+      "alcohol",
+      "gambling",
+      "clearly_suspect_core_business"
+    ],
+    "allow": "Operational/service/industrial companies with acceptable core business even if they do not pass ultra-strict formal sharia stock screens."
+  },
+  "portfolio_model": {
+    "target_total_positions": "8-12",
+    "max_core_stock_weight": 22,
+    "max_tactical_stock_weight": 8,
+    "max_top3_weight": 55,
+    "max_sector_weight": 40,
+    "max_same_driver_weight": 45,
+    "layers": [
+      "core",
+      "acceleration",
+      "review",
+      "reduce",
+      "exit"
+    ]
+  },
+  "source_hierarchy": {
+    "official": [
+      "EGX",
+      "Company IR",
+      "CBE",
+      "CAPMAS",
+      "FRA",
+      "Sector regulator"
+    ],
+    "local_fast": [
+      "Mubasher",
+      "ArabFinance",
+      "Alborsa News"
+    ],
+    "interpretation": [
+      "Reuters",
+      "EFG Hermes Research",
+      "PMI",
+      "IMF",
+      "World Bank Commodities"
+    ],
+    "timing": [
+      "TradingView",
+      "Investing"
+    ]
+  },
+  "hard_source_rule": {
+    "difficult_sources": [
+      "X",
+      "Substack",
+      "blocked_or_blank_text_pages"
+    ],
+    "action": "Use Camoufox directly in text-first mode."
+  },
+  "tool_priority": [
+    "read_file",
+    "search_files",
+    "patch",
+    "write_file",
+    "terminal",
+    "session_search",
+    "execute_code"
+  ],
+  "skills_priority": [
+    "egyptian-equity-workflow",
+    "egx-local-cron-bootstrap",
+    "egx-weekly-review",
+    "obsidian",
+    "camoufox-article-browsing",
+    "researcher"
+  ],
+  "verified_commands": [
+    "market",
+    "marketlab",
+    "market cron list",
+    "market cron status"
+  ],
+  "cron_jobs": [
+    {
+      "id": "dac1c4980735",
+      "name": "EGX Local Daily Refresh"
+    },
+    {
+      "id": "51eba4f942dd",
+      "name": "EGX Local Decision Memo"
+    },
+    {
+      "id": "3885f822a7b0",
+      "name": "EGX Weekly Local Review"
+    }
+  ],
+  "required_output_fields": [
+    "new_facts",
+    "sector_impact",
+    "portfolio_impact",
+    "system_classification",
+    "final_decision",
+    "confidence",
+    "missing_data"
+  ],
+  "edge_cases": {
+    "missing_avg_cost": "Do structure/quality/role analysis only; do not pretend exact P&L precision.",
+    "source_conflict": "Official source wins; if unresolved, state conflict explicitly and reduce confidence.",
+    "web_unavailable": "Continue locally using vault files and say confidence is limited.",
+    "older_project_docs_conflict": "Current egx_system docs override historical project notes."
+  },
+  "change_protocol": {
+    "must_update_together": [
+      "/root/Documents/Obsidian Vault/egx_system/AI-START-HERE.md",
+      "/root/Documents/Obsidian Vault/egx_system/AI-HANDOFF-PROMPT.md",
+      "/root/Documents/Obsidian Vault/egx_system/ai_manifest.json",
+      "/root/Documents/Obsidian Vault/egx_system/portfolio/rules.md",
+      "/root/Documents/Obsidian Vault/egx_system/playbook/investment_constitution.md",
+      "/root/Documents/Obsidian Vault/egx_system/playbook/sector_map.md",
+      "/root/Documents/Obsidian Vault/egx_system/playbook/workflow.md",
+      "/root/Documents/Obsidian Vault/Investing/EGX Portfolio Monitoring System.md",
+      "/root/Documents/Obsidian Vault/Projects/egx_system.md"
+    ],
+    "also_update_if_changed": {
+      "portfolio_classification_or_weights": "/root/Documents/Obsidian Vault/egx_system/portfolio/positions.csv",
+      "active_watchlist": "/root/Documents/Obsidian Vault/egx_system/portfolio/watchlist.txt",
+      "validation_logic": "/root/Documents/Obsidian Vault/egx_system/tools/validate_system.py"
+    }
+  },
+  "control_architecture": {
+    "primary": "Document-driven operating contract",
+    "secondary": "Optional Python/script validation",
+    "warning": "Do not turn the whole system into rigid Python-only automation; use scripts to validate, not to replace investment judgment."
+  }
+}
