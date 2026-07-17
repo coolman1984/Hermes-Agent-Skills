@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <style>
+    :root {
+      --bg: #f6efe3;
+      --paper: #fffaf0;
+      --ink: #1f2933;
+      --muted: #667085;
+      --line: #dfd4c3;
+      --accent: #8a5a24;
+      --accent-2: #1f6f61;
+      --danger: #9f2f2f;
+      --good: #256f46;
+      --shadow: 0 18px 48px rgba(54, 38, 19, .14);
+      --radius: 24px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 20% 0%, rgba(138, 90, 36, .12), transparent 36%), linear-gradient(135deg, #f8f1e7 0%, #efe6d8 48%, #f7efe3 100%);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.8;
+    }
+    .shell { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 28px 0 56px; }
+    .hero { display: grid; grid-template-columns: 1.05fr .95fr; gap: 24px; align-items: stretch; margin-bottom: 24px; }
+    .panel, .card { background: rgba(255, 250, 240, .90); border: 1px solid rgba(138, 90, 36, .16); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px; }
+    .kicker { display: inline-flex; padding: 7px 13px; border-radius: 999px; background: #ead8bf; color: #6d4418; font-weight: 800; font-size: 14px; }
+    h1 { margin: 18px 0 12px; font-size: clamp(34px, 6vw, 66px); line-height: 1.05; letter-spacing: -1.2px; }
+    h2 { margin: 0 0 16px; font-size: clamp(24px, 3vw, 36px); line-height: 1.22; }
+    h3 { margin: 0 0 8px; font-size: 21px; }
+    p { margin: 0 0 14px; }
+    .lead { font-size: 20px; color: #3d3328; max-width: 68ch; }
+    .quote { border-right: 5px solid var(--accent); padding: 18px; background: #fbf3e7; border-radius: 18px; font-size: 22px; font-weight: 800; }
+    .small { color: var(--muted); font-size: 15px; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin-top: 18px; }
+    .span-5 { grid-column: span 5; } .span-6 { grid-column: span 6; } .span-7 { grid-column: span 7; } .span-12 { grid-column: span 12; }
+    .options { display: grid; gap: 10px; margin-top: 14px; }
+    button { appearance: none; border: 1px solid #d5c4ad; background: #fff8ed; color: var(--ink); border-radius: 16px; padding: 13px 16px; font: inherit; font-weight: 800; text-align: right; cursor: pointer; min-height: 48px; }
+    button:hover, button:focus-visible { border-color: var(--accent); outline: none; box-shadow: 0 10px 24px rgba(138, 90, 36, .14); }
+    button.active { background: #e8d3b8; border-color: var(--accent); color: #4b2f12; }
+    .result { margin-top: 14px; padding: 18px; border-radius: 18px; background: #f4eadb; border: 1px dashed #b99260; min-height: 126px; }
+    .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 12px; }
+    .step { background: #f6ead8; border: 1px solid #ddc7a8; border-radius: 18px; padding: 14px; min-height: 116px; }
+    .step strong { display: block; font-size: 18px; margin-bottom: 8px; color: #6d4418; }
+    .answer { display: none; margin-top: 14px; padding: 16px; border-radius: 16px; background: #edf8f2; border: 1px solid #a9d8bd; font-weight: 800; }
+    .answer.show { display: block; }
+    @media (max-width: 900px) { .hero, .grid, .flow { grid-template-columns: 1fr; } .span-5, .span-6, .span-7, .span-12 { grid-column: 1; } .panel, .card { padding: 22px; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="panel">
+        <span class="kicker">{{KICKER}}</span>
+        <h1>{{MAIN_TITLE}}</h1>
+        <p class="lead">{{LEAD}}</p>
+        <p class="small">{{SMALL_NOTE}}</p>
+      </div>
+      <div class="panel">
+        <div class="quote">{{OPENING_QUESTION}}</div>
+        <p>{{OPENING_EXPLANATION}}</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card span-6">
+        <h2>{{CONCEPT_ONE_TITLE}}</h2>
+        <p>{{CONCEPT_ONE_TEXT}}</p>
+      </article>
+      <article class="card span-6">
+        <h2>{{CONCEPT_TWO_TITLE}}</h2>
+        <p>{{CONCEPT_TWO_TEXT}}</p>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card span-5">
+        <h2>{{INTERACTION_TITLE}}</h2>
+        <p>{{INTERACTION_PROMPT}}</p>
+        <div class="options" id="optionsA">
+          <button data-a="one">{{OPTION_A_ONE}}</button>
+          <button data-a="two">{{OPTION_A_TWO}}</button>
+          <button data-a="three">{{OPTION_A_THREE}}</button>
+        </div>
+        <div class="options" id="optionsB">
+          <button data-b="one">{{OPTION_B_ONE}}</button>
+          <button data-b="two">{{OPTION_B_TWO}}</button>
+          <button data-b="three">{{OPTION_B_THREE}}</button>
+        </div>
+      </article>
+      <article class="card span-7">
+        <h2>{{RESULT_TITLE}}</h2>
+        <div class="result" id="resultBox">{{DEFAULT_RESULT}}</div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card span-12">
+        <h2>{{FLOW_TITLE}}</h2>
+        <div class="flow">
+          <div class="step"><strong>{{STEP_ONE_TITLE}}</strong>{{STEP_ONE_TEXT}}</div>
+          <div class="step"><strong>{{STEP_TWO_TITLE}}</strong>{{STEP_TWO_TEXT}}</div>
+          <div class="step"><strong>{{STEP_THREE_TITLE}}</strong>{{STEP_THREE_TEXT}}</div>
+          <div class="step"><strong>{{STEP_FOUR_TITLE}}</strong>{{STEP_FOUR_TEXT}}</div>
+          <div class="step"><strong>{{STEP_FIVE_TITLE}}</strong>{{STEP_FIVE_TEXT}}</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card span-12">
+        <h2>{{QUIZ_TITLE}}</h2>
+        <p>{{QUIZ_QUESTION}}</p>
+        <div class="options">
+          <button onclick="showAnswer(false)">{{QUIZ_WRONG_ONE}}</button>
+          <button onclick="showAnswer(true)">{{QUIZ_RIGHT}}</button>
+          <button onclick="showAnswer(false)">{{QUIZ_WRONG_TWO}}</button>
+        </div>
+        <div class="answer" id="quizAnswer"></div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const state = { a: null, b: null };
+    const resultBox = document.getElementById('resultBox');
+    const readings = {
+      'one-one': '{{READING_ONE_ONE}}',
+      'one-two': '{{READING_ONE_TWO}}',
+      'one-three': '{{READING_ONE_THREE}}',
+      'two-one': '{{READING_TWO_ONE}}',
+      'two-two': '{{READING_TWO_TWO}}',
+      'two-three': '{{READING_TWO_THREE}}',
+      'three-one': '{{READING_THREE_ONE}}',
+      'three-two': '{{READING_THREE_TWO}}',
+      'three-three': '{{READING_THREE_THREE}}'
+    };
+    function setActive(group, key, value) {
+      state[key] = value;
+      document.querySelectorAll(group + ' button').forEach(button => button.classList.toggle('active', button.dataset[key] === value));
+      updateResult();
+    }
+    document.querySelectorAll('#optionsA button').forEach(button => button.addEventListener('click', () => setActive('#optionsA', 'a', button.dataset.a)));
+    document.querySelectorAll('#optionsB button').forEach(button => button.addEventListener('click', () => setActive('#optionsB', 'b', button.dataset.b)));
+    function updateResult() {
+      if (!state.a || !state.b) { resultBox.textContent = '{{DEFAULT_RESULT}}'; return; }
+      resultBox.textContent = readings[state.a + '-' + state.b];
+    }
+    function showAnswer(isRight) {
+      const box = document.getElementById('quizAnswer');
+      box.classList.add('show');
+      box.textContent = isRight ? '{{QUIZ_RIGHT_EXPLANATION}}' : '{{QUIZ_WRONG_EXPLANATION}}';
+    }
+  </script>
+</body>
+</html>

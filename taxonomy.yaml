@@ -1,0 +1,285 @@
+version: 1
+generated_at: '2026-07-17T10:56:14Z'
+domains:
+- id: core-reasoning-and-execution
+  title: Core Reasoning & Execution
+  order: 1
+  summary: How the agent thinks, plans, verifies, and delivers under pressure.
+  skills:
+  - architect
+  - builder
+  - capability-first
+  - context-mode-routing
+  - developer
+  - mohamed-personality-operating-model
+  - orchestration-ceo
+  - permissions
+  - plan
+  - planning-forecasting-mastery
+  - planning-mastery
+  - prototype-client-readiness-polish
+  - reasoning-mastery
+  - researcher
+  - reviewer-qa
+  - skill-forge
+  - spike
+  - standing-execution-protocol
+  - task-tracker
+  - task-watch
+  - writing-plans
+- id: agent-orchestration
+  title: Agent Orchestration & Hermes OS
+  order: 2
+  summary: Multi-agent loops, Hermes configuration, profiles, workers, and handoffs.
+  skills:
+  - agentic-workflows-do-framework
+  - ai-coding-cli-delegation
+  - ai-handoff-control-layer
+  - debugging-hermes-tui-commands
+  - gemini-cli
+  - generic-agent-setup
+  - hermes-agent
+  - hermes-agent-skill-authoring
+  - hermes-gateway-telegram-stuck
+  - hermes-honcho-manager-dispatch-fix
+  - hermes-kanban-workflows
+  - hermes-openclaw-wrapper-fixes
+  - hermes-profile-bootstrap
+  - hermes-s6-container-supervision
+  - kanban-codex-lane
+  - mohamed-agent-loop-os
+  - mohamed-claude-codex-control-bridge
+  - mohamed-coding-team
+  - mohamed-opencode-go-worker-profiles
+  - persistent-memory-project-governance
+  - subagent-driven-development
+  - team-governed-coding-workflow
+- id: software-engineering
+  title: Software Engineering
+  order: 3
+  summary: Architecture, coding standards, testing, debugging, review, and platform
+    builds.
+  skills:
+  - android-agent-bridge
+  - arabic-pdf-weasyprint-pipeline
+  - arabic-software-localization
+  - code-review
+  - codebase-memory-workflow
+  - company-dashboard-arabic-lessons
+  - dogfood
+  - engineering-ai-automation
+  - engineering-backend
+  - engineering-frontend
+  - engineering-hardware-support
+  - engineering-mastery
+  - engineering-networking
+  - engineering-software-foundations
+  - engineering-systems-architecture
+  - engineering-ui-ux-design
+  - refactor-compatibility-recovery
+  - requesting-code-review
+  - senior-software-engineer
+  - simplify-code
+  - systematic-debugging
+  - termux-node-native-addon-triage
+  - termux-open-source-tool-triage
+  - test-driven-development
+  - uv-install-triage
+- id: data-engineering-and-databases
+  title: Data Engineering & Databases
+  order: 4
+  summary: Extraction, ETL, SQL, file resilience, and data pipelines.
+  skills:
+  - data-extraction-mastery
+  - database-mastery
+  - jupyter-live-kernel
+  - ocr-and-documents
+  - robust-file-extraction
+- id: research-and-markets
+  title: Research, Markets & Intelligence
+  order: 5
+  summary: Web/academic research, market workflows, credibility checks, and answer
+    engines.
+  skills:
+  - ai-agent-adoption-review
+  - arxiv
+  - blogwatcher
+  - camoufox-article-browsing
+  - camoufox-proot-setup
+  - data-acquisition-mastery
+  - deepseek-alt
+  - egx-local-cron-bootstrap
+  - egyptian-equity-workflow
+  - egyptian-sector-portfolio-audit
+  - free-search
+  - freeplex-internal-answer-engine
+  - github-repo-credibility-research
+  - last30days
+  - llm-wiki
+  - mubasher-announcements-scrape-fallback
+  - package-research-fallback
+  - perplexity-terminal
+  - polymarket
+  - research-collection-mastery
+  - research-paper-writing
+  - tavily
+  - trading-report-template
+  - universal-scrape
+  - web-browsing
+  - web-search-free
+  - website-scrape
+- id: knowledge-notes-and-content
+  title: Knowledge, Notes & Content Systems
+  order: 6
+  summary: Vaults, media ingestion, Arabic content, books, and second-brain systems.
+  skills:
+  - agent-memory-vault
+  - al-majlis
+  - humanizer
+  - ideation
+  - interactive-book-explainer
+  - long-topic-splitter
+  - mohamed-arabic-content-style
+  - mohamed-book-writing-style-factory
+  - mohamed-content-growth-systems
+  - mohamed-intelligence-vault
+  - mohamed-presentation-storytelling
+  - mohamed-unified-media-drop
+  - nate-b-jones-style-card
+  - obsidian
+  - obsidian-llm-wiki-ingest
+  - obsidian-vault
+  - pdf-downloads-page-by-page-briefing
+  - professional-pdf-book-factory
+  - program-tools-guide-maintainer
+  - taaseel
+  - transformation-leader
+- id: creative-and-video
+  title: Creative, Design & Video
+  order: 7
+  summary: HyperFrames, motion, design systems, diagrams, generative art, and music.
+  skills:
+  - animejs
+  - architecture-diagram
+  - ascii-art
+  - ascii-video
+  - baoyu-article-illustrator
+  - baoyu-comic
+  - baoyu-infographic
+  - claude-design
+  - comfyui
+  - css-animations
+  - design-md
+  - excalidraw
+  - gsap
+  - hyperframes
+  - hyperframes-arm-proot-render-triage
+  - hyperframes-cli
+  - hyperframes-media
+  - hyperframes-registry
+  - lottie
+  - manim-video
+  - p5js
+  - pixel-art
+  - popular-web-designs
+  - pretext
+  - remotion-to-hyperframes
+  - sketch
+  - songwriting-and-ai-music
+  - tailwind
+  - three
+  - touchdesigner-mcp
+  - waapi
+  - website-to-hyperframes
+- id: mlops-and-models
+  title: MLOps, Training & Model Ops
+  order: 8
+  summary: Fine-tuning, inference, evaluation, multimodal models, and experiment tracking.
+  skills:
+  - audiocraft-audio-generation
+  - axolotl
+  - clip
+  - dspy
+  - evaluating-llms-harness
+  - fine-tuning-with-trl
+  - gguf-quantization
+  - grpo-rl-training
+  - guidance
+  - huggingface-hub
+  - llama-cpp
+  - modal-serverless-gpu
+  - obliteratus
+  - outlines
+  - peft-fine-tuning
+  - pytorch-fsdp
+  - segment-anything-model
+  - serving-llms-vllm
+  - stable-diffusion-image-generation
+  - unsloth
+  - weights-and-biases
+  - whisper
+- id: productivity-and-office
+  title: Productivity & Office Automation
+  order: 9
+  summary: Docs, decks, sheets ecosystems, meetings, and productivity CLIs.
+  skills:
+  - airtable
+  - google-workspace
+  - himalaya
+  - linear
+  - maps
+  - nano-pdf
+  - notion
+  - petdex
+  - powerpoint
+  - teams-meeting-pipeline
+- id: media-and-social
+  title: Media & Social Platforms
+  order: 10
+  summary: YouTube, Spotify, GIFs, X/Twitter tools and content retrieval.
+  skills:
+  - gif-search
+  - songsee
+  - spotify
+  - x-twitter-tools
+  - xitter
+  - xurl
+  - youtube-download
+  - youtube-tools
+  - yuanbao
+- id: device-platform-and-devops
+  title: Device, Platform & DevOps
+  order: 11
+  summary: Android/Termux control, computer use, cleanup, webhooks, and environment
+    ops.
+  skills:
+  - computer-use
+  - find-nearby
+  - hermes-android-bridge
+  - journey-kit-install
+  - journey-kits-install
+  - minecraft-modpack-server
+  - mobilerun
+  - mohamed-system-environment-audit
+  - openhue
+  - operations-cleanup
+  - phone-control
+  - pokemon-player
+  - space-cleanup-inventory
+  - termux-api
+  - webhook-subscriptions
+- id: integrations-github-mcp
+  title: 'Integrations: GitHub & MCP'
+  order: 12
+  summary: Repository workflows and Model Context Protocol tooling.
+  skills:
+  - github-workflows
+  - mcporter
+  - native-mcp
+- id: security-and-skill-safety
+  title: Security, Vetting & Red Team
+  order: 13
+  summary: Skill security review and red-team research tooling. Handle carefully.
+  skills:
+  - godmode
+  - skill-vetter

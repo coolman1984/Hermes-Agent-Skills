@@ -1,0 +1,73 @@
+@page {
+  size: A4;
+  margin: 16mm;
+  background: #fffdf7;
+  @bottom-center {
+    content: counter(page);
+    color: #6f5f43;
+    font-size: 9pt;
+  }
+}
+
+body {
+  direction: rtl;
+  font-family: "Noto Naskh Arabic", "Noto Sans Arabic", serif;
+  font-size: 10.8pt;
+  line-height: 1.66;
+  color: #102a38;
+}
+
+h1, h2, h3, th {
+  font-family: "Noto Sans Arabic", "Noto Naskh Arabic", sans-serif;
+}
+
+h1 {
+  font-size: 22pt;
+  color: #0b3140;
+  margin: 0 0 7mm;
+}
+
+h2 {
+  font-size: 15pt;
+  color: #8a5a18;
+  margin: 8mm 0 3mm;
+}
+
+p {
+  margin: 0 0 4mm;
+}
+
+.expert-note {
+  border: 1px solid #e0d2b0;
+  background: #fff8e8;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 6mm 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6mm 0;
+}
+
+th {
+  background: #0a3040;
+  color: #ffffff;
+  padding: 8px;
+  text-align: right;
+}
+
+td {
+  border: 1px solid #ddd3bd;
+  padding: 8px;
+  vertical-align: top;
+}
+
+.chapter {
+  break-inside: auto;
+}
+
+.avoid-break {
+  break-inside: avoid;
+}
