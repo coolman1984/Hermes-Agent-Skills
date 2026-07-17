@@ -1,6 +1,9 @@
 ---
 name: egx-local-cron-bootstrap
-description: "Bootstrap and harden a local-only EGX workflow in Hermes: fail-loud daily report generation, JSON sidecar output, decision memo gating, and cron setup on Android/Proot without systemd conflicts."
+description: 'Bootstrap and harden a local-only EGX workflow in Hermes: fail-loud
+  daily report generation, JSON sidecar output, decision memo gating, and cron setup
+  on Android/Proot without systemd conflicts.'
+tags: [egx, cron, obsidian, local, reports, scheduling]
 ---
 
 # egx-local-cron-bootstrap

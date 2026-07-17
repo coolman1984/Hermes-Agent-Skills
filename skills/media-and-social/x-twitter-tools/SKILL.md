@@ -1,11 +1,19 @@
 ---
 name: x-twitter-tools
-description: Free X/Twitter retrieval methods, including no-login mirror APIs for tweet inspection when direct extraction fails.
+description: Free X/Twitter retrieval methods, including no-login mirror APIs for
+  tweet inspection when direct extraction fails.
 version: 1.1.0
 author: Hermes Agent
 license: MIT
+tags: [twitter, x, free, fxtwitter, scraping, no-api-key]
 metadata:
-  tags: [x, twitter, scraping, fxtwitter, vxtwitter, nitter]
+  tags:
+  - x
+  - twitter
+  - scraping
+  - fxtwitter
+  - vxtwitter
+  - nitter
 ---
 
 # X/Twitter Tools Skill — Free Methods Only

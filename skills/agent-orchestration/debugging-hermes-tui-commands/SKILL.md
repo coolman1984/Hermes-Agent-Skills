@@ -1,14 +1,29 @@
 ---
 name: debugging-hermes-tui-commands
-description: "Debug Hermes TUI slash commands: Python, gateway, Ink UI."
+description: Debug Hermes TUI slash commands across their three layers — the Python
+  command registry, the tui_gateway JSON-RPC bridge, and the Ink/TypeScript frontend
+  — where bugs are usually one layer out of sync with another. Use when a slash command
+  is missing from autocomplete, works in the CLI but not the TUI, or needs adding/updating.
 version: 1.0.0
 author: Hermes Agent
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [debugging, hermes-agent, tui, slash-commands, typescript, python]
-    related_skills: [python-debugpy, node-inspect-debugger, systematic-debugging]
+    tags:
+    - debugging
+    - hermes-agent
+    - tui
+    - slash-commands
+    - typescript
+    - python
+    related_skills:
+    - python-debugpy
+    - node-inspect-debugger
+    - systematic-debugging
 ---
 
 # Debugging Hermes TUI Slash Commands

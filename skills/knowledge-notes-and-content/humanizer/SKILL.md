@@ -1,16 +1,30 @@
 ---
 name: humanizer
-description: "Humanize text: strip AI-isms and add real voice."
+description: Identify and remove tell-tale AI-writing patterns (based on Wikipedia's
+  "Signs of AI writing" guide) so text reads as natural human voice. Use when the
+  user asks to "humanize", "de-AI", "de-slop", or make writing sound less machine-generated.
 version: 2.5.1
-author: Siqi Chen (@blader, https://github.com/blader/humanizer), ported by Hermes Agent
+author: Siqi Chen (@blader, https://github.com/blader/humanizer), ported by Hermes
+  Agent
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [writing, editing, humanize, anti-ai-slop, voice, prose, text]
+    tags:
+    - writing
+    - editing
+    - humanize
+    - anti-ai-slop
+    - voice
+    - prose
+    - text
     category: creative
     homepage: https://github.com/blader/humanizer
-    related_skills: [songwriting-and-ai-music]
+    related_skills:
+    - songwriting-and-ai-music
 ---
 
 # Humanizer: Remove AI Writing Patterns

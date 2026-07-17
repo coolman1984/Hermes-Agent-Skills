@@ -1,6 +1,10 @@
 ---
 name: task-watch
-description: Pending-work monitoring and completion follow-up for long-running tasks, sub-agents, reviews, tests, and background jobs. Use when you need recurring status checks, 2-minute wakeups, completion notifications, blocker tracking, or a clean handoff from waiting to done.
+description: Pending-work monitoring and completion follow-up for long-running tasks,
+  sub-agents, reviews, tests, and background jobs. Use when you need recurring status
+  checks, 2-minute wakeups, completion notifications, blocker tracking, or a clean
+  handoff from waiting to done.
+tags: [monitoring, follow-up, long-running, escalation, notifications]
 ---
 
 # Task Watch

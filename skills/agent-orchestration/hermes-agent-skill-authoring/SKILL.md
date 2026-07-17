@@ -1,14 +1,27 @@
 ---
 name: hermes-agent-skill-authoring
-description: "Author in-repo SKILL.md: frontmatter, validator, structure."
+description: 'Author in-repo SKILL.md files committed to the hermes-agent package
+  (as opposed to user-local skills): correct frontmatter, directory structure, validation,
+  and git workflow with write_file + git add. Use when asked to add or edit a skill
+  "in this repo/branch/commit" that ships with the package.'
 version: 1.0.0
 author: Hermes Agent
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [skills, authoring, hermes-agent, conventions, skill-md]
-    related_skills: [writing-plans, requesting-code-review]
+    tags:
+    - skills
+    - authoring
+    - hermes-agent
+    - conventions
+    - skill-md
+    related_skills:
+    - writing-plans
+    - requesting-code-review
 ---
 
 # Authoring Hermes-Agent Skills (in-repo)

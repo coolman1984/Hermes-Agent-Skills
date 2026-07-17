@@ -1,14 +1,30 @@
 ---
 name: requesting-code-review
-description: "Pre-commit review: security scan, quality gates, auto-fix."
+description: 'Verify code before it lands with an automated pre-commit pipeline: static
+  security scans, baseline-aware quality gates, an independent reviewer subagent,
+  and an auto-fix loop (no agent reviews its own work). Use after implementing a feature
+  or fix — when the user says commit, push, ship, done, verify, or review before merge.'
 version: 2.0.0
 author: Hermes Agent (adapted from obra/superpowers + MorAlekss)
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [code-review, security, verification, quality, pre-commit, auto-fix]
-    related_skills: [subagent-driven-development, plan, test-driven-development, github-code-review]
+    tags:
+    - code-review
+    - security
+    - verification
+    - quality
+    - pre-commit
+    - auto-fix
+    related_skills:
+    - subagent-driven-development
+    - plan
+    - test-driven-development
+    - github-code-review
 ---
 
 # Pre-Commit Code Verification

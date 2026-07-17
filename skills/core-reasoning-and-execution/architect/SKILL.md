@@ -1,6 +1,10 @@
 ---
 name: architect
-description: Planning, system design, architecture decisions, tradeoff analysis, and implementation breakdowns for OpenClaw work. Use when defining scope, choosing a structure, asking the right clarifying questions, or turning a complex request into a concrete design plan.
+description: Planning, system design, architecture decisions, tradeoff analysis, and
+  implementation breakdowns for OpenClaw work. Use when defining scope, choosing a
+  structure, asking the right clarifying questions, or turning a complex request into
+  a concrete design plan.
+tags: [architecture, planning, system-design, tradeoffs, design]
 ---
 
 # Architect

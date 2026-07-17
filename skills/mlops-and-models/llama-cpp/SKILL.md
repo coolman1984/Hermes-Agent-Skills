@@ -1,14 +1,32 @@
 ---
 name: llama-cpp
-description: llama.cpp local GGUF inference + HF Hub model discovery.
+description: Run local GGUF inference with llama.cpp across CPU, Apple Silicon, CUDA,
+  ROCm, and Intel GPUs, and discover the right GGUF for a Hugging Face repo (quant
+  selection Q4/Q5/Q6/IQ by RAM/VRAM). Use to build llama-server/llama-cli commands
+  or pick a quant for local models.
 version: 2.1.2
 author: Orchestra Research
 license: MIT
-dependencies: [llama-cpp-python>=0.2.0]
-platforms: [linux, macos, windows]
+dependencies:
+- llama-cpp-python>=0.2.0
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [llama.cpp, GGUF, Quantization, Hugging Face Hub, CPU Inference, Apple Silicon, Edge Deployment, AMD GPUs, Intel GPUs, NVIDIA, URL-first]
+    tags:
+    - llama.cpp
+    - GGUF
+    - Quantization
+    - Hugging Face Hub
+    - CPU Inference
+    - Apple Silicon
+    - Edge Deployment
+    - AMD GPUs
+    - Intel GPUs
+    - NVIDIA
+    - URL-first
 ---
 
 # llama.cpp + GGUF

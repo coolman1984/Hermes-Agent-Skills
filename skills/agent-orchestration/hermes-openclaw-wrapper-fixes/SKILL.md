@@ -1,11 +1,20 @@
 ---
 name: hermes-openclaw-wrapper-fixes
-description: Troubleshoot Hermes wrappers that sit behind an OpenClaw gateway, fix pairing/token issues, and verify the wrapper actually talks to the gateway.
+description: Troubleshoot Hermes wrappers that sit behind an OpenClaw gateway, fix
+  pairing/token issues, and verify the wrapper actually talks to the gateway.
 version: 1.0.1
 author: Hermes Agent
 license: MIT
+tags: [hermes-agent, openclaw, gateway, wrapper, troubleshooting]
 metadata:
-  tags: [hermes, openclaw, wrapper, pairing, gateway, token, troubleshooting]
+  tags:
+  - hermes
+  - openclaw
+  - wrapper
+  - pairing
+  - gateway
+  - token
+  - troubleshooting
 ---
 
 # Hermes + OpenClaw Wrapper Fixes

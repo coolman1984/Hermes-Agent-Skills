@@ -1,6 +1,10 @@
 ---
 name: reviewer-qa
-description: Strict review and QA for OpenClaw outputs, code, configs, scripts, skill files, and AI-generated responses. Use when checking correctness, logic gaps, missing pieces, ambiguity, safety, or approval readiness before anything is accepted or merged.
+description: Strict review and QA for OpenClaw outputs, code, configs, scripts, skill
+  files, and AI-generated responses. Use when checking correctness, logic gaps, missing
+  pieces, ambiguity, safety, or approval readiness before anything is accepted or
+  merged.
+tags: [review, qa, correctness, verification, approval]
 ---
 
 # Reviewer / QA

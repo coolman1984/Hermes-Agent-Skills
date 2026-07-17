@@ -1,11 +1,20 @@
 ---
 name: mohamed-arabic-content-style
-description: Use when producing Arabic notes, summaries, translations, media reports, or Second Brain content for Mohamed. Enforces Arabic-only line discipline and article-style source presentation.
+description: Use when producing Arabic notes, summaries, translations, media reports,
+  or Second Brain content for Mohamed. Enforces Arabic-only line discipline and article-style
+  source presentation.
 version: 1.2.0
 author: Hermes + Mohamed
 license: MIT
+tags: [arabic, writing-style, content, no-english-mixing, mohamed]
 metadata:
-  tags: [arabic, style, mohamed, notes, translation, media]
+  tags:
+  - arabic
+  - style
+  - mohamed
+  - notes
+  - translation
+  - media
 ---
 
 # Mohamed Arabic Content Style

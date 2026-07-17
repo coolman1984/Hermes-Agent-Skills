@@ -1,14 +1,34 @@
 ---
 name: sketch
-description: "Throwaway HTML mockups: 2-3 design variants to compare."
+description: Explore a UI/UX design direction as 2-3 disposable interactive HTML mockups
+  the user can compare side by side — for seeing variants before committing, not shippable
+  code. Use when the user says "sketch this screen", "show me what X could look like",
+  or "give me some variants".
 version: 1.0.0
 author: Hermes Agent (adapted from gsd-build/get-shit-done)
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [sketch, mockup, design, ui, prototype, html, variants, exploration, wireframe, comparison]
-    related_skills: [spike, claude-design, popular-web-designs, excalidraw]
+    tags:
+    - sketch
+    - mockup
+    - design
+    - ui
+    - prototype
+    - html
+    - variants
+    - exploration
+    - wireframe
+    - comparison
+    related_skills:
+    - spike
+    - claude-design
+    - popular-web-designs
+    - excalidraw
 ---
 
 # Sketch

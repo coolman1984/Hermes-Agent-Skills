@@ -1,6 +1,8 @@
 ---
 name: youtube-download
-description: Download YouTube videos with format selection - shows options, user chooses, then downloads
+description: Download YouTube videos with format selection - shows options, user chooses,
+  then downloads
+tags: [youtube, download, yt-dlp, video, audio, mp3]
 ---
 
 # YouTube Download Skill

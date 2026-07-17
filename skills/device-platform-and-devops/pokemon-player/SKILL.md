@@ -1,8 +1,13 @@
 ---
 name: pokemon-player
-description: "Play Pokemon via headless emulator + RAM reads."
+description: Play Pokémon games via headless Game Boy emulation using the pokemon-agent
+  package with RAM-state reads for decision-making. Use when the user says "play Pokémon",
+  references a ROM (.gb/.gbc/.gba), or wants to watch an AI play Pokémon.
 tags: [gaming, pokemon, emulator, pyboy, gameplay, gameboy]
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 ---
 # Pokemon Player
 

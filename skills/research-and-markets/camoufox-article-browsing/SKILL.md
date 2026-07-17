@@ -1,6 +1,8 @@
 ---
 name: camoufox-article-browsing
-description: Use Camoufox to open URLs, extract readable article content, and summarize it in constrained Linux aarch64 / PRoot environments.
+description: Use Camoufox to open URLs, extract readable article content, and summarize
+  it in constrained Linux aarch64 / PRoot environments.
+tags: [camoufox, browsing, article, summarization, extraction]
 ---
 
 # Camoufox Article Browsing

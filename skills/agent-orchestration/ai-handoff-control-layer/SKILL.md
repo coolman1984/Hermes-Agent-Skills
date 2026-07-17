@@ -1,6 +1,9 @@
 ---
 name: ai-handoff-control-layer
-description: Build a robust handoff/control layer for future AI agents using a document-driven operating contract, machine-readable manifest, and validation script instead of brittle Python-only automation.
+description: Build a robust handoff/control layer for future AI agents using a document-driven
+  operating contract, machine-readable manifest, and validation script instead of
+  brittle Python-only automation.
+tags: [handoff, control, governance, multi-agent, safety]
 ---
 
 # AI Handoff Control Layer

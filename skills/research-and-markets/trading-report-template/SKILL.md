@@ -1,9 +1,12 @@
 ---
 name: trading-report-template
-description: Reusable template and workflow for producing concise, decision-oriented trading reports. Use when the user asks for a trading report, market review, trade setup, or wants a standardized report format that should be maintained over time.
+description: Reusable template and workflow for producing concise, decision-oriented
+  trading reports. Use when the user asks for a trading report, market review, trade
+  setup, or wants a standardized report format that should be maintained over time.
 version: 1.0.0
 author: Hermes Agent
 license: MIT
+tags: [trading, report, portfolio, markets, template, analysis]
 ---
 
 # Trading Report Template

@@ -1,11 +1,17 @@
 ---
 name: termux-api
-description: Safe routing and usage guidance for Termux:API commands on Android. Use when working with battery, camera, location, notifications, clipboard, SMS, TTS, sensors, telephony, or proot-to-Termux wrapper access. The skill assumes the real Termux app shell, not a root shell, for package installation and device APIs.
+description: Safe routing and usage guidance for Termux:API commands on Android. Use
+  when working with battery, camera, location, notifications, clipboard, SMS, TTS,
+  sensors, telephony, or proot-to-Termux wrapper access. The skill assumes the real
+  Termux app shell, not a root shell, for package installation and device APIs.
+tags: [termux, termux-api, android, sensors, clipboard, device]
 metadata:
   clawdbot:
-    emoji: "📱"
+    emoji: 📱
     requires:
-      bins: ["termux-api", "pkg"]
+      bins:
+      - termux-api
+      - pkg
 ---
 
 # Termux:API

@@ -1,12 +1,17 @@
 ---
 name: phone-control
-description: Full Android device control via ADB self-connect. Use for screenshots, UI trees, taps, swipes, typing, app launches, key presses, and observe-act-verify loops when the user wants OpenClaw to control an Android phone directly.
+description: Full Android device control via ADB self-connect. Use for screenshots,
+  UI trees, taps, swipes, typing, app launches, key presses, and observe-act-verify
+  loops when the user wants OpenClaw to control an Android phone directly.
+tags: [android, adb, ui-automation, phone-control, screen]
 metadata:
   clawdbot:
-    emoji: "🤖"
+    emoji: 🤖
     requires:
-      bins: ["adb"]
-      config: ["skills.entries.phone-control.enabled"]
+      bins:
+      - adb
+      config:
+      - skills.entries.phone-control.enabled
 ---
 
 # Phone Control via ADB

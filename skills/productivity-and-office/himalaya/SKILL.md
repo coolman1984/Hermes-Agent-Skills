@@ -1,16 +1,28 @@
 ---
 name: himalaya
-description: "Himalaya CLI: IMAP/SMTP email from terminal."
+description: Operate a mailbox from the terminal with the Himalaya CLI over IMAP/SMTP
+  (or Notmuch/Sendmail) — read, search, and compose email. Use when the agent needs
+  to manage an email account via terminal tools (distinct from the Hermes email gateway
+  adapter).
 version: 1.1.0
 author: community
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [Email, IMAP, SMTP, CLI, Communication]
+    tags:
+    - Email
+    - IMAP
+    - SMTP
+    - CLI
+    - Communication
     homepage: https://github.com/pimalaya/himalaya
 prerequisites:
-  commands: [himalaya]
+  commands:
+  - himalaya
 ---
 
 # Himalaya Email CLI

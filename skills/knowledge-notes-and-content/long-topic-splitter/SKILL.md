@@ -1,11 +1,23 @@
 ---
 name: long-topic-splitter
-description: Convert any long source Mohamed cares about into a reusable knowledge asset, then split it into practical derivative outputs such as summaries, translations, use cases, post ideas, carousel outlines, action lists, links, and skill/memory opportunities.
+description: Convert any long source Mohamed cares about into a reusable knowledge
+  asset, then split it into practical derivative outputs such as summaries, translations,
+  use cases, post ideas, carousel outlines, action lists, links, and skill/memory
+  opportunities.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [content, knowledge-asset, splitting, repurposing, notes]
 metadata:
-  tags: [long-content, repurposing, note-taking, arabic-workflow, youtube, x, substack, github]
+  tags:
+  - long-content
+  - repurposing
+  - note-taking
+  - arabic-workflow
+  - youtube
+  - x
+  - substack
+  - github
 ---
 
 # Long Topic Splitter

@@ -1,6 +1,9 @@
 ---
 name: generic-agent-setup
-description: Bootstrap and run GenericAgent (self-evolving autonomous agent) in Linux aarch64 PRoot/Android environments. Includes dependency triage, API config, and common pitfalls.
+description: Bootstrap and run GenericAgent (self-evolving autonomous agent) in Linux
+  aarch64 PRoot/Android environments. Includes dependency triage, API config, and
+  common pitfalls.
+tags: [agent-framework, genericagent, termux, proot, self-evolving, setup]
 ---
 
 # GenericAgent Setup Skill

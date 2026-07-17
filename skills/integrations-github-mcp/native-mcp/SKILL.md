@@ -1,14 +1,24 @@
 ---
 name: native-mcp
-description: "MCP client: connect servers, register tools (stdio/HTTP)."
+description: Connect Hermes's built-in MCP client to MCP servers (stdio via npx/uvx
+  or remote HTTP/streamable) so their tools appear as first-class agent tools alongside
+  terminal and read_file. Use to add external MCP capabilities — filesystem, GitHub,
+  databases, APIs — with no bridge CLI.
 version: 1.0.0
 author: Hermes Agent
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [MCP, Tools, Integrations]
-    related_skills: [mcporter]
+    tags:
+    - MCP
+    - Tools
+    - Integrations
+    related_skills:
+    - mcporter
 ---
 
 # Native MCP Client

@@ -1,14 +1,26 @@
 ---
 name: google-workspace
-description: "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python."
+description: Access Gmail, Calendar, Drive, Contacts, Sheets, and Docs through Hermes-managed
+  OAuth — via the gws CLI when installed, or a bundled Python client otherwise. Use
+  for reading or sending email, managing calendar events, or working with Drive/Sheets/Docs.
 version: 1.0.0
 author: Nous Research
 license: MIT
 metadata:
   hermes:
-    tags: [Google, Gmail, Calendar, Drive, Sheets, Docs, Contacts, Email, OAuth]
+    tags:
+    - Google
+    - Gmail
+    - Calendar
+    - Drive
+    - Sheets
+    - Docs
+    - Contacts
+    - Email
+    - OAuth
     homepage: https://github.com/NousResearch/hermes-agent
-    related_skills: [himalaya]
+    related_skills:
+    - himalaya
 ---
 
 # Google Workspace

@@ -1,8 +1,10 @@
 ---
-title: Arabic UI / PDF Lessons from Company-Dashboard
-description: Proven approaches and pitfalls for Arabic-first dashboards and reports in Node/Python stacks.
-category: software-development
 name: company-dashboard-arabic-lessons
+description: Proven approaches and pitfalls for Arabic-first dashboards and reports
+  in Node/Python stacks.
+tags: [arabic, dashboard, i18n, rtl, pdf, frontend]
+title: Arabic UI / PDF Lessons from Company-Dashboard
+category: software-development
 ---
 
 # Arabic UI / PDF Lessons from Company-Dashboard

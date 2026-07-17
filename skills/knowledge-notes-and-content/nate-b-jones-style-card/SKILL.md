@@ -1,11 +1,18 @@
 ---
 name: nate-b-jones-style-card
-description: بطاقة أسلوب عملية لإنتاج محتوى عربي مستوحى من طريقة Nate B Jones في العرض والتحليل (بدون انتحال شخصية).
+description: بطاقة أسلوب عملية لإنتاج محتوى عربي مستوحى من طريقة Nate B Jones في العرض
+  والتحليل (بدون انتحال شخصية).
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [arabic, style-card, content, strategy, adaptation]
 metadata:
-  tags: [voice, style, youtube, analysis, arabic-workflow]
+  tags:
+  - voice
+  - style
+  - youtube
+  - analysis
+  - arabic-workflow
 ---
 
 # Nate B Jones Style Card (Arabic Adaptation)

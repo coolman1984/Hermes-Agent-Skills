@@ -1,12 +1,25 @@
 ---
 name: professional-pdf-book-factory
-description: Use when producing, redesigning, auditing, or upgrading professional Arabic-first PDF books with a publishing-grade HTML/CSS to PDF pipeline, visual page review, and iterative quality gates.
+description: Use when producing, redesigning, auditing, or upgrading professional
+  Arabic-first PDF books with a publishing-grade HTML/CSS to PDF pipeline, visual
+  page review, and iterative quality gates.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [pdf, book, publishing, design-system, pipeline, visual-qa]
 metadata:
-  tags: [pdf, book-production, weasyprint, arabic, publishing, visual-qa, design-system]
-  related_skills: [ocr-and-documents, powerpoint, mohamed-arabic-content-style]
+  tags:
+  - pdf
+  - book-production
+  - weasyprint
+  - arabic
+  - publishing
+  - visual-qa
+  - design-system
+  related_skills:
+  - ocr-and-documents
+  - powerpoint
+  - mohamed-arabic-content-style
 ---
 
 # Professional PDF Book Factory

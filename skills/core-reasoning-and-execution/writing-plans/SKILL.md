@@ -1,14 +1,28 @@
 ---
 name: writing-plans
-description: "Write implementation plans: bite-sized tasks, paths, code."
+description: 'Write comprehensive implementation plans for an implementer who has
+  zero context on the codebase: which files to touch, complete code, test commands,
+  docs to check, and how to verify — broken into bite-sized DRY/YAGNI/TDD tasks. Use
+  when turning a feature or fix into a concrete, hand-off-ready plan.'
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [planning, design, implementation, workflow, documentation]
-    related_skills: [subagent-driven-development, test-driven-development, requesting-code-review]
+    tags:
+    - planning
+    - design
+    - implementation
+    - workflow
+    - documentation
+    related_skills:
+    - subagent-driven-development
+    - test-driven-development
+    - requesting-code-review
 ---
 
 # Writing Implementation Plans

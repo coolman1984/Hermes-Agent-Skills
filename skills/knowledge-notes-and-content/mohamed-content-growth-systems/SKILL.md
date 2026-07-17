@@ -1,12 +1,25 @@
 ---
 name: mohamed-content-growth-systems
-description: Use when Mohamed sends, saves, mines, or asks to apply ideas about content systems, audience growth, personal brand distribution, content research, content repurposing, networking, or growth loops. Collects practical frameworks without forcing them into writer-persona or book-style skills unless genuinely relevant.
+description: Use when Mohamed sends, saves, mines, or asks to apply ideas about content
+  systems, audience growth, personal brand distribution, content research, content
+  repurposing, networking, or growth loops. Collects practical frameworks without
+  forcing them into writer-persona or book-style skills unless genuinely relevant.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [arabic, content, growth, audience, personal-brand, mohamed]
 metadata:
-  tags: [content-systems, audience-growth, personal-brand, distribution, media-intelligence, arabic]
-  related_skills: [mohamed-unified-media-drop, mohamed-intelligence-vault, mohamed-book-writing-style-factory]
+  tags:
+  - content-systems
+  - audience-growth
+  - personal-brand
+  - distribution
+  - media-intelligence
+  - arabic
+  related_skills:
+  - mohamed-unified-media-drop
+  - mohamed-intelligence-vault
+  - mohamed-book-writing-style-factory
 ---
 
 # Mohamed Content Growth Systems

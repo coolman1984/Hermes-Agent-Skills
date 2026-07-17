@@ -1,16 +1,31 @@
 ---
 name: pixel-art
-description: "Pixel art w/ era palettes (NES, Game Boy, PICO-8)."
+description: Convert images into retro pixel art (Floyd-Steinberg dithering, hardware
+  palettes like NES/Game Boy/PICO-8) and optionally animate them into short MP4/GIF
+  with era effects. Use when the user wants retro/pixel-art images or animations.
 version: 2.0.0
 author: dodo-reach
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [creative, pixel-art, arcade, snes, nes, gameboy, retro, image, video]
+    tags:
+    - creative
+    - pixel-art
+    - arcade
+    - snes
+    - nes
+    - gameboy
+    - retro
+    - image
+    - video
     category: creative
     credits:
-      - "Hardware palettes and animation loops ported from Synero/pixel-art-studio (MIT) — https://github.com/Synero/pixel-art-studio"
+    - Hardware palettes and animation loops ported from Synero/pixel-art-studio (MIT)
+      — https://github.com/Synero/pixel-art-studio
 ---
 
 # Pixel Art

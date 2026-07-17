@@ -1,14 +1,30 @@
 ---
 name: outlines
-description: "Outlines: structured JSON/regex/Pydantic LLM generation."
+description: Guarantee structurally valid LLM output — JSON, regex, grammars, Pydantic
+  models — with Outlines' zero-overhead structured generation over Transformers, llama.cpp,
+  and vLLM. Use when you need type-safe or schema-constrained generation from local
+  models.
 version: 1.0.0
 author: Orchestra Research
 license: MIT
-dependencies: [outlines, transformers, vllm, pydantic]
+dependencies:
+- outlines
+- transformers
+- vllm
+- pydantic
 metadata:
   hermes:
-    tags: [Prompt Engineering, Outlines, Structured Generation, JSON Schema, Pydantic, Local Models, Grammar-Based Generation, vLLM, Transformers, Type Safety]
-
+    tags:
+    - Prompt Engineering
+    - Outlines
+    - Structured Generation
+    - JSON Schema
+    - Pydantic
+    - Local Models
+    - Grammar-Based Generation
+    - vLLM
+    - Transformers
+    - Type Safety
 ---
 
 # Outlines: Structured Text Generation

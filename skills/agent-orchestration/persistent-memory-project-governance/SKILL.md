@@ -1,12 +1,26 @@
 ---
 name: persistent-memory-project-governance
-description: Use when Mohamed wants a file-based project operating system for multi-step work, data projects, reports, software builds, factory workflows, or restartable autonomous execution. Preserves mission, scope, decisions, assumptions, risks, evidence, validation, memory, and handover in project files without polluting global memory.
+description: Use when Mohamed wants a file-based project operating system for multi-step
+  work, data projects, reports, software builds, factory workflows, or restartable
+  autonomous execution. Preserves mission, scope, decisions, assumptions, risks, evidence,
+  validation, memory, and handover in project files without polluting global memory.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [memory, governance, filesystem, project-state, continuity]
 metadata:
-  tags: [project-governance, persistent-memory, restartable-work, evidence, validation, file-os, mohamed]
-  related_skills: [mohamed-agent-loop-os, senior-software-engineer, mohamed-opencode-go-worker-profiles]
+  tags:
+  - project-governance
+  - persistent-memory
+  - restartable-work
+  - evidence
+  - validation
+  - file-os
+  - mohamed
+  related_skills:
+  - mohamed-agent-loop-os
+  - senior-software-engineer
+  - mohamed-opencode-go-worker-profiles
 ---
 
 # Persistent Memory and Project Governance

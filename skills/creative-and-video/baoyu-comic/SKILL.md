@@ -1,13 +1,22 @@
 ---
 name: baoyu-comic
-description: "Knowledge comics (知识漫画): educational, biography, tutorial."
+description: Create original knowledge/educational comics — biography, tutorial, Logicomix-style
+  — with flexible art-style x tone combinations and reference-image guidance. Use
+  when the user asks for a knowledge comic, educational comic, or "知识漫画".
 version: 1.56.1
 author: 宝玉 (JimLiu)
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [comic, knowledge-comic, creative, image-generation]
+    tags:
+    - comic
+    - knowledge-comic
+    - creative
+    - image-generation
     homepage: https://github.com/JimLiu/baoyu-skills#baoyu-comic
 ---
 

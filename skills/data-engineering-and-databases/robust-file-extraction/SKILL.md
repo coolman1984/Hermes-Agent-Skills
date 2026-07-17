@@ -1,15 +1,18 @@
 ---
 name: robust-file-extraction
+description: Patterns for building resilient file/data extraction from messy real-world
+  sources (Excel, CSV, PDF, Word, email). Covers edge case handling, graceful degradation,
+  error tracking, and encoding detection.
 version: 1.0.0
-description: Patterns for building resilient file/data extraction from messy real-world sources (Excel, CSV, PDF, Word, email). Covers edge case handling, graceful degradation, error tracking, and encoding detection.
+tags: [file-extraction, resilience, excel, csv, pdf, encoding, untrusted-input]
 triggers:
-  - "extraction engine"
-  - "file ingestion"
-  - "data import"
-  - "parse messy files"
-  - "handle corrupt files"
-  - "edge cases in file reading"
-  - "robust data extraction"
+- extraction engine
+- file ingestion
+- data import
+- parse messy files
+- handle corrupt files
+- edge cases in file reading
+- robust data extraction
 ---
 
 # Robust File Extraction

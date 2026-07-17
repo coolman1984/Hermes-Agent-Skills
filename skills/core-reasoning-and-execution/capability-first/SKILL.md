@@ -1,6 +1,10 @@
 ---
 name: capability-first
-description: Silent pre-task routing for OpenClaw. Use when deciding how to handle any request by checking existing skills, tools, reusable workflows, or delegated execution before doing fresh reasoning. This skill prevents duplicated work, wasted tokens, and rebuilding known workflows from scratch.
+description: Silent pre-task routing for OpenClaw. Use when deciding how to handle
+  any request by checking existing skills, tools, reusable workflows, or delegated
+  execution before doing fresh reasoning. This skill prevents duplicated work, wasted
+  tokens, and rebuilding known workflows from scratch.
+tags: [routing, reuse, efficiency, capabilities, reasoning]
 ---
 
 # Capability First

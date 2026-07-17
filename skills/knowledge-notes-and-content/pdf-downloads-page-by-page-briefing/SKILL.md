@@ -1,6 +1,9 @@
 ---
 name: pdf-downloads-page-by-page-briefing
-description: Read PDFs from Android/Termux download folders and produce page-by-page Arabic explanations, summaries, or study notes. Use when a user asks to read a PDF from Downloads/CMA folders and explain it in a structured way.
+description: Read PDFs from Android/Termux download folders and produce page-by-page
+  Arabic explanations, summaries, or study notes. Use when a user asks to read a PDF
+  from Downloads/CMA folders and explain it in a structured way.
+tags: [pdf, briefing, mobile, study-notes, page-by-page]
 ---
 
 # PDF Downloads Page-by-Page Briefing

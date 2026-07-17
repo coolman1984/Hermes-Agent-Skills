@@ -1,14 +1,33 @@
 ---
 name: design-md
-description: Author/validate/export Google's DESIGN.md token spec files.
+description: Author, validate, and export Google's DESIGN.md files — YAML design tokens
+  plus markdown rationale — using the npx @google/design.md CLI (WCAG lint, version
+  diffs, Tailwind/DTCG export). Use when the user wants a DESIGN.md design spec created,
+  checked, or converted.
 version: 1.0.0
 author: Hermes Agent
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [design, design-system, tokens, ui, accessibility, wcag, tailwind, dtcg, google]
-    related_skills: [popular-web-designs, claude-design, excalidraw, architecture-diagram]
+    tags:
+    - design
+    - design-system
+    - tokens
+    - ui
+    - accessibility
+    - wcag
+    - tailwind
+    - dtcg
+    - google
+    related_skills:
+    - popular-web-designs
+    - claude-design
+    - excalidraw
+    - architecture-diagram
 ---
 
 # DESIGN.md Skill

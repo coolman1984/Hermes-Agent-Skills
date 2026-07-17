@@ -1,6 +1,8 @@
 ---
 name: journey-kits-install
-description: Discover and install Journey kits via the Journey API, then verify the install and handle kit-specific prerequisites.
+description: Discover and install Journey kits via the Journey API, then verify the
+  install and handle kit-specific prerequisites.
+tags: [journey-kits, workflows, install, inspect, compare]
 ---
 
 # Journey Kits Install

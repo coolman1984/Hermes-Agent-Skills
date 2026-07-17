@@ -1,11 +1,21 @@
 ---
 name: mohamed-unified-media-drop
-description: Use when Mohamed sends any media link (YouTube, X/Twitter, Substack, GitHub) and wants one unified Arabic-first file-drop workflow with strict verification.
+description: Use when Mohamed sends any media link (YouTube, X/Twitter, Substack,
+  GitHub) and wants one unified Arabic-first file-drop workflow with strict verification.
 version: 1.2.0
 author: Hermes + Mohamed
 license: MIT
+tags: [media, youtube, twitter, substack, github, ingestion, mohamed]
 metadata:
-  tags: [media, unified-workflow, youtube, x, substack, github, arabic-first, file-drop]
+  tags:
+  - media
+  - unified-workflow
+  - youtube
+  - x
+  - substack
+  - github
+  - arabic-first
+  - file-drop
 ---
 
 # Mohamed Unified Media Drop

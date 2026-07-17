@@ -1,8 +1,10 @@
 ---
-title: Arabic PDF Pipeline with HTML/CSS and WeasyPrint
-description: Render professional Arabic/RTL PDFs from report data using HTML/CSS and WeasyPrint instead of ReportLab.
-category: software-development
 name: arabic-pdf-weasyprint-pipeline
+description: Render professional Arabic/RTL PDFs from report data using HTML/CSS and
+  WeasyPrint instead of ReportLab.
+tags: [arabic, pdf, weasyprint, rtl, html-css, reports]
+title: Arabic PDF Pipeline with HTML/CSS and WeasyPrint
+category: software-development
 ---
 
 # Arabic PDF Pipeline with HTML/CSS and WeasyPrint

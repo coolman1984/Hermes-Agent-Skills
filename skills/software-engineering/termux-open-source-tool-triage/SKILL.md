@@ -1,9 +1,12 @@
 ---
 name: termux-open-source-tool-triage
-description: Rapidly evaluate multiple open-source AI/tool repos on Android Termux, detect platform blockers early, and produce an execution plan (run now vs move to Linux x86_64).
+description: Rapidly evaluate multiple open-source AI/tool repos on Android Termux,
+  detect platform blockers early, and produce an execution plan (run now vs move to
+  Linux x86_64).
 version: 1.0.0
 author: Hermes Agent
 license: MIT
+tags: [termux, android, triage, open-source, install, evaluation]
 ---
 
 # Termux Open-Source Tool Triage

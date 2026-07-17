@@ -1,14 +1,34 @@
 ---
 name: spike
-description: "Throwaway experiments to validate an idea before build."
+description: Run throwaway experiments to validate an idea before committing to a
+  real build — checking feasibility, comparing approaches, or surfacing unknowns that
+  research alone can't answer. Use when the user says "let me try this", "see if X
+  works", "spike this out", "quick prototype", or "is this even possible?"; skip when
+  the answer is knowable from docs or code.
 version: 1.0.0
 author: Hermes Agent (adapted from gsd-build/get-shit-done)
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [spike, prototype, experiment, feasibility, throwaway, exploration, research, planning, mvp, proof-of-concept]
-    related_skills: [sketch, subagent-driven-development, plan]
+    tags:
+    - spike
+    - prototype
+    - experiment
+    - feasibility
+    - throwaway
+    - exploration
+    - research
+    - planning
+    - mvp
+    - proof-of-concept
+    related_skills:
+    - sketch
+    - subagent-driven-development
+    - plan
 ---
 
 # Spike

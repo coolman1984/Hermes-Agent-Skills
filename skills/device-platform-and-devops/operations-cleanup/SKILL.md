@@ -1,6 +1,10 @@
 ---
 name: operations-cleanup
-description: Operations and cleanup for OpenClaw workspace hygiene, maintainability, clutter reduction, safe reversible cleanup, duplication removal, and cost/load reduction. Use when inspecting waste, reducing clutter, logging meaningful changes, or proposing cleanup actions.
+description: Operations and cleanup for OpenClaw workspace hygiene, maintainability,
+  clutter reduction, safe reversible cleanup, duplication removal, and cost/load reduction.
+  Use when inspecting waste, reducing clutter, logging meaningful changes, or proposing
+  cleanup actions.
+tags: [cleanup, operations, maintenance, declutter, housekeeping]
 ---
 
 # Operations / Cleanup

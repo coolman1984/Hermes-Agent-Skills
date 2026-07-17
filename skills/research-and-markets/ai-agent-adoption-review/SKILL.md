@@ -1,6 +1,9 @@
 ---
 name: ai-agent-adoption-review
-description: Evaluate whether a third-party AI agent/project is worth adopting into the local stack by checking live site claims, GitHub maturity, code structure, safety controls, and fit with existing infrastructure.
+description: Evaluate whether a third-party AI agent/project is worth adopting into
+  the local stack by checking live site claims, GitHub maturity, code structure, safety
+  controls, and fit with existing infrastructure.
+tags: [evaluation, ai-agents, adoption, tools, review]
 ---
 
 # AI Agent Adoption Review

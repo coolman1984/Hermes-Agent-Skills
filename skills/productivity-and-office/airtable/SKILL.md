@@ -1,16 +1,27 @@
 ---
 name: airtable
-description: Airtable REST API via curl. Records CRUD, filters, upserts.
+description: Work with Airtable bases, tables, and records directly via the REST API
+  and curl — record CRUD, filtering, and upserts using a personal access token, no
+  SDK or OAuth flow. Use when the user wants to read or write Airtable data.
 version: 1.1.0
 author: community
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 prerequisites:
-  env_vars: [AIRTABLE_API_KEY]
-  commands: [curl]
+  env_vars:
+  - AIRTABLE_API_KEY
+  commands:
+  - curl
 metadata:
   hermes:
-    tags: [Airtable, Productivity, Database, API]
+    tags:
+    - Airtable
+    - Productivity
+    - Database
+    - API
     homepage: https://airtable.com/developers/web/api/introduction
 ---
 

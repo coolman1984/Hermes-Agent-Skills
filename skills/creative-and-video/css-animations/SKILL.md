@@ -1,6 +1,10 @@
 ---
 name: css-animations
-description: CSS animation adapter patterns for HyperFrames. Use when authoring CSS keyframes, animation-delay based timing, animation-fill-mode, animation-play-state, or CSS-only motion that HyperFrames must seek deterministically during preview and rendering.
+description: CSS animation adapter patterns for HyperFrames. Use when authoring CSS
+  keyframes, animation-delay based timing, animation-fill-mode, animation-play-state,
+  or CSS-only motion that HyperFrames must seek deterministically during preview and
+  rendering.
+tags: [css, animation, keyframes, hyperframes, web]
 ---
 
 # CSS Animations for HyperFrames

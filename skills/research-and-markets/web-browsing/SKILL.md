@@ -1,6 +1,9 @@
 ---
 name: web-browsing
-description: Browse and summarize websites, extract content from URLs, search the web for information. Use when user asks to visit a website, get webpage content, search online, or find current information that requires browsing the internet.
+description: Browse and summarize websites, extract content from URLs, search the
+  web for information. Use when user asks to visit a website, get webpage content,
+  search online, or find current information that requires browsing the internet.
+tags: [web-browsing, extraction, search, urls, research]
 ---
 
 # Web Browsing Skill

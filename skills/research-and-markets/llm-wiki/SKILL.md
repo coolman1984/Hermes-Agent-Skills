@@ -1,15 +1,29 @@
 ---
 name: llm-wiki
-description: "Karpathy's LLM Wiki: build/query interlinked markdown KB."
+description: Build and maintain a persistent, compounding knowledge base as interlinked
+  markdown files (Karpathy's LLM Wiki pattern) — the agent summarizes, cross-references,
+  and files sources so knowledge is compiled once and kept current, unlike per-query
+  RAG. Use when curating an evolving research knowledge base on a topic.
 version: 2.1.0
 author: Hermes Agent
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [wiki, knowledge-base, research, notes, markdown, rag-alternative]
+    tags:
+    - wiki
+    - knowledge-base
+    - research
+    - notes
+    - markdown
+    - rag-alternative
     category: research
-    related_skills: [obsidian, arxiv]
+    related_skills:
+    - obsidian
+    - arxiv
 ---
 
 # Karpathy's LLM Wiki

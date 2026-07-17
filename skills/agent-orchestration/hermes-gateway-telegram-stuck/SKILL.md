@@ -1,7 +1,9 @@
 ---
 name: hermes-gateway-telegram-stuck
-description: Fix and auto-detect Telegram gateway stuck in typing loop - restart the gateway process when stuck
-trigger: "Telegram gateway stuck, not responding, or stuck in typing loop"
+description: Fix and auto-detect Telegram gateway stuck in typing loop - restart the
+  gateway process when stuck
+tags: [hermes-agent, telegram, gateway, troubleshooting, debugging]
+trigger: Telegram gateway stuck, not responding, or stuck in typing loop
 ---
 
 # Hermes Gateway Telegram Fast Fix

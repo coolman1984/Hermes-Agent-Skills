@@ -1,6 +1,8 @@
 ---
 name: deepseek-alt
-description: Free AI research assistant using ByteDance Dola Seed model through KiloCode (no API key needed)
+description: Free AI research assistant using ByteDance Dola Seed model through KiloCode
+  (no API key needed)
+tags: [ai-assistant, deepseek, no-api-key, free, cli]
 ---
 
 # DeepSeek Alternative Skill

@@ -1,11 +1,20 @@
 ---
 name: mohamed-intelligence-vault
-description: Use when Mohamed shares raw ideas and wants them refined, categorized, connected, stored, and resurfaced as a growing intelligence system rather than one-off notes.
+description: Use when Mohamed shares raw ideas and wants them refined, categorized,
+  connected, stored, and resurfaced as a growing intelligence system rather than one-off
+  notes.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [ideas, intelligence-vault, synthesis, strategy, mohamed]
 metadata:
-  tags: [ideas, intelligence, vault, categorization, synthesis, mohamed]
+  tags:
+  - ideas
+  - intelligence
+  - vault
+  - categorization
+  - synthesis
+  - mohamed
 ---
 
 # Mohamed Intelligence Vault

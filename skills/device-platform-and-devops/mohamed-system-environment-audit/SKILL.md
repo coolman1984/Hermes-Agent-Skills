@@ -1,11 +1,21 @@
 ---
 name: mohamed-system-environment-audit
-description: Produce a grounded Arabic system-environment audit for Mohamed's Hermes/local agent setup, with live checks, UX/architecture critique, and an actionable roadmap for future projects.
+description: Produce a grounded Arabic system-environment audit for Mohamed's Hermes/local
+  agent setup, with live checks, UX/architecture critique, and an actionable roadmap
+  for future projects.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [audit, system-review, hermes-agent, environment, roadmap, mohamed]
 metadata:
-  tags: [mohamed, hermes, environment-audit, systems-architecture, ui-ux, operations, report]
+  tags:
+  - mohamed
+  - hermes
+  - environment-audit
+  - systems-architecture
+  - ui-ux
+  - operations
+  - report
 ---
 
 # Mohamed System Environment Audit

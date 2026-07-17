@@ -1,6 +1,10 @@
 ---
 name: hermes-profile-bootstrap
-description: Bootstrap, clone, and harden Hermes profiles for a production/experiment pair with safe config, interactive setup handling, and verification. Use when creating a new Hermes profile, cloning it into a lab profile, or wiring profile-specific SOUL/config defaults.
+description: Bootstrap, clone, and harden Hermes profiles for a production/experiment
+  pair with safe config, interactive setup handling, and verification. Use when creating
+  a new Hermes profile, cloning it into a lab profile, or wiring profile-specific
+  SOUL/config defaults.
+tags: [hermes-agent, profiles, bootstrap, setup, configuration]
 ---
 
 # Hermes Profile Bootstrap

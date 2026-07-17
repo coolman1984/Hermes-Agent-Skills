@@ -1,15 +1,27 @@
 ---
 name: segment-anything-model
-description: "SAM: zero-shot image segmentation via points, boxes, masks."
+description: Run zero-shot image segmentation with Meta's Segment Anything Model (SAM)
+  via point, box, or mask prompts — no task-specific training, any image domain. Use
+  for interactive annotation, training-data generation, or segmentation pipelines.
 version: 1.0.0
 author: Orchestra Research
 license: MIT
-dependencies: [segment-anything, transformers>=4.30.0, torch>=1.7.0]
-platforms: [linux, macos, windows]
+dependencies:
+- segment-anything
+- transformers>=4.30.0
+- torch>=1.7.0
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [Multimodal, Image Segmentation, Computer Vision, SAM, Zero-Shot]
-
+    tags:
+    - Multimodal
+    - Image Segmentation
+    - Computer Vision
+    - SAM
+    - Zero-Shot
 ---
 
 # Segment Anything Model (SAM)

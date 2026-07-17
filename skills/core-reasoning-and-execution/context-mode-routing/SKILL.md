@@ -1,6 +1,10 @@
 ---
 name: context-mode-routing
-description: Route large file reads, verbose command output, web fetches, logs, and browser snapshots through Context Mode sandbox tools to reduce context bloat. Use when outputs may exceed a few hundred tokens or when you need index/search/fetch-first behavior instead of raw dumps.
+description: Route large file reads, verbose command output, web fetches, logs, and
+  browser snapshots through Context Mode sandbox tools to reduce context bloat. Use
+  when outputs may exceed a few hundred tokens or when you need index/search/fetch-first
+  behavior instead of raw dumps.
+tags: [context-mode, sandbox, extraction, large-output, routing]
 ---
 
 # Context Mode Routing

@@ -1,13 +1,23 @@
 ---
 name: nano-pdf
-description: "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts)."
+description: Edit PDFs with natural-language instructions via the nano-pdf CLI — fix
+  typos, change titles, update dates or content on a given page. Use when the user
+  wants small text edits to an existing PDF without a full re-layout.
 version: 1.0.0
 author: community
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [PDF, Documents, Editing, NLP, Productivity]
+    tags:
+    - PDF
+    - Documents
+    - Editing
+    - NLP
+    - Productivity
     homepage: https://pypi.org/project/nano-pdf/
 ---
 

@@ -1,6 +1,9 @@
 ---
 name: obsidian-llm-wiki-ingest
-description: Ingest a set of Obsidian project notes into a local llm-wiki-agent repository as raw captures, source pages, entity pages, concept pages, and refreshed overview/index/log files.
+description: Ingest a set of Obsidian project notes into a local llm-wiki-agent repository
+  as raw captures, source pages, entity pages, concept pages, and refreshed overview/index/log
+  files.
+tags: [obsidian, llm-wiki, ingestion, knowledge-base, notes]
 ---
 
 # Obsidian → LLM Wiki Ingest

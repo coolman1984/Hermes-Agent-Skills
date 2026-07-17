@@ -1,6 +1,8 @@
 ---
 name: agentic-workflows-do-framework
-description: Build production AI workflows using Directive-Orchestration-Execution pattern — separates probabilistic reasoning from deterministic execution.
+description: Build production AI workflows using Directive-Orchestration-Execution
+  pattern — separates probabilistic reasoning from deterministic execution.
+tags: [workflow, determinism, sop, orchestration, do-framework]
 category: software-development
 ---
 

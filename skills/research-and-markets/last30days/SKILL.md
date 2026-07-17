@@ -1,6 +1,8 @@
 ---
 name: last30days
-description: Research any topic across Reddit, X, YouTube, HN, Polymarket from the last 30 days
+description: Research any topic across Reddit, X, YouTube, HN, Polymarket from the
+  last 30 days
+tags: [research, trends, reddit, twitter, youtube, hackernews, synthesis]
 ---
 
 # last30days Skill

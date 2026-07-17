@@ -1,6 +1,9 @@
 ---
 name: researcher
-description: Evidence-oriented research specialist for gathering, comparing, analyzing, and synthesizing facts for decision-making. Use when the task is research, option comparison, tradeoff analysis, uncertainty handling, or decision support.
+description: Evidence-oriented research specialist for gathering, comparing, analyzing,
+  and synthesizing facts for decision-making. Use when the task is research, option
+  comparison, tradeoff analysis, uncertainty handling, or decision support.
+tags: [research, analysis, synthesis, comparison, decision-making]
 ---
 
 # Researcher

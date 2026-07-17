@@ -1,6 +1,10 @@
 ---
 name: termux-node-native-addon-triage
-description: Diagnose and handle Node.js native-addon install failures on Android/Termux/PRoot, especially node-gyp errors, better-sqlite3, and android_ndk_path issues. Use when deciding whether to force a prebuilt binary path, patch environment variables, or move the workload into a real Linux userland.
+description: Diagnose and handle Node.js native-addon install failures on Android/Termux/PRoot,
+  especially node-gyp errors, better-sqlite3, and android_ndk_path issues. Use when
+  deciding whether to force a prebuilt binary path, patch environment variables, or
+  move the workload into a real Linux userland.
+tags: [termux, proot, node, native-addons, node-gyp, android]
 ---
 
 # Termux/PRoot Node Native-Addon Triage

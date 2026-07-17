@@ -1,6 +1,11 @@
 ---
 name: tailwind
-description: Tailwind CSS v4.2 browser-runtime patterns for HyperFrames compositions. Use when scaffolding or editing projects created with `hyperframes init --tailwind`, writing Tailwind utility classes in composition HTML, adding CSS-first Tailwind v4 theme tokens, debugging v3 vs v4 syntax, or deciding when to compile Tailwind to CSS instead of using the browser runtime.
+description: Tailwind CSS v4.2 browser-runtime patterns for HyperFrames compositions.
+  Use when scaffolding or editing projects created with `hyperframes init --tailwind`,
+  writing Tailwind utility classes in composition HTML, adding CSS-first Tailwind
+  v4 theme tokens, debugging v3 vs v4 syntax, or deciding when to compile Tailwind
+  to CSS instead of using the browser runtime.
+tags: [tailwind, css, hyperframes, styling, web]
 ---
 
 # Tailwind CSS for HyperFrames

@@ -1,10 +1,16 @@
 ---
 name: polymarket
-description: "Query Polymarket: markets, prices, orderbooks, history."
+description: Query Polymarket prediction-market data — markets, prices, orderbooks,
+  and price history — through its public, read-only REST APIs with no authentication.
+  Use when the user asks about betting odds, event probabilities, "what are the odds
+  of X?", or wants to track prediction-market movements.
 version: 1.0.0
 author: Hermes Agent + Teknium
 tags: [polymarket, prediction-markets, market-data, trading]
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 ---
 
 # Polymarket — Prediction Market Data

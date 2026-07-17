@@ -1,15 +1,32 @@
 ---
 name: evaluating-llms-harness
-description: "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.)."
+description: Benchmark LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K,
+  TruthfulQA, HellaSwag) with EleutherAI's lm-evaluation-harness over HuggingFace,
+  vLLM, or API backends. Use when comparing models, reporting academic results, or
+  tracking training progress.
 version: 1.0.0
 author: Orchestra Research
 license: MIT
-dependencies: [lm-eval, transformers, vllm]
-platforms: [linux, macos]
+dependencies:
+- lm-eval
+- transformers
+- vllm
+platforms:
+- linux
+- macos
 metadata:
   hermes:
-    tags: [Evaluation, LM Evaluation Harness, Benchmarking, MMLU, HumanEval, GSM8K, EleutherAI, Model Quality, Academic Benchmarks, Industry Standard]
-
+    tags:
+    - Evaluation
+    - LM Evaluation Harness
+    - Benchmarking
+    - MMLU
+    - HumanEval
+    - GSM8K
+    - EleutherAI
+    - Model Quality
+    - Academic Benchmarks
+    - Industry Standard
 ---
 
 # lm-evaluation-harness - LLM Benchmarking

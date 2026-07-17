@@ -1,12 +1,29 @@
 ---
 name: mohamed-coding-team
-description: Use when Mohamed asks for coding work, architecture, implementation, debugging, code review, or a multi-agent coding workflow. Defines Mohamed's permanent coding-team hierarchy across Claude Code, Codex CLI, OpenCode, Gemini CLI, and Hermes.
+description: Use when Mohamed asks for coding work, architecture, implementation,
+  debugging, code review, or a multi-agent coding workflow. Defines Mohamed's permanent
+  coding-team hierarchy across Claude Code, Codex CLI, OpenCode, Gemini CLI, and Hermes.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [multi-agent, coding-team, delegation, orchestration, workflow]
 metadata:
-  tags: [coding-team, architecture, implementation, review, claude-code, codex, opencode, gemini, hermes]
-  related_skills: [mohamed-claude-codex-control-bridge, claude-code, codex, opencode, gemini-cli]
+  tags:
+  - coding-team
+  - architecture
+  - implementation
+  - review
+  - claude-code
+  - codex
+  - opencode
+  - gemini
+  - hermes
+  related_skills:
+  - mohamed-claude-codex-control-bridge
+  - claude-code
+  - codex
+  - opencode
+  - gemini-cli
 ---
 
 # Mohamed Coding Team

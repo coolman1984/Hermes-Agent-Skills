@@ -1,6 +1,8 @@
 ---
 name: camoufox-proot-setup
-description: Install, download, and verify Camoufox in Linux aarch64 / PRoot / Termux-like environments, including a headless smoke test and common pitfalls.
+description: Install, download, and verify Camoufox in Linux aarch64 / PRoot / Termux-like
+  environments, including a headless smoke test and common pitfalls.
+tags: [camoufox, proot, aarch64, termux, setup, browser]
 ---
 
 # Camoufox on Linux aarch64 / PRoot

@@ -1,6 +1,8 @@
 ---
 name: journey-kit-install
-description: Install and verify Journey kits from journeykits.ai, including openclaw-target bundles and Termux compatibility fixes
+description: Install and verify Journey kits from journeykits.ai, including openclaw-target
+  bundles and Termux compatibility fixes
+tags: [journey-kits, workflows, install, skills, cli]
 ---
 
 # Journey Kit Install

@@ -1,15 +1,29 @@
 ---
 name: notion
-description: "Notion API + ntn CLI: pages, databases, markdown, Workers."
+description: Work with Notion pages and databases two ways — the official ntn CLI
+  (shorter syntax, file uploads, required for Workers) or HTTP + curl (works everywhere)
+  — using one integration token. Use for reading, creating, or updating Notion content
+  and databases.
 version: 2.0.0
 author: community
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 prerequisites:
-  env_vars: [NOTION_API_KEY]
+  env_vars:
+  - NOTION_API_KEY
 metadata:
   hermes:
-    tags: [Notion, Productivity, Notes, Database, API, CLI, Workers]
+    tags:
+    - Notion
+    - Productivity
+    - Notes
+    - Database
+    - API
+    - CLI
+    - Workers
     homepage: https://developers.notion.com
 ---
 

@@ -1,6 +1,8 @@
 ---
 name: code-review
-description: Guidelines for performing thorough code reviews with security and quality focus
+description: Guidelines for performing thorough code reviews with security and quality
+  focus
+tags: [code-review, security, quality, pull-request, audit, checklist]
 ---
 
 # Code Review Skill

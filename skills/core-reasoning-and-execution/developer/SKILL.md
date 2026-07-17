@@ -1,6 +1,10 @@
 ---
 name: developer
-description: Production code implementation, refactoring, feature work, script writing, and technical fixes for OpenClaw tasks. Use when the job is to build the code or configuration after the design is known, or when a concrete working implementation is needed.
+description: Production code implementation, refactoring, feature work, script writing,
+  and technical fixes for OpenClaw tasks. Use when the job is to build the code or
+  configuration after the design is known, or when a concrete working implementation
+  is needed.
+tags: [implementation, coding, development, edge-cases, production-ready]
 ---
 
 # Developer

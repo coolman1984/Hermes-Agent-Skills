@@ -1,11 +1,20 @@
 ---
 name: taaseel
-description: "Use when Mohamed explicitly asks for Taaseel or needs a full deep explanation/research/thinking path from origin to application. Taaseel is a separate method, not a replacement for Mohamed's Batariqatna or Falsafa methods."
+description: Use when Mohamed explicitly asks for Taaseel or needs a full deep explanation/research/thinking
+  path from origin to application. Taaseel is a separate method, not a replacement
+  for Mohamed's Batariqatna or Falsafa methods.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [arabic, method, explanation, research, thinking, mohamed]
 metadata:
-  tags: [mohamed, explanation, research, thinking, arabic, teaching]
+  tags:
+  - mohamed
+  - explanation
+  - research
+  - thinking
+  - arabic
+  - teaching
 ---
 
 # Taaseel Method

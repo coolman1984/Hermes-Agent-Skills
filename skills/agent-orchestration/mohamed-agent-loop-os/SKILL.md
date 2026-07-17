@@ -1,12 +1,29 @@
 ---
 name: mohamed-agent-loop-os
-description: Use when Mohamed wants a serious multi-agent workflow, a long-running coding/research loop, background workers, factory-style processing, or any task that must survive beyond one clever prompt. Turns the task into a durable planner-generator-evaluator operating loop with file-backed state, explicit success contracts, restart tolerance, and profile-based execution.
+description: Use when Mohamed wants a serious multi-agent workflow, a long-running
+  coding/research loop, background workers, factory-style processing, or any task
+  that must survive beyond one clever prompt. Turns the task into a durable planner-generator-evaluator
+  operating loop with file-backed state, explicit success contracts, restart tolerance,
+  and profile-based execution.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [agent-loop, operating-model, multi-agent, orchestration, doctrine]
 metadata:
-  tags: [agent-loop, multi-agent, planner-generator-evaluator, durable-state, long-running, profiles, verification, mohamed]
-  related_skills: [mohamed-coding-team, mohamed-opencode-go-worker-profiles, ai-coding-cli-delegation, senior-software-engineer]
+  tags:
+  - agent-loop
+  - multi-agent
+  - planner-generator-evaluator
+  - durable-state
+  - long-running
+  - profiles
+  - verification
+  - mohamed
+  related_skills:
+  - mohamed-coding-team
+  - mohamed-opencode-go-worker-profiles
+  - ai-coding-cli-delegation
+  - senior-software-engineer
 ---
 
 # Mohamed Agent Loop OS

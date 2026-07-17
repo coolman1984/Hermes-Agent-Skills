@@ -1,6 +1,8 @@
 ---
 name: perplexity-terminal
-description: Search Perplexity via terminal using your browser session cookies (no API key needed)
+description: Search Perplexity via terminal using your browser session cookies (no
+  API key needed)
+tags: [perplexity, terminal, cookies, no-api-key, search]
 ---
 
 # Perplexity Terminal Skill

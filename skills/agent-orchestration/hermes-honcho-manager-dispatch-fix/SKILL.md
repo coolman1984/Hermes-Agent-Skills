@@ -1,11 +1,20 @@
 ---
 name: hermes-honcho-manager-dispatch-fix
-description: Fix Hermes/OpenClaw tool outages caused by `handle_function_call() got an unexpected keyword argument 'honcho_manager'` via backward-compatible dispatcher signature patch and restart verification.
+description: Fix Hermes/OpenClaw tool outages caused by `handle_function_call() got
+  an unexpected keyword argument 'honcho_manager'` via backward-compatible dispatcher
+  signature patch and restart verification.
 version: 1.0.0
 author: Hermes Agent
 license: MIT
+tags: [hermes-agent, honcho, dispatch, troubleshooting, version-mismatch]
 metadata:
-  tags: [hermes, openclaw, tools, dispatcher, honcho_manager, hotfix]
+  tags:
+  - hermes
+  - openclaw
+  - tools
+  - dispatcher
+  - honcho_manager
+  - hotfix
 ---
 
 # Hermes honcho_manager Dispatch Fix

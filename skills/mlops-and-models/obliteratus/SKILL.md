@@ -1,15 +1,38 @@
 ---
 name: obliteratus
-description: "OBLITERATUS: abliterate LLM refusals (diff-in-means)."
+description: Remove refusal behaviors from open-weight LLMs without retraining using
+  mechanistic-interpretability weight surgery (diff-in-means, SVD, LEACE, SAE) — 9
+  CLI methods, 116 model presets. Requires open weights + GPU and is AGPL-3.0. Use
+  for research on abliterating refusal directions in local models.
 version: 2.0.0
 author: Hermes Agent
 license: MIT
-dependencies: [obliteratus, torch, transformers, bitsandbytes, accelerate, safetensors]
-platforms: [linux, macos]
+dependencies:
+- obliteratus
+- torch
+- transformers
+- bitsandbytes
+- accelerate
+- safetensors
+platforms:
+- linux
+- macos
 metadata:
   hermes:
-    tags: [Abliteration, Uncensoring, Refusal-Removal, LLM, Weight-Projection, SVD, Mechanistic-Interpretability, HuggingFace, Model-Surgery]
-    related_skills: [vllm, gguf, huggingface-tokenizers]
+    tags:
+    - Abliteration
+    - Uncensoring
+    - Refusal-Removal
+    - LLM
+    - Weight-Projection
+    - SVD
+    - Mechanistic-Interpretability
+    - HuggingFace
+    - Model-Surgery
+    related_skills:
+    - vllm
+    - gguf
+    - huggingface-tokenizers
 ---
 
 # OBLITERATUS Skill

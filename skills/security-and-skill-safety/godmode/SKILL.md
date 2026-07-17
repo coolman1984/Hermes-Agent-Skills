@@ -1,14 +1,29 @@
 ---
 name: godmode
-description: "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN."
+description: Bypass safety filters on API-served LLMs using G0DM0D3/L1B3RT4S techniques
+  (Parseltongue, GODMODE, ULTRAPLINIAN) at the prompt/API level, including closed
+  models. Use only for authorized red-teaming and safety research; handle with care.
 version: 1.0.0
 author: Hermes Agent + Teknium
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [jailbreak, red-teaming, G0DM0D3, Parseltongue, GODMODE, uncensoring, safety-bypass, prompt-engineering, L1B3RT4S]
-    related_skills: [obliteratus]
+    tags:
+    - jailbreak
+    - red-teaming
+    - G0DM0D3
+    - Parseltongue
+    - GODMODE
+    - uncensoring
+    - safety-bypass
+    - prompt-engineering
+    - L1B3RT4S
+    related_skills:
+    - obliteratus
 ---
 
 # G0DM0D3 Jailbreaking Skill

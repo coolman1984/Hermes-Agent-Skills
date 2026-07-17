@@ -1,6 +1,10 @@
 ---
 name: orchestration-ceo
-description: Top-level orchestration for Mohamed’s AI system. Use when a request needs strategy, multi-step planning, delegation to sub-agents or tools, review/testing, long-running task control, heartbeat follow-up, or building reusable operating procedures and automation.
+description: Top-level orchestration for Mohamed’s AI system. Use when a request needs
+  strategy, multi-step planning, delegation to sub-agents or tools, review/testing,
+  long-running task control, heartbeat follow-up, or building reusable operating procedures
+  and automation.
+tags: [orchestration, planning, delegation, review, recovery, control]
 ---
 
 # Orchestration CEO

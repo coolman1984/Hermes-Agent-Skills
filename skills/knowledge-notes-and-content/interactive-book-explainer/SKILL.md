@@ -1,11 +1,22 @@
 ---
 name: interactive-book-explainer
-description: استخدم هذه المهارة عندما يطلب محمد تحويل فصل أو فكرة من كتاب إلى صفحة شرح تفاعلية محلية تساعده على الفهم العميق، خصوصًا عندما يقول اسم المهارة أو يطلب تجربة شرح بصري للكتاب.
+description: استخدم هذه المهارة عندما يطلب محمد تحويل فصل أو فكرة من كتاب إلى صفحة
+  شرح تفاعلية محلية تساعده على الفهم العميق، خصوصًا عندما يقول اسم المهارة أو يطلب
+  تجربة شرح بصري للكتاب.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [arabic, interactive, html, explainer, education, template]
 metadata:
-  tags: [arabic, book, interactive, html, css, javascript, learning, explanation]
+  tags:
+  - arabic
+  - book
+  - interactive
+  - html
+  - css
+  - javascript
+  - learning
+  - explanation
 ---
 
 # Interactive Book Explainer

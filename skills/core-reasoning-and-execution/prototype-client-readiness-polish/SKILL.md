@@ -1,8 +1,10 @@
 ---
-title: Prototype Client Readiness Polish
-description: Turn a working prototype into a presentable pilot-ready product for a friendly client demo.
-category: software-development
 name: prototype-client-readiness-polish
+description: Turn a working prototype into a presentable pilot-ready product for a
+  friendly client demo.
+tags: [prototype, client, demo, qa, polish, delivery]
+title: Prototype Client Readiness Polish
+category: software-development
 ---
 
 # Prototype Client Readiness Polish

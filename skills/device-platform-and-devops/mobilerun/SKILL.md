@@ -1,14 +1,20 @@
 ---
 name: mobilerun
-description: Route Android device control through Mobilerun/Droidrun Portal for screenshots, UI trees, taps, swipes, typing, and multi-step mobile automation. Use when OpenClaw needs managed Android app control rather than shell-only Termux commands.
+description: Route Android device control through Mobilerun/Droidrun Portal for screenshots,
+  UI trees, taps, swipes, typing, and multi-step mobile automation. Use when OpenClaw
+  needs managed Android app control rather than shell-only Termux commands.
+tags: [android, ui-automation, mobilerun, droidrun, openclaw, screenshots]
 metadata:
   clawdbot:
-    emoji: "📲"
+    emoji: 📲
     requires:
-      bins: ["adb"]
-      env: ["MOBILERUN_API_KEY"]
-      config: ["skills.entries.mobilerun.enabled"]
-    primaryEnv: "MOBILERUN_API_KEY"
+      bins:
+      - adb
+      env:
+      - MOBILERUN_API_KEY
+      config:
+      - skills.entries.mobilerun.enabled
+    primaryEnv: MOBILERUN_API_KEY
 ---
 
 # Mobilerun

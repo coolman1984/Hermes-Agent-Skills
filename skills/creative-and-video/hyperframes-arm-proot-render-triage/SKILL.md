@@ -1,11 +1,22 @@
 ---
 name: hyperframes-arm-proot-render-triage
-description: Diagnose and work around HyperFrames render/validate failures on Linux aarch64 / Android PRoot, especially x86-64 Chrome Headless Shell downloads mislabeled as linux_arm.
+description: Diagnose and work around HyperFrames render/validate failures on Linux
+  aarch64 / Android PRoot, especially x86-64 Chrome Headless Shell downloads mislabeled
+  as linux_arm.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [hyperframes, arm, proot, termux, render, troubleshooting]
 metadata:
-  tags: [hyperframes, video, render, chrome, arm64, proot, android, troubleshooting]
+  tags:
+  - hyperframes
+  - video
+  - render
+  - chrome
+  - arm64
+  - proot
+  - android
+  - troubleshooting
 ---
 
 # HyperFrames ARM/PRoot Render Triage

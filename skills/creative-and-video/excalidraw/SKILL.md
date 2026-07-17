@@ -1,16 +1,27 @@
 ---
 name: excalidraw
-description: "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq)."
+description: Create hand-drawn-style diagrams by writing Excalidraw element JSON and
+  saving .excalidraw files — architecture, flowcharts, sequence diagrams, concept
+  maps — droppable onto excalidraw.com, no API keys. Use when the user wants an editable
+  Excalidraw diagram.
 version: 1.0.0
 author: Hermes Agent
 license: MIT
 dependencies: []
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [Excalidraw, Diagrams, Flowcharts, Architecture, Visualization, JSON]
+    tags:
+    - Excalidraw
+    - Diagrams
+    - Flowcharts
+    - Architecture
+    - Visualization
+    - JSON
     related_skills: []
-
 ---
 
 # Excalidraw Diagram Skill

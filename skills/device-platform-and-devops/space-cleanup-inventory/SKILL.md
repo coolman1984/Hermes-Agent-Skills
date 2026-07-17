@@ -1,6 +1,8 @@
 ---
 name: space-cleanup-inventory
-description: Practical workflow for finding removable disk-space clutter, estimating reclaimable space, and separating low-risk cleanup from medium/high-risk deletions.
+description: Practical workflow for finding removable disk-space clutter, estimating
+  reclaimable space, and separating low-risk cleanup from medium/high-risk deletions.
+tags: [disk-space, cleanup, inventory, storage, report]
 ---
 
 # Space Cleanup Inventory

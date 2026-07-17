@@ -1,6 +1,9 @@
 ---
 name: obsidian
-description: Read, search, and create notes in the Obsidian vault.
+description: Read, search, list, and create notes in a local Obsidian vault via the
+  terminal, resolving the vault path from OBSIDIAN_VAULT_PATH. Use when the user wants
+  to work with their Obsidian notes — reading, searching, or adding markdown files.
+tags: [obsidian, notes, vault, markdown, knowledge-base, terminal]
 ---
 
 # Obsidian Vault

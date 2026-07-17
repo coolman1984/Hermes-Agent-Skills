@@ -1,11 +1,23 @@
 ---
 name: mohamed-claude-codex-control-bridge
-description: Use when Mohamed asks Hermes to control, audit, learn from, or bridge Claude Code, Codex CLI, OpenCode CLI, and Gemini CLI, including reading their skills/memories, delegating tasks, importing useful skill workflows into Hermes, or maintaining a local multi-agent control layer on this Android/PRoot machine.
+description: Use when Mohamed asks Hermes to control, audit, learn from, or bridge
+  Claude Code, Codex CLI, OpenCode CLI, and Gemini CLI, including reading their skills/memories,
+  delegating tasks, importing useful skill workflows into Hermes, or maintaining a
+  local multi-agent control layer on this Android/PRoot machine.
 version: 1.4.0
 author: Hermes + Mohamed
 license: MIT
+tags: [claude-code, codex, opencode, control-bridge, delegation, cli]
 metadata:
-  tags: [claude-code, codex, opencode, hermes, multi-agent, skills, android-proot, orchestration]
+  tags:
+  - claude-code
+  - codex
+  - opencode
+  - hermes
+  - multi-agent
+  - skills
+  - android-proot
+  - orchestration
 ---
 
 # Mohamed Claude/Codex/OpenCode Control Bridge

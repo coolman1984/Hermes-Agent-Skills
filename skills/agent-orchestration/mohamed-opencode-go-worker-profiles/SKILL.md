@@ -1,11 +1,20 @@
 ---
 name: mohamed-opencode-go-worker-profiles
-description: Use when Mohamed wants Hermes to run background worker profiles on OpenCode Go models, choose the right model for a task, refresh model choices, or improve the multi-model worker setup.
+description: Use when Mohamed wants Hermes to run background worker profiles on OpenCode
+  Go models, choose the right model for a task, refresh model choices, or improve
+  the multi-model worker setup.
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [opencode, worker-profiles, multi-agent, profiles, orchestration]
 metadata:
-  tags: [hermes, profiles, opencode-go, multi-agent, model-routing, mohamed]
+  tags:
+  - hermes
+  - profiles
+  - opencode-go
+  - multi-agent
+  - model-routing
+  - mohamed
 ---
 
 # Mohamed OpenCode Go Worker Profiles

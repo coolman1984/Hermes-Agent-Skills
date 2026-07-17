@@ -1,12 +1,26 @@
 ---
 name: mohamed-book-writing-style-factory
-description: "مهارة محمد الأساسية لكتابة وعرض وتسويق الكتب الإلكترونية: أسلوب عربي احترافي، نصوص بيعية، كتب قابلة للبيع، صفحات شرح تفاعلية، وتمارين بصرية تزيد استفادة المشتري."
+description: 'مهارة محمد الأساسية لكتابة وعرض وتسويق الكتب الإلكترونية: أسلوب عربي
+  احترافي، نصوص بيعية، كتب قابلة للبيع، صفحات شرح تفاعلية، وتمارين بصرية تزيد استفادة
+  المشتري.'
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [arabic, book-writing, ebook, publishing, style, mohamed]
 metadata:
-  tags: [arabic, books, writing, style, sales, interactive, ecommerce, publishing]
-  related_skills: [professional-pdf-book-factory, interactive-book-explainer, mohamed-arabic-content-style]
+  tags:
+  - arabic
+  - books
+  - writing
+  - style
+  - sales
+  - interactive
+  - ecommerce
+  - publishing
+  related_skills:
+  - professional-pdf-book-factory
+  - interactive-book-explainer
+  - mohamed-arabic-content-style
 ---
 
 # مهارة مصنع الكتب الإلكتروني لمحمد

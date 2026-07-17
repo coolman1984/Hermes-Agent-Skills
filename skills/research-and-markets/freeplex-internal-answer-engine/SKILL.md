@@ -1,6 +1,9 @@
 ---
 name: freeplex-internal-answer-engine
-description: Design and build Mohamed's free internal Perplexity-like answer engine using no/low-cost search, page reading, source ranking, citations, Obsidian/local memory, and Camoufox fallbacks.
+description: Design and build Mohamed's free internal Perplexity-like answer engine
+  using no/low-cost search, page reading, source ranking, citations, Obsidian/local
+  memory, and Camoufox fallbacks.
+tags: [answer-engine, perplexity-alternative, search, citations, rag, synthesis]
 ---
 
 # Freeplex Internal Answer Engine

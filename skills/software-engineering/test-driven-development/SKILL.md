@@ -1,14 +1,28 @@
 ---
 name: test-driven-development
-description: "TDD: enforce RED-GREEN-REFACTOR, tests before code."
+description: Enforce strict TDD — write a failing test, watch it fail, write minimal
+  code to pass, refactor (RED-GREEN-REFACTOR). Use for new features, bug fixes, refactors,
+  and behavior changes; ask first before skipping on throwaway prototypes, generated
+  code, or config.
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [testing, tdd, development, quality, red-green-refactor]
-    related_skills: [systematic-debugging, plan, subagent-driven-development]
+    tags:
+    - testing
+    - tdd
+    - development
+    - quality
+    - red-green-refactor
+    related_skills:
+    - systematic-debugging
+    - plan
+    - subagent-driven-development
 ---
 
 # Test-Driven Development (TDD)

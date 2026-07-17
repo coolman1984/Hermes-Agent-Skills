@@ -1,14 +1,34 @@
 ---
 name: claude-design
-description: Design one-off HTML artifacts (landing, deck, prototype).
+description: Bring Claude Design's design taste and behavior to CLI/API agents for
+  one-off HTML artifacts — landing pages, decks, prototypes — without the hosted web-UI
+  plumbing. Use for design work in a terminal/API environment; check popular-web-designs
+  and design-md first for ready-made systems.
 version: 1.1.0
 author: BadTechBandit
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [design, html, prototype, ux, ui, creative, artifact, deck, motion, design-system]
-    related_skills: [design-md, popular-web-designs, excalidraw, architecture-diagram]
+    tags:
+    - design
+    - html
+    - prototype
+    - ux
+    - ui
+    - creative
+    - artifact
+    - deck
+    - motion
+    - design-system
+    related_skills:
+    - design-md
+    - popular-web-designs
+    - excalidraw
+    - architecture-diagram
 ---
 
 # Claude Design for CLI/API Agents

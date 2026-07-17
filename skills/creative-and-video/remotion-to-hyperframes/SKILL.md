@@ -1,6 +1,10 @@
 ---
 name: remotion-to-hyperframes
-description: Translate an existing Remotion video composition into a HyperFrames HTML composition. Use only when explicitly asked to port, convert, migrate, translate, or rewrite Remotion as HyperFrames. For new HyperFrames compositions, use the native HyperFrames skill instead.
+description: Translate an existing Remotion video composition into a HyperFrames HTML
+  composition. Use only when explicitly asked to port, convert, migrate, translate,
+  or rewrite Remotion as HyperFrames. For new HyperFrames compositions, use the native
+  HyperFrames skill instead.
+tags: [remotion, hyperframes, translation, video, react, gsap]
 ---
 
 # Remotion to HyperFrames

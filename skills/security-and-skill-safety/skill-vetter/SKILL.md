@@ -1,7 +1,10 @@
 ---
 name: skill-vetter
+description: Security-first skill vetting for AI agents. Use before installing any
+  skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission
+  scope, and suspicious patterns. Now includes permission-aware auto-vetting.
 version: 1.1.0
-description: Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns. Now includes permission-aware auto-vetting.
+tags: [security, vetting, skills, safety, audit, red-team]
 ---
 
 # Skill Vetter 🔒

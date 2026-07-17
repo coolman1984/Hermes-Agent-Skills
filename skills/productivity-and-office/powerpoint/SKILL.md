@@ -1,8 +1,15 @@
 ---
 name: powerpoint
-description: "Create, read, edit .pptx decks, slides, notes, templates."
+description: Create, read, edit, split, and combine .pptx presentations with python-pptx
+  — slides, layouts, speaker notes, comments, and templates. Use any time a .pptx
+  file is involved, whether the user says deck, slides, presentation, or names a .pptx
+  file.
 license: Proprietary. LICENSE.txt has complete terms
-platforms: [linux, macos, windows]
+tags: [powerpoint, pptx, slides, presentation, python-pptx, office, productivity]
+platforms:
+- linux
+- macos
+- windows
 ---
 
 # Powerpoint Skill

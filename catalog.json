@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T12:31:42Z",
+  "generated_at": "2026-07-17T12:47:03Z",
   "source": "Hermes Agent skills library (live export)",
   "skill_count": 214,
   "domains": [
@@ -102,7 +102,13 @@
       "original_category": "openclaw-imports",
       "description": "Planning, system design, architecture decisions, tradeoff analysis, and implementation breakdowns for OpenClaw work. Use when defining scope, choosing a structure, asking the right clarifying questions, or turning a complex request into a concrete design plan.",
       "path": "skills/core-reasoning-and-execution/architect",
-      "tags": [],
+      "tags": [
+        "architecture",
+        "planning",
+        "system-design",
+        "tradeoffs",
+        "design"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -117,7 +123,13 @@
       "original_category": "openclaw-imports",
       "description": "Execution specialist for implementation work. Use for coding, setup steps, configurations, scripts, technical fixes, and concrete build plans. Produces working output, flags risks clearly, and returns concise implementation packages.",
       "path": "skills/core-reasoning-and-execution/builder",
-      "tags": [],
+      "tags": [
+        "implementation",
+        "coding",
+        "execution",
+        "scripts",
+        "build"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -132,7 +144,13 @@
       "original_category": "openclaw-imports",
       "description": "Silent pre-task routing for OpenClaw. Use when deciding how to handle any request by checking existing skills, tools, reusable workflows, or delegated execution before doing fresh reasoning. This skill prevents duplicated work, wasted tokens, and rebuilding known workflows from scratch.",
       "path": "skills/core-reasoning-and-execution/capability-first",
-      "tags": [],
+      "tags": [
+        "routing",
+        "reuse",
+        "efficiency",
+        "capabilities",
+        "reasoning"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -147,7 +165,13 @@
       "original_category": "openclaw-imports",
       "description": "Route large file reads, verbose command output, web fetches, logs, and browser snapshots through Context Mode sandbox tools to reduce context bloat. Use when outputs may exceed a few hundred tokens or when you need index/search/fetch-first behavior instead of raw dumps.",
       "path": "skills/core-reasoning-and-execution/context-mode-routing",
-      "tags": [],
+      "tags": [
+        "context-mode",
+        "sandbox",
+        "extraction",
+        "large-output",
+        "routing"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -162,7 +186,13 @@
       "original_category": "openclaw-imports",
       "description": "Production code implementation, refactoring, feature work, script writing, and technical fixes for OpenClaw tasks. Use when the job is to build the code or configuration after the design is known, or when a concrete working implementation is needed.",
       "path": "skills/core-reasoning-and-execution/developer",
-      "tags": [],
+      "tags": [
+        "implementation",
+        "coding",
+        "development",
+        "edge-cases",
+        "production-ready"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -199,7 +229,14 @@
       "original_category": "openclaw-imports",
       "description": "Top-level orchestration for Mohamed’s AI system. Use when a request needs strategy, multi-step planning, delegation to sub-agents or tools, review/testing, long-running task control, heartbeat follow-up, or building reusable operating procedures and automation.",
       "path": "skills/core-reasoning-and-execution/orchestration-ceo",
-      "tags": [],
+      "tags": [
+        "orchestration",
+        "planning",
+        "delegation",
+        "review",
+        "recovery",
+        "control"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -303,7 +340,14 @@
       "original_category": "software-development",
       "description": "Turn a working prototype into a presentable pilot-ready product for a friendly client demo.",
       "path": "skills/core-reasoning-and-execution/prototype-client-readiness-polish",
-      "tags": [],
+      "tags": [
+        "prototype",
+        "client",
+        "demo",
+        "qa",
+        "polish",
+        "delivery"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -339,7 +383,13 @@
       "original_category": "openclaw-imports",
       "description": "Evidence-oriented research specialist for gathering, comparing, analyzing, and synthesizing facts for decision-making. Use when the task is research, option comparison, tradeoff analysis, uncertainty handling, or decision support.",
       "path": "skills/core-reasoning-and-execution/researcher",
-      "tags": [],
+      "tags": [
+        "research",
+        "analysis",
+        "synthesis",
+        "comparison",
+        "decision-making"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -354,7 +404,13 @@
       "original_category": "openclaw-imports",
       "description": "Strict review and QA for OpenClaw outputs, code, configs, scripts, skill files, and AI-generated responses. Use when checking correctness, logic gaps, missing pieces, ambiguity, safety, or approval readiness before anything is accepted or merged.",
       "path": "skills/core-reasoning-and-execution/reviewer-qa",
-      "tags": [],
+      "tags": [
+        "review",
+        "qa",
+        "correctness",
+        "verification",
+        "approval"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -388,7 +444,7 @@
       "name": "spike",
       "domain": "core-reasoning-and-execution",
       "original_category": "software-development",
-      "description": "Throwaway experiments to validate an idea before build.",
+      "description": "Run throwaway experiments to validate an idea before committing to a real build — checking feasibility, comparing approaches, or surfacing unknowns that research alone can't answer. Use when the user says \"let me try this\", \"see if X works\", \"spike this out\", \"quick prototype\", or \"is this even possible?\"; skip when the answer is knowable from docs or code.",
       "path": "skills/core-reasoning-and-execution/spike",
       "tags": [
         "spike",
@@ -437,7 +493,13 @@
       "original_category": "openclaw-imports",
       "description": "Track task outcomes for self-optimizing agent recommendations",
       "path": "skills/core-reasoning-and-execution/task-tracker",
-      "tags": [],
+      "tags": [
+        "task-tracking",
+        "metrics",
+        "self-optimization",
+        "outcomes",
+        "cli"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -452,7 +514,13 @@
       "original_category": "openclaw-imports",
       "description": "Pending-work monitoring and completion follow-up for long-running tasks, sub-agents, reviews, tests, and background jobs. Use when you need recurring status checks, 2-minute wakeups, completion notifications, blocker tracking, or a clean handoff from waiting to done.",
       "path": "skills/core-reasoning-and-execution/task-watch",
-      "tags": [],
+      "tags": [
+        "monitoring",
+        "follow-up",
+        "long-running",
+        "escalation",
+        "notifications"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -465,7 +533,7 @@
       "name": "writing-plans",
       "domain": "core-reasoning-and-execution",
       "original_category": "software-development",
-      "description": "Write implementation plans: bite-sized tasks, paths, code.",
+      "description": "Write comprehensive implementation plans for an implementer who has zero context on the codebase: which files to touch, complete code, test commands, docs to check, and how to verify — broken into bite-sized DRY/YAGNI/TDD tasks. Use when turning a feature or fix into a concrete, hand-off-ready plan.",
       "path": "skills/core-reasoning-and-execution/writing-plans",
       "tags": [
         "planning",
@@ -488,7 +556,13 @@
       "original_category": "software-development",
       "description": "Build production AI workflows using Directive-Orchestration-Execution pattern — separates probabilistic reasoning from deterministic execution.",
       "path": "skills/agent-orchestration/agentic-workflows-do-framework",
-      "tags": [],
+      "tags": [
+        "workflow",
+        "determinism",
+        "sop",
+        "orchestration",
+        "do-framework"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -527,7 +601,13 @@
       "original_category": "software-development",
       "description": "Build a robust handoff/control layer for future AI agents using a document-driven operating contract, machine-readable manifest, and validation script instead of brittle Python-only automation.",
       "path": "skills/agent-orchestration/ai-handoff-control-layer",
-      "tags": [],
+      "tags": [
+        "handoff",
+        "control",
+        "governance",
+        "multi-agent",
+        "safety"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -540,7 +620,7 @@
       "name": "debugging-hermes-tui-commands",
       "domain": "agent-orchestration",
       "original_category": "software-development",
-      "description": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
+      "description": "Debug Hermes TUI slash commands across their three layers — the Python command registry, the tui_gateway JSON-RPC bridge, and the Ink/TypeScript frontend — where bugs are usually one layer out of sync with another. Use when a slash command is missing from autocomplete, works in the CLI but not the TUI, or needs adding/updating.",
       "path": "skills/agent-orchestration/debugging-hermes-tui-commands",
       "tags": [
         "debugging",
@@ -586,7 +666,14 @@
       "original_category": "autonomous-ai-agents",
       "description": "Bootstrap and run GenericAgent (self-evolving autonomous agent) in Linux aarch64 PRoot/Android environments. Includes dependency triage, API config, and common pitfalls.",
       "path": "skills/agent-orchestration/generic-agent-setup",
-      "tags": [],
+      "tags": [
+        "agent-framework",
+        "genericagent",
+        "termux",
+        "proot",
+        "self-evolving",
+        "setup"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -623,7 +710,7 @@
       "name": "hermes-agent-skill-authoring",
       "domain": "agent-orchestration",
       "original_category": "software-development",
-      "description": "Author in-repo SKILL.md: frontmatter, validator, structure.",
+      "description": "Author in-repo SKILL.md files committed to the hermes-agent package (as opposed to user-local skills): correct frontmatter, directory structure, validation, and git workflow with write_file + git add. Use when asked to add or edit a skill \"in this repo/branch/commit\" that ships with the package.",
       "path": "skills/agent-orchestration/hermes-agent-skill-authoring",
       "tags": [
         "skills",
@@ -646,7 +733,13 @@
       "original_category": "openclaw-imports",
       "description": "Fix and auto-detect Telegram gateway stuck in typing loop - restart the gateway process when stuck",
       "path": "skills/agent-orchestration/hermes-gateway-telegram-stuck",
-      "tags": [],
+      "tags": [
+        "hermes-agent",
+        "telegram",
+        "gateway",
+        "troubleshooting",
+        "debugging"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -661,7 +754,13 @@
       "original_category": "autonomous-ai-agents",
       "description": "Fix Hermes/OpenClaw tool outages caused by `handle_function_call() got an unexpected keyword argument 'honcho_manager'` via backward-compatible dispatcher signature patch and restart verification.",
       "path": "skills/agent-orchestration/hermes-honcho-manager-dispatch-fix",
-      "tags": [],
+      "tags": [
+        "hermes-agent",
+        "honcho",
+        "dispatch",
+        "troubleshooting",
+        "version-mismatch"
+      ],
       "version": "1.0.0",
       "author": "Hermes Agent",
       "license": "MIT",
@@ -698,7 +797,13 @@
       "original_category": "autonomous-ai-agents",
       "description": "Troubleshoot Hermes wrappers that sit behind an OpenClaw gateway, fix pairing/token issues, and verify the wrapper actually talks to the gateway.",
       "path": "skills/agent-orchestration/hermes-openclaw-wrapper-fixes",
-      "tags": [],
+      "tags": [
+        "hermes-agent",
+        "openclaw",
+        "gateway",
+        "wrapper",
+        "troubleshooting"
+      ],
       "version": "1.0.1",
       "author": "Hermes Agent",
       "license": "MIT",
@@ -713,7 +818,13 @@
       "original_category": "openclaw-imports",
       "description": "Bootstrap, clone, and harden Hermes profiles for a production/experiment pair with safe config, interactive setup handling, and verification. Use when creating a new Hermes profile, cloning it into a lab profile, or wiring profile-specific SOUL/config defaults.",
       "path": "skills/agent-orchestration/hermes-profile-bootstrap",
-      "tags": [],
+      "tags": [
+        "hermes-agent",
+        "profiles",
+        "bootstrap",
+        "setup",
+        "configuration"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -770,7 +881,13 @@
       "original_category": "autonomous-ai-agents",
       "description": "Use when Mohamed wants a serious multi-agent workflow, a long-running coding/research loop, background workers, factory-style processing, or any task that must survive beyond one clever prompt. Turns the task into a durable planner-generator-evaluator operating loop with file-backed state, explicit success contracts, restart tolerance, and profile-based execution.",
       "path": "skills/agent-orchestration/mohamed-agent-loop-os",
-      "tags": [],
+      "tags": [
+        "agent-loop",
+        "operating-model",
+        "multi-agent",
+        "orchestration",
+        "doctrine"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -785,7 +902,14 @@
       "original_category": "autonomous-ai-agents",
       "description": "Use when Mohamed asks Hermes to control, audit, learn from, or bridge Claude Code, Codex CLI, OpenCode CLI, and Gemini CLI, including reading their skills/memories, delegating tasks, importing useful skill workflows into Hermes, or maintaining a local multi-agent control layer on this Android/PRoot machine.",
       "path": "skills/agent-orchestration/mohamed-claude-codex-control-bridge",
-      "tags": [],
+      "tags": [
+        "claude-code",
+        "codex",
+        "opencode",
+        "control-bridge",
+        "delegation",
+        "cli"
+      ],
       "version": "1.4.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -800,7 +924,13 @@
       "original_category": "autonomous-ai-agents",
       "description": "Use when Mohamed asks for coding work, architecture, implementation, debugging, code review, or a multi-agent coding workflow. Defines Mohamed's permanent coding-team hierarchy across Claude Code, Codex CLI, OpenCode, Gemini CLI, and Hermes.",
       "path": "skills/agent-orchestration/mohamed-coding-team",
-      "tags": [],
+      "tags": [
+        "multi-agent",
+        "coding-team",
+        "delegation",
+        "orchestration",
+        "workflow"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -815,7 +945,13 @@
       "original_category": "autonomous-ai-agents",
       "description": "Use when Mohamed wants Hermes to run background worker profiles on OpenCode Go models, choose the right model for a task, refresh model choices, or improve the multi-model worker setup.",
       "path": "skills/agent-orchestration/mohamed-opencode-go-worker-profiles",
-      "tags": [],
+      "tags": [
+        "opencode",
+        "worker-profiles",
+        "multi-agent",
+        "profiles",
+        "orchestration"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -830,7 +966,13 @@
       "original_category": "autonomous-ai-agents",
       "description": "Use when Mohamed wants a file-based project operating system for multi-step work, data projects, reports, software builds, factory workflows, or restartable autonomous execution. Preserves mission, scope, decisions, assumptions, risks, evidence, validation, memory, and handover in project files without polluting global memory.",
       "path": "skills/agent-orchestration/persistent-memory-project-governance",
-      "tags": [],
+      "tags": [
+        "memory",
+        "governance",
+        "filesystem",
+        "project-state",
+        "continuity"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -843,7 +985,7 @@
       "name": "subagent-driven-development",
       "domain": "agent-orchestration",
       "original_category": "software-development",
-      "description": "Execute plans via delegate_task subagents (2-stage review).",
+      "description": "Execute an implementation plan by dispatching a fresh delegate_task subagent per task, each followed by a two-stage review (spec compliance, then quality). Use when tasks are mostly independent and you want fresh context per task with automated review between them, rather than manual sequential execution.",
       "path": "skills/agent-orchestration/subagent-driven-development",
       "tags": [
         "delegation",
@@ -911,7 +1053,14 @@
       "original_category": "software-development",
       "description": "Render professional Arabic/RTL PDFs from report data using HTML/CSS and WeasyPrint instead of ReportLab.",
       "path": "skills/software-engineering/arabic-pdf-weasyprint-pipeline",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "pdf",
+        "weasyprint",
+        "rtl",
+        "html-css",
+        "reports"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -949,7 +1098,14 @@
       "original_category": "software-development",
       "description": "Guidelines for performing thorough code reviews with security and quality focus",
       "path": "skills/software-engineering/code-review",
-      "tags": [],
+      "tags": [
+        "code-review",
+        "security",
+        "quality",
+        "pull-request",
+        "audit",
+        "checklist"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -986,7 +1142,14 @@
       "original_category": "software-development",
       "description": "Proven approaches and pitfalls for Arabic-first dashboards and reports in Node/Python stacks.",
       "path": "skills/software-engineering/company-dashboard-arabic-lessons",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "dashboard",
+        "i18n",
+        "rtl",
+        "pdf",
+        "frontend"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -999,7 +1162,7 @@
       "name": "dogfood",
       "domain": "software-engineering",
       "original_category": "dogfood",
-      "description": "Exploratory QA of web apps: find bugs, evidence, reports.",
+      "description": "Run systematic exploratory QA on a web application using the browser toolset: navigate, interact, capture evidence of issues, and produce a structured bug report. Use when the user wants a web app tested for bugs and gives you a target URL and testing scope.",
       "path": "skills/software-engineering/dogfood",
       "tags": [
         "qa",
@@ -1215,7 +1378,7 @@
       "name": "requesting-code-review",
       "domain": "software-engineering",
       "original_category": "software-development",
-      "description": "Pre-commit review: security scan, quality gates, auto-fix.",
+      "description": "Verify code before it lands with an automated pre-commit pipeline: static security scans, baseline-aware quality gates, an independent reviewer subagent, and an auto-fix loop (no agent reviews its own work). Use after implementing a feature or fix — when the user says commit, push, ship, done, verify, or review before merge.",
       "path": "skills/software-engineering/requesting-code-review",
       "tags": [
         "code-review",
@@ -1259,7 +1422,7 @@
       "name": "simplify-code",
       "domain": "software-engineering",
       "original_category": "software-development",
-      "description": "Parallel 3-agent cleanup of recent code changes.",
+      "description": "Review recent code changes with three focused reviewers running in parallel — reuse, quality, efficiency — then aggregate and apply the fixes worth keeping. Use when the user says \"simplify\", \"clean up these changes\", or wants a fast, thorough cleanup pass on a diff.",
       "path": "skills/software-engineering/simplify-code",
       "tags": [
         "code-review",
@@ -1305,7 +1468,14 @@
       "original_category": "openclaw-imports",
       "description": "Diagnose and handle Node.js native-addon install failures on Android/Termux/PRoot, especially node-gyp errors, better-sqlite3, and android_ndk_path issues. Use when deciding whether to force a prebuilt binary path, patch environment variables, or move the workload into a real Linux userland.",
       "path": "skills/software-engineering/termux-node-native-addon-triage",
-      "tags": [],
+      "tags": [
+        "termux",
+        "proot",
+        "node",
+        "native-addons",
+        "node-gyp",
+        "android"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1320,7 +1490,14 @@
       "original_category": "software-development",
       "description": "Rapidly evaluate multiple open-source AI/tool repos on Android Termux, detect platform blockers early, and produce an execution plan (run now vs move to Linux x86_64).",
       "path": "skills/software-engineering/termux-open-source-tool-triage",
-      "tags": [],
+      "tags": [
+        "termux",
+        "android",
+        "triage",
+        "open-source",
+        "install",
+        "evaluation"
+      ],
       "version": "1.0.0",
       "author": "Hermes Agent",
       "license": "MIT",
@@ -1333,7 +1510,7 @@
       "name": "test-driven-development",
       "domain": "software-engineering",
       "original_category": "software-development",
-      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "description": "Enforce strict TDD — write a failing test, watch it fail, write minimal code to pass, refactor (RED-GREEN-REFACTOR). Use for new features, bug fixes, refactors, and behavior changes; ask first before skipping on throwaway prototypes, generated code, or config.",
       "path": "skills/software-engineering/test-driven-development",
       "tags": [
         "testing",
@@ -1430,7 +1607,7 @@
       "name": "jupyter-live-kernel",
       "domain": "data-engineering-and-databases",
       "original_category": "data-science",
-      "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "description": "Run a stateful Python REPL through a live Jupyter kernel (hamelnb) where variables persist across executions — for building up state, exploring APIs, inspecting DataFrames, and iterating. Use instead of one-shot execute_code when you need incremental, exploratory data-science or ML work.",
       "path": "skills/data-engineering-and-databases/jupyter-live-kernel",
       "tags": [
         "jupyter",
@@ -1452,7 +1629,7 @@
       "name": "ocr-and-documents",
       "domain": "data-engineering-and-databases",
       "original_category": "productivity",
-      "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "description": "Extract text from PDFs and scanned documents, trying web_extract for remote URLs first, then local tools (pymupdf, marker-pdf, OCR) for local or failed files. Use to pull text or markdown out of PDFs and scans; for DOCX use python-docx and for PPTX use the powerpoint skill instead.",
       "path": "skills/data-engineering-and-databases/ocr-and-documents",
       "tags": [
         "PDF",
@@ -1476,7 +1653,15 @@
       "original_category": "data-engineering",
       "description": "Patterns for building resilient file/data extraction from messy real-world sources (Excel, CSV, PDF, Word, email). Covers edge case handling, graceful degradation, error tracking, and encoding detection.",
       "path": "skills/data-engineering-and-databases/robust-file-extraction",
-      "tags": [],
+      "tags": [
+        "file-extraction",
+        "resilience",
+        "excel",
+        "csv",
+        "pdf",
+        "encoding",
+        "untrusted-input"
+      ],
       "version": "1.0.0",
       "author": "",
       "license": "",
@@ -1491,7 +1676,13 @@
       "original_category": "research",
       "description": "Evaluate whether a third-party AI agent/project is worth adopting into the local stack by checking live site claims, GitHub maturity, code structure, safety controls, and fit with existing infrastructure.",
       "path": "skills/research-and-markets/ai-agent-adoption-review",
-      "tags": [],
+      "tags": [
+        "evaluation",
+        "ai-agents",
+        "adoption",
+        "tools",
+        "review"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1504,7 +1695,7 @@
       "name": "arxiv",
       "domain": "research-and-markets",
       "original_category": "research",
-      "description": "Search arXiv papers by keyword, author, category, or ID.",
+      "description": "Search and retrieve academic papers from arXiv via its free REST API using only curl — by keyword, author, category, or paper ID, returning Atom XML to parse. Use when the user wants to find papers, read abstracts, or fetch full arXiv PDFs; no API key or dependencies required.",
       "path": "skills/research-and-markets/arxiv",
       "tags": [
         "Research",
@@ -1526,7 +1717,7 @@
       "name": "blogwatcher",
       "domain": "research-and-markets",
       "original_category": "research",
-      "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "description": "Track blog and RSS/Atom feed updates with the blogwatcher-cli tool: automatic feed discovery, HTML-scraping fallback, OPML import, and read/unread management. Use when the user wants to monitor blogs or feeds for new articles.",
       "path": "skills/research-and-markets/blogwatcher",
       "tags": [
         "RSS",
@@ -1548,7 +1739,13 @@
       "original_category": "openclaw-imports",
       "description": "Use Camoufox to open URLs, extract readable article content, and summarize it in constrained Linux aarch64 / PRoot environments.",
       "path": "skills/research-and-markets/camoufox-article-browsing",
-      "tags": [],
+      "tags": [
+        "camoufox",
+        "browsing",
+        "article",
+        "summarization",
+        "extraction"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1563,7 +1760,14 @@
       "original_category": "openclaw-imports",
       "description": "Install, download, and verify Camoufox in Linux aarch64 / PRoot / Termux-like environments, including a headless smoke test and common pitfalls.",
       "path": "skills/research-and-markets/camoufox-proot-setup",
-      "tags": [],
+      "tags": [
+        "camoufox",
+        "proot",
+        "aarch64",
+        "termux",
+        "setup",
+        "browser"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1603,7 +1807,13 @@
       "original_category": "research",
       "description": "Free AI research assistant using ByteDance Dola Seed model through KiloCode (no API key needed)",
       "path": "skills/research-and-markets/deepseek-alt",
-      "tags": [],
+      "tags": [
+        "ai-assistant",
+        "deepseek",
+        "no-api-key",
+        "free",
+        "cli"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1618,7 +1828,14 @@
       "original_category": "note-taking",
       "description": "Bootstrap and harden a local-only EGX workflow in Hermes: fail-loud daily report generation, JSON sidecar output, decision memo gating, and cron setup on Android/Proot without systemd conflicts.",
       "path": "skills/research-and-markets/egx-local-cron-bootstrap",
-      "tags": [],
+      "tags": [
+        "egx",
+        "cron",
+        "obsidian",
+        "local",
+        "reports",
+        "scheduling"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1697,7 +1914,14 @@
       "original_category": "research",
       "description": "Design and build Mohamed's free internal Perplexity-like answer engine using no/low-cost search, page reading, source ranking, citations, Obsidian/local memory, and Camoufox fallbacks.",
       "path": "skills/research-and-markets/freeplex-internal-answer-engine",
-      "tags": [],
+      "tags": [
+        "answer-engine",
+        "perplexity-alternative",
+        "search",
+        "citations",
+        "rag",
+        "synthesis"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1734,7 +1958,15 @@
       "original_category": "research",
       "description": "Research any topic across Reddit, X, YouTube, HN, Polymarket from the last 30 days",
       "path": "skills/research-and-markets/last30days",
-      "tags": [],
+      "tags": [
+        "research",
+        "trends",
+        "reddit",
+        "twitter",
+        "youtube",
+        "hackernews",
+        "synthesis"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1747,7 +1979,7 @@
       "name": "llm-wiki",
       "domain": "research-and-markets",
       "original_category": "research",
-      "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+      "description": "Build and maintain a persistent, compounding knowledge base as interlinked markdown files (Karpathy's LLM Wiki pattern) — the agent summarizes, cross-references, and files sources so knowledge is compiled once and kept current, unlike per-query RAG. Use when curating an evolving research knowledge base on a topic.",
       "path": "skills/research-and-markets/llm-wiki",
       "tags": [
         "wiki",
@@ -1793,7 +2025,13 @@
       "original_category": "research",
       "description": "Research Python packages and GitHub repos reliably when normal web tools fail or return blocked/low-signal responses. Use PyPI JSON, raw GitHub files, and direct HTTP fallbacks to verify package metadata, README claims, install instructions, and feature support.",
       "path": "skills/research-and-markets/package-research-fallback",
-      "tags": [],
+      "tags": [
+        "package-research",
+        "pypi",
+        "github",
+        "fallback",
+        "verification"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1808,7 +2046,13 @@
       "original_category": "research",
       "description": "Search Perplexity via terminal using your browser session cookies (no API key needed)",
       "path": "skills/research-and-markets/perplexity-terminal",
-      "tags": [],
+      "tags": [
+        "perplexity",
+        "terminal",
+        "cookies",
+        "no-api-key",
+        "search"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1821,7 +2065,7 @@
       "name": "polymarket",
       "domain": "research-and-markets",
       "original_category": "research",
-      "description": "Query Polymarket: markets, prices, orderbooks, history.",
+      "description": "Query Polymarket prediction-market data — markets, prices, orderbooks, and price history — through its public, read-only REST APIs with no authentication. Use when the user asks about betting odds, event probabilities, \"what are the odds of X?\", or wants to track prediction-market movements.",
       "path": "skills/research-and-markets/polymarket",
       "tags": [
         "polymarket",
@@ -1868,7 +2112,7 @@
       "name": "research-paper-writing",
       "domain": "research-and-markets",
       "original_category": "research",
-      "description": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+      "description": "Run the full ML/AI research-paper lifecycle targeting NeurIPS, ICML, ICLR, ACL, AAAI, and COLM: experiment design, execution, monitoring, analysis, writing, review, revision, and submission as an iterative loop. Use when producing a publication-ready ML research paper end to end.",
       "path": "skills/research-and-markets/research-paper-writing",
       "tags": [
         "Research",
@@ -1900,7 +2144,14 @@
       "original_category": "openclaw-imports",
       "description": "AI-optimized web search using Tavily Search API. Use when you need comprehensive web research, current events lookup, domain-specific search, or AI-generated answer summaries. Tavily is optimized for LLM consumption with clean structured results, answer generation, and raw content extraction. Best for research tasks, news queries, fact-checking, and gathering authoritative sources.",
       "path": "skills/research-and-markets/tavily",
-      "tags": [],
+      "tags": [
+        "tavily",
+        "search",
+        "ai-search",
+        "extraction",
+        "research",
+        "api"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1915,7 +2166,14 @@
       "original_category": "productivity",
       "description": "Reusable template and workflow for producing concise, decision-oriented trading reports. Use when the user asks for a trading report, market review, trade setup, or wants a standardized report format that should be maintained over time.",
       "path": "skills/research-and-markets/trading-report-template",
-      "tags": [],
+      "tags": [
+        "trading",
+        "report",
+        "portfolio",
+        "markets",
+        "template",
+        "analysis"
+      ],
       "version": "1.0.0",
       "author": "Hermes Agent",
       "license": "MIT",
@@ -1952,7 +2210,13 @@
       "original_category": "openclaw-imports",
       "description": "Browse and summarize websites, extract content from URLs, search the web for information. Use when user asks to visit a website, get webpage content, search online, or find current information that requires browsing the internet.",
       "path": "skills/research-and-markets/web-browsing",
-      "tags": [],
+      "tags": [
+        "web-browsing",
+        "extraction",
+        "search",
+        "urls",
+        "research"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -1967,7 +2231,14 @@
       "original_category": "openclaw-imports",
       "description": "Free AI search via Exa MCP. Fall back to Multi Search Engine if not successfull. All without API keys. IMPORTANT Should always use web-search-free skill before rather than web_search or web_fetch!",
       "path": "skills/research-and-markets/web-search-free",
-      "tags": [],
+      "tags": [
+        "web-search",
+        "exa",
+        "neural-search",
+        "no-api-key",
+        "mcporter",
+        "research"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2003,7 +2274,14 @@
       "original_category": "note-taking",
       "description": "Design and implement a local-first, typed Obsidian-style memory vault for Hermes/OpenClaw agents with provenance, confidence, expiry, conflict tracking, and compaction snapshots.",
       "path": "skills/knowledge-notes-and-content/agent-memory-vault",
-      "tags": [],
+      "tags": [
+        "memory",
+        "vault",
+        "obsidian",
+        "second-brain",
+        "continuity",
+        "local-first"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2018,7 +2296,13 @@
       "original_category": "note-taking",
       "description": "استخدم هذه المهارة عندما يقول محمد عبارات مثل: اعمل المجلس، خد رأي المجلس، رأي المجلس، أو أي صيغة قريبة. تحلل الفكرة الكبيرة كأنها معروضة على مجلس مستشارين داخليين: تعريف واضح، معيار حكم، اعتراض قوي، مبادئ أولى، فرصة، عين خارجية، تنفيذ، اختبارات قرار، نقطة عمياء، حكم نهائي، وأول ثلاث خطوات.",
       "path": "skills/knowledge-notes-and-content/al-majlis",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "thinking",
+        "decision-making",
+        "analysis",
+        "mohamed"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2031,7 +2315,7 @@
       "name": "humanizer",
       "domain": "knowledge-notes-and-content",
       "original_category": "creative",
-      "description": "Humanize text: strip AI-isms and add real voice.",
+      "description": "Identify and remove tell-tale AI-writing patterns (based on Wikipedia's \"Signs of AI writing\" guide) so text reads as natural human voice. Use when the user asks to \"humanize\", \"de-AI\", \"de-slop\", or make writing sound less machine-generated.",
       "path": "skills/knowledge-notes-and-content/humanizer",
       "tags": [
         "writing",
@@ -2054,7 +2338,7 @@
       "name": "ideation",
       "domain": "knowledge-notes-and-content",
       "original_category": "creative",
-      "description": "Generate project ideas via creative constraints.",
+      "description": "Generate project ideas through creative constraints (constraint + direction = creativity), spanning code, art, hardware, writing, and tools. Use when the user says \"I want to build something\", \"give me a project idea\", \"I'm bored\", \"what should I make\", or \"inspire me\".",
       "path": "skills/knowledge-notes-and-content/ideation",
       "tags": [
         "Creative",
@@ -2077,7 +2361,14 @@
       "original_category": "note-taking",
       "description": "استخدم هذه المهارة عندما يطلب محمد تحويل فصل أو فكرة من كتاب إلى صفحة شرح تفاعلية محلية تساعده على الفهم العميق، خصوصًا عندما يقول اسم المهارة أو يطلب تجربة شرح بصري للكتاب.",
       "path": "skills/knowledge-notes-and-content/interactive-book-explainer",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "interactive",
+        "html",
+        "explainer",
+        "education",
+        "template"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2092,7 +2383,13 @@
       "original_category": "note-taking",
       "description": "Convert any long source Mohamed cares about into a reusable knowledge asset, then split it into practical derivative outputs such as summaries, translations, use cases, post ideas, carousel outlines, action lists, links, and skill/memory opportunities.",
       "path": "skills/knowledge-notes-and-content/long-topic-splitter",
-      "tags": [],
+      "tags": [
+        "content",
+        "knowledge-asset",
+        "splitting",
+        "repurposing",
+        "notes"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2107,7 +2404,13 @@
       "original_category": "note-taking",
       "description": "Use when producing Arabic notes, summaries, translations, media reports, or Second Brain content for Mohamed. Enforces Arabic-only line discipline and article-style source presentation.",
       "path": "skills/knowledge-notes-and-content/mohamed-arabic-content-style",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "writing-style",
+        "content",
+        "no-english-mixing",
+        "mohamed"
+      ],
       "version": "1.2.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2122,7 +2425,14 @@
       "original_category": "note-taking",
       "description": "مهارة محمد الأساسية لكتابة وعرض وتسويق الكتب الإلكترونية: أسلوب عربي احترافي، نصوص بيعية، كتب قابلة للبيع، صفحات شرح تفاعلية، وتمارين بصرية تزيد استفادة المشتري.",
       "path": "skills/knowledge-notes-and-content/mohamed-book-writing-style-factory",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "book-writing",
+        "ebook",
+        "publishing",
+        "style",
+        "mohamed"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2137,7 +2447,14 @@
       "original_category": "note-taking",
       "description": "Use when Mohamed sends, saves, mines, or asks to apply ideas about content systems, audience growth, personal brand distribution, content research, content repurposing, networking, or growth loops. Collects practical frameworks without forcing them into writer-persona or book-style skills unless genuinely relevant.",
       "path": "skills/knowledge-notes-and-content/mohamed-content-growth-systems",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "content",
+        "growth",
+        "audience",
+        "personal-brand",
+        "mohamed"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2152,7 +2469,13 @@
       "original_category": "note-taking",
       "description": "Use when Mohamed shares raw ideas and wants them refined, categorized, connected, stored, and resurfaced as a growing intelligence system rather than one-off notes.",
       "path": "skills/knowledge-notes-and-content/mohamed-intelligence-vault",
-      "tags": [],
+      "tags": [
+        "ideas",
+        "intelligence-vault",
+        "synthesis",
+        "strategy",
+        "mohamed"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2190,7 +2513,15 @@
       "original_category": "note-taking",
       "description": "Use when Mohamed sends any media link (YouTube, X/Twitter, Substack, GitHub) and wants one unified Arabic-first file-drop workflow with strict verification.",
       "path": "skills/knowledge-notes-and-content/mohamed-unified-media-drop",
-      "tags": [],
+      "tags": [
+        "media",
+        "youtube",
+        "twitter",
+        "substack",
+        "github",
+        "ingestion",
+        "mohamed"
+      ],
       "version": "1.2.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2205,7 +2536,13 @@
       "original_category": "note-taking",
       "description": "بطاقة أسلوب عملية لإنتاج محتوى عربي مستوحى من طريقة Nate B Jones في العرض والتحليل (بدون انتحال شخصية).",
       "path": "skills/knowledge-notes-and-content/nate-b-jones-style-card",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "style-card",
+        "content",
+        "strategy",
+        "adaptation"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2218,9 +2555,16 @@
       "name": "obsidian",
       "domain": "knowledge-notes-and-content",
       "original_category": "note-taking",
-      "description": "Read, search, and create notes in the Obsidian vault.",
+      "description": "Read, search, list, and create notes in a local Obsidian vault via the terminal, resolving the vault path from OBSIDIAN_VAULT_PATH. Use when the user wants to work with their Obsidian notes — reading, searching, or adding markdown files.",
       "path": "skills/knowledge-notes-and-content/obsidian",
-      "tags": [],
+      "tags": [
+        "obsidian",
+        "notes",
+        "vault",
+        "markdown",
+        "knowledge-base",
+        "terminal"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2235,7 +2579,13 @@
       "original_category": "note-taking",
       "description": "Ingest a set of Obsidian project notes into a local llm-wiki-agent repository as raw captures, source pages, entity pages, concept pages, and refreshed overview/index/log files.",
       "path": "skills/knowledge-notes-and-content/obsidian-llm-wiki-ingest",
-      "tags": [],
+      "tags": [
+        "obsidian",
+        "llm-wiki",
+        "ingestion",
+        "knowledge-base",
+        "notes"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2272,7 +2622,13 @@
       "original_category": "productivity",
       "description": "Read PDFs from Android/Termux download folders and produce page-by-page Arabic explanations, summaries, or study notes. Use when a user asks to read a PDF from Downloads/CMA folders and explain it in a structured way.",
       "path": "skills/knowledge-notes-and-content/pdf-downloads-page-by-page-briefing",
-      "tags": [],
+      "tags": [
+        "pdf",
+        "briefing",
+        "mobile",
+        "study-notes",
+        "page-by-page"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2287,7 +2643,14 @@
       "original_category": "productivity",
       "description": "Use when producing, redesigning, auditing, or upgrading professional Arabic-first PDF books with a publishing-grade HTML/CSS to PDF pipeline, visual page review, and iterative quality gates.",
       "path": "skills/knowledge-notes-and-content/professional-pdf-book-factory",
-      "tags": [],
+      "tags": [
+        "pdf",
+        "book",
+        "publishing",
+        "design-system",
+        "pipeline",
+        "visual-qa"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2327,7 +2690,14 @@
       "original_category": "note-taking",
       "description": "Use when Mohamed explicitly asks for Taaseel or needs a full deep explanation/research/thinking path from origin to application. Taaseel is a separate method, not a replacement for Mohamed's Batariqatna or Falsafa methods.",
       "path": "skills/knowledge-notes-and-content/taaseel",
-      "tags": [],
+      "tags": [
+        "arabic",
+        "method",
+        "explanation",
+        "research",
+        "thinking",
+        "mohamed"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2365,7 +2735,13 @@
       "original_category": "animejs",
       "description": "Anime.js adapter patterns for HyperFrames. Use when writing Anime.js animations or timelines inside HyperFrames compositions, registering animations on window.__hfAnime, making Anime.js seek-driven and deterministic, or translating Anime.js examples into render-safe HyperFrames HTML.",
       "path": "skills/creative-and-video/animejs",
-      "tags": [],
+      "tags": [
+        "animejs",
+        "hyperframes",
+        "animation",
+        "runtime-adapter",
+        "web"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2378,7 +2754,7 @@
       "name": "architecture-diagram",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
+      "description": "Generate professional dark-themed technical architecture diagrams as standalone HTML files with inline SVG — software systems, cloud infrastructure, service topology, deployment maps — no external tools or API keys. Use when the user wants an infra/system architecture diagram they can open in a browser.",
       "path": "skills/creative-and-video/architecture-diagram",
       "tags": [
         "architecture",
@@ -2401,7 +2777,7 @@
       "name": "ascii-art",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "description": "Create ASCII art with multiple local tools and free APIs: pyfiglet text banners (571 fonts), cowsay, boxes, and image-to-ASCII conversion — no API keys. Use when the user wants ASCII banners, text art, or an image rendered as ASCII.",
       "path": "skills/creative-and-video/ascii-art",
       "tags": [
         "ASCII",
@@ -2427,9 +2803,17 @@
       "name": "ascii-video",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF.",
+      "description": "Convert video, audio, images, or generative input into colored ASCII-character video output (MP4, GIF, image sequence), including audio-reactive music visualizers and matrix-style effects. Use for ASCII/text-art video, terminal-style animation, or ASCII audio visualizers.",
       "path": "skills/creative-and-video/ascii-video",
-      "tags": [],
+      "tags": [
+        "ascii",
+        "video",
+        "animation",
+        "music-visualizer",
+        "mp4",
+        "gif",
+        "creative"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2442,7 +2826,7 @@
       "name": "baoyu-article-illustrator",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Article illustrations: type × style × palette consistency.",
+      "description": "Analyze an article, identify illustration positions, and generate images with consistent Type x Style x Palette. Use when the user asks to illustrate an article, add images to content, or uses phrases like \"illustrate article\" or \"为文章配图\".",
       "path": "skills/creative-and-video/baoyu-article-illustrator",
       "tags": [
         "article-illustration",
@@ -2461,7 +2845,7 @@
       "name": "baoyu-comic",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Knowledge comics (知识漫画): educational, biography, tutorial.",
+      "description": "Create original knowledge/educational comics — biography, tutorial, Logicomix-style — with flexible art-style x tone combinations and reference-image guidance. Use when the user asks for a knowledge comic, educational comic, or \"知识漫画\".",
       "path": "skills/creative-and-video/baoyu-comic",
       "tags": [
         "comic",
@@ -2481,7 +2865,7 @@
       "name": "baoyu-infographic",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化).",
+      "description": "Generate infographics by freely combining any of 21 layouts (information structure) with any of 21 styles (visual aesthetics). Use when the user asks for an infographic, visual summary, information graphic, or \"信息图\"/\"可视化\".",
       "path": "skills/creative-and-video/baoyu-infographic",
       "tags": [
         "infographic",
@@ -2501,7 +2885,7 @@
       "name": "claude-design",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "description": "Bring Claude Design's design taste and behavior to CLI/API agents for one-off HTML artifacts — landing pages, decks, prototypes — without the hosted web-UI plumbing. Use for design work in a terminal/API environment; check popular-web-designs and design-md first for ready-made systems.",
       "path": "skills/creative-and-video/claude-design",
       "tags": [
         "design",
@@ -2555,7 +2939,13 @@
       "original_category": "css-animations",
       "description": "CSS animation adapter patterns for HyperFrames. Use when authoring CSS keyframes, animation-delay based timing, animation-fill-mode, animation-play-state, or CSS-only motion that HyperFrames must seek deterministically during preview and rendering.",
       "path": "skills/creative-and-video/css-animations",
-      "tags": [],
+      "tags": [
+        "css",
+        "animation",
+        "keyframes",
+        "hyperframes",
+        "web"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2568,7 +2958,7 @@
       "name": "design-md",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Author/validate/export Google's DESIGN.md token spec files.",
+      "description": "Author, validate, and export Google's DESIGN.md files — YAML design tokens plus markdown rationale — using the npx @google/design.md CLI (WCAG lint, version diffs, Tailwind/DTCG export). Use when the user wants a DESIGN.md design spec created, checked, or converted.",
       "path": "skills/creative-and-video/design-md",
       "tags": [
         "design",
@@ -2593,7 +2983,7 @@
       "name": "excalidraw",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+      "description": "Create hand-drawn-style diagrams by writing Excalidraw element JSON and saving .excalidraw files — architecture, flowcharts, sequence diagrams, concept maps — droppable onto excalidraw.com, no API keys. Use when the user wants an editable Excalidraw diagram.",
       "path": "skills/creative-and-video/excalidraw",
       "tags": [
         "Excalidraw",
@@ -2617,7 +3007,13 @@
       "original_category": "gsap",
       "description": "GSAP animation reference for HyperFrames. Covers gsap.to(), from(), fromTo(), easing, stagger, defaults, timelines (gsap.timeline(), position parameter, labels, nesting, playback), and performance (transforms, will-change, quickTo). Use when writing GSAP animations in HyperFrames compositions.",
       "path": "skills/creative-and-video/gsap",
-      "tags": [],
+      "tags": [
+        "gsap",
+        "animation",
+        "timeline",
+        "hyperframes",
+        "web"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2632,7 +3028,14 @@
       "original_category": "hyperframes",
       "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For dev-loop CLI commands (init, lint, inspect, preview, render) see the hyperframes-cli skill; for asset preprocessing commands (tts, transcribe, remove-background) see the hyperframes-media skill.",
       "path": "skills/creative-and-video/hyperframes",
-      "tags": [],
+      "tags": [
+        "hyperframes",
+        "video",
+        "html",
+        "gsap",
+        "composition",
+        "motion"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2647,7 +3050,14 @@
       "original_category": "creative",
       "description": "Diagnose and work around HyperFrames render/validate failures on Linux aarch64 / Android PRoot, especially x86-64 Chrome Headless Shell downloads mislabeled as linux_arm.",
       "path": "skills/creative-and-video/hyperframes-arm-proot-render-triage",
-      "tags": [],
+      "tags": [
+        "hyperframes",
+        "arm",
+        "proot",
+        "termux",
+        "render",
+        "troubleshooting"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -2662,7 +3072,14 @@
       "original_category": "hyperframes-cli",
       "description": "HyperFrames CLI dev loop — `npx hyperframes` for scaffolding (init), validation (lint, inspect), preview, render, and environment troubleshooting (doctor, browser, info, upgrade). Use when running any of these commands or troubleshooting the HyperFrames build/render environment. For asset preprocessing commands (`tts`, `transcribe`, `remove-background`), invoke the `hyperframes-media` skill instead.",
       "path": "skills/creative-and-video/hyperframes-cli",
-      "tags": [],
+      "tags": [
+        "hyperframes",
+        "cli",
+        "video",
+        "ffmpeg",
+        "render",
+        "workflow"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2677,7 +3094,14 @@
       "original_category": "hyperframes-media",
       "description": "Asset preprocessing for HyperFrames compositions — text-to-speech narration (Kokoro), audio/video transcription (Whisper), and background removal for transparent overlays (u2net). Use when generating voiceover from text, transcribing speech for captions, removing the background from a video or image to use as a transparent overlay, choosing a TTS voice or whisper model, or chaining these (TTS → transcribe → captions). Each command downloads its own model on first run.",
       "path": "skills/creative-and-video/hyperframes-media",
-      "tags": [],
+      "tags": [
+        "hyperframes",
+        "tts",
+        "transcription",
+        "background-removal",
+        "media",
+        "preprocessing"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2692,7 +3116,13 @@
       "original_category": "hyperframes-registry",
       "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.",
       "path": "skills/creative-and-video/hyperframes-registry",
-      "tags": [],
+      "tags": [
+        "hyperframes",
+        "registry",
+        "blocks",
+        "components",
+        "reusable"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2707,7 +3137,13 @@
       "original_category": "lottie",
       "description": "Lottie and dotLottie adapter patterns for HyperFrames. Use when embedding lottie-web JSON animations, .lottie files, @lottiefiles/dotlottie-web players, registering instances on window.__hfLottie, or making After Effects exports deterministic in HyperFrames.",
       "path": "skills/creative-and-video/lottie",
-      "tags": [],
+      "tags": [
+        "lottie",
+        "animation",
+        "hyperframes",
+        "runtime-adapter",
+        "web"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2720,9 +3156,17 @@
       "name": "manim-video",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Manim CE animations: 3Blue1Brown math/algo videos.",
+      "description": "Produce 3Blue1Brown-style explainer videos with Manim Community Edition: math animations, algorithm walkthroughs, equation derivations, and data stories. Use when the user requests animated explanations, concept visualizations, or programmatic math/geometry animation.",
       "path": "skills/creative-and-video/manim-video",
-      "tags": [],
+      "tags": [
+        "manim",
+        "animation",
+        "video",
+        "math",
+        "education",
+        "3blue1brown",
+        "explainer"
+      ],
       "version": "1.0.0",
       "author": "",
       "license": "",
@@ -2735,7 +3179,7 @@
       "name": "p5js",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "p5.js sketches: gen art, shaders, interactive, 3D.",
+      "description": "Build interactive and generative visual art with p5.js — generative art, canvas animation, data viz, 3D scenes, GLSL shaders, particle/flow-field systems, audio-reactive visuals — exported as HTML, PNG, GIF, MP4, or SVG. Use for any p5.js sketch or creative-coding request.",
       "path": "skills/creative-and-video/p5js",
       "tags": [
         "creative-coding",
@@ -2760,7 +3204,7 @@
       "name": "pixel-art",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+      "description": "Convert images into retro pixel art (Floyd-Steinberg dithering, hardware palettes like NES/Game Boy/PICO-8) and optionally animate them into short MP4/GIF with era effects. Use when the user wants retro/pixel-art images or animations.",
       "path": "skills/creative-and-video/pixel-art",
       "tags": [
         "creative",
@@ -2834,7 +3278,14 @@
       "original_category": "remotion-to-hyperframes",
       "description": "Translate an existing Remotion video composition into a HyperFrames HTML composition. Use only when explicitly asked to port, convert, migrate, translate, or rewrite Remotion as HyperFrames. For new HyperFrames compositions, use the native HyperFrames skill instead.",
       "path": "skills/creative-and-video/remotion-to-hyperframes",
-      "tags": [],
+      "tags": [
+        "remotion",
+        "hyperframes",
+        "translation",
+        "video",
+        "react",
+        "gsap"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2847,7 +3298,7 @@
       "name": "sketch",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "description": "Explore a UI/UX design direction as 2-3 disposable interactive HTML mockups the user can compare side by side — for seeing variants before committing, not shippable code. Use when the user says \"sketch this screen\", \"show me what X could look like\", or \"give me some variants\".",
       "path": "skills/creative-and-video/sketch",
       "tags": [
         "sketch",
@@ -2873,7 +3324,7 @@
       "name": "songwriting-and-ai-music",
       "domain": "creative-and-video",
       "original_category": "creative",
-      "description": "Songwriting craft and Suno AI music prompts.",
+      "description": "Guide songwriting craft — structure, lyrics, rhyme, meter, parody — and write effective Suno AI music-generation prompts. Use when the user wants help writing a song, lyrics, or prompts for AI music generation.",
       "path": "skills/creative-and-video/songwriting-and-ai-music",
       "tags": [
         "songwriting",
@@ -2897,7 +3348,13 @@
       "original_category": "tailwind",
       "description": "Tailwind CSS v4.2 browser-runtime patterns for HyperFrames compositions. Use when scaffolding or editing projects created with `hyperframes init --tailwind`, writing Tailwind utility classes in composition HTML, adding CSS-first Tailwind v4 theme tokens, debugging v3 vs v4 syntax, or deciding when to compile Tailwind to CSS instead of using the browser runtime.",
       "path": "skills/creative-and-video/tailwind",
-      "tags": [],
+      "tags": [
+        "tailwind",
+        "css",
+        "hyperframes",
+        "styling",
+        "web"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2912,7 +3369,13 @@
       "original_category": "three",
       "description": "Three.js and WebGL adapter patterns for HyperFrames. Use when creating deterministic Three.js scenes, WebGL canvas layers, AnimationMixer timelines, camera motion, shader-driven visuals, or canvas renders that respond to HyperFrames hf-seek events.",
       "path": "skills/creative-and-video/three",
-      "tags": [],
+      "tags": [
+        "threejs",
+        "3d",
+        "webgl",
+        "hyperframes",
+        "runtime-adapter"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2953,7 +3416,13 @@
       "original_category": "waapi",
       "description": "Web Animations API adapter patterns for HyperFrames. Use when authoring element.animate() motion, Animation currentTime seeking, document.getAnimations(), KeyframeEffect timing, fill modes, or native browser animations that must render deterministically in HyperFrames.",
       "path": "skills/creative-and-video/waapi",
-      "tags": [],
+      "tags": [
+        "waapi",
+        "web-animations-api",
+        "animation",
+        "hyperframes",
+        "web"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2968,7 +3437,13 @@
       "original_category": "website-to-hyperframes",
       "description": "Capture a website and create a HyperFrames video from it. Use when: (1) a user provides a URL and wants a video, (2) someone says \"capture this site\", \"turn this into a video\", \"make a promo from my site\", (3) the user wants a social ad, product tour, or any video based on an existing website, (4) the user shares a link and asks for any kind of video content. Even if the user just pastes a URL — this is the skill to use.",
       "path": "skills/creative-and-video/website-to-hyperframes",
-      "tags": [],
+      "tags": [
+        "hyperframes",
+        "website-capture",
+        "video",
+        "product-launch",
+        "social-ad"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -2981,7 +3456,7 @@
       "name": "audiocraft-audio-generation",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "description": "Generate audio with Meta's AudioCraft — MusicGen text-to-music (with melody conditioning and stereo), AudioGen text-to-sound effects, and EnCodec. Use when the user wants to generate music or sound effects from text descriptions.",
       "path": "skills/mlops-and-models/audiocraft-audio-generation",
       "tags": [
         "Multimodal",
@@ -3002,7 +3477,7 @@
       "name": "axolotl",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "Axolotl: YAML LLM fine-tuning (LoRA, DPO, GRPO).",
+      "description": "Fine-tune LLMs with Axolotl using YAML configs across 100+ models: LoRA/QLoRA, preference methods (DPO/KTO/ORPO/GRPO), multimodal, and DeepSpeed. Use when configuring, running, or debugging an Axolotl fine-tuning job.",
       "path": "skills/mlops-and-models/axolotl",
       "tags": [
         "Fine-Tuning",
@@ -3056,7 +3531,7 @@
       "name": "dspy",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "description": "Build LM systems declaratively with DSPy instead of manual prompt engineering — modular pipelines, RAG, agents, classifiers — and optimize prompts automatically from data. Use when building maintainable multi-component LM programs or auto-optimizing prompts.",
       "path": "skills/mlops-and-models/dspy",
       "tags": [
         "Prompt Engineering",
@@ -3082,7 +3557,7 @@
       "name": "evaluating-llms-harness",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "description": "Benchmark LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag) with EleutherAI's lm-evaluation-harness over HuggingFace, vLLM, or API backends. Use when comparing models, reporting academic results, or tracking training progress.",
       "path": "skills/mlops-and-models/evaluating-llms-harness",
       "tags": [
         "Evaluation",
@@ -3108,7 +3583,7 @@
       "name": "fine-tuning-with-trl",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "TRL: SFT, DPO, PPO, GRPO, reward modeling for LLM RLHF.",
+      "description": "Post-train and align LLMs with HuggingFace TRL: SFT, DPO, PPO, GRPO, and reward modeling for RLHF and preference alignment. Use when instruction-tuning or preference-aligning a model with TRL trainers.",
       "path": "skills/mlops-and-models/fine-tuning-with-trl",
       "tags": [
         "Post-Training",
@@ -3231,7 +3706,7 @@
       "name": "llama-cpp",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "description": "Run local GGUF inference with llama.cpp across CPU, Apple Silicon, CUDA, ROCm, and Intel GPUs, and discover the right GGUF for a Hugging Face repo (quant selection Q4/Q5/Q6/IQ by RAM/VRAM). Use to build llama-server/llama-cli commands or pick a quant for local models.",
       "path": "skills/mlops-and-models/llama-cpp",
       "tags": [
         "llama.cpp",
@@ -3280,7 +3755,7 @@
       "name": "obliteratus",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+      "description": "Remove refusal behaviors from open-weight LLMs without retraining using mechanistic-interpretability weight surgery (diff-in-means, SVD, LEACE, SAE) — 9 CLI methods, 116 model presets. Requires open weights + GPU and is AGPL-3.0. Use for research on abliterating refusal directions in local models.",
       "path": "skills/mlops-and-models/obliteratus",
       "tags": [
         "Abliteration",
@@ -3305,7 +3780,7 @@
       "name": "outlines",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "Outlines: structured JSON/regex/Pydantic LLM generation.",
+      "description": "Guarantee structurally valid LLM output — JSON, regex, grammars, Pydantic models — with Outlines' zero-overhead structured generation over Transformers, llama.cpp, and vLLM. Use when you need type-safe or schema-constrained generation from local models.",
       "path": "skills/mlops-and-models/outlines",
       "tags": [
         "Prompt Engineering",
@@ -3381,7 +3856,7 @@
       "name": "segment-anything-model",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "description": "Run zero-shot image segmentation with Meta's Segment Anything Model (SAM) via point, box, or mask prompts — no task-specific training, any image domain. Use for interactive annotation, training-data generation, or segmentation pipelines.",
       "path": "skills/mlops-and-models/segment-anything-model",
       "tags": [
         "Multimodal",
@@ -3449,7 +3924,7 @@
       "name": "unsloth",
       "domain": "mlops-and-models",
       "original_category": "mlops",
-      "description": "Unsloth: 2-5x faster LoRA/QLoRA fine-tuning, less VRAM.",
+      "description": "Fine-tune LLMs 2-5x faster with less VRAM using Unsloth's optimized LoRA/QLoRA for Llama, Mistral, Gemma, and Qwen. Use when memory or speed is the constraint on a LoRA/QLoRA fine-tuning run.",
       "path": "skills/mlops-and-models/unsloth",
       "tags": [
         "Fine-Tuning",
@@ -3529,7 +4004,7 @@
       "name": "airtable",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "description": "Work with Airtable bases, tables, and records directly via the REST API and curl — record CRUD, filtering, and upserts using a personal access token, no SDK or OAuth flow. Use when the user wants to read or write Airtable data.",
       "path": "skills/productivity-and-office/airtable",
       "tags": [
         "Airtable",
@@ -3549,7 +4024,7 @@
       "name": "google-workspace",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.",
+      "description": "Access Gmail, Calendar, Drive, Contacts, Sheets, and Docs through Hermes-managed OAuth — via the gws CLI when installed, or a bundled Python client otherwise. Use for reading or sending email, managing calendar events, or working with Drive/Sheets/Docs.",
       "path": "skills/productivity-and-office/google-workspace",
       "tags": [
         "Google",
@@ -3574,7 +4049,7 @@
       "name": "himalaya",
       "domain": "productivity-and-office",
       "original_category": "email",
-      "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
+      "description": "Operate a mailbox from the terminal with the Himalaya CLI over IMAP/SMTP (or Notmuch/Sendmail) — read, search, and compose email. Use when the agent needs to manage an email account via terminal tools (distinct from the Hermes email gateway adapter).",
       "path": "skills/productivity-and-office/himalaya",
       "tags": [
         "Email",
@@ -3595,7 +4070,7 @@
       "name": "linear",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
+      "description": "Manage Linear issues, projects, and teams directly through the GraphQL API with curl and a personal API key — no MCP server or OAuth. Use when the user wants to create, update, or query Linear issues and projects.",
       "path": "skills/productivity-and-office/linear",
       "tags": [
         "Linear",
@@ -3617,7 +4092,7 @@
       "name": "maps",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.",
+      "description": "Provide location intelligence from free open data (OpenStreetMap/Nominatim, Overpass, OSRM, TimeAPI) — geocoding, 44 POI categories, routing, distances, and timezones, zero dependencies, no API key. Use for coordinates, nearby places, directions, or timezone lookups (supersedes find-nearby).",
       "path": "skills/productivity-and-office/maps",
       "tags": [
         "maps",
@@ -3645,7 +4120,7 @@
       "name": "nano-pdf",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "description": "Edit PDFs with natural-language instructions via the nano-pdf CLI — fix typos, change titles, update dates or content on a given page. Use when the user wants small text edits to an existing PDF without a full re-layout.",
       "path": "skills/productivity-and-office/nano-pdf",
       "tags": [
         "PDF",
@@ -3666,7 +4141,7 @@
       "name": "notion",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "description": "Work with Notion pages and databases two ways — the official ntn CLI (shorter syntax, file uploads, required for Workers) or HTTP + curl (works everywhere) — using one integration token. Use for reading, creating, or updating Notion content and databases.",
       "path": "skills/productivity-and-office/notion",
       "tags": [
         "Notion",
@@ -3689,7 +4164,7 @@
       "name": "petdex",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Install and select animated petdex mascots for Hermes.",
+      "description": "Browse, install, and select animated 'pet' mascots from the public petdex gallery that react to agent activity across the Hermes CLI, TUI, and desktop app, driving the hermes pets CLI and display.pet config. Use when the user wants a terminal/desktop mascot or asks about petdex.",
       "path": "skills/productivity-and-office/petdex",
       "tags": [
         "petdex",
@@ -3711,9 +4186,17 @@
       "name": "powerpoint",
       "domain": "productivity-and-office",
       "original_category": "productivity",
-      "description": "Create, read, edit .pptx decks, slides, notes, templates.",
+      "description": "Create, read, edit, split, and combine .pptx presentations with python-pptx — slides, layouts, speaker notes, comments, and templates. Use any time a .pptx file is involved, whether the user says deck, slides, presentation, or names a .pptx file.",
       "path": "skills/productivity-and-office/powerpoint",
-      "tags": [],
+      "tags": [
+        "powerpoint",
+        "pptx",
+        "slides",
+        "presentation",
+        "python-pptx",
+        "office",
+        "productivity"
+      ],
       "version": "",
       "author": "",
       "license": "Proprietary. LICENSE.txt has complete terms",
@@ -3747,7 +4230,7 @@
       "name": "gif-search",
       "domain": "media-and-social",
       "original_category": "media",
-      "description": "Search/download GIFs from Tenor via curl + jq.",
+      "description": "Search and download GIFs from the Tenor API with curl and jq using a free Tenor API key. Use when the user wants reaction GIFs or to find and send GIFs in chat.",
       "path": "skills/media-and-social/gif-search",
       "tags": [
         "GIF",
@@ -3768,7 +4251,7 @@
       "name": "songsee",
       "domain": "media-and-social",
       "original_category": "media",
-      "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "description": "Generate spectrograms and multi-panel audio-feature visualizations (mel, chroma, HPSS, MFCC, tempogram, loudness) from audio files with the songsee Go CLI. Use when the user wants to visualize or analyze the audio content of a track.",
       "path": "skills/media-and-social/songsee",
       "tags": [
         "Audio",
@@ -3789,7 +4272,7 @@
       "name": "spotify",
       "domain": "media-and-social",
       "original_category": "media",
-      "description": "Spotify: play, search, queue, manage playlists and devices.",
+      "description": "Control the user's Spotify account through the Hermes Spotify toolset (7 tools): playback, search, queue, devices, and playlist/library management. Use when the user says \"play X\", \"pause\", \"skip\", \"queue X\", \"what's playing\", or wants to manage playlists.",
       "path": "skills/media-and-social/spotify",
       "tags": [
         "spotify",
@@ -3812,7 +4295,14 @@
       "original_category": "openclaw-imports",
       "description": "Free X/Twitter retrieval methods, including no-login mirror APIs for tweet inspection when direct extraction fails.",
       "path": "skills/media-and-social/x-twitter-tools",
-      "tags": [],
+      "tags": [
+        "twitter",
+        "x",
+        "free",
+        "fxtwitter",
+        "scraping",
+        "no-api-key"
+      ],
       "version": "1.1.0",
       "author": "Hermes Agent",
       "license": "MIT",
@@ -3845,7 +4335,7 @@
       "name": "xurl",
       "domain": "media-and-social",
       "original_category": "social-media",
-      "description": "X/Twitter via xurl CLI: post, search, DM, media, v2 API.",
+      "description": "Use X's official xurl CLI for the X (Twitter) v2 API — post/reply/quote/delete, search and timelines, likes/reposts/bookmarks, follows, DMs, media uploads, and raw endpoint access, all returning JSON. Use for X/Twitter API workflows (replaces the older xitter skill).",
       "path": "skills/media-and-social/xurl",
       "tags": [
         "twitter",
@@ -3868,7 +4358,14 @@
       "original_category": "media",
       "description": "Download YouTube videos with format selection - shows options, user chooses, then downloads",
       "path": "skills/media-and-social/youtube-download",
-      "tags": [],
+      "tags": [
+        "youtube",
+        "download",
+        "yt-dlp",
+        "video",
+        "audio",
+        "mp3"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -3902,7 +4399,7 @@
       "name": "yuanbao",
       "domain": "media-and-social",
       "original_category": "yuanbao",
-      "description": "Yuanbao (元宝) groups: @mention users, query info/members.",
+      "description": "Interact in Yuanbao (元宝) groups where your reply text IS the message sent, and @nickname in your reply auto-converts to a real @mention. Use when operating in a Yuanbao group to mention users or answer members' questions.",
       "path": "skills/media-and-social/yuanbao",
       "tags": [
         "yuanbao",
@@ -3993,7 +4490,13 @@
       "original_category": "devops",
       "description": "Install and verify Journey kits from journeykits.ai, including openclaw-target bundles and Termux compatibility fixes",
       "path": "skills/device-platform-and-devops/journey-kit-install",
-      "tags": [],
+      "tags": [
+        "journey-kits",
+        "workflows",
+        "install",
+        "skills",
+        "cli"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -4008,7 +4511,13 @@
       "original_category": "openclaw-imports",
       "description": "Discover and install Journey kits via the Journey API, then verify the install and handle kit-specific prerequisites.",
       "path": "skills/device-platform-and-devops/journey-kits-install",
-      "tags": [],
+      "tags": [
+        "journey-kits",
+        "workflows",
+        "install",
+        "inspect",
+        "compare"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -4021,7 +4530,7 @@
       "name": "minecraft-modpack-server",
       "domain": "device-platform-and-devops",
       "original_category": "gaming",
-      "description": "Host modded Minecraft servers (CurseForge, Modrinth).",
+      "description": "Set up and host modded Minecraft servers from CurseForge/Modrinth server packs — NeoForge/Forge configuration, performance tuning, and backups. Use when the user wants to run a modded Minecraft server or tune/back one up.",
       "path": "skills/device-platform-and-devops/minecraft-modpack-server",
       "tags": [
         "minecraft",
@@ -4045,7 +4554,14 @@
       "original_category": "openclaw-imports",
       "description": "Route Android device control through Mobilerun/Droidrun Portal for screenshots, UI trees, taps, swipes, typing, and multi-step mobile automation. Use when OpenClaw needs managed Android app control rather than shell-only Termux commands.",
       "path": "skills/device-platform-and-devops/mobilerun",
-      "tags": [],
+      "tags": [
+        "android",
+        "ui-automation",
+        "mobilerun",
+        "droidrun",
+        "openclaw",
+        "screenshots"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -4060,7 +4576,14 @@
       "original_category": "devops",
       "description": "Produce a grounded Arabic system-environment audit for Mohamed's Hermes/local agent setup, with live checks, UX/architecture critique, and an actionable roadmap for future projects.",
       "path": "skills/device-platform-and-devops/mohamed-system-environment-audit",
-      "tags": [],
+      "tags": [
+        "audit",
+        "system-review",
+        "hermes-agent",
+        "environment",
+        "roadmap",
+        "mohamed"
+      ],
       "version": "1.0.0",
       "author": "Hermes + Mohamed",
       "license": "MIT",
@@ -4073,7 +4596,7 @@
       "name": "openhue",
       "domain": "device-platform-and-devops",
       "original_category": "smart-home",
-      "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "description": "Control Philips Hue lights, scenes, rooms, and zones from the terminal with the OpenHue CLI via a local Hue Bridge. Use for \"turn on/off the lights\", dimming, setting scenes/movie mode, or controlling specific Hue rooms.",
       "path": "skills/device-platform-and-devops/openhue",
       "tags": [
         "Smart-Home",
@@ -4096,7 +4619,13 @@
       "original_category": "openclaw-imports",
       "description": "Operations and cleanup for OpenClaw workspace hygiene, maintainability, clutter reduction, safe reversible cleanup, duplication removal, and cost/load reduction. Use when inspecting waste, reducing clutter, logging meaningful changes, or proposing cleanup actions.",
       "path": "skills/device-platform-and-devops/operations-cleanup",
-      "tags": [],
+      "tags": [
+        "cleanup",
+        "operations",
+        "maintenance",
+        "declutter",
+        "housekeeping"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -4111,7 +4640,13 @@
       "original_category": "openclaw-imports",
       "description": "Full Android device control via ADB self-connect. Use for screenshots, UI trees, taps, swipes, typing, app launches, key presses, and observe-act-verify loops when the user wants OpenClaw to control an Android phone directly.",
       "path": "skills/device-platform-and-devops/phone-control",
-      "tags": [],
+      "tags": [
+        "android",
+        "adb",
+        "ui-automation",
+        "phone-control",
+        "screen"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -4124,7 +4659,7 @@
       "name": "pokemon-player",
       "domain": "device-platform-and-devops",
       "original_category": "gaming",
-      "description": "Play Pokemon via headless emulator + RAM reads.",
+      "description": "Play Pokémon games via headless Game Boy emulation using the pokemon-agent package with RAM-state reads for decision-making. Use when the user says \"play Pokémon\", references a ROM (.gb/.gbc/.gba), or wants to watch an AI play Pokémon.",
       "path": "skills/device-platform-and-devops/pokemon-player",
       "tags": [
         "gaming",
@@ -4148,7 +4683,13 @@
       "original_category": "devops",
       "description": "Practical workflow for finding removable disk-space clutter, estimating reclaimable space, and separating low-risk cleanup from medium/high-risk deletions.",
       "path": "skills/device-platform-and-devops/space-cleanup-inventory",
-      "tags": [],
+      "tags": [
+        "disk-space",
+        "cleanup",
+        "inventory",
+        "storage",
+        "report"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -4163,7 +4704,14 @@
       "original_category": "openclaw-imports",
       "description": "Safe routing and usage guidance for Termux:API commands on Android. Use when working with battery, camera, location, notifications, clipboard, SMS, TTS, sensors, telephony, or proot-to-Termux wrapper access. The skill assumes the real Termux app shell, not a root shell, for package installation and device APIs.",
       "path": "skills/device-platform-and-devops/termux-api",
-      "tags": [],
+      "tags": [
+        "termux",
+        "termux-api",
+        "android",
+        "sensors",
+        "clipboard",
+        "device"
+      ],
       "version": "",
       "author": "",
       "license": "",
@@ -4176,7 +4724,7 @@
       "name": "webhook-subscriptions",
       "domain": "device-platform-and-devops",
       "original_category": "devops",
-      "description": "Webhook subscriptions: event-driven agent runs.",
+      "description": "Create dynamic webhook subscriptions so external services (GitHub, GitLab, Stripe, CI/CD, IoT, monitoring) can trigger Hermes agent runs by POSTing events to a URL, with HMAC signing. Use when wiring event-driven automation into Hermes.",
       "path": "skills/device-platform-and-devops/webhook-subscriptions",
       "tags": [
         "webhook",
@@ -4242,7 +4790,7 @@
       "name": "native-mcp",
       "domain": "integrations-github-mcp",
       "original_category": "mcp",
-      "description": "MCP client: connect servers, register tools (stdio/HTTP).",
+      "description": "Connect Hermes's built-in MCP client to MCP servers (stdio via npx/uvx or remote HTTP/streamable) so their tools appear as first-class agent tools alongside terminal and read_file. Use to add external MCP capabilities — filesystem, GitHub, databases, APIs — with no bridge CLI.",
       "path": "skills/integrations-github-mcp/native-mcp",
       "tags": [
         "MCP",
@@ -4261,7 +4809,7 @@
       "name": "godmode",
       "domain": "security-and-skill-safety",
       "original_category": "red-teaming",
-      "description": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.",
+      "description": "Bypass safety filters on API-served LLMs using G0DM0D3/L1B3RT4S techniques (Parseltongue, GODMODE, ULTRAPLINIAN) at the prompt/API level, including closed models. Use only for authorized red-teaming and safety research; handle with care.",
       "path": "skills/security-and-skill-safety/godmode",
       "tags": [
         "jailbreak",
@@ -4288,7 +4836,14 @@
       "original_category": "openclaw-imports",
       "description": "Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns. Now includes permission-aware auto-vetting.",
       "path": "skills/security-and-skill-safety/skill-vetter",
-      "tags": [],
+      "tags": [
+        "security",
+        "vetting",
+        "skills",
+        "safety",
+        "audit",
+        "red-team"
+      ],
       "version": "1.1.0",
       "author": "",
       "license": "",

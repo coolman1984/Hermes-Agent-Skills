@@ -1,6 +1,10 @@
 ---
 name: package-research-fallback
-description: Research Python packages and GitHub repos reliably when normal web tools fail or return blocked/low-signal responses. Use PyPI JSON, raw GitHub files, and direct HTTP fallbacks to verify package metadata, README claims, install instructions, and feature support.
+description: Research Python packages and GitHub repos reliably when normal web tools
+  fail or return blocked/low-signal responses. Use PyPI JSON, raw GitHub files, and
+  direct HTTP fallbacks to verify package metadata, README claims, install instructions,
+  and feature support.
+tags: [package-research, pypi, github, fallback, verification]
 ---
 
 # Package / Repo Research Fallback

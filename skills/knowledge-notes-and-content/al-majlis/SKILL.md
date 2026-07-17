@@ -1,12 +1,22 @@
 ---
 name: al-majlis
-description: "استخدم هذه المهارة عندما يقول محمد عبارات مثل: اعمل المجلس، خد رأي المجلس، رأي المجلس، أو أي صيغة قريبة. تحلل الفكرة الكبيرة كأنها معروضة على مجلس مستشارين داخليين: تعريف واضح، معيار حكم، اعتراض قوي، مبادئ أولى، فرصة، عين خارجية، تنفيذ، اختبارات قرار، نقطة عمياء، حكم نهائي، وأول ثلاث خطوات."
+description: 'استخدم هذه المهارة عندما يقول محمد عبارات مثل: اعمل المجلس، خد رأي المجلس،
+  رأي المجلس، أو أي صيغة قريبة. تحلل الفكرة الكبيرة كأنها معروضة على مجلس مستشارين
+  داخليين: تعريف واضح، معيار حكم، اعتراض قوي، مبادئ أولى، فرصة، عين خارجية، تنفيذ،
+  اختبارات قرار، نقطة عمياء، حكم نهائي، وأول ثلاث خطوات.'
 version: 1.0.0
 author: Hermes + Mohamed
 license: MIT
+tags: [arabic, thinking, decision-making, analysis, mohamed]
 metadata:
-  tags: [mohamed, council, decision, thinking, advisory]
-  related_skills: [mohamed-arabic-content-style]
+  tags:
+  - mohamed
+  - council
+  - decision
+  - thinking
+  - advisory
+  related_skills:
+  - mohamed-arabic-content-style
 ---
 
 # المجلس

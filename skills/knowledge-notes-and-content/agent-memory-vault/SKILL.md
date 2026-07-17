@@ -1,6 +1,9 @@
 ---
 name: agent-memory-vault
-description: Design and implement a local-first, typed Obsidian-style memory vault for Hermes/OpenClaw agents with provenance, confidence, expiry, conflict tracking, and compaction snapshots.
+description: Design and implement a local-first, typed Obsidian-style memory vault
+  for Hermes/OpenClaw agents with provenance, confidence, expiry, conflict tracking,
+  and compaction snapshots.
+tags: [memory, vault, obsidian, second-brain, continuity, local-first]
 ---
 
 # Agent Memory Vault

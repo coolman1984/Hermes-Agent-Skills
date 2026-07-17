@@ -1,6 +1,7 @@
 ---
 name: task-tracker
 description: Track task outcomes for self-optimizing agent recommendations
+tags: [task-tracking, metrics, self-optimization, outcomes, cli]
 ---
 
 # Task Tracker Skill

@@ -1,11 +1,24 @@
 ---
 name: yuanbao
-description: "Yuanbao (元宝) groups: @mention users, query info/members."
+description: Interact in Yuanbao (元宝) groups where your reply text IS the message
+  sent, and @nickname in your reply auto-converts to a real @mention. Use when operating
+  in a Yuanbao group to mention users or answer members' questions.
 version: 1.0.0
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [yuanbao, mention, at, group, members, 元宝, 派, 艾特]
+    tags:
+    - yuanbao
+    - mention
+    - at
+    - group
+    - members
+    - 元宝
+    - 派
+    - 艾特
     related_skills: []
 ---
 

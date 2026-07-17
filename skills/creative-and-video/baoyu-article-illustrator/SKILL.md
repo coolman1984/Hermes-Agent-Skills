@@ -1,13 +1,21 @@
 ---
 name: baoyu-article-illustrator
-description: "Article illustrations: type × style × palette consistency."
+description: Analyze an article, identify illustration positions, and generate images
+  with consistent Type x Style x Palette. Use when the user asks to illustrate an
+  article, add images to content, or uses phrases like "illustrate article" or "为文章配图".
 version: 1.57.0
 author: 宝玉 (JimLiu)
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [article-illustration, creative, image-generation]
+    tags:
+    - article-illustration
+    - creative
+    - image-generation
     category: creative
     homepage: https://github.com/JimLiu/baoyu-skills#baoyu-article-illustrator
 ---

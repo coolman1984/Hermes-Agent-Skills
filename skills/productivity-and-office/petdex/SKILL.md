@@ -1,13 +1,25 @@
 ---
 name: petdex
-description: Install and select animated petdex mascots for Hermes.
+description: Browse, install, and select animated 'pet' mascots from the public petdex
+  gallery that react to agent activity across the Hermes CLI, TUI, and desktop app,
+  driving the hermes pets CLI and display.pet config. Use when the user wants a terminal/desktop
+  mascot or asks about petdex.
 version: 1.0.0
 author: Hermes Agent
 license: MIT
-platforms: [linux, macos, windows]
+platforms:
+- linux
+- macos
+- windows
 metadata:
   hermes:
-    tags: [petdex, mascot, display, cli, tui, desktop]
+    tags:
+    - petdex
+    - mascot
+    - display
+    - cli
+    - tui
+    - desktop
     category: productivity
     homepage: https://petdex.dev
 ---
