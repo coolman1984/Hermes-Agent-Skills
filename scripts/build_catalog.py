@@ -12,6 +12,7 @@ Domain titles, summaries, ordering, and membership come from `taxonomy.yaml`.
 Usage:
     python3 scripts/build_catalog.py            # rebuild catalog.json
     python3 scripts/build_catalog.py --check     # verify only, write nothing (CI-friendly)
+    python3 scripts/build_catalog.py --lint      # report skill quality issues
 
 Exit codes: 0 = clean, 1 = drift detected (missing/extra skills, or --check found
 the catalog out of date). No third-party deps beyond PyYAML.
@@ -159,6 +160,44 @@ def build_catalog() -> tuple[dict, list[str]]:
     return catalog, warnings
 
 
+def lint(catalog: dict) -> tuple[int, int]:
+    """Report per-skill quality issues. Returns (hard_issues, soft_issues).
+
+    Hard issues break agent skill discovery (missing frontmatter / empty
+    description). Soft issues are quality gaps worth fixing but not fatal.
+    """
+    hard = soft = 0
+    for s in catalog["skills"]:
+        skill_md = REPO / s["path"] / "SKILL.md"
+        problems: list[tuple[str, str]] = []  # (severity, message)
+
+        text = skill_md.read_text(encoding="utf-8", errors="replace")
+        if not text.startswith("---"):
+            problems.append(("HARD", "no YAML frontmatter — invisible to skill discovery"))
+        elif not s["description"]:
+            problems.append(("HARD", "empty description — agents cannot tell when to load it"))
+        else:
+            if len(s["description"]) < 60:
+                problems.append(("soft", f"thin description ({len(s['description'])} chars) — add a 'use when' clause"))
+            if len(s["description"]) > 1024:
+                problems.append(("soft", f"overlong description ({len(s['description'])} chars) — may be truncated by loaders"))
+        if not s["tags"]:
+            problems.append(("soft", "no tags — weaker search/browse in the index"))
+        if not s["version"]:
+            problems.append(("soft", "no version in frontmatter"))
+
+        for severity, msg in problems:
+            if severity == "HARD":
+                hard += 1
+            else:
+                soft += 1
+            print(f"{severity:4}  {s['path']}: {msg}")
+
+    print(f"\nlint: {hard} hard issue(s), {soft} soft issue(s) "
+          f"across {catalog['skill_count']} skills")
+    return hard, soft
+
+
 def dumps(catalog: dict) -> str:
     return json.dumps(catalog, indent=2, ensure_ascii=False) + "\n"
 
@@ -184,10 +223,16 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--check", action="store_true",
                     help="verify only; write nothing. Exit 1 if catalog.json is stale or drift exists.")
+    ap.add_argument("--lint", action="store_true",
+                    help="report skill quality issues; write nothing. Exit 1 on hard issues.")
     args = ap.parse_args()
 
     catalog, warnings = build_catalog()
     new_text = dumps(catalog)
+
+    if args.lint:
+        hard, _soft = lint(catalog)
+        return 1 if hard else 0
 
     for w in warnings:
         print(f"WARN  {w}", file=sys.stderr)

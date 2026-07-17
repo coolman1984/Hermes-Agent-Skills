@@ -1,3 +1,9 @@
+---
+name: youtube-tools
+description: "Fetch YouTube data without an API key using yt-dlp (video/audio, metadata, comments, chapters), youtube-transcript-api (timestamped transcripts with translation), and scrapetube (search, channels, playlists). Use when the user wants YouTube video info, transcripts, downloads, or search results."
+tags: [youtube, yt-dlp, transcripts, media, no-api-key]
+---
+
 # YouTube Tools Skill
 
 Use these tools to fetch YouTube data. No API key needed for any of these.

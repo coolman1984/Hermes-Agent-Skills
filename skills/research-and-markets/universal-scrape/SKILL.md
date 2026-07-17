@@ -1,3 +1,9 @@
+---
+name: universal-scrape
+description: "Three-layer web scraping with no browser or system packages — Jina Reader for JS-heavy SPAs, curl + Cheerio for static HTML, plus fallbacks — designed to work on Android ARM64 / Termux / PRoot. Use when scraping pages in constrained environments where Playwright or headless Chrome cannot run."
+tags: [scraping, jina, cheerio, termux, android, no-browser]
+---
+
 # Universal Scrape Skill
 
 No browser, no binary, no system packages needed. Works on Android ARM64 / Termux / PRoot.

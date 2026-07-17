@@ -1,3 +1,9 @@
+---
+name: free-search
+description: "Unified free web search without API keys: web, news, images, YouTube, and Twitter/Nitter via a single free_search.py script. Use when the user needs search results and no paid search API (Tavily, Brave, SerpAPI) is configured or available."
+tags: [search, web-search, news, no-api-key, research]
+---
+
 # Free Search Skill — Web Search Without API Keys
 
 Unified free search covering web, news, images, YouTube, and Twitter via Nitter.

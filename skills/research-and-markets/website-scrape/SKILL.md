@@ -1,3 +1,9 @@
+---
+name: website-scrape
+description: "Scrape websites with scrape_web.py: BeautifulSoup for static HTML, Playwright for JavaScript-heavy SPAs, with text-only and selector extraction options. Use when the user wants page content, tables, or structured data pulled from a URL."
+tags: [scraping, beautifulsoup, playwright, web, extraction]
+---
+
 # Website Scraping Skill
 
 Scrape static HTML sites with BeautifulSoup, or JavaScript-heavy SPAs with Playwright when available.

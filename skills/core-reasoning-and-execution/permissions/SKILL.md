@@ -1,3 +1,9 @@
+---
+name: permissions
+description: "OpenClaw/Claude Code permission system reference: allow/ask/deny rules per tool and path, permission modes (default, plan, auto, acceptEdits, bypass), mode priority, and sensitive-path denials. Use when configuring agent permissions, debugging why a tool call was blocked or prompted, or choosing the right permission mode for a task."
+tags: [permissions, security, claude-code, openclaw, configuration]
+---
+
 # OpenClaw Permission System Skill
 
 Based on Claude Code's permission model: allow / ask / deny rules per tool and path.

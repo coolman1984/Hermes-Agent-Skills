@@ -199,7 +199,12 @@ Unless a skill file declares otherwise, content is under MIT. See [`LICENSE`](LI
    ```bash
    python3 scripts/build_catalog.py          # writes catalog.json + docs/index.html
    python3 scripts/build_catalog.py --check   # verify only; exit 1 if stale or drifted
+   python3 scripts/build_catalog.py --lint    # skill quality report; exit 1 on hard issues
    ```
+
+   `--lint` flags **hard** issues (missing frontmatter or empty description —
+   the skill is invisible to agent discovery) and **soft** ones (thin
+   descriptions, missing tags or version).
 
    The builder reads each skill's `SKILL.md` frontmatter, records which resource
    folders (`references/`, `templates/`, `scripts/`, `assets/`) exist, and warns

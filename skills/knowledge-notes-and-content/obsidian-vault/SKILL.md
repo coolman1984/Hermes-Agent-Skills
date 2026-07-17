@@ -1,3 +1,9 @@
+---
+name: obsidian-vault
+description: "YouTube-to-Obsidian research pipeline: search YouTube (scrapetube), fetch transcripts (youtube-transcript-api), and write an Obsidian vault with wikilinks and citations. Use when turning YouTube research on a topic into a linked, citable Obsidian knowledge vault."
+tags: [obsidian, youtube, transcripts, research, vault, notes]
+---
+
 # YouTube → Obsidian Research Pipeline Skill
 
 Full research pipeline: search YouTube → fetch transcripts → write Obsidian vault with wikilinks and citations.
